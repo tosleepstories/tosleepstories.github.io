@@ -286,6 +286,64 @@
       border-color: var(--gold);
     }
 
+    .btn-record {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 9px 22px;
+      background: rgba(180, 80, 100, 0.25);
+      border: 1px solid rgba(220, 120, 140, 0.55);
+      border-radius: 7px;
+      color: #f5c6cf;
+      font-family: 'Georgia', serif;
+      font-size: 0.88rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-record:hover:not(:disabled) {
+      background: rgba(200, 90, 110, 0.35);
+      border-color: rgba(240, 150, 160, 0.75);
+    }
+
+    .btn-record:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    .btn-record.recording {
+      background: rgba(200, 60, 80, 0.45);
+      border-color: #e8556a;
+      color: #fff;
+      animation: pulse-rec 1.2s ease-in-out infinite;
+    }
+
+    @keyframes pulse-rec {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(232, 85, 106, 0.35); }
+      50% { box-shadow: 0 0 0 6px rgba(232, 85, 106, 0); }
+    }
+
+    .record-hint {
+      font-size: 0.76rem;
+      color: var(--text-dim);
+      line-height: 1.45;
+      max-width: 420px;
+      margin-top: 10px;
+    }
+
+    .download-original {
+      font-size: 0.78rem;
+      color: var(--accent);
+      text-decoration: underline;
+      cursor: pointer;
+      background: none;
+      border: none;
+      font-family: 'Georgia', serif;
+      padding: 0;
+    }
+
+    .download-original:hover { color: var(--gold-light); }
+
     .time-display {
       font-size: 0.8rem;
       color: var(--text-dim);
@@ -434,7 +492,7 @@
     <p class="about-text">
       Select a story to read along. The text highlights word by word as the video plays — like karaoke, but for bedtime.
       <br><br>
-      The video plays silently. You read, and the words light the way.
+      The video plays silently while you read. Use <strong>Record my reading</strong> to save a new file with <em>your</em> voice and the pictures only (not the original narrator). Use “original file” only if you want the studio version with built-in narration.
     </p>
   </aside>
 
@@ -539,6 +597,17 @@ let allWords = [];   // flat array: {wordEl, absStart, absEnd}
 let animFrame = null;
 let isPlaying = false;
 
+// Read-aloud recording: video picture + microphone only (no original narrator track)
+let readAloudRecorder = null;
+let readAloudChunks = [];
+let readAloudMicStream = null;
+let readAloudCaptureStream = null;
+let readAloudOutStream = null;
+let isReadAloudRecording = false;
+let discardReadAloudBlob = false;
+let latestReadAloudUrl = null;
+let latestReadAloudFilename = '';
+
 // ── Populate sidebar ─────────────────────────────────────────────────────
 const storyList = document.getElementById('story-list');
 STORIES_DATA.forEach(story => {
@@ -574,10 +643,12 @@ function loadStory(story) {
 
   // Reset progress
   document.getElementById('progress-fill').style.width = '0%';
+  clearLatestReadAloudDownload();
 
   // Stop any running animation
   if (animFrame) cancelAnimationFrame(animFrame);
   isPlaying = false;
+  cleanupReadAloudRecording();
 }
 
 // ── Build video bar ───────────────────────────────────────────────────────
@@ -613,23 +684,257 @@ function buildVideoBar(story) {
         <button class="btn-play" id="btn-play" onclick="togglePlay()">
           <span id="play-icon">▶</span> Play
         </button>
-        <a class="btn-download" id="btn-download" href="${story.videoPath || '#'}" download>
-          ↓ Download Video
-        </a>
+        <button type="button" class="btn-record" id="btn-record" onclick="toggleReadAloudRecording()" disabled>
+          ● Record my reading
+        </button>
+        <button type="button" class="btn-download" id="btn-download" onclick="downloadLatestReadAloud()" disabled>
+          ↓ Download my recording
+        </button>
         <span class="time-display" id="time-display">0:00 / 0:00</span>
       </div>
+      <p class="record-hint" id="record-hint"></p>
+      <button type="button" class="download-original" id="btn-download-original" hidden>
+        Download original file (includes narrator audio)
+      </button>
     </div>`;
 
   if (hasVideo) {
     videoEl = document.getElementById('story-video');
-    videoEl.addEventListener('loadedmetadata', updateTimeDisplay);
+    videoEl.addEventListener('loadedmetadata', onVideoLoadedMeta);
     videoEl.addEventListener('timeupdate', onTimeUpdate);
     videoEl.addEventListener('ended', onVideoEnded);
     videoEl.addEventListener('play', () => { isPlaying = true; startKaraokeLoop(); });
     videoEl.addEventListener('pause', () => { isPlaying = false; if (animFrame) cancelAnimationFrame(animFrame); });
+
+    const recBtn = document.getElementById('btn-record');
+    const dlBtn = document.getElementById('btn-download');
+    const hint = document.getElementById('record-hint');
+    const origBtn = document.getElementById('btn-download-original');
+    recBtn.disabled = true;
+    dlBtn.disabled = true;
+    hint.textContent = 'Loading video…';
+    origBtn.hidden = true;
+    origBtn.onclick = null;
   } else {
     videoEl = null;
   }
+}
+
+function onVideoLoadedMeta() {
+  updateTimeDisplay();
+  const recBtn = document.getElementById('btn-record');
+  const hint = document.getElementById('record-hint');
+  if (recBtn) recBtn.disabled = false;
+  if (hint) {
+    hint.textContent = 'Record my reading creates a new file with your voice + story video (no original narrator). Works best on Chrome/Edge; Safari support varies.';
+  }
+}
+
+function downloadOriginalMp4(story) {
+  if (!story.videoPath) return;
+  const a = document.createElement('a');
+  a.href = story.videoPath;
+  a.download = `story_${story.id}_original_narrator.mp4`;
+  a.rel = 'noopener';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+}
+
+function pickReadAloudMimeType() {
+  const candidates = [
+    'video/mp4;codecs=h264,aac',
+    'video/mp4',
+    'video/webm;codecs=vp9,opus',
+    'video/webm;codecs=vp8,opus',
+    'video/webm',
+  ];
+  for (const t of candidates) {
+    if (window.MediaRecorder && MediaRecorder.isTypeSupported(t)) return t;
+  }
+  return '';
+}
+
+function stopReadAloudTracksOnly() {
+  if (readAloudMicStream) {
+    readAloudMicStream.getTracks().forEach(t => t.stop());
+    readAloudMicStream = null;
+  }
+  if (readAloudCaptureStream) {
+    readAloudCaptureStream.getTracks().forEach(t => t.stop());
+    readAloudCaptureStream = null;
+  }
+  readAloudOutStream = null;
+  readAloudRecorder = null;
+  readAloudChunks = [];
+}
+
+function clearLatestReadAloudDownload() {
+  if (latestReadAloudUrl) {
+    URL.revokeObjectURL(latestReadAloudUrl);
+    latestReadAloudUrl = null;
+  }
+  latestReadAloudFilename = '';
+  const dlBtn = document.getElementById('btn-download');
+  if (dlBtn) dlBtn.disabled = true;
+}
+
+function cleanupReadAloudRecording() {
+  if (isReadAloudRecording && readAloudRecorder && readAloudRecorder.state !== 'inactive') {
+    discardReadAloudBlob = true;
+    try {
+      readAloudRecorder.stop();
+    } catch (e) { /* noop */ }
+  } else {
+    stopReadAloudTracksOnly();
+  }
+  isReadAloudRecording = false;
+  const recBtn = document.getElementById('btn-record');
+  if (recBtn) {
+    recBtn.classList.remove('recording');
+    recBtn.textContent = '● Record my reading';
+    if (videoEl && videoEl.duration) recBtn.disabled = false;
+  }
+}
+
+async function toggleReadAloudRecording() {
+  if (!videoEl) return;
+  if (isReadAloudRecording) {
+    await finishReadAloudRecording(false);
+    return;
+  }
+  if (!window.MediaRecorder) {
+    alert('Recording is not supported in this browser. Try Chrome or Edge on a desktop.');
+    return;
+  }
+  const mimeType = pickReadAloudMimeType();
+  if (!mimeType) {
+    alert('No supported recording format found. Try Chrome or Edge.');
+    return;
+  }
+
+  try {
+    readAloudMicStream = await navigator.mediaDevices.getUserMedia({
+      audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true },
+      video: false,
+    });
+  } catch (err) {
+    alert('Microphone access was denied or unavailable. Allow the mic to record your reading.');
+    return;
+  }
+
+  if (typeof videoEl.captureStream !== 'function') {
+    readAloudMicStream.getTracks().forEach(t => t.stop());
+    readAloudMicStream = null;
+    alert('This browser does not support in-browser video+mic recording. Please use Chrome or Edge desktop.');
+    return;
+  }
+  readAloudCaptureStream = videoEl.captureStream(30);
+  if (!readAloudCaptureStream || readAloudCaptureStream.getVideoTracks().length === 0) {
+    readAloudMicStream.getTracks().forEach(t => t.stop());
+    readAloudMicStream = null;
+    alert('This browser cannot capture video for recording. Please use Chrome or Edge desktop for full video+voice export.');
+    return;
+  }
+  readAloudOutStream = new MediaStream();
+  readAloudCaptureStream.getVideoTracks().forEach(t => readAloudOutStream.addTrack(t));
+  readAloudMicStream.getAudioTracks().forEach(t => readAloudOutStream.addTrack(t));
+
+  readAloudChunks = [];
+  readAloudRecorder = new MediaRecorder(readAloudOutStream, { mimeType });
+  readAloudRecorder.ondataavailable = e => {
+    if (e.data && e.data.size > 0) readAloudChunks.push(e.data);
+  };
+  readAloudRecorder.onerror = e => console.error(e.error);
+  readAloudRecorder.onstop = () => {
+    isPlaying = false;
+    if (animFrame) cancelAnimationFrame(animFrame);
+    if (!discardReadAloudBlob && readAloudChunks.length > 0) finalizeReadAloudBlob();
+    discardReadAloudBlob = false;
+    stopReadAloudTracksOnly();
+    isReadAloudRecording = false;
+    const rb = document.getElementById('btn-record');
+    if (rb) {
+      rb.classList.remove('recording');
+      rb.textContent = '● Record my reading';
+      rb.disabled = !(videoEl && videoEl.duration);
+    }
+    const icon = document.getElementById('play-icon');
+    if (icon) icon.textContent = '▶';
+  };
+
+  videoEl.currentTime = 0;
+  readAloudRecorder.start(250);
+  isReadAloudRecording = true;
+
+  const recBtn = document.getElementById('btn-record');
+  const dlBtn = document.getElementById('btn-download');
+  if (recBtn) {
+    recBtn.classList.add('recording');
+    recBtn.textContent = '■ Stop & save my reading';
+  }
+  if (dlBtn) dlBtn.disabled = true;
+
+  try {
+    await videoEl.play();
+    const icon = document.getElementById('play-icon');
+    if (icon) icon.textContent = '⏸';
+  } catch (e) {
+    discardReadAloudBlob = true;
+    try {
+      if (readAloudRecorder && readAloudRecorder.state !== 'inactive') readAloudRecorder.stop();
+    } catch (_) { /* noop */ }
+    alert('Could not start playback. Try clicking Play first, then Record.');
+  }
+}
+
+function finalizeReadAloudBlob() {
+  const mime = (readAloudRecorder && readAloudRecorder.mimeType) || 'video/webm';
+  if (!readAloudChunks.length) return;
+  clearLatestReadAloudDownload();
+  const blob = new Blob(readAloudChunks, { type: mime });
+  const ext = blob.type.includes('mp4') ? 'mp4' : 'webm';
+  const sid = currentStory ? currentStory.id : 'story';
+  latestReadAloudUrl = URL.createObjectURL(blob);
+  latestReadAloudFilename = `to-sleep-stories-story-${sid}-my-reading.${ext}`;
+  const dlBtn = document.getElementById('btn-download');
+  const hint = document.getElementById('record-hint');
+  if (dlBtn) dlBtn.disabled = false;
+  if (hint) hint.textContent = 'Your read-aloud recording is ready. Click “Download my recording” to save it.';
+}
+
+function downloadLatestReadAloud() {
+  if (!latestReadAloudUrl) {
+    alert('Record your reading first, then download.');
+    return;
+  }
+  const a = document.createElement('a');
+  a.href = latestReadAloudUrl;
+  a.download = latestReadAloudFilename || 'to-sleep-stories-my-reading.webm';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+}
+
+async function finishReadAloudRecording(cancelled) {
+  if (!isReadAloudRecording || !readAloudRecorder) return;
+  discardReadAloudBlob = !!cancelled;
+  if (videoEl) videoEl.pause();
+
+  return new Promise(resolve => {
+    const prevOnStop = readAloudRecorder.onstop;
+    readAloudRecorder.onstop = () => {
+      if (typeof prevOnStop === 'function') prevOnStop();
+      resolve();
+    };
+    try {
+      if (readAloudRecorder.state !== 'inactive') readAloudRecorder.stop();
+    } catch (e) {
+      stopReadAloudTracksOnly();
+      isReadAloudRecording = false;
+      resolve();
+    }
+  });
 }
 
 // ── Build karaoke text ────────────────────────────────────────────────────
@@ -750,6 +1055,10 @@ function formatTime(s) {
 }
 
 function onVideoEnded() {
+  if (isReadAloudRecording) {
+    finishReadAloudRecording(false);
+    return;
+  }
   isPlaying = false;
   const icon = document.getElementById('play-icon');
   if (icon) icon.textContent = '▶';
