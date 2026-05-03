@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALS Project — To Sleep Stories</title>
+  <link rel="icon" type="image/png" href="../logo.png">
+  <style>
+    :root {
+      --navy:       #0d1b2a;
+      --deep:       #1a2d42;
+      --panel:      #152336;
+      --gold:       #d4a847;
+      --gold-light: #f0c96a;
+      --cream:      #fef9f0;
+      --text-light: #e8e0d0;
+      --text-dim:   #8fa8c0;
+      --accent:     #7fb3d3;
+      --highlight:  #f0c96a;
+      --highlight-bg: rgba(240, 201, 106, 0.18);
+      --active-word: #ffd700;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--navy);
+      color: var(--text-light);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── NAV ── */
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 32px;
+      background: rgba(13, 27, 42, 0.98);
+      border-bottom: 1px solid rgba(212, 168, 71, 0.2);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .back-btn {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--text-dim);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+
+    .back-btn:hover { color: var(--gold-light); }
+
+    .nav-title {
+      color: var(--gold-light);
+      font-size: 1.1rem;
+      letter-spacing: 0.04em;
+    }
+
+    .nav-badge {
+      background: rgba(74, 127, 181, 0.25);
+      border: 1px solid rgba(74, 127, 181, 0.4);
+      color: var(--accent);
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 10px;
+      letter-spacing: 0.05em;
+    }
+
+    /* ── LAYOUT ── */
+    .layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      flex: 1;
+      min-height: 0;
+    }
+
+    /* ── SIDEBAR ── */
+    .sidebar {
+      background: var(--panel);
+      border-right: 1px solid rgba(212, 168, 71, 0.1);
+      padding: 28px 20px;
+      overflow-y: auto;
+    }
+
+    .sidebar-label {
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 14px;
+    }
+
+    .story-list { list-style: none; }
+
+    .story-item {
+      padding: 14px 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-bottom: 8px;
+      border: 1px solid transparent;
+    }
+
+    .story-item:hover {
+      background: rgba(212, 168, 71, 0.08);
+      border-color: rgba(212, 168, 71, 0.2);
+    }
+
+    .story-item.active {
+      background: rgba(212, 168, 71, 0.12);
+      border-color: rgba(212, 168, 71, 0.35);
+    }
+
+    .story-num {
+      font-size: 0.72rem;
+      color: var(--gold);
+      letter-spacing: 0.08em;
+      margin-bottom: 4px;
+    }
+
+    .story-name {
+      font-size: 0.92rem;
+      color: var(--text-light);
+      line-height: 1.4;
+    }
+
+    .story-item.active .story-name { color: var(--gold-light); }
+
+    .sidebar-divider {
+      border: none;
+      border-top: 1px solid rgba(212, 168, 71, 0.1);
+      margin: 20px 0;
+    }
+
+    .about-text {
+      font-size: 0.78rem;
+      color: var(--text-dim);
+      line-height: 1.65;
+    }
+
+    /* ── MAIN CONTENT ── */
+    .main {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .empty-state {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      color: var(--text-dim);
+      padding: 40px;
+      text-align: center;
+    }
+
+    .empty-state .moon { font-size: 4rem; opacity: 0.4; }
+    .empty-state h3 { font-size: 1.3rem; color: var(--gold-light); opacity: 0.6; }
+    .empty-state p { font-size: 0.9rem; max-width: 360px; line-height: 1.6; }
+
+    /* ── READER ── */
+    .reader { display: none; flex-direction: column; flex: 1; overflow: hidden; }
+    .reader.visible { display: flex; }
+
+    /* Video + info bar */
+    .video-bar {
+      background: #000;
+      display: flex;
+      align-items: stretch;
+      border-bottom: 2px solid rgba(212, 168, 71, 0.15);
+      flex-shrink: 0;
+    }
+
+    .video-container {
+      width: 340px;
+      flex-shrink: 0;
+      position: relative;
+      background: #000;
+    }
+
+    .video-container video {
+      width: 100%;
+      height: 100%;
+      display: block;
+      max-height: 200px;
+      object-fit: contain;
+    }
+
+    .video-missing {
+      width: 340px;
+      flex-shrink: 0;
+      background: linear-gradient(135deg, #1a2d42, #0d1b2a);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: var(--text-dim);
+      font-size: 0.82rem;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .video-info {
+      flex: 1;
+      padding: 24px 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .story-title-display {
+      font-size: 1.4rem;
+      color: var(--gold-light);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .story-meta {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      margin-bottom: 20px;
+    }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn-play {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 22px;
+      background: linear-gradient(135deg, #4a7fb5, #2d5f8a);
+      border: none;
+      border-radius: 7px;
+      color: white;
+      font-family: 'Georgia', serif;
+      font-size: 0.88rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-play:hover {
+      background: linear-gradient(135deg, #5a8fc5, #3d6f9a);
+      transform: translateY(-1px);
+    }
+
+    .btn-download {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 9px 22px;
+      background: rgba(212, 168, 71, 0.12);
+      border: 1px solid rgba(212, 168, 71, 0.4);
+      border-radius: 7px;
+      color: var(--gold-light);
+      font-family: 'Georgia', serif;
+      font-size: 0.88rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .btn-download:hover {
+      background: rgba(212, 168, 71, 0.2);
+      border-color: var(--gold);
+    }
+
+    .time-display {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      font-family: monospace;
+    }
+
+    /* ── KARAOKE TEXT AREA ── */
+    .karaoke-area {
+      flex: 1;
+      overflow-y: auto;
+      padding: 36px 48px;
+    }
+
+    .scene-block {
+      margin-bottom: 48px;
+    }
+
+    .scene-title {
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+      opacity: 0.7;
+    }
+
+    .scene-text {
+      font-size: 1.35rem;
+      line-height: 1.95;
+      color: rgba(232, 224, 208, 0.65);
+    }
+
+    .word {
+      display: inline;
+      padding: 1px 2px;
+      border-radius: 3px;
+      transition: color 0.1s, background 0.1s;
+      cursor: default;
+    }
+
+    .word.past {
+      color: rgba(232, 224, 208, 0.4);
+    }
+
+    .word.active {
+      color: var(--active-word);
+      background: var(--highlight-bg);
+      border-radius: 4px;
+    }
+
+    .word.future {
+      color: rgba(232, 224, 208, 0.65);
+    }
+
+    /* Progress bar */
+    .progress-bar-wrapper {
+      padding: 0 48px 8px;
+      flex-shrink: 0;
+    }
+
+    .progress-bar-track {
+      height: 3px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 3px;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+      border-radius: 3px;
+      width: 0%;
+      transition: width 0.1s linear;
+    }
+
+    /* ── LOADING STATE ── */
+    .loading-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(13, 27, 42, 0.8);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+      font-size: 1rem;
+      color: var(--gold-light);
+    }
+
+    .loading-overlay.show { display: flex; }
+
+    .spinner {
+      width: 36px; height: 36px;
+      border: 3px solid rgba(212, 168, 71, 0.2);
+      border-top-color: var(--gold);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .layout { grid-template-columns: 1fr; }
+      .sidebar { padding: 20px 16px; border-right: none; border-bottom: 1px solid rgba(212, 168, 71, 0.1); }
+      .video-bar { flex-direction: column; }
+      .video-container, .video-missing { width: 100%; }
+      .video-container video { max-height: 240px; }
+      .karaoke-area { padding: 24px 20px; }
+      .progress-bar-wrapper { padding: 0 20px 8px; }
+      .scene-text { font-size: 1.15rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- LOADING -->
+<div class="loading-overlay" id="loading">
+  <div class="spinner"></div>
+  <span>Loading story...</span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-left">
+    <a class="back-btn" href="../">← Back</a>
+    <span class="nav-title">ALS Project</span>
+    <span class="nav-badge">Read-Along</span>
+  </div>
+</nav>
+
+<!-- LAYOUT -->
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-label">Stories</div>
+    <ul class="story-list" id="story-list">
+      <!-- Populated by JS -->
+    </ul>
+
+    <hr class="sidebar-divider">
+
+    <p class="about-text">
+      Select a story to read along. The text highlights word by word as the video plays — like karaoke, but for bedtime.
+      <br><br>
+      The video plays silently. You read, and the words light the way.
+    </p>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- Empty state -->
+    <div class="empty-state" id="empty-state">
+      <div class="moon">🌙</div>
+      <h3>Choose a Story</h3>
+      <p>Pick a story from the left to begin your read-along journey.</p>
+    </div>
+
+    <!-- Reader -->
+    <div class="reader" id="reader">
+
+      <!-- Video bar -->
+      <div class="video-bar" id="video-bar">
+        <!-- Filled by JS -->
+      </div>
+
+      <!-- Progress bar -->
+      <div class="progress-bar-wrapper">
+        <div class="progress-bar-track" id="progress-track">
+          <div class="progress-bar-fill" id="progress-fill"></div>
+        </div>
+      </div>
+
+      <!-- Karaoke text -->
+      <div class="karaoke-area" id="karaoke-area">
+        <!-- Filled by JS -->
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<!-- Load story data (generated by Studio) -->
+<script src="data/stories.js"></script>
+
+<script>
+// ── Story data fallback ──────────────────────────────────────────────────
+// If stories.js hasn't been generated yet, use placeholder data
+if (typeof STORIES_DATA === 'undefined') {
+  window.STORIES_DATA = [
+    {
+      id: 1,
+      title: "Luna and the Lost Hedgehog",
+      videoPath: "videos/story_1_english.mp4",
+      scenes: [
+        {
+          id: 1,
+          title: "The Frozen Pond at Dawn",
+          videoOffset: 0,
+          words: [
+            { text: "The", start: 0.07, end: 0.20 },
+            { text: "frozen", start: 0.20, end: 0.55 },
+            { text: "pond", start: 0.55, end: 0.80 },
+            { text: "stretched", start: 0.80, end: 1.20 },
+            { text: "wide", start: 1.20, end: 1.45 },
+            { text: "and", start: 1.45, end: 1.60 },
+            { text: "still", start: 1.60, end: 1.90 },
+            { text: "beneath", start: 1.90, end: 2.25 },
+            { text: "the", start: 2.25, end: 2.38 },
+            { text: "pale", start: 2.38, end: 2.65 },
+            { text: "winter", start: 2.65, end: 3.00 },
+            { text: "morning", start: 3.00, end: 3.40 },
+            { text: "sky,", start: 3.40, end: 3.75 },
+            { text: "its", start: 4.00, end: 4.15 },
+            { text: "surface", start: 4.15, end: 4.55 },
+            { text: "dusted", start: 4.55, end: 4.95 },
+            { text: "with", start: 4.95, end: 5.10 },
+            { text: "a", start: 5.10, end: 5.18 },
+            { text: "thin", start: 5.18, end: 5.45 },
+            { text: "layer", start: 5.45, end: 5.80 },
+            { text: "of", start: 5.80, end: 5.92 },
+            { text: "fresh", start: 5.92, end: 6.25 },
+            { text: "snow.", start: 6.25, end: 6.70 }
+          ]
+        }
+      ]
+    },
+    {
+      id: 2,
+      title: "Theo and the Stepping Stones",
+      videoPath: "videos/story_2_english.mp4",
+      scenes: []
+    },
+    {
+      id: 3,
+      title: "Theo and the Tide Pool Treasure",
+      videoPath: "videos/story_3_english.mp4",
+      scenes: []
+    }
+  ];
+}
+
+// ── State ────────────────────────────────────────────────────────────────
+let currentStory = null;
+let videoEl = null;
+let allWords = [];   // flat array: {wordEl, absStart, absEnd}
+let animFrame = null;
+let isPlaying = false;
+
+// ── Populate sidebar ─────────────────────────────────────────────────────
+const storyList = document.getElementById('story-list');
+STORIES_DATA.forEach(story => {
+  const li = document.createElement('li');
+  li.className = 'story-item';
+  li.innerHTML = `
+    <div class="story-num">STORY ${story.id}</div>
+    <div class="story-name">${story.title}</div>
+  `;
+  li.addEventListener('click', () => loadStory(story));
+  storyList.appendChild(li);
+});
+
+// ── Load story ────────────────────────────────────────────────────────────
+function loadStory(story) {
+  currentStory = story;
+
+  // Update sidebar
+  document.querySelectorAll('.story-item').forEach((el, i) => {
+    el.classList.toggle('active', STORIES_DATA[i].id === story.id);
+  });
+
+  // Show reader
+  document.getElementById('empty-state').style.display = 'none';
+  const reader = document.getElementById('reader');
+  reader.classList.add('visible');
+
+  // Build video bar
+  buildVideoBar(story);
+
+  // Build karaoke text
+  buildKaraokeText(story);
+
+  // Reset progress
+  document.getElementById('progress-fill').style.width = '0%';
+
+  // Stop any running animation
+  if (animFrame) cancelAnimationFrame(animFrame);
+  isPlaying = false;
+}
+
+// ── Build video bar ───────────────────────────────────────────────────────
+function buildVideoBar(story) {
+  const bar = document.getElementById('video-bar');
+
+  let videoHtml;
+  const hasVideo = story.videoPath && story.videoPath !== '';
+
+  if (hasVideo) {
+    videoHtml = `
+      <div class="video-container">
+        <video id="story-video" muted playsinline preload="metadata">
+          <source src="${story.videoPath}" type="video/mp4">
+        </video>
+      </div>`;
+  } else {
+    videoHtml = `
+      <div class="video-missing">
+        <span style="font-size:2rem;opacity:0.4">🎬</span>
+        <span>Video file not yet loaded.<br>Run the Studio export script.</span>
+      </div>`;
+  }
+
+  bar.innerHTML = `
+    ${videoHtml}
+    <div class="video-info">
+      <div>
+        <div class="story-title-display">${story.title}</div>
+        <div class="story-meta">English · ${story.scenes.length} scenes · Read-along mode</div>
+      </div>
+      <div class="controls">
+        <button class="btn-play" id="btn-play" onclick="togglePlay()">
+          <span id="play-icon">▶</span> Play
+        </button>
+        <a class="btn-download" id="btn-download" href="${story.videoPath || '#'}" download>
+          ↓ Download Video
+        </a>
+        <span class="time-display" id="time-display">0:00 / 0:00</span>
+      </div>
+    </div>`;
+
+  if (hasVideo) {
+    videoEl = document.getElementById('story-video');
+    videoEl.addEventListener('loadedmetadata', updateTimeDisplay);
+    videoEl.addEventListener('timeupdate', onTimeUpdate);
+    videoEl.addEventListener('ended', onVideoEnded);
+    videoEl.addEventListener('play', () => { isPlaying = true; startKaraokeLoop(); });
+    videoEl.addEventListener('pause', () => { isPlaying = false; if (animFrame) cancelAnimationFrame(animFrame); });
+  } else {
+    videoEl = null;
+  }
+}
+
+// ── Build karaoke text ────────────────────────────────────────────────────
+function buildKaraokeText(story) {
+  const area = document.getElementById('karaoke-area');
+  area.innerHTML = '';
+  allWords = [];
+
+  if (story.scenes.length === 0) {
+    area.innerHTML = `
+      <div style="color:var(--text-dim);font-size:0.9rem;text-align:center;padding:60px 0;">
+        <p>Story text coming soon.</p>
+        <p style="margin-top:8px;opacity:0.6;font-size:0.82rem;">Run the Studio export script to generate the read-along data.</p>
+      </div>`;
+    return;
+  }
+
+  story.scenes.forEach(scene => {
+    const block = document.createElement('div');
+    block.className = 'scene-block';
+    block.id = 'scene-' + scene.id;
+
+    const titleEl = document.createElement('div');
+    titleEl.className = 'scene-title';
+    titleEl.textContent = `Scene ${scene.id}${scene.title ? ' · ' + scene.title : ''}`;
+    block.appendChild(titleEl);
+
+    const textEl = document.createElement('div');
+    textEl.className = 'scene-text';
+
+    const offset = scene.videoOffset || 0;
+
+    scene.words.forEach((w, wi) => {
+      const span = document.createElement('span');
+      span.className = 'word future';
+      span.textContent = w.text + (wi < scene.words.length - 1 ? ' ' : '');
+      textEl.appendChild(span);
+      allWords.push({
+        el: span,
+        start: offset + w.start,
+        end: offset + w.end
+      });
+    });
+
+    block.appendChild(textEl);
+    area.appendChild(block);
+  });
+}
+
+// ── Karaoke animation loop ────────────────────────────────────────────────
+function startKaraokeLoop() {
+  function tick() {
+    if (!videoEl || videoEl.paused) return;
+    const t = videoEl.currentTime;
+    updateKaraoke(t);
+    animFrame = requestAnimationFrame(tick);
+  }
+  if (animFrame) cancelAnimationFrame(animFrame);
+  animFrame = requestAnimationFrame(tick);
+}
+
+function updateKaraoke(t) {
+  let activeIdx = -1;
+  for (let i = 0; i < allWords.length; i++) {
+    const w = allWords[i];
+    if (t >= w.start && t < w.end) {
+      activeIdx = i;
+      break;
+    }
+    if (t >= w.end) activeIdx = i; // last word before current time
+  }
+
+  allWords.forEach((w, i) => {
+    if (i < activeIdx) {
+      w.el.className = 'word past';
+    } else if (i === activeIdx) {
+      w.el.className = 'word active';
+    } else {
+      w.el.className = 'word future';
+    }
+  });
+
+  // Auto-scroll active word into view
+  const active = allWords.find((w, i) => i === activeIdx);
+  if (active) {
+    const rect = active.el.getBoundingClientRect();
+    const area = document.getElementById('karaoke-area');
+    const areaRect = area.getBoundingClientRect();
+    if (rect.bottom > areaRect.bottom - 80 || rect.top < areaRect.top + 80) {
+      active.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  // Update progress bar
+  if (videoEl && videoEl.duration) {
+    const pct = (t / videoEl.duration) * 100;
+    document.getElementById('progress-fill').style.width = pct + '%';
+  }
+}
+
+// ── Time update event ─────────────────────────────────────────────────────
+function onTimeUpdate() {
+  updateTimeDisplay();
+  updateKaraoke(videoEl.currentTime);
+}
+
+function updateTimeDisplay() {
+  const el = document.getElementById('time-display');
+  if (!el || !videoEl) return;
+  el.textContent = formatTime(videoEl.currentTime) + ' / ' + formatTime(videoEl.duration || 0);
+}
+
+function formatTime(s) {
+  if (!s || isNaN(s)) return '0:00';
+  const m = Math.floor(s / 60);
+  const sec = Math.floor(s % 60);
+  return m + ':' + String(sec).padStart(2, '0');
+}
+
+function onVideoEnded() {
+  isPlaying = false;
+  const icon = document.getElementById('play-icon');
+  if (icon) icon.textContent = '▶';
+  if (animFrame) cancelAnimationFrame(animFrame);
+}
+
+// ── Play/pause toggle ────────────────────────────────────────────────────
+function togglePlay() {
+  if (!videoEl) return;
+  const icon = document.getElementById('play-icon');
+  if (videoEl.paused) {
+    videoEl.play();
+    if (icon) icon.textContent = '⏸';
+  } else {
+    videoEl.pause();
+    if (icon) icon.textContent = '▶';
+  }
+}
+
+// ── Progress bar click ────────────────────────────────────────────────────
+document.getElementById('progress-track').addEventListener('click', function(e) {
+  if (!videoEl || !videoEl.duration) return;
+  const rect = this.getBoundingClientRect();
+  const pct = (e.clientX - rect.left) / rect.width;
+  videoEl.currentTime = pct * videoEl.duration;
+  updateKaraoke(videoEl.currentTime);
+});
+
+// ── Keyboard shortcuts ────────────────────────────────────────────────────
+document.addEventListener('keydown', e => {
+  if (!videoEl) return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.code === 'Space') { e.preventDefault(); togglePlay(); }
+  if (e.code === 'ArrowLeft') { videoEl.currentTime = Math.max(0, videoEl.currentTime - 5); }
+  if (e.code === 'ArrowRight') { videoEl.currentTime = Math.min(videoEl.duration, videoEl.currentTime + 5); }
+});
+</script>
+</body>
+</html>
