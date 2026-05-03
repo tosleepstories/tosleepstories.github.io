@@ -2,145 +2,677 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>To Sleep Stories</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Favicon -->
+  <title>To Sleep Stories</title>
   <link rel="icon" type="image/png" href="logo.png">
-
   <style>
+    :root {
+      --navy: #0d1b2a;
+      --deep: #1a2d42;
+      --indigo: #1e3a5f;
+      --gold: #d4a847;
+      --gold-light: #f0c96a;
+      --cream: #fef9f0;
+      --text-light: #e8e0d0;
+      --accent: #7fb3d3;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
     body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #f5f7fa;
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--navy);
+      color: var(--text-light);
+      overflow-x: hidden;
     }
 
-    .hero {
-      height: 100vh;
-      background: url('your-image.jpg') center/cover no-repeat;
-      position: relative;
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 32px;
+      background: rgba(13, 27, 42, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(212, 168, 71, 0.2);
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+
+    .nav-logo img { height: 36px; border-radius: 6px; }
+
+    .nav-logo span {
+      font-size: 1.1rem;
+      color: var(--gold-light);
+      letter-spacing: 0.03em;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .lang-btn {
+      padding: 5px 12px;
+      border: 1px solid rgba(212, 168, 71, 0.4);
+      background: transparent;
+      color: var(--text-light);
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      letter-spacing: 0.05em;
+      transition: all 0.2s;
+    }
+
+    .lang-btn:hover, .lang-btn.active {
+      background: var(--gold);
+      border-color: var(--gold);
+      color: var(--navy);
+    }
+
+    .als-btn {
+      padding: 7px 18px;
+      background: linear-gradient(135deg, #4a7fb5, #2d5f8a);
+      border: none;
+      border-radius: 6px;
       color: white;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-family: 'Georgia', serif;
+      letter-spacing: 0.05em;
+      transition: all 0.2s;
+      text-decoration: none;
+      display: inline-block;
     }
 
-    .overlay {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.35);
+    .als-btn:hover {
+      background: linear-gradient(135deg, #5a8fc5, #3d6f9a);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(74, 127, 181, 0.4);
     }
 
-    /* TOP RIGHT TEXT */
-    .content {
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 80px 60px 60px;
+    }
+
+    .hero-bg {
       position: absolute;
-      top: 40px;
-      right: 40px;
+      inset: 0;
+      background-image: url('your-image.jpg');
+      background-size: cover;
+      background-position: center;
+      filter: brightness(0.55);
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(13,27,42,0.3) 0%, rgba(13,27,42,0.7) 100%);
+    }
+
+    .hero-content {
+      position: relative;
       z-index: 2;
       text-align: right;
-      max-width: 400px;
+      max-width: 480px;
     }
 
-    h1 {
-      font-size: 2.5rem;
-      margin: 0;
+    .hero-content h1 {
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      line-height: 1.15;
+      color: var(--gold-light);
+      text-shadow: 0 2px 20px rgba(0,0,0,0.5);
+      margin-bottom: 16px;
     }
 
-    p {
-      font-size: 1.1rem;
-      margin-top: 10px;
+    .hero-content p {
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      color: var(--text-light);
+      line-height: 1.6;
+      margin-bottom: 28px;
+      text-shadow: 0 1px 8px rgba(0,0,0,0.6);
     }
 
-    /* LANGUAGE SWITCH */
-    .lang-switch {
+    .hero-email {
       position: absolute;
-      top: 20px;
-      left: 20px;
-      z-index: 3;
-    }
-
-    .lang-switch button {
-      margin: 2px;
-      padding: 5px 10px;
-      border: none;
-      cursor: pointer;
-    }
-
-    /* EMAIL */
-    .email {
-      position: absolute;
-      bottom: 20px;
-      right: 20px;
+      bottom: 28px;
+      left: 0; right: 0;
+      text-align: center;
       z-index: 2;
-      font-size: 0.9rem;
-      opacity: 0.9;
+      font-size: 0.85rem;
+      opacity: 0.7;
     }
 
-    .email a {
+    .hero-email a { color: var(--gold-light); text-decoration: none; }
+    .hero-email a:hover { opacity: 0.9; }
+
+    /* ── SECTION TITLE ── */
+    .section-title {
+      text-align: center;
+      padding: 70px 20px 10px;
+    }
+
+    .section-title h2 {
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      color: var(--gold-light);
+      margin-bottom: 10px;
+    }
+
+    .section-title p {
+      font-size: 1rem;
+      color: var(--accent);
+      opacity: 0.85;
+    }
+
+    .divider {
+      width: 60px;
+      height: 2px;
+      background: var(--gold);
+      margin: 16px auto 0;
+      border-radius: 2px;
+    }
+
+    /* ── LANGUAGE TABS ── */
+    .lang-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 36px 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .lang-tab {
+      padding: 10px 28px;
+      border: 1px solid rgba(212, 168, 71, 0.35);
+      background: rgba(26, 45, 66, 0.6);
+      color: var(--text-light);
+      cursor: pointer;
+      border-radius: 30px;
+      font-size: 0.9rem;
+      font-family: 'Georgia', serif;
+      transition: all 0.25s;
+    }
+
+    .lang-tab:hover { border-color: var(--gold); color: var(--gold-light); }
+
+    .lang-tab.active {
+      background: var(--gold);
+      border-color: var(--gold);
+      color: var(--navy);
+      font-weight: bold;
+    }
+
+    /* ── STORIES GRID ── */
+    .stories-section { padding: 40px 32px 80px; }
+
+    .lang-panel { display: none; }
+    .lang-panel.active { display: block; }
+
+    .lang-header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .lang-header h3 {
+      font-size: 1.5rem;
+      color: var(--gold-light);
+      margin-bottom: 6px;
+    }
+
+    .lang-header p { color: var(--accent); font-size: 0.95rem; }
+
+    .stories-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 28px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .story-card {
+      background: rgba(26, 45, 66, 0.7);
+      border: 1px solid rgba(212, 168, 71, 0.15);
+      border-radius: 14px;
+      overflow: hidden;
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+
+    .story-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+      border-color: rgba(212, 168, 71, 0.35);
+    }
+
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      background: #000;
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .video-placeholder {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #1a2d42, #0d1b2a);
+      color: rgba(255,255,255,0.5);
+      font-size: 0.85rem;
+      gap: 10px;
+    }
+
+    .video-placeholder .play-icon {
+      font-size: 2.5rem;
+      opacity: 0.4;
+    }
+
+    .card-body {
+      padding: 20px 22px;
+    }
+
+    .card-body h4 {
+      font-size: 1.1rem;
+      color: var(--gold-light);
+      margin-bottom: 8px;
+    }
+
+    .card-body p {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      opacity: 0.7;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-amazon {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      background: linear-gradient(135deg, #ff9900, #e68a00);
+      border-radius: 6px;
+      color: #111;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-family: 'Georgia', serif;
+      font-weight: bold;
+      transition: all 0.2s;
+    }
+
+    .btn-amazon:hover {
+      background: linear-gradient(135deg, #ffaa20, #f09910);
+      transform: translateY(-1px);
+    }
+
+    .btn-amazon svg { width: 14px; height: 14px; }
+
+    /* ── ALS CTA SECTION ── */
+    .als-cta {
+      background: linear-gradient(135deg, rgba(30, 58, 95, 0.8), rgba(13, 27, 42, 0.9));
+      border-top: 1px solid rgba(212, 168, 71, 0.15);
+      border-bottom: 1px solid rgba(212, 168, 71, 0.15);
+      padding: 70px 32px;
+      text-align: center;
+    }
+
+    .als-cta h2 {
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      color: var(--gold-light);
+      margin-bottom: 14px;
+    }
+
+    .als-cta p {
+      font-size: 1.05rem;
+      color: var(--text-light);
+      opacity: 0.8;
+      max-width: 580px;
+      margin: 0 auto 30px;
+      line-height: 1.7;
+    }
+
+    .als-cta .als-cta-btn {
+      display: inline-block;
+      padding: 14px 40px;
+      background: linear-gradient(135deg, #4a7fb5, #2d5f8a);
+      border-radius: 8px;
       color: white;
       text-decoration: none;
+      font-size: 1.05rem;
+      font-family: 'Georgia', serif;
+      letter-spacing: 0.05em;
+      transition: all 0.25s;
+    }
+
+    .als-cta .als-cta-btn:hover {
+      background: linear-gradient(135deg, #5a8fc5, #3d6f9a);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(74, 127, 181, 0.4);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      padding: 36px 32px;
+      text-align: center;
+      border-top: 1px solid rgba(212, 168, 71, 0.1);
+    }
+
+    footer p {
+      color: var(--text-light);
+      opacity: 0.45;
+      font-size: 0.85rem;
+    }
+
+    footer a { color: var(--gold-light); text-decoration: none; }
+
+    /* ── STARS DECORATION ── */
+    .stars {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    @media (max-width: 640px) {
+      nav { padding: 12px 18px; }
+      .nav-logo span { display: none; }
+      .hero { padding: 80px 24px 60px; justify-content: center; }
+      .hero-content { text-align: center; }
+      .stories-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
-
 <body>
 
-  <div class="hero">
-    <div class="overlay"></div>
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">
+    <img src="logo.png" alt="To Sleep Stories">
+    <span>To Sleep Stories</span>
+  </a>
+  <div class="nav-links">
+    <button class="lang-btn active" onclick="setNavLang('en')">EN</button>
+    <button class="lang-btn" onclick="setNavLang('yo')">YO</button>
+    <button class="lang-btn" onclick="setNavLang('ig')">IG</button>
+    <button class="lang-btn" onclick="setNavLang('ha')">HA</button>
+    <button class="lang-btn" onclick="setNavLang('sw')">SW</button>
+    <a class="als-btn" href="als/">ALS Project ✦</a>
+  </div>
+</nav>
 
-    <!-- Language Switch -->
-    <div class="lang-switch">
-      <button onclick="setLang('en')">EN</button>
-      <button onclick="setLang('yo')">YO</button>
-      <button onclick="setLang('ig')">IG</button>
-      <button onclick="setLang('ha')">HA</button>
-      <button onclick="setLang('sw')">SW</button>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 id="hero-title">To Sleep Stories</h1>
+    <p id="hero-subtitle">Gentle bedtime stories for peaceful nights — in the languages of Africa.</p>
+  </div>
+  <div class="hero-email">
+    <a href="mailto:hello@tosleepstories.com">hello@tosleepstories.com</a>
+  </div>
+</section>
+
+<!-- STORIES SECTION -->
+<div class="section-title">
+  <h2 id="stories-heading">Stories for Every Language</h2>
+  <p id="stories-subheading">Watch, listen, and dream — in Yoruba, Igbo, Hausa & Swahili</p>
+  <div class="divider"></div>
+</div>
+
+<div class="lang-tabs">
+  <button class="lang-tab active" onclick="showLang('yoruba')">🇳🇬 Yoruba</button>
+  <button class="lang-tab" onclick="showLang('igbo')">🇳🇬 Igbo</button>
+  <button class="lang-tab" onclick="showLang('hausa')">🇳🇬 Hausa</button>
+  <button class="lang-tab" onclick="showLang('swahili')">🌍 Swahili</button>
+</div>
+
+<div class="stories-section">
+
+  <!-- YORUBA -->
+  <div class="lang-panel active" id="panel-yoruba">
+    <div class="lang-header">
+      <h3>Àwọn Ìtàn Yorùbá</h3>
+      <p>Bedtime stories in Yoruba — gentle, lyrical, and close to the heart</p>
     </div>
-
-    <!-- Top Right Content -->
-    <div class="content">
-      <h1 id="title"></h1>
-      <p id="subtitle"></p>
-    </div>
-
-    <!-- Email -->
-    <div class="email">
-      <a href="mailto:hello@tosleepstories.com">
-        hello@tosleepstories.com
-      </a>
-    </div>
-
+    <div class="stories-grid" id="grid-yoruba"></div>
   </div>
 
-  <script>
-    const content = {
-      en: {
-        title: "To Sleep Stories",
-        subtitle: "Gentle bedtime stories for peaceful nights 🌙"
+  <!-- IGBO -->
+  <div class="lang-panel" id="panel-igbo">
+    <div class="lang-header">
+      <h3>Akụkọ Igbo</h3>
+      <p>Bedtime stories in Igbo — warm, vivid, and full of wonder</p>
+    </div>
+    <div class="stories-grid" id="grid-igbo"></div>
+  </div>
+
+  <!-- HAUSA -->
+  <div class="lang-panel" id="panel-hausa">
+    <div class="lang-header">
+      <h3>Labarun Hausa</h3>
+      <p>Bedtime stories in Hausa — calming tales for quiet evenings</p>
+    </div>
+    <div class="stories-grid" id="grid-hausa"></div>
+  </div>
+
+  <!-- SWAHILI -->
+  <div class="lang-panel" id="panel-swahili">
+    <div class="lang-header">
+      <h3>Hadithi za Kiswahili</h3>
+      <p>Bedtime stories in Swahili — soothing stories from across East Africa</p>
+    </div>
+    <div class="stories-grid" id="grid-swahili"></div>
+  </div>
+
+</div>
+
+<!-- ALS CTA -->
+<section class="als-cta">
+  <h2>Read Along — The ALS Project</h2>
+  <p>A special reading companion: watch the story play out silently while the words highlight in real time — just like karaoke, but for bedtime.</p>
+  <a class="als-cta-btn" href="als/">Open ALS Project ✦</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>
+    © 2026 To Sleep Stories &nbsp;·&nbsp;
+    <a href="mailto:hello@tosleepstories.com">hello@tosleepstories.com</a>
+  </p>
+</footer>
+
+<script>
+  // ── CONFIG ──────────────────────────────────────────────────────────────
+  // Update YouTube video IDs and Amazon links here when ready.
+  // YouTube: replace "YOUTUBE_ID_HERE" with the actual video ID (e.g. "dQw4w9WgXcQ")
+  // Amazon: replace the "#" hrefs with the actual Amazon book page URLs
+
+  const STORIES = [
+    {
+      id: 1,
+      titles: {
+        yoruba:  "Luna àti Ẹgbin Tó Sọnù",
+        igbo:    "Luna na Egbe Nọọrọ Mmiri Ozuzo",
+        hausa:   "Luna da Hedgehog Da Ya ɓace",
+        swahili: "Luna na Kipanga Kilichopotea",
+        en:      "Luna and the Lost Hedgehog"
       },
-      yo: {
-        title: "Àwọn Itàn Ìsun",
-        subtitle: "Àwọn ìtàn pẹ̀lẹ́pẹ̀lẹ́ fún ìsinmi alẹ́ 🌙"
+      youtubeIds: {
+        yoruba:  "",   // TODO: add YouTube video ID
+        igbo:    "",
+        hausa:   "",
+        swahili: ""
       },
-      ig: {
-        title: "Akụkọ Ụra",
-        subtitle: "Akụkọ dị nro maka ụra dị jụụ 🌙"
-      },
-      ha: {
-        title: "Labaran Barci",
-        subtitle: "Labaran kwantar da hankali 🌙"
-      },
-      sw: {
-        title: "Hadithi za Kulala",
-        subtitle: "Hadithi tulivu kwa usingizi mzuri 🌙"
+      amazonLinks: {
+        yoruba:  "#",  // TODO: add Amazon book URL
+        igbo:    "#",
+        hausa:   "#",
+        swahili: "#"
       }
-    };
-
-    function setLang(lang) {
-      document.getElementById("title").innerText = content[lang].title;
-      document.getElementById("subtitle").innerText = content[lang].subtitle;
+    },
+    {
+      id: 2,
+      titles: {
+        yoruba:  "Theo àti Àwọn Òkúta Ojú Omi",
+        igbo:    "Theo na Nkume Ịgafe Mmiri",
+        hausa:   "Theo da Duwatsun Kafa a Kogi",
+        swahili: "Theo na Mawe ya Kuvuka",
+        en:      "Theo and the Stepping Stones"
+      },
+      youtubeIds: {
+        yoruba:  "",
+        igbo:    "",
+        hausa:   "",
+        swahili: ""
+      },
+      amazonLinks: {
+        yoruba:  "#",
+        igbo:    "#",
+        hausa:   "#",
+        swahili: "#"
+      }
+    },
+    {
+      id: 3,
+      titles: {
+        yoruba:  "Theo àti Àṣírí Adágún Òkun",
+        igbo:    "Theo na Akụ Nọ n'Ogige Mmiri Ụ̄tọ̄",
+        hausa:   "Theo da Hazinar Ruwan Teku",
+        swahili: "Theo na Hazina ya Dimbwi la Bahari",
+        en:      "Theo and the Tide Pool Treasure"
+      },
+      youtubeIds: {
+        yoruba:  "",
+        igbo:    "",
+        hausa:   "",
+        swahili: ""
+      },
+      amazonLinks: {
+        yoruba:  "#",
+        igbo:    "#",
+        hausa:   "#",
+        swahili: "#"
+      }
     }
+  ];
 
-    setLang('en');
-  </script>
+  const LANG_LABELS = {
+    yoruba:  { flag: "🇳🇬", name: "Yoruba" },
+    igbo:    { flag: "🇳🇬", name: "Igbo" },
+    hausa:   { flag: "🇳🇬", name: "Hausa" },
+    swahili: { flag: "🌍", name: "Swahili" }
+  };
 
+  // ── Hero translations ────────────────────────────────────────────────────
+  const HERO_CONTENT = {
+    en: {
+      title: "To Sleep Stories",
+      subtitle: "Gentle bedtime stories for peaceful nights — in the languages of Africa."
+    },
+    yo: {
+      title: "Àwọn Ìtàn Ìsun",
+      subtitle: "Àwọn ìtàn pẹ̀lẹ́pẹ̀lẹ́ fún ìsinmi alẹ́ — ní àwọn èdè Áfríkà."
+    },
+    ig: {
+      title: "Akụkọ Ụra",
+      subtitle: "Akụkọ dị nro maka ụra dị jụụ — n'asụsụ Africa."
+    },
+    ha: {
+      title: "Labaran Barci",
+      subtitle: "Labaran kwantar da hankali masu daɗi — cikin harshen Afirka."
+    },
+    sw: {
+      title: "Hadithi za Kulala",
+      subtitle: "Hadithi tulivu kwa usingizi mzuri — kwa lugha za Afrika."
+    }
+  };
+
+  // ── Build story grids ────────────────────────────────────────────────────
+  const LANG_KEYS = ['yoruba', 'igbo', 'hausa', 'swahili'];
+
+  LANG_KEYS.forEach(lang => {
+    const grid = document.getElementById('grid-' + lang);
+    STORIES.forEach(story => {
+      const ytId = story.youtubeIds[lang];
+      const title = story.titles[lang];
+      const amazonUrl = story.amazonLinks[lang];
+
+      let videoHtml;
+      if (ytId) {
+        videoHtml = `<iframe src="https://www.youtube.com/embed/${ytId}" title="${title}" allowfullscreen loading="lazy"></iframe>`;
+      } else {
+        videoHtml = `
+          <div class="video-placeholder">
+            <span class="play-icon">▶</span>
+            <span>Video coming soon</span>
+          </div>`;
+      }
+
+      grid.innerHTML += `
+        <div class="story-card">
+          <div class="video-wrapper">${videoHtml}</div>
+          <div class="card-body">
+            <h4>${title}</h4>
+            <p>Story ${story.id} · ${LANG_LABELS[lang].name}</p>
+            <div class="card-actions">
+              <a class="btn-amazon" href="${amazonUrl}" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.104.17.06.336-.128.496-1.865 1.504-4.012 2.578-6.44 3.224-2.43.646-4.865.754-7.308.327-2.442-.428-4.7-1.348-6.77-2.762-.172-.116-.195-.224-.12-.34zm3.28-7.41c0-.563.2-1.03.6-1.4.4-.37.94-.56 1.62-.56.67 0 1.2.19 1.59.56.39.37.59.85.59 1.43v.14h-1.18v-.16c0-.29-.08-.52-.25-.7-.17-.18-.4-.27-.7-.27-.3 0-.54.08-.72.24-.18.16-.27.38-.27.66 0 .25.07.46.2.64.13.18.35.37.66.57l1.04.67c.48.3.84.64 1.08 1.01.24.37.36.8.36 1.27 0 .61-.21 1.1-.63 1.48-.42.38-.98.57-1.68.57-.72 0-1.28-.2-1.69-.6-.41-.4-.62-.94-.62-1.6v-.24h1.18v.26c0 .32.09.57.27.75.18.18.43.27.75.27.32 0 .57-.09.75-.27.18-.18.27-.43.27-.75 0-.27-.08-.5-.23-.68-.15-.18-.4-.38-.73-.59l-1.02-.65c-.46-.3-.8-.63-1.04-.99-.23-.37-.35-.8-.35-1.28zm7.37-3.08h1.28l1.5 7.43 1.5-7.43h1.28l-1.96 9h-1.64l-1.96-9zm8.38 0h4.4v1.08h-3.2v2.77h2.76v1.05h-2.76v3.02h3.2v1.08h-4.4v-9z"/></svg>
+                Get the Book
+              </a>
+            </div>
+          </div>
+        </div>`;
+    });
+  });
+
+  // ── Language tab switcher ────────────────────────────────────────────────
+  function showLang(lang) {
+    document.querySelectorAll('.lang-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
+    document.getElementById('panel-' + lang).classList.add('active');
+    event.target.classList.add('active');
+  }
+
+  // ── Nav language switcher ────────────────────────────────────────────────
+  function setNavLang(lang) {
+    const c = HERO_CONTENT[lang] || HERO_CONTENT.en;
+    document.getElementById('hero-title').textContent = c.title;
+    document.getElementById('hero-subtitle').textContent = c.subtitle;
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+  }
+</script>
 </body>
 </html>
