@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ALS Project — To Sleep Stories</title>
+  <title>Legacy Project — To Sleep Stories</title>
   <link rel="icon" type="image/png" href="../logo.png">
   <style>
     :root {
-      --navy:       #0d1b2a;
-      --deep:       #1a2d42;
-      --panel:      #152336;
-      --gold:       #d4a847;
-      --gold-light: #f0c96a;
+      --navy:       #f7f2ea;
+      --deep:       #fffdf8;
+      --panel:      #fffaf2;
+      --gold:       #c89833;
+      --gold-light: #9f6f19;
       --cream:      #fef9f0;
-      --text-light: #e8e0d0;
-      --text-dim:   #8fa8c0;
-      --accent:     #7fb3d3;
+      --text-light: #2d2a26;
+      --text-dim:   #6e665c;
+      --accent:     #4b6f8f;
       --highlight:  #f0c96a;
       --highlight-bg: rgba(240, 201, 106, 0.18);
       --active-word: #ffd700;
@@ -38,8 +38,8 @@
       align-items: center;
       justify-content: space-between;
       padding: 14px 32px;
-      background: rgba(13, 27, 42, 0.98);
-      border-bottom: 1px solid rgba(212, 168, 71, 0.2);
+      background: rgba(255, 250, 242, 0.98);
+      border-bottom: 1px solid rgba(200, 152, 51, 0.25);
       position: sticky;
       top: 0;
       z-index: 50;
@@ -180,7 +180,7 @@
 
     /* Video + info bar */
     .video-bar {
-      background: #000;
+      background: #f2eadf;
       display: flex;
       align-items: stretch;
       border-bottom: 2px solid rgba(212, 168, 71, 0.15);
@@ -205,7 +205,7 @@
     .video-missing {
       width: 340px;
       flex-shrink: 0;
-      background: linear-gradient(135deg, #1a2d42, #0d1b2a);
+      background: linear-gradient(135deg, #f6ecdc, #efe1ca);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -455,7 +455,7 @@
     .scene-text {
       font-size: 1.35rem;
       line-height: 1.95;
-      color: rgba(232, 224, 208, 0.65);
+      color: rgba(45, 42, 38, 0.72);
     }
 
     .word {
@@ -467,7 +467,7 @@
     }
 
     .word.past {
-      color: rgba(232, 224, 208, 0.4);
+      color: rgba(45, 42, 38, 0.45);
     }
 
     .word.active {
@@ -477,7 +477,7 @@
     }
 
     .word.future {
-      color: rgba(232, 224, 208, 0.65);
+      color: rgba(45, 42, 38, 0.68);
     }
 
     /* Progress bar */
@@ -507,7 +507,7 @@
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(13, 27, 42, 0.8);
+      background: rgba(247, 242, 234, 0.85);
       z-index: 200;
       align-items: center;
       justify-content: center;
@@ -554,8 +554,8 @@
 <nav>
   <div class="nav-left">
     <a class="back-btn" href="../">← Back</a>
-    <span class="nav-title">ALS Project</span>
-    <span class="nav-badge">Read-Along</span>
+    <span class="nav-title">Legacy Project</span>
+    <span class="nav-badge">Legacy Tool</span>
   </div>
 </nav>
 
@@ -572,9 +572,9 @@
     <hr class="sidebar-divider">
 
     <p class="about-text">
-      Select a story to read along. The text highlights word by word as the video plays — like karaoke, but for bedtime.
+      Select a story to read with timed highlighting.
       <br><br>
-      The video plays silently while you read. Use <strong>Record my reading</strong> to save a new file with <em>your</em> voice and the pictures only (not the original narrator). Use “original file” only if you want the studio version with built-in narration.
+      This legacy tool is made for people with ALS and for grannies. The video plays silently while you read. Use <strong>Record my reading</strong> to save a new file with <em>your</em> voice and the pictures only.
     </p>
   </aside>
 
@@ -585,7 +585,7 @@
     <div class="empty-state" id="empty-state">
       <div class="moon">🌙</div>
       <h3>Choose a Story</h3>
-      <p>Pick a story from the left to begin your read-along journey.</p>
+      <p>Pick a story from the left to begin your legacy reading session.</p>
     </div>
 
     <!-- Reader -->
@@ -603,7 +603,7 @@
         </div>
       </div>
 
-      <!-- Karaoke text -->
+      <!-- Timed text -->
       <div class="karaoke-area" id="karaoke-area">
         <!-- Filled by JS -->
       </div>
@@ -730,7 +730,7 @@ function loadStory(story) {
   // Build video bar
   buildVideoBar(story);
 
-  // Build karaoke text
+  // Build timed text
   buildKaraokeText(story);
 
   // Reset progress
@@ -770,7 +770,7 @@ function buildVideoBar(story) {
     <div class="video-info">
       <div>
         <div class="story-title-display">${story.title}</div>
-        <div class="story-meta">English · ${story.scenes.length} scenes · Read-along mode</div>
+        <div class="story-meta">English · ${story.scenes.length} scenes · Legacy reading mode</div>
       </div>
       <div class="controls">
         <button class="btn-play" id="btn-play" onclick="togglePlay()">
@@ -823,7 +823,7 @@ function onVideoLoadedMeta() {
   const hint = document.getElementById('record-hint');
   if (recBtn) recBtn.disabled = false;
   if (hint) {
-    hint.textContent = 'Record my reading creates a new file with your voice + story video (no original narrator). Use latest Chrome or Edge for MP4 (AAC) when available; otherwise the file may be WebM with Opus — use Preview or VLC if Windows “Movies & TV” complains.';
+    hint.textContent = 'Record my reading creates a new file with your voice + story video (no original narrator). Some devices save WebM; use Preview or VLC if your phone or computer app cannot open it.';
   }
 }
 
@@ -945,12 +945,12 @@ async function toggleReadAloudRecording() {
     return;
   }
   if (!window.MediaRecorder) {
-    alert('Recording is not supported in this browser. Try Chrome or Edge on a desktop.');
+    alert('Recording is not supported in this browser. On iPhone/iPad, all browsers use Apple WebKit and have recording limits for this feature.');
     return;
   }
   const mimeType = pickReadAloudMimeType();
   if (!mimeType) {
-    alert('No supported recording format found. Try Chrome or Edge.');
+    alert('No supported recording format found in this browser.');
     return;
   }
 
@@ -967,14 +967,14 @@ async function toggleReadAloudRecording() {
   if (typeof videoEl.captureStream !== 'function') {
     readAloudMicStream.getTracks().forEach(t => t.stop());
     readAloudMicStream = null;
-    alert('This browser does not support in-browser video+mic recording. Please use Chrome or Edge desktop.');
+    alert('This browser cannot combine video + microphone recording here. On iPhone, this is an iOS browser engine limit.');
     return;
   }
   readAloudCaptureStream = videoEl.captureStream(30);
   if (!readAloudCaptureStream || readAloudCaptureStream.getVideoTracks().length === 0) {
     readAloudMicStream.getTracks().forEach(t => t.stop());
     readAloudMicStream = null;
-    alert('This browser cannot capture video for recording. Please use Chrome or Edge desktop for full video+voice export.');
+    alert('This browser cannot capture the story video for recording here. On iPhone, this is an iOS browser engine limit.');
     return;
   }
   readAloudOutStream = new MediaStream();
@@ -1088,7 +1088,7 @@ async function finishReadAloudRecording(cancelled) {
   });
 }
 
-// ── Build karaoke text ────────────────────────────────────────────────────
+// ── Build timed text ──────────────────────────────────────────────────────
 function buildKaraokeText(story) {
   const area = document.getElementById('karaoke-area');
   area.innerHTML = '';
@@ -1135,7 +1135,7 @@ function buildKaraokeText(story) {
   });
 }
 
-// ── Karaoke animation loop ────────────────────────────────────────────────
+// ── Timed highlighting loop ───────────────────────────────────────────────
 function startKaraokeLoop() {
   function tick() {
     if (!videoEl || videoEl.paused) return;
