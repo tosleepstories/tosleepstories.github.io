@@ -7,14 +7,14 @@
   <link rel="icon" type="image/png" href="logo.png">
   <style>
     :root {
-      --navy: #0d1b2a;
-      --deep: #1a2d42;
-      --indigo: #1e3a5f;
-      --gold: #d4a847;
-      --gold-light: #f0c96a;
-      --cream: #fef9f0;
-      --text-light: #e8e0d0;
-      --accent: #7fb3d3;
+      --navy: #f6f1e8;
+      --deep: #ffffff;
+      --indigo: #2f4f6f;
+      --gold: #c89833;
+      --gold-light: #9f6f19;
+      --cream: #fffaf2;
+      --text-light: #2b2621;
+      --accent: #4b6f8f;
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -35,9 +35,9 @@
       align-items: center;
       justify-content: space-between;
       padding: 14px 32px;
-      background: rgba(13, 27, 42, 0.92);
+      background: rgba(255, 250, 242, 0.95);
       backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(212, 168, 71, 0.2);
+      border-bottom: 1px solid rgba(200, 152, 51, 0.25);
     }
 
     .nav-logo {
@@ -65,7 +65,7 @@
       padding: 5px 12px;
       border: 1px solid rgba(212, 168, 71, 0.4);
       background: transparent;
-      color: var(--text-light);
+      color: #52483e;
       cursor: pointer;
       border-radius: 4px;
       font-size: 0.78rem;
@@ -122,7 +122,7 @@
     .hero-overlay {
       position: absolute;
       inset: 0;
-      background: linear-gradient(135deg, rgba(13,27,42,0.3) 0%, rgba(13,27,42,0.7) 100%);
+      background: linear-gradient(135deg, rgba(255,248,238,0.18) 0%, rgba(0,0,0,0.45) 100%);
     }
 
     .hero-content {
@@ -199,7 +199,7 @@
     .lang-tab {
       padding: 10px 28px;
       border: 1px solid rgba(212, 168, 71, 0.35);
-      background: rgba(26, 45, 66, 0.6);
+      background: rgba(255, 255, 255, 0.82);
       color: var(--text-light);
       cursor: pointer;
       border-radius: 30px;
@@ -245,8 +245,8 @@
     }
 
     .story-card {
-      background: rgba(26, 45, 66, 0.7);
-      border: 1px solid rgba(212, 168, 71, 0.15);
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid rgba(200, 152, 51, 0.2);
       border-radius: 14px;
       overflow: hidden;
       transition: transform 0.25s, box-shadow 0.25s;
@@ -254,7 +254,7 @@
 
     .story-card:hover {
       transform: translateY(-4px);
-      box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+      box-shadow: 0 12px 30px rgba(67, 58, 44, 0.16);
       border-color: rgba(212, 168, 71, 0.35);
     }
 
@@ -279,8 +279,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(135deg, #1a2d42, #0d1b2a);
-      color: rgba(255,255,255,0.5);
+      background: linear-gradient(135deg, #f7efe3, #efe3d0);
+      color: rgba(72,58,37,0.75);
       font-size: 0.85rem;
       gap: 10px;
     }
@@ -339,7 +339,7 @@
 
     /* ── ALS CTA SECTION ── */
     .als-cta {
-      background: linear-gradient(135deg, rgba(30, 58, 95, 0.8), rgba(13, 27, 42, 0.9));
+      background: linear-gradient(135deg, rgba(255, 244, 226, 0.95), rgba(247, 235, 214, 0.95));
       border-top: 1px solid rgba(212, 168, 71, 0.15);
       border-bottom: 1px solid rgba(212, 168, 71, 0.15);
       padding: 70px 32px;
@@ -354,8 +354,8 @@
 
     .als-cta p {
       font-size: 1.05rem;
-      color: var(--text-light);
-      opacity: 0.8;
+      color: #4f4538;
+      opacity: 1;
       max-width: 580px;
       margin: 0 auto 30px;
       line-height: 1.7;
@@ -427,7 +427,6 @@
     <button class="lang-btn" onclick="setNavLang('ig')">IG</button>
     <button class="lang-btn" onclick="setNavLang('ha')">HA</button>
     <button class="lang-btn" onclick="setNavLang('sw')">SW</button>
-    <a class="als-btn" href="als/">ALS Project ✦</a>
   </div>
 </nav>
 
@@ -498,11 +497,10 @@
 
 </div>
 
-<!-- ALS CTA -->
+<!-- Legacy CTA -->
 <section class="als-cta">
-  <h2>Read Along — The ALS Project</h2>
-  <p>A special reading companion: watch the story play out silently while the words highlight in real time — just like karaoke, but for bedtime.</p>
-  <a class="als-cta-btn" href="als/">Open ALS Project ✦</a>
+  <h2>Legacy Project</h2>
+  <p>A gentle legacy tool for people living with ALS and for grannies who want calm, readable stories with guided timing and optional voice recording.</p>
 </section>
 
 <!-- FOOTER -->
