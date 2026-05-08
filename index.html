@@ -79,35 +79,14 @@
       color: var(--navy);
     }
 
-    .als-btn {
-      padding: 7px 18px;
-      background: linear-gradient(135deg, #4a7fb5, #2d5f8a);
-      border: none;
-      border-radius: 6px;
-      color: white;
-      cursor: pointer;
-      font-size: 0.85rem;
-      font-family: 'Georgia', serif;
-      letter-spacing: 0.05em;
-      transition: all 0.2s;
-      text-decoration: none;
-      display: inline-block;
-    }
-
-    .als-btn:hover {
-      background: linear-gradient(135deg, #5a8fc5, #3d6f9a);
-      transform: translateY(-1px);
-      box-shadow: 0 4px 12px rgba(74, 127, 181, 0.4);
-    }
-
     /* ── HERO ── */
     .hero {
-      min-height: 100vh;
+      min-height: 68vh;
       position: relative;
       display: flex;
       align-items: center;
       justify-content: flex-end;
-      padding: 80px 60px 60px;
+      padding: 90px 60px 32px;
     }
 
     .hero-bg {
@@ -164,7 +143,7 @@
     /* ── SECTION TITLE ── */
     .section-title {
       text-align: center;
-      padding: 70px 20px 10px;
+      padding: 44px 20px 10px;
     }
 
     .section-title h2 {
@@ -192,7 +171,7 @@
       display: flex;
       justify-content: center;
       gap: 10px;
-      padding: 36px 20px 0;
+      padding: 18px 20px 0;
       flex-wrap: wrap;
     }
 
@@ -218,14 +197,14 @@
     }
 
     /* ── STORIES GRID ── */
-    .stories-section { padding: 40px 32px 80px; }
+    .stories-section { padding: 30px 32px 64px; }
 
     .lang-panel { display: none; }
     .lang-panel.active { display: block; }
 
     .lang-header {
       text-align: center;
-      margin-bottom: 36px;
+      margin-bottom: 26px;
     }
 
     .lang-header h3 {
@@ -238,8 +217,8 @@
 
     .stories-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      gap: 28px;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 22px;
       max-width: 1200px;
       margin: 0 auto;
     }
@@ -337,49 +316,6 @@
 
     .btn-amazon svg { width: 14px; height: 14px; }
 
-    /* ── ALS CTA SECTION ── */
-    .als-cta {
-      background: linear-gradient(135deg, rgba(255, 244, 226, 0.95), rgba(247, 235, 214, 0.95));
-      border-top: 1px solid rgba(212, 168, 71, 0.15);
-      border-bottom: 1px solid rgba(212, 168, 71, 0.15);
-      padding: 70px 32px;
-      text-align: center;
-    }
-
-    .als-cta h2 {
-      font-size: clamp(1.6rem, 3vw, 2.4rem);
-      color: var(--gold-light);
-      margin-bottom: 14px;
-    }
-
-    .als-cta p {
-      font-size: 1.05rem;
-      color: #4f4538;
-      opacity: 1;
-      max-width: 580px;
-      margin: 0 auto 30px;
-      line-height: 1.7;
-    }
-
-    .als-cta .als-cta-btn {
-      display: inline-block;
-      padding: 14px 40px;
-      background: linear-gradient(135deg, #4a7fb5, #2d5f8a);
-      border-radius: 8px;
-      color: white;
-      text-decoration: none;
-      font-size: 1.05rem;
-      font-family: 'Georgia', serif;
-      letter-spacing: 0.05em;
-      transition: all 0.25s;
-    }
-
-    .als-cta .als-cta-btn:hover {
-      background: linear-gradient(135deg, #5a8fc5, #3d6f9a);
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(74, 127, 181, 0.4);
-    }
-
     /* ── FOOTER ── */
     footer {
       padding: 36px 32px;
@@ -407,7 +343,7 @@
     @media (max-width: 640px) {
       nav { padding: 12px 18px; }
       .nav-logo span { display: none; }
-      .hero { padding: 80px 24px 60px; justify-content: center; }
+      .hero { min-height: 56vh; padding: 80px 24px 24px; justify-content: center; }
       .hero-content { text-align: center; }
       .stories-grid { grid-template-columns: 1fr; }
     }
@@ -436,7 +372,7 @@
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <h1 id="hero-title">To Sleep Stories</h1>
-    <p id="hero-subtitle">Gentle bedtime stories for peaceful nights — in the languages of Africa.</p>
+    <p id="hero-subtitle">Gentle bedtime stories for peaceful nights — simple, calm, and easy to follow.</p>
   </div>
   <div class="hero-email">
     <a href="mailto:hello@tosleepstories.com">hello@tosleepstories.com</a>
@@ -446,15 +382,15 @@
 <!-- STORIES SECTION -->
 <div class="section-title">
   <h2 id="stories-heading">Stories for Every Language</h2>
-  <p id="stories-subheading">Watch, listen, and dream — in Yoruba, Igbo, Hausa & Swahili</p>
+  <p id="stories-subheading">Watch, listen, and dream in your preferred language.</p>
   <div class="divider"></div>
 </div>
 
 <div class="lang-tabs">
-  <button class="lang-tab active" onclick="showLang('yoruba')">🇳🇬 Yoruba</button>
-  <button class="lang-tab" onclick="showLang('igbo')">🇳🇬 Igbo</button>
-  <button class="lang-tab" onclick="showLang('hausa')">🇳🇬 Hausa</button>
-  <button class="lang-tab" onclick="showLang('swahili')">🌍 Swahili</button>
+  <button class="lang-tab active" onclick="showLang('yoruba')">Yoruba</button>
+  <button class="lang-tab" onclick="showLang('igbo')">Igbo</button>
+  <button class="lang-tab" onclick="showLang('hausa')">Hausa</button>
+  <button class="lang-tab" onclick="showLang('swahili')">Swahili</button>
 </div>
 
 <div class="stories-section">
@@ -490,18 +426,12 @@
   <div class="lang-panel" id="panel-swahili">
     <div class="lang-header">
       <h3>Hadithi za Kiswahili</h3>
-      <p>Bedtime stories in Swahili — soothing stories from across East Africa</p>
+      <p>Bedtime stories in Swahili — soothing stories for calm evenings</p>
     </div>
     <div class="stories-grid" id="grid-swahili"></div>
   </div>
 
 </div>
-
-<!-- Legacy CTA -->
-<section class="als-cta">
-  <h2>Legacy Project</h2>
-  <p>A gentle legacy tool for people living with ALS and for grannies who want calm, readable stories with guided timing and optional voice recording.</p>
-</section>
 
 <!-- FOOTER -->
 <footer>
@@ -587,33 +517,33 @@
   ];
 
   const LANG_LABELS = {
-    yoruba:  { flag: "🇳🇬", name: "Yoruba" },
-    igbo:    { flag: "🇳🇬", name: "Igbo" },
-    hausa:   { flag: "🇳🇬", name: "Hausa" },
-    swahili: { flag: "🌍", name: "Swahili" }
+    yoruba:  { name: "Yoruba" },
+    igbo:    { name: "Igbo" },
+    hausa:   { name: "Hausa" },
+    swahili: { name: "Swahili" }
   };
 
   // ── Hero translations ────────────────────────────────────────────────────
   const HERO_CONTENT = {
     en: {
       title: "To Sleep Stories",
-      subtitle: "Gentle bedtime stories for peaceful nights — in the languages of Africa."
+      subtitle: "Gentle bedtime stories for peaceful nights — simple, calm, and easy to follow."
     },
     yo: {
       title: "Àwọn Ìtàn Ìsun",
-      subtitle: "Àwọn ìtàn pẹ̀lẹ́pẹ̀lẹ́ fún ìsinmi alẹ́ — ní àwọn èdè Áfríkà."
+      subtitle: "Àwọn ìtàn pẹ̀lẹ́pẹ̀lẹ́ fún ìsinmi alẹ́ — rọrùn láti tẹ̀lé."
     },
     ig: {
       title: "Akụkọ Ụra",
-      subtitle: "Akụkọ dị nro maka ụra dị jụụ — n'asụsụ Africa."
+      subtitle: "Akụkọ dị nro maka ụra dị jụụ — dị mfe iso."
     },
     ha: {
       title: "Labaran Barci",
-      subtitle: "Labaran kwantar da hankali masu daɗi — cikin harshen Afirka."
+      subtitle: "Labaran kwantar da hankali masu daɗi — masu sauƙin bi."
     },
     sw: {
       title: "Hadithi za Kulala",
-      subtitle: "Hadithi tulivu kwa usingizi mzuri — kwa lugha za Afrika."
+      subtitle: "Hadithi tulivu kwa usingizi mzuri — rahisi kufuata."
     }
   };
 
