@@ -26,6 +26,10 @@
       overflow-x: hidden;
     }
 
+    main {
+      padding-top: 74px;
+    }
+
     /* ── NAV ── */
     nav {
       position: fixed;
@@ -81,12 +85,17 @@
 
     /* ── HERO ── */
     .hero {
-      min-height: 68vh;
+      min-height: 44vh;
       position: relative;
       display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      padding: 90px 60px 32px;
+      align-items: flex-end;
+      justify-content: center;
+      padding: 46px 32px 32px;
+      margin: 0 32px 26px;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid rgba(200, 152, 51, 0.2);
+      box-shadow: 0 16px 40px rgba(67, 58, 44, 0.14);
     }
 
     .hero-bg {
@@ -107,53 +116,42 @@
     .hero-content {
       position: relative;
       z-index: 2;
-      text-align: right;
-      max-width: 480px;
+      text-align: center;
+      max-width: 760px;
     }
 
     .hero-content h1 {
-      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      font-size: clamp(1.8rem, 4vw, 3rem);
       line-height: 1.15;
-      color: var(--gold-light);
+      color: #fff3d8;
       text-shadow: 0 2px 20px rgba(0,0,0,0.5);
-      margin-bottom: 16px;
+      margin-bottom: 10px;
     }
 
     .hero-content p {
-      font-size: clamp(1rem, 2vw, 1.25rem);
-      color: var(--text-light);
-      line-height: 1.6;
-      margin-bottom: 28px;
-      text-shadow: 0 1px 8px rgba(0,0,0,0.6);
+      font-size: clamp(0.95rem, 1.9vw, 1.15rem);
+      color: #f7efe1;
+      line-height: 1.5;
+      margin-bottom: 0;
+      text-shadow: 0 1px 10px rgba(0,0,0,0.55);
     }
 
-    .hero-email {
-      position: absolute;
-      bottom: 28px;
-      left: 0; right: 0;
-      text-align: center;
-      z-index: 2;
-      font-size: 0.85rem;
-      opacity: 0.7;
-    }
-
-    .hero-email a { color: var(--gold-light); text-decoration: none; }
-    .hero-email a:hover { opacity: 0.9; }
+    .hero-email { display: none; }
 
     /* ── SECTION TITLE ── */
     .section-title {
       text-align: center;
-      padding: 44px 20px 10px;
+      padding: 20px 20px 8px;
     }
 
     .section-title h2 {
-      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      font-size: clamp(1.8rem, 3.2vw, 2.5rem);
       color: var(--gold-light);
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
     .section-title p {
-      font-size: 1rem;
+      font-size: 1.05rem;
       color: var(--accent);
       opacity: 0.85;
     }
@@ -171,20 +169,20 @@
       display: flex;
       justify-content: center;
       gap: 10px;
-      padding: 18px 20px 0;
+      padding: 16px 20px 0;
       flex-wrap: wrap;
     }
 
     .lang-tab {
       padding: 10px 28px;
-      border: 1px solid rgba(212, 168, 71, 0.35);
-      background: rgba(255, 255, 255, 0.82);
+      border: 1px solid rgba(212, 168, 71, 0.28);
+      background: rgba(255, 255, 255, 0.92);
       color: var(--text-light);
       cursor: pointer;
-      border-radius: 30px;
+      border-radius: 999px;
       font-size: 0.9rem;
       font-family: 'Georgia', serif;
-      transition: all 0.25s;
+      transition: all 0.2s;
     }
 
     .lang-tab:hover { border-color: var(--gold); color: var(--gold-light); }
@@ -194,46 +192,47 @@
       border-color: var(--gold);
       color: var(--navy);
       font-weight: bold;
+      box-shadow: 0 8px 20px rgba(200, 152, 51, 0.28);
     }
 
     /* ── STORIES GRID ── */
-    .stories-section { padding: 30px 32px 64px; }
+    .stories-section { padding: 20px 32px 46px; }
 
     .lang-panel { display: none; }
     .lang-panel.active { display: block; }
 
     .lang-header {
       text-align: center;
-      margin-bottom: 26px;
+      margin-bottom: 18px;
     }
 
     .lang-header h3 {
-      font-size: 1.5rem;
+      font-size: 1.45rem;
       color: var(--gold-light);
-      margin-bottom: 6px;
+      margin-bottom: 4px;
     }
 
-    .lang-header p { color: var(--accent); font-size: 0.95rem; }
+    .lang-header p { color: var(--accent); font-size: 0.92rem; opacity: 0.9; }
 
     .stories-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 22px;
+      gap: 18px;
       max-width: 1200px;
       margin: 0 auto;
     }
 
     .story-card {
-      background: rgba(255, 255, 255, 0.86);
-      border: 1px solid rgba(200, 152, 51, 0.2);
-      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(200, 152, 51, 0.18);
+      border-radius: 16px;
       overflow: hidden;
       transition: transform 0.25s, box-shadow 0.25s;
     }
 
     .story-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 30px rgba(67, 58, 44, 0.16);
+      transform: translateY(-3px);
+      box-shadow: 0 14px 34px rgba(67, 58, 44, 0.14);
       border-color: rgba(212, 168, 71, 0.35);
     }
 
@@ -341,10 +340,12 @@
     }
 
     @media (max-width: 640px) {
+      main { padding-top: 64px; }
       nav { padding: 12px 18px; }
       .nav-logo span { display: none; }
-      .hero { min-height: 56vh; padding: 80px 24px 24px; justify-content: center; }
+      .hero { min-height: 32vh; margin: 0 18px 16px; padding: 24px 18px; }
       .hero-content { text-align: center; }
+      .section-title { padding-top: 14px; }
       .stories-grid { grid-template-columns: 1fr; }
     }
   </style>
@@ -366,23 +367,12 @@
   </div>
 </nav>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <h1 id="hero-title">To Sleep Stories</h1>
-    <p id="hero-subtitle">Gentle bedtime stories for peaceful nights — simple, calm, and easy to follow.</p>
-  </div>
-  <div class="hero-email">
-    <a href="mailto:hello@tosleepstories.com">hello@tosleepstories.com</a>
-  </div>
-</section>
+<main>
 
 <!-- STORIES SECTION -->
 <div class="section-title">
-  <h2 id="stories-heading">Stories for Every Language</h2>
-  <p id="stories-subheading">Watch, listen, and dream in your preferred language.</p>
+  <h2 id="stories-heading">Pick a Story and Start</h2>
+  <p id="stories-subheading">Choose your language and open a story right away.</p>
   <div class="divider"></div>
 </div>
 
@@ -433,6 +423,16 @@
 
 </div>
 
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 id="hero-title">To Sleep Stories</h1>
+    <p id="hero-subtitle">Calm bedtime stories made simple for kids, parents, and grandparents.</p>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer>
   <p>
@@ -440,6 +440,8 @@
     <a href="mailto:hello@tosleepstories.com">hello@tosleepstories.com</a>
   </p>
 </footer>
+
+</main>
 
 <script>
   // ── CONFIG ──────────────────────────────────────────────────────────────
@@ -527,7 +529,7 @@
   const HERO_CONTENT = {
     en: {
       title: "To Sleep Stories",
-      subtitle: "Gentle bedtime stories for peaceful nights — simple, calm, and easy to follow."
+      subtitle: "Calm bedtime stories made simple for kids, parents, and grandparents."
     },
     yo: {
       title: "Àwọn Ìtàn Ìsun",
