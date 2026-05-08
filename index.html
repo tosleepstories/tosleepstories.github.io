@@ -197,6 +197,7 @@
 
     /* ── STORIES GRID ── */
     .stories-section { padding: 20px 32px 46px; }
+    #story-library { scroll-margin-top: 88px; }
 
     .lang-panel { display: none; }
     .lang-panel.active { display: block; }
@@ -359,11 +360,11 @@
     <span>To Sleep Stories</span>
   </a>
   <div class="nav-links">
-    <button class="lang-btn active" onclick="setNavLang('en')">EN</button>
-    <button class="lang-btn" onclick="setNavLang('yo')">YO</button>
-    <button class="lang-btn" onclick="setNavLang('ig')">IG</button>
-    <button class="lang-btn" onclick="setNavLang('ha')">HA</button>
-    <button class="lang-btn" onclick="setNavLang('sw')">SW</button>
+    <button type="button" class="lang-btn active" onclick="setNavLang('en', this)">EN</button>
+    <button type="button" class="lang-btn" onclick="setNavLang('yo', this)">YO</button>
+    <button type="button" class="lang-btn" onclick="setNavLang('ig', this)">IG</button>
+    <button type="button" class="lang-btn" onclick="setNavLang('ha', this)">HA</button>
+    <button type="button" class="lang-btn" onclick="setNavLang('sw', this)">SW</button>
   </div>
 </nav>
 
@@ -377,13 +378,13 @@
 </div>
 
 <div class="lang-tabs">
-  <button class="lang-tab active" onclick="showLang('yoruba')">Yoruba</button>
-  <button class="lang-tab" onclick="showLang('igbo')">Igbo</button>
-  <button class="lang-tab" onclick="showLang('hausa')">Hausa</button>
-  <button class="lang-tab" onclick="showLang('swahili')">Swahili</button>
+  <button type="button" class="lang-tab active" data-lang="yoruba" onclick="showLang('yoruba')">Yoruba</button>
+  <button type="button" class="lang-tab" data-lang="igbo" onclick="showLang('igbo')">Igbo</button>
+  <button type="button" class="lang-tab" data-lang="hausa" onclick="showLang('hausa')">Hausa</button>
+  <button type="button" class="lang-tab" data-lang="swahili" onclick="showLang('swahili')">Swahili</button>
 </div>
 
-<div class="stories-section">
+<div class="stories-section" id="story-library">
 
   <!-- YORUBA -->
   <div class="lang-panel active" id="panel-yoruba">
@@ -587,21 +588,37 @@
     });
   });
 
+  const NAV_TO_STORY_LANG = {
+    yo: 'yoruba',
+    ig: 'igbo',
+    ha: 'hausa',
+    sw: 'swahili'
+  };
+
   // ── Language tab switcher ────────────────────────────────────────────────
   function showLang(lang) {
     document.querySelectorAll('.lang-panel').forEach(p => p.classList.remove('active'));
     document.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
-    document.getElementById('panel-' + lang).classList.add('active');
-    event.target.classList.add('active');
+    const panel = document.getElementById('panel-' + lang);
+    if (panel) panel.classList.add('active');
+    const tab = document.querySelector('.lang-tab[data-lang="' + lang + '"]');
+    if (tab) tab.classList.add('active');
   }
 
   // ── Nav language switcher ────────────────────────────────────────────────
-  function setNavLang(lang) {
+  function setNavLang(lang, btn) {
     const c = HERO_CONTENT[lang] || HERO_CONTENT.en;
     document.getElementById('hero-title').textContent = c.title;
     document.getElementById('hero-subtitle').textContent = c.subtitle;
     document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-    event.target.classList.add('active');
+    if (btn) btn.classList.add('active');
+
+    const storyLang = NAV_TO_STORY_LANG[lang];
+    if (storyLang) {
+      showLang(storyLang);
+      const lib = document.getElementById('story-library');
+      if (lib) lib.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 </script>
 </body>
