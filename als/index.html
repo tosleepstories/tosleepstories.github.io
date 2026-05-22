@@ -432,6 +432,34 @@
       font-family: monospace;
     }
 
+    .lang-select-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .lang-select-wrap label {
+      font-size: 0.78rem;
+      color: var(--text-dim);
+      letter-spacing: 0.04em;
+    }
+
+    .lang-select {
+      padding: 8px 12px;
+      border-radius: 7px;
+      border: 1px solid rgba(212, 168, 71, 0.4);
+      background: var(--cream);
+      color: var(--text-light);
+      font-family: 'Georgia', serif;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+
+    .lang-select:focus {
+      outline: 2px solid rgba(74, 127, 181, 0.45);
+      outline-offset: 1px;
+    }
+
     /* ── KARAOKE TEXT AREA ── */
     .karaoke-area {
       flex: 1;
@@ -574,7 +602,7 @@
     <p class="about-text">
       Select a story to read with timed highlighting.
       <br><br>
-      This legacy tool is made for people with ALS and for grannies. The video plays silently while you read. Use <strong>Record my reading</strong> to save a new file with <em>your</em> voice and the pictures only.
+      This legacy tool is made for people with ALS and for grannies. The video plays silently while you read. Use <strong>Record my reading</strong> to save a new file with <em>your</em> voice and the pictures only. Story 1 is available in <strong>Italiano</strong> — choose the language above the player.
     </p>
   </aside>
 
@@ -682,8 +710,14 @@ if (typeof STORIES_DATA === 'undefined') {
   ];
 }
 
+const LANGUAGE_LABELS = {
+  english: 'English',
+  italian: 'Italiano',
+};
+
 // ── State ────────────────────────────────────────────────────────────────
 let currentStory = null;
+let currentLanguage = 'english';
 let videoEl = null;
 let allWords = [];   // flat array: {wordEl, absStart, absEnd}
 let animFrame = null;
@@ -713,9 +747,42 @@ STORIES_DATA.forEach(story => {
   storyList.appendChild(li);
 });
 
+function normalizeStory(story) {
+  if (story.languages) return story;
+  const lang = story.language || 'english';
+  return {
+    id: story.id,
+    title: story.title,
+    defaultLanguage: lang,
+    languages: {
+      [lang]: {
+        label: LANGUAGE_LABELS[lang] || lang,
+        title: story.title,
+        language: lang,
+        videoPath: story.videoPath,
+        scenes: story.scenes || [],
+      },
+    },
+  };
+}
+
+function getStoryLanguages(story) {
+  return Object.keys(normalizeStory(story).languages);
+}
+
+function getStoryVariant(story, lang) {
+  const n = normalizeStory(story);
+  const key = lang && n.languages[lang] ? lang : n.defaultLanguage;
+  return { lang: key, variant: n.languages[key] };
+}
+
 // ── Load story ────────────────────────────────────────────────────────────
-function loadStory(story) {
-  currentStory = story;
+function loadStory(story, lang) {
+  currentStory = normalizeStory(story);
+  const langs = getStoryLanguages(story);
+  currentLanguage = lang && langs.includes(lang)
+    ? lang
+    : currentStory.defaultLanguage || langs[0];
 
   // Update sidebar
   document.querySelectorAll('.story-item').forEach((el, i) => {
@@ -728,10 +795,10 @@ function loadStory(story) {
   reader.classList.add('visible');
 
   // Build video bar
-  buildVideoBar(story);
+  buildVideoBar(currentStory, currentLanguage);
 
   // Build timed text
-  buildKaraokeText(story);
+  buildKaraokeText(getStoryVariant(currentStory, currentLanguage).variant);
 
   // Reset progress
   document.getElementById('progress-fill').style.width = '0%';
@@ -743,18 +810,25 @@ function loadStory(story) {
   cleanupReadAloudRecording();
 }
 
+function onLanguageChange(lang) {
+  if (!currentStory) return;
+  loadStory(currentStory, lang);
+}
+
 // ── Build video bar ───────────────────────────────────────────────────────
-function buildVideoBar(story) {
+function buildVideoBar(story, lang) {
+  const { variant } = getStoryVariant(story, lang);
+  const langs = getStoryLanguages(story);
   const bar = document.getElementById('video-bar');
 
   let videoHtml;
-  const hasVideo = story.videoPath && story.videoPath !== '';
+  const hasVideo = variant.videoPath && variant.videoPath !== '';
 
   if (hasVideo) {
     videoHtml = `
       <div class="video-container">
         <video id="story-video" muted playsinline preload="metadata">
-          <source src="${story.videoPath}" type="video/mp4">
+          <source src="${variant.videoPath}" type="video/mp4">
         </video>
       </div>`;
   } else {
@@ -765,14 +839,29 @@ function buildVideoBar(story) {
       </div>`;
   }
 
+  const langLabel = variant.label || LANGUAGE_LABELS[variant.language] || variant.language;
+  const langSelectHtml = langs.length > 1
+    ? `<div class="lang-select-wrap">
+         <label for="lang-select">Read in</label>
+         <select class="lang-select" id="lang-select" onchange="onLanguageChange(this.value)">
+           ${langs.map(code => {
+             const v = story.languages[code];
+             const label = v.label || LANGUAGE_LABELS[code] || code;
+             return `<option value="${code}"${code === lang ? ' selected' : ''}>${label}</option>`;
+           }).join('')}
+         </select>
+       </div>`
+    : '';
+
   bar.innerHTML = `
     ${videoHtml}
     <div class="video-info">
       <div>
-        <div class="story-title-display">${story.title}</div>
-        <div class="story-meta">English · ${story.scenes.length} scenes · Legacy reading mode</div>
+        <div class="story-title-display">${variant.title}</div>
+        <div class="story-meta">${langLabel} · ${variant.scenes.length} scenes · Legacy reading mode</div>
       </div>
       <div class="controls">
+        ${langSelectHtml}
         <button class="btn-play" id="btn-play" onclick="togglePlay()">
           <span id="play-icon">▶</span> Play
         </button>
@@ -827,11 +916,12 @@ function onVideoLoadedMeta() {
   }
 }
 
-function downloadOriginalMp4(story) {
-  if (!story.videoPath) return;
+function downloadOriginalMp4(story, lang) {
+  const { variant } = getStoryVariant(story, lang);
+  if (!variant.videoPath) return;
   const a = document.createElement('a');
-  a.href = story.videoPath;
-  a.download = `story_${story.id}_original_narrator.mp4`;
+  a.href = variant.videoPath;
+  a.download = `story_${story.id}_${variant.language || 'english'}_original_narrator.mp4`;
   a.rel = 'noopener';
   document.body.appendChild(a);
   a.click();
@@ -1039,7 +1129,8 @@ function finalizeReadAloudBlob() {
   const ext = /mp4/i.test(blob.type || mime) ? 'mp4' : 'webm';
   const sid = currentStory ? currentStory.id : 'story';
   latestReadAloudUrl = URL.createObjectURL(blob);
-  latestReadAloudFilename = `to-sleep-stories-story-${sid}-my-reading.${ext}`;
+  const lang = currentLanguage || 'english';
+  latestReadAloudFilename = `to-sleep-stories-story-${sid}-${lang}-my-reading.${ext}`;
   const dlBtn = document.getElementById('btn-download');
   const pvBtn = document.getElementById('btn-preview-readaloud');
   const hint = document.getElementById('record-hint');
