@@ -723,16 +723,17 @@ let allWords = [];   // flat array: {wordEl, absStart, absEnd}
 let animFrame = null;
 let isPlaying = false;
 
-// Read-aloud recording: video picture + microphone only (no original narrator track)
+// Read-aloud recording: microphone only + timed text (no video playback while recording)
 let readAloudRecorder = null;
 let readAloudChunks = [];
 let readAloudMicStream = null;
-let readAloudCaptureStream = null;
 let readAloudOutStream = null;
 let isReadAloudRecording = false;
 let discardReadAloudBlob = false;
 let latestReadAloudUrl = null;
 let latestReadAloudFilename = '';
+let readAloudStartedAtMs = 0;
+let readAloudElapsedSec = 0;
 
 // ── Populate sidebar ─────────────────────────────────────────────────────
 const storyList = document.getElementById('story-list');
@@ -826,7 +827,7 @@ function buildVideoBar(story, lang) {
 
   if (hasVideo) {
     videoHtml = `
-      <div class="video-container">
+      <div class="video-container" id="video-container">
         <video id="story-video" muted playsinline preload="metadata">
           <source src="${variant.videoPath}" type="video/mp4">
         </video>
@@ -866,7 +867,7 @@ function buildVideoBar(story, lang) {
           <span id="play-icon">▶</span> Play
         </button>
         <button type="button" class="btn-record" id="btn-record" onclick="toggleReadAloudRecording()" disabled>
-          ● Record my reading
+          ● Record my reading (audio only)
         </button>
         <button type="button" class="btn-download" id="btn-download" onclick="downloadLatestReadAloud()" disabled>
           ↓ Download my recording
@@ -912,7 +913,7 @@ function onVideoLoadedMeta() {
   const hint = document.getElementById('record-hint');
   if (recBtn) recBtn.disabled = false;
   if (hint) {
-    hint.textContent = 'Record my reading creates a new file with your voice + story video (no original narrator). Some devices save WebM; use Preview or VLC if your phone or computer app cannot open it.';
+    hint.textContent = 'Record my reading captures your microphone only. The text follows story timing while recording, and the video stays paused.';
   }
 }
 
@@ -931,16 +932,10 @@ function downloadOriginalMp4(story, lang) {
 function pickReadAloudMimeType() {
   if (!window.MediaRecorder) return '';
   const candidates = [
-    // Chromium prefers explicit avc1 + mp4a (often works on Windows; generic “h264,aac” is usually false)
-    'video/mp4;codecs=avc1.42E01E,mp4a.40.2',
-    'video/mp4;codecs=avc1.4D401E,mp4a.40.2',
-    'video/mp4;codecs=avc1.640028,mp4a.40.2',
-    'video/mp4;codecs=avc3.42E01E,mp4a.40.2',
-    'video/mp4;codecs=h264,aac',
-    'video/mp4',
-    'video/webm;codecs=vp9,opus',
-    'video/webm;codecs=vp8,opus',
-    'video/webm',
+    'audio/mp4;codecs=mp4a.40.2',
+    'audio/mp4',
+    'audio/webm;codecs=opus',
+    'audio/webm',
   ];
   for (const t of candidates) {
     if (MediaRecorder.isTypeSupported(t)) return t;
@@ -950,10 +945,7 @@ function pickReadAloudMimeType() {
 
 function createReadAloudMediaRecorder(stream, mimeType) {
   const opts = { mimeType };
-  if (/mp4/i.test(mimeType)) {
-    opts.videoBitsPerSecond = 2_500_000;
-    opts.audioBitsPerSecond = 128_000;
-  }
+  opts.audioBitsPerSecond = 128_000;
   try {
     return new MediaRecorder(stream, opts);
   } catch (e) {
@@ -966,13 +958,17 @@ function stopReadAloudTracksOnly() {
     readAloudMicStream.getTracks().forEach(t => t.stop());
     readAloudMicStream = null;
   }
-  if (readAloudCaptureStream) {
-    readAloudCaptureStream.getTracks().forEach(t => t.stop());
-    readAloudCaptureStream = null;
-  }
   readAloudOutStream = null;
   readAloudRecorder = null;
   readAloudChunks = [];
+  readAloudStartedAtMs = 0;
+  readAloudElapsedSec = 0;
+}
+
+function setVideoHiddenDuringRecording(hidden) {
+  const container = document.getElementById('video-container');
+  if (!container) return;
+  container.style.display = hidden ? 'none' : '';
 }
 
 function clearLatestReadAloudDownload() {
@@ -1023,9 +1019,10 @@ function cleanupReadAloudRecording() {
   const recBtn = document.getElementById('btn-record');
   if (recBtn) {
     recBtn.classList.remove('recording');
-    recBtn.textContent = '● Record my reading';
+    recBtn.textContent = '● Record my reading (audio only)';
     if (videoEl && videoEl.duration) recBtn.disabled = false;
   }
+  setVideoHiddenDuringRecording(false);
 }
 
 async function toggleReadAloudRecording() {
@@ -1054,21 +1051,7 @@ async function toggleReadAloudRecording() {
     return;
   }
 
-  if (typeof videoEl.captureStream !== 'function') {
-    readAloudMicStream.getTracks().forEach(t => t.stop());
-    readAloudMicStream = null;
-    alert('This browser cannot combine video + microphone recording here. On iPhone, this is an iOS browser engine limit.');
-    return;
-  }
-  readAloudCaptureStream = videoEl.captureStream(30);
-  if (!readAloudCaptureStream || readAloudCaptureStream.getVideoTracks().length === 0) {
-    readAloudMicStream.getTracks().forEach(t => t.stop());
-    readAloudMicStream = null;
-    alert('This browser cannot capture the story video for recording here. On iPhone, this is an iOS browser engine limit.');
-    return;
-  }
   readAloudOutStream = new MediaStream();
-  readAloudCaptureStream.getVideoTracks().forEach(t => readAloudOutStream.addTrack(t));
   readAloudMicStream.getAudioTracks().forEach(t => readAloudOutStream.addTrack(t));
 
   readAloudChunks = [];
@@ -1087,46 +1070,48 @@ async function toggleReadAloudRecording() {
     const rb = document.getElementById('btn-record');
     if (rb) {
       rb.classList.remove('recording');
-      rb.textContent = '● Record my reading';
+      rb.textContent = '● Record my reading (audio only)';
       rb.disabled = !(videoEl && videoEl.duration);
     }
+    const playBtn = document.getElementById('btn-play');
+    if (playBtn) playBtn.disabled = false;
     const icon = document.getElementById('play-icon');
     if (icon) icon.textContent = '▶';
+    updateTimeDisplay();
+    setVideoHiddenDuringRecording(false);
   };
 
+  videoEl.pause();
   videoEl.currentTime = 0;
   readAloudRecorder.start(250);
   isReadAloudRecording = true;
+  readAloudStartedAtMs = performance.now();
+  readAloudElapsedSec = 0;
 
   const recBtn = document.getElementById('btn-record');
   const dlBtn = document.getElementById('btn-download');
   const pvBtn = document.getElementById('btn-preview-readaloud');
+  const playBtn = document.getElementById('btn-play');
   if (recBtn) {
     recBtn.classList.add('recording');
     recBtn.textContent = '■ Stop & save my reading';
   }
+  if (playBtn) playBtn.disabled = true;
   if (dlBtn) dlBtn.disabled = true;
   if (pvBtn) pvBtn.disabled = true;
-
-  try {
-    await videoEl.play();
-    const icon = document.getElementById('play-icon');
-    if (icon) icon.textContent = '⏸';
-  } catch (e) {
-    discardReadAloudBlob = true;
-    try {
-      if (readAloudRecorder && readAloudRecorder.state !== 'inactive') readAloudRecorder.stop();
-    } catch (_) { /* noop */ }
-    alert('Could not start playback. Try clicking Play first, then Record.');
-  }
+  setVideoHiddenDuringRecording(true);
+  startKaraokeLoop();
+  updateTimeDisplay();
+  const icon = document.getElementById('play-icon');
+  if (icon) icon.textContent = '▶';
 }
 
 function finalizeReadAloudBlob() {
-  const mime = (readAloudRecorder && readAloudRecorder.mimeType) || 'video/webm';
+  const mime = (readAloudRecorder && readAloudRecorder.mimeType) || 'audio/webm';
   if (!readAloudChunks.length) return;
   clearLatestReadAloudDownload();
   const blob = new Blob(readAloudChunks, { type: mime });
-  const ext = /mp4/i.test(blob.type || mime) ? 'mp4' : 'webm';
+  const ext = /mp4|m4a/i.test(blob.type || mime) ? 'm4a' : 'webm';
   const sid = currentStory ? currentStory.id : 'story';
   latestReadAloudUrl = URL.createObjectURL(blob);
   const lang = currentLanguage || 'english';
@@ -1137,10 +1122,10 @@ function finalizeReadAloudBlob() {
   if (dlBtn) dlBtn.disabled = false;
   if (pvBtn) pvBtn.disabled = false;
   if (hint) {
-    if (ext === 'mp4' && !/webm|opus/i.test(mime)) {
-      hint.textContent = 'Recording saved as MP4 (AAC). It should play in most Windows apps. Use Preview if you want to double-check.';
+    if (ext === 'm4a' && !/webm|opus/i.test(mime)) {
+      hint.textContent = 'Recording saved as M4A (AAC).';
     } else {
-      hint.textContent = 'Recording is WebM (often Opus audio). If Windows shows a codec error, click Preview (plays in the browser), open the file in Chrome, use VLC, or update Chrome/Edge — newer versions may record MP4 instead.';
+      hint.textContent = 'Recording is WebM/Opus audio. If your default player fails, use Preview in browser, Chrome, or VLC.';
     }
   }
 }
@@ -1229,9 +1214,20 @@ function buildKaraokeText(story) {
 // ── Timed highlighting loop ───────────────────────────────────────────────
 function startKaraokeLoop() {
   function tick() {
-    if (!videoEl || videoEl.paused) return;
-    const t = videoEl.currentTime;
+    let t = 0;
+    if (isReadAloudRecording) {
+      t = Math.max(0, (performance.now() - readAloudStartedAtMs) / 1000);
+      readAloudElapsedSec = t;
+      if (videoEl && videoEl.duration && t >= videoEl.duration) {
+        finishReadAloudRecording(false);
+        return;
+      }
+    } else {
+      if (!videoEl || videoEl.paused) return;
+      t = videoEl.currentTime;
+    }
     updateKaraoke(t);
+    updateTimeDisplay();
     animFrame = requestAnimationFrame(tick);
   }
   if (animFrame) cancelAnimationFrame(animFrame);
@@ -1286,7 +1282,8 @@ function onTimeUpdate() {
 function updateTimeDisplay() {
   const el = document.getElementById('time-display');
   if (!el || !videoEl) return;
-  el.textContent = formatTime(videoEl.currentTime) + ' / ' + formatTime(videoEl.duration || 0);
+  const current = isReadAloudRecording ? readAloudElapsedSec : videoEl.currentTime;
+  el.textContent = formatTime(current) + ' / ' + formatTime(videoEl.duration || 0);
 }
 
 function formatTime(s) {
@@ -1310,6 +1307,7 @@ function onVideoEnded() {
 // ── Play/pause toggle ────────────────────────────────────────────────────
 function togglePlay() {
   if (!videoEl) return;
+  if (isReadAloudRecording) return;
   const icon = document.getElementById('play-icon');
   if (videoEl.paused) {
     videoEl.play();
@@ -1322,6 +1320,7 @@ function togglePlay() {
 
 // ── Progress bar click ────────────────────────────────────────────────────
 document.getElementById('progress-track').addEventListener('click', function(e) {
+  if (isReadAloudRecording) return;
   if (!videoEl || !videoEl.duration) return;
   const rect = this.getBoundingClientRect();
   const pct = (e.clientX - rect.left) / rect.width;
@@ -1337,6 +1336,7 @@ document.addEventListener('keydown', e => {
     return;
   }
   if (!videoEl) return;
+  if (isReadAloudRecording) return;
   if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
   if (e.code === 'Space') { e.preventDefault(); togglePlay(); }
   if (e.code === 'ArrowLeft') { videoEl.currentTime = Math.max(0, videoEl.currentTime - 5); }
