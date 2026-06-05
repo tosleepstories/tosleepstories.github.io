@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>To Sleep Stories</title>
+  <title>To Sleep Stories — Bilingual Bedtime Books</title>
   <link rel="icon" type="image/png" href="logo.png">
+  <script src="analytics.js"></script>
   <style>
     :root {
       --navy: #f6f1e8;
-      --deep: #ffffff;
-      --indigo: #2f4f6f;
       --gold: #c89833;
       --gold-light: #9f6f19;
       --cream: #fffaf2;
@@ -26,9 +25,7 @@
       overflow-x: hidden;
     }
 
-    main {
-      padding-top: 74px;
-    }
+    main { padding-top: 74px; }
 
     /* ── NAV ── */
     nav {
@@ -39,7 +36,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 14px 32px;
-      background: rgba(255, 250, 242, 0.95);
+      background: rgba(255, 250, 242, 0.97);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(200, 152, 51, 0.25);
     }
@@ -62,19 +59,22 @@
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
     }
 
     .lang-btn {
-      padding: 5px 12px;
+      padding: 6px 12px;
       border: 1px solid rgba(212, 168, 71, 0.4);
       background: transparent;
       color: #52483e;
       cursor: pointer;
       border-radius: 4px;
-      font-size: 0.78rem;
-      letter-spacing: 0.05em;
+      font-size: 0.82rem;
+      letter-spacing: 0.02em;
       transition: all 0.2s;
+      font-family: 'Georgia', serif;
     }
 
     .lang-btn:hover, .lang-btn.active {
@@ -83,76 +83,73 @@
       color: var(--navy);
     }
 
-    /* ── HERO ── */
-    .hero {
-      min-height: 44vh;
+    /* ── BOOKS (background + collections) ── */
+    .books-section {
       position: relative;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-      padding: 46px 32px 32px;
-      margin: 0 32px 26px;
-      border-radius: 18px;
+      scroll-margin-top: 88px;
+      padding: 32px 28px 40px;
       overflow: hidden;
-      border: 1px solid rgba(200, 152, 51, 0.2);
-      box-shadow: 0 16px 40px rgba(67, 58, 44, 0.14);
     }
 
-    .hero-bg {
+    .books-bg {
       position: absolute;
       inset: 0;
-      background-image: url('assets/logo/wide2.png');
-      background-size: contain;
+      background-image: url('assets/logo/back2.png');
+      background-size: cover;
       background-repeat: no-repeat;
-      background-position: center;
-      filter: brightness(0.55);
+      background-position: center top;
+      filter: brightness(0.82) saturate(1.15);
     }
 
-    .hero-overlay {
+    .books-overlay {
       position: absolute;
       inset: 0;
-      background: linear-gradient(135deg, rgba(255,248,238,0.18) 0%, rgba(0,0,0,0.45) 100%);
+      background: linear-gradient(
+        180deg,
+        rgba(246, 241, 232, 0.45) 0%,
+        rgba(246, 241, 232, 0.72) 35%,
+        rgba(246, 241, 232, 0.9) 100%
+      );
     }
 
-    .hero-content {
+    .books-content {
       position: relative;
-      z-index: 2;
-      text-align: center;
-      max-width: 760px;
+      z-index: 1;
     }
 
-    .hero-content h1 {
-      font-size: clamp(1.8rem, 4vw, 3rem);
+    .books-intro-text {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 28px;
+    }
+
+    .books-intro-text h1 {
+      font-size: clamp(1.6rem, 3.5vw, 2.5rem);
+      color: var(--gold-light);
+      margin-bottom: 8px;
       line-height: 1.15;
-      color: #fff3d8;
-      text-shadow: 0 2px 20px rgba(0,0,0,0.5);
-      margin-bottom: 10px;
     }
 
-    .hero-content p {
-      font-size: clamp(0.95rem, 1.9vw, 1.15rem);
-      color: #f7efe1;
+    .books-intro-text p {
+      font-size: clamp(0.9rem, 1.7vw, 1.05rem);
+      color: var(--accent);
       line-height: 1.5;
-      margin-bottom: 0;
-      text-shadow: 0 1px 10px rgba(0,0,0,0.55);
     }
 
-    .hero-email { display: none; }
-
-    /* ── SECTION TITLE ── */
-    .section-title {
+    /* ── SECTION HEADINGS ── */
+    .section-heading {
       text-align: center;
-      padding: 20px 20px 8px;
+      padding: 10px 20px 6px;
     }
 
-    .section-title h2 {
-      font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+    .section-heading h2 {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
       color: var(--gold-light);
       margin-bottom: 8px;
     }
 
-    .section-title p {
-      font-size: 1.05rem;
+    .section-heading p {
+      font-size: 1rem;
       color: var(--accent);
       opacity: 0.85;
     }
@@ -161,11 +158,233 @@
       width: 60px;
       height: 2px;
       background: var(--gold);
-      margin: 16px auto 0;
+      margin: 14px auto 0;
       border-radius: 2px;
     }
 
-    /* ── LANGUAGE TABS ── */
+    /* ── COLLECTIONS ── */
+    .collections-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    .collections-grid.single-lang {
+      grid-template-columns: 1fr;
+      max-width: 560px;
+    }
+
+    .collection-card {
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid rgba(200, 152, 51, 0.22);
+      border-radius: 16px;
+      overflow: hidden;
+      transition: opacity 0.25s, transform 0.25s, box-shadow 0.25s;
+      backdrop-filter: blur(4px);
+      border-top-width: 4px;
+    }
+
+    .collection-card[data-lang="yoruba"] {
+      border-top-color: #d4742a;
+      background: linear-gradient(180deg, #fff8ee 0%, rgba(255, 255, 255, 0.96) 55%);
+    }
+
+    .collection-card[data-lang="yoruba"] .cover-single {
+      background: linear-gradient(180deg, #fce8d0 0%, #faf3e8 100%);
+    }
+
+    .collection-card[data-lang="igbo"] {
+      border-top-color: #2e8c5a;
+      background: linear-gradient(180deg, #eef8f2 0%, rgba(255, 255, 255, 0.96) 55%);
+    }
+
+    .collection-card[data-lang="igbo"] .cover-single {
+      background: linear-gradient(180deg, #dff0e6 0%, #f0f8f3 100%);
+    }
+
+    .collection-card[data-lang="hausa"] {
+      border-top-color: #3a6eb0;
+      background: linear-gradient(180deg, #eef3fa 0%, rgba(255, 255, 255, 0.96) 55%);
+    }
+
+    .collection-card[data-lang="hausa"] .cover-single {
+      background: linear-gradient(180deg, #dce8f5 0%, #f0f5fb 100%);
+    }
+
+    .collection-card[data-lang="swahili"] {
+      border-top-color: #8a4aad;
+      background: linear-gradient(180deg, #f6eef9 0%, rgba(255, 255, 255, 0.96) 55%);
+    }
+
+    .collection-card[data-lang="swahili"] .cover-single {
+      background: linear-gradient(180deg, #eadcf2 0%, #f5eef9 100%);
+    }
+
+    .collection-card.hidden {
+      display: none;
+    }
+
+    .collection-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 34px rgba(67, 58, 44, 0.16);
+    }
+
+    .collection-card[data-lang="yoruba"]:hover { border-color: rgba(212, 116, 42, 0.45); }
+    .collection-card[data-lang="igbo"]:hover { border-color: rgba(46, 140, 90, 0.45); }
+    .collection-card[data-lang="hausa"]:hover { border-color: rgba(58, 110, 176, 0.45); }
+    .collection-card[data-lang="swahili"]:hover { border-color: rgba(138, 74, 173, 0.45); }
+
+    .card-shop-link {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+    }
+
+    .card-shop-link:hover .card-info h3 {
+      color: var(--gold);
+    }
+
+    .cover-single {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 14px;
+      padding: 24px 24px 8px;
+    }
+
+    .cover-stack {
+      position: relative;
+      width: 170px;
+      flex-shrink: 0;
+    }
+
+    .cover-stack img {
+      border-radius: 5px;
+      box-shadow: 0 10px 28px rgba(67, 58, 44, 0.22);
+    }
+
+    .cover-peek {
+      position: absolute;
+      width: 72%;
+      max-height: 88%;
+      height: auto;
+      object-fit: contain;
+      opacity: 0.88;
+      z-index: 1;
+      filter: brightness(0.92);
+    }
+
+    .cover-peek-left {
+      left: -18%;
+      top: 10%;
+      transform: rotate(-10deg);
+    }
+
+    .cover-peek-right {
+      right: -18%;
+      top: 10%;
+      transform: rotate(10deg);
+    }
+
+    .cover-front {
+      position: relative;
+      z-index: 2;
+      display: block;
+      width: auto;
+      max-width: 100%;
+      max-height: 240px;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .cover-back {
+      display: none;
+      width: auto;
+      max-width: 150px;
+      max-height: 220px;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 10px 28px rgba(67, 58, 44, 0.22);
+      flex-shrink: 0;
+    }
+
+    .collections-grid.single-lang .cover-stack {
+      width: 190px;
+    }
+
+    .collections-grid.single-lang .cover-front {
+      max-height: 260px;
+    }
+
+    .card-info {
+      padding: 6px 20px 14px;
+      text-align: center;
+    }
+
+    .card-info h3 {
+      font-size: 1.25rem;
+      color: var(--gold-light);
+      margin-bottom: 6px;
+    }
+
+    .card-info .card-subtitle {
+      font-size: 0.85rem;
+      color: var(--accent);
+      opacity: 0.85;
+      line-height: 1.45;
+      margin-bottom: 0;
+    }
+
+    .store-links {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0 20px 20px;
+    }
+
+    .btn-amazon {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 16px;
+      background: linear-gradient(135deg, #ff9900, #e68a00);
+      border-radius: 7px;
+      color: #111;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-family: 'Georgia', serif;
+      font-weight: bold;
+      transition: all 0.2s;
+    }
+
+    .btn-amazon:hover {
+      background: linear-gradient(135deg, #ffaa20, #f09910);
+      transform: translateY(-1px);
+    }
+
+    .btn-amazon-uk {
+      background: linear-gradient(135deg, #37475a, #232f3e);
+      color: #fff;
+    }
+
+    .btn-amazon-uk:hover {
+      background: linear-gradient(135deg, #485769, #37475a);
+    }
+
+    .btn-amazon svg { width: 14px; height: 14px; flex-shrink: 0; }
+
+    /* ── VIDEO SECTION ── */
+    .section-divider {
+      max-width: 800px;
+      margin: 40px auto 0;
+      border: none;
+      border-top: 1px solid rgba(200, 152, 51, 0.14);
+    }
+
     .lang-tabs {
       display: flex;
       justify-content: center;
@@ -175,13 +394,13 @@
     }
 
     .lang-tab {
-      padding: 10px 28px;
+      padding: 9px 26px;
       border: 1px solid rgba(212, 168, 71, 0.28);
       background: rgba(255, 255, 255, 0.92);
       color: var(--text-light);
       cursor: pointer;
       border-radius: 999px;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       font-family: 'Georgia', serif;
       transition: all 0.2s;
     }
@@ -193,49 +412,45 @@
       border-color: var(--gold);
       color: var(--navy);
       font-weight: bold;
-      box-shadow: 0 8px 20px rgba(200, 152, 51, 0.28);
+      box-shadow: 0 6px 18px rgba(200, 152, 51, 0.25);
     }
 
-    /* ── STORIES GRID ── */
-    .stories-section { padding: 20px 32px 46px; }
+    .stories-section { padding: 18px 32px 46px; }
     #story-library { scroll-margin-top: 88px; }
 
     .lang-panel { display: none; }
     .lang-panel.active { display: block; }
 
-    .lang-header {
-      text-align: center;
-      margin-bottom: 18px;
-    }
+    .lang-header { text-align: center; margin-bottom: 16px; }
 
     .lang-header h3 {
-      font-size: 1.45rem;
+      font-size: 1.3rem;
       color: var(--gold-light);
-      margin-bottom: 4px;
+      margin-bottom: 3px;
     }
 
-    .lang-header p { color: var(--accent); font-size: 0.92rem; opacity: 0.9; }
+    .lang-header p { color: var(--accent); font-size: 0.9rem; opacity: 0.85; }
 
     .stories-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
       gap: 18px;
-      max-width: 1200px;
+      max-width: 1160px;
       margin: 0 auto;
     }
 
     .story-card {
       background: rgba(255, 255, 255, 0.95);
       border: 1px solid rgba(200, 152, 51, 0.18);
-      border-radius: 16px;
+      border-radius: 14px;
       overflow: hidden;
       transition: transform 0.25s, box-shadow 0.25s;
     }
 
     .story-card:hover {
       transform: translateY(-3px);
-      box-shadow: 0 14px 34px rgba(67, 58, 44, 0.14);
-      border-color: rgba(212, 168, 71, 0.35);
+      box-shadow: 0 12px 30px rgba(67, 58, 44, 0.13);
+      border-color: rgba(212, 168, 71, 0.32);
     }
 
     .video-wrapper {
@@ -260,62 +475,30 @@
       align-items: center;
       justify-content: center;
       background: linear-gradient(135deg, #f7efe3, #efe3d0);
-      color: rgba(72,58,37,0.75);
-      font-size: 0.85rem;
-      gap: 10px;
+      color: rgba(72,58,37,0.7);
+      font-size: 0.82rem;
+      gap: 8px;
     }
 
-    .video-placeholder .play-icon {
-      font-size: 2.5rem;
-      opacity: 0.4;
-    }
+    .video-placeholder .play-icon { font-size: 2.2rem; opacity: 0.4; }
 
-    .card-body {
-      padding: 20px 22px;
-    }
+    .card-body { padding: 16px 18px; }
 
     .card-body h4 {
-      font-size: 1.1rem;
+      font-size: 1rem;
       color: var(--gold-light);
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
 
     .card-body p {
-      font-size: 0.85rem;
-      color: var(--text-light);
-      opacity: 0.7;
-      line-height: 1.5;
-      margin-bottom: 16px;
-    }
-
-    .card-actions {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    .btn-amazon {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 8px 16px;
-      background: linear-gradient(135deg, #ff9900, #e68a00);
-      border-radius: 6px;
-      color: #111;
-      text-decoration: none;
       font-size: 0.82rem;
-      font-family: 'Georgia', serif;
-      font-weight: bold;
-      transition: all 0.2s;
+      color: var(--text-light);
+      opacity: 0.65;
+      line-height: 1.5;
+      margin-bottom: 12px;
     }
 
-    .btn-amazon:hover {
-      background: linear-gradient(135deg, #ffaa20, #f09910);
-      transform: translateY(-1px);
-    }
-
-    .btn-amazon svg { width: 14px; height: 14px; }
+    .card-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 
     /* ── FOOTER ── */
     footer {
@@ -324,31 +507,22 @@
       border-top: 1px solid rgba(212, 168, 71, 0.1);
     }
 
-    footer p {
-      color: var(--text-light);
-      opacity: 0.45;
-      font-size: 0.85rem;
-    }
-
+    footer p { color: var(--text-light); opacity: 0.45; font-size: 0.85rem; line-height: 1.8; }
     footer a { color: var(--gold-light); text-decoration: none; }
-
-    /* ── STARS DECORATION ── */
-    .stars {
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 100%;
-      overflow: hidden;
-      pointer-events: none;
-    }
+    footer a:hover { text-decoration: underline; }
+    .footer-legal { margin-top: 4px; opacity: 0.5; }
 
     @media (max-width: 640px) {
-      main { padding-top: 64px; }
-      nav { padding: 12px 18px; }
+      main { padding-top: 72px; }
+      nav { padding: 10px 14px; flex-wrap: wrap; gap: 8px; }
       .nav-logo span { display: none; }
-      .hero { min-height: 32vh; margin: 0 18px 16px; padding: 24px 18px; }
-      .hero-content { text-align: center; }
-      .section-title { padding-top: 14px; }
-      .stories-grid { grid-template-columns: 1fr; }
+      .nav-links { gap: 6px; }
+      .lang-btn { padding: 5px 9px; font-size: 0.74rem; }
+      .books-section { padding: 22px 14px 32px; }
+      .collections-grid { grid-template-columns: 1fr; gap: 16px; }
+      .collections-grid.single-lang { max-width: 100%; }
+      .stories-section { padding: 14px 14px 36px; }
+      footer { padding: 28px 18px; }
     }
   </style>
 </head>
@@ -361,20 +535,158 @@
     <span>To Sleep Stories</span>
   </a>
   <div class="nav-links">
-    <button type="button" class="lang-btn active" onclick="setNavLang('en', this)">EN</button>
-    <button type="button" class="lang-btn" onclick="setNavLang('yo', this)">YO</button>
-    <button type="button" class="lang-btn" onclick="setNavLang('ig', this)">IG</button>
-    <button type="button" class="lang-btn" onclick="setNavLang('ha', this)">HA</button>
-    <button type="button" class="lang-btn" onclick="setNavLang('sw', this)">SW</button>
+    <button type="button" class="lang-btn active" onclick="setNavLang('en', this)">English</button>
+    <button type="button" class="lang-btn" onclick="setNavLang('yo', this)">Yoruba</button>
+    <button type="button" class="lang-btn" onclick="setNavLang('ig', this)">Igbo</button>
+    <button type="button" class="lang-btn" onclick="setNavLang('ha', this)">Hausa</button>
+    <button type="button" class="lang-btn" onclick="setNavLang('sw', this)">Swahili</button>
   </div>
 </nav>
 
 <main>
 
-<!-- STORIES SECTION -->
-<div class="section-title">
-  <h2 id="stories-heading">Pick a Story and Start</h2>
-  <p id="stories-subheading">Choose your language and open a story right away.</p>
+<!-- BOOKS -->
+<section id="books" class="books-section">
+  <div class="books-bg"></div>
+  <div class="books-overlay"></div>
+  <div class="books-content">
+    <div class="books-intro-text">
+      <h1 id="hero-title">To Sleep Stories</h1>
+      <p id="hero-subtitle">Bilingual bedtime books for kids, parents, and grandparents.</p>
+    </div>
+
+    <div class="collections-grid" id="collections-grid">
+
+  <div class="collection-card" id="collection-yoruba" data-lang="yoruba" data-cover-story="2">
+    <a class="card-shop-link" href="https://www.amazon.com/dp/B0H2WSWPRH" target="_blank" rel="noopener"
+       onclick="typeof clarity !== 'undefined' && clarity('event', 'collection_click', {lang:'yoruba',store:'us'})">
+      <div class="cover-single">
+        <div class="cover-stack">
+          <img class="cover-peek cover-peek-left" src="assets/covers/1/yoruba/front.png" alt="" loading="lazy">
+          <img class="cover-peek cover-peek-right" src="assets/covers/3/yoruba/front.png" alt="" loading="lazy">
+          <img class="cover-front" src="assets/covers/2/yoruba/front.png" alt="Yoruba collection" loading="lazy">
+        </div>
+        <img class="cover-back" src="assets/covers/2/yoruba/back.png" alt="Yoruba collection back" loading="lazy">
+      </div>
+      <div class="card-info">
+        <h3>Yoruba Collection</h3>
+        <p class="card-subtitle">English &amp; Yoruba</p>
+      </div>
+    </a>
+    <div class="store-links">
+      <a class="btn-amazon" href="https://www.amazon.com/dp/B0H2WSWPRH" target="_blank" rel="noopener"
+         onclick="typeof clarity !== 'undefined' && clarity('event', 'collection_click', {lang:'yoruba',store:'us'})">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.104.17.06.336-.128.496-1.865 1.504-4.012 2.578-6.44 3.224-2.43.646-4.865.754-7.308.327-2.442-.428-4.7-1.348-6.77-2.762-.172-.116-.195-.224-.12-.34z"/></svg>
+        amazon.com
+      </a>
+      <a class="btn-amazon btn-amazon-uk" href="https://www.amazon.co.uk/dp/B0H2WSWPRH" target="_blank" rel="noopener"
+         onclick="typeof clarity !== 'undefined' && clarity('event', 'collection_click', {lang:'yoruba',store:'uk'})">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.104.17.06.336-.128.496-1.865 1.504-4.012 2.578-6.44 3.224-2.43.646-4.865.754-7.308.327-2.442-.428-4.7-1.348-6.77-2.762-.172-.116-.195-.224-.12-.34z"/></svg>
+        Amazon UK
+      </a>
+    </div>
+  </div>
+
+  <div class="collection-card" id="collection-igbo" data-lang="igbo" data-cover-story="1">
+    <a class="card-shop-link" href="https://www.amazon.com/dp/B0H2WQKRN5" target="_blank" rel="noopener"
+       onclick="typeof clarity !== 'undefined' && clarity('event', 'collection_click', {lang:'igbo',store:'us'})">
+      <div class="cover-single">
+        <div class="cover-stack">
+          <img class="cover-peek cover-peek-left" src="assets/covers/2/igbo/front.png" alt="" loading="lazy">
+          <img class="cover-peek cover-peek-right" src="assets/covers/3/igbo/front.png" alt="" loading="lazy">
+          <img class="cover-front" src="assets/covers/1/igbo/front.png" alt="Igbo collection" loading="lazy">
+        </div>
+        <img class="cover-back" src="assets/covers/1/igbo/back.png" alt="Igbo collection back" loading="lazy">
+      </div>
+      <div class="card-info">
+        <h3>Igbo Collection</h3>
+        <p class="card-subtitle">English &amp; Igbo</p>
+      </div>
+    </a>
+    <div class="store-links">
+      <a class="btn-amazon" href="https://www.amazon.com/dp/B0H2WQKRN5" target="_blank" rel="noopener"
+         onclick="typeof clarity !== 'undefined' && clarity('event', 'collection_click', {lang:'igbo',store:'us'})">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.104.17.06.336-.128.496-1.865 1.504-4.012 2.578-6.44 3.224-2.43.646-4.865.754-7.308.327-2.442-.428-4.7-1.348-6.77-2.762-.172-.116-.195-.224-.12-.34z"/></svg>
+        amazon.com
+      </a>
+      <a class="btn-amazon btn-amazon-uk" href="https://www.amazon.co.uk/dp/B0H2WQKRN5" target="_blank" rel="noopener"
+         onclick="typeof clarity !== 'undefined' && clarity('event', 'collection_click', {lang:'igbo',store:'uk'})">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.104.17.06.336-.128.496-1.865 1.504-4.012 2.578-6.44 3.224-2.43.646-4.865.754-7.308.327-2.442-.428-4.7-1.348-6.77-2.762-.172-.116-.195-.224-.12-.34z"/></svg>
+        Amazon UK
+      </a>
+    </div>
+  </div>
+
+  <div class="collection-card" id="collection-hausa" data-lang="hausa" data-cover-story="3">
+    <a class="card-shop-link" href="https://www.amazon.com/dp/B0H2WWZ16B" target="_blank" rel="noopener"
+       onclick="typeof clarity !== 'undefined' && clarity('event', 'collection_click', {lang:'hausa',store:'us'})">
+      <div class="cover-single">
+        <div class="cover-stack">
+          <img class="cover-peek cover-peek-left" src="assets/covers/1/hausa/front.png" alt="" loading="lazy">
+          <img class="cover-peek cover-peek-right" src="assets/covers/2/hausa/front.png" alt="" loading="lazy">
+          <img class="cover-front" src="assets/covers/3/hausa/front.png" alt="Hausa collection" loading="lazy">
+        </div>
+        <img class="cover-back" src="assets/covers/3/hausa/back.png" alt="Hausa collection back" loading="lazy">
+      </div>
+      <div class="card-info">
+        <h3>Hausa Collection</h3>
+        <p class="card-subtitle">English &amp; Hausa</p>
+      </div>
+    </a>
+    <div class="store-links">
+      <a class="btn-amazon" href="https://www.amazon.com/dp/B0H2WWZ16B" target="_blank" rel="noopener"
+         onclick="typeof clarity !== 'undefined' && clarity('event', 'collection_click', {lang:'hausa',store:'us'})">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.104.17.06.336-.128.496-1.865 1.504-4.012 2.578-6.44 3.224-2.43.646-4.865.754-7.308.327-2.442-.428-4.7-1.348-6.77-2.762-.172-.116-.195-.224-.12-.34z"/></svg>
+        amazon.com
+      </a>
+      <a class="btn-amazon btn-amazon-uk" href="https://www.amazon.co.uk/dp/B0H2WWZ16B" target="_blank" rel="noopener"
+         onclick="typeof clarity !== 'undefined' && clarity('event', 'collection_click', {lang:'hausa',store:'uk'})">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.104.17.06.336-.128.496-1.865 1.504-4.012 2.578-6.44 3.224-2.43.646-4.865.754-7.308.327-2.442-.428-4.7-1.348-6.77-2.762-.172-.116-.195-.224-.12-.34z"/></svg>
+        Amazon UK
+      </a>
+    </div>
+  </div>
+
+  <div class="collection-card" id="collection-swahili" data-lang="swahili" data-cover-story="1">
+    <a class="card-shop-link" href="https://www.amazon.com/dp/B0H2WRTMJX" target="_blank" rel="noopener"
+       onclick="typeof clarity !== 'undefined' && clarity('event', 'collection_click', {lang:'swahili',store:'us'})">
+      <div class="cover-single">
+        <div class="cover-stack">
+          <img class="cover-peek cover-peek-left" src="assets/covers/2/swahili/front.png" alt="" loading="lazy">
+          <img class="cover-peek cover-peek-right" src="assets/covers/3/swahili/front.png" alt="" loading="lazy">
+          <img class="cover-front" src="assets/covers/1/swahili/front.png" alt="Swahili collection" loading="lazy">
+        </div>
+        <img class="cover-back" src="assets/covers/1/swahili/back.png" alt="Swahili collection back" loading="lazy">
+      </div>
+      <div class="card-info">
+        <h3>Swahili Collection</h3>
+        <p class="card-subtitle">English &amp; Swahili</p>
+      </div>
+    </a>
+    <div class="store-links">
+      <a class="btn-amazon" href="https://www.amazon.com/dp/B0H2WRTMJX" target="_blank" rel="noopener"
+         onclick="typeof clarity !== 'undefined' && clarity('event', 'collection_click', {lang:'swahili',store:'us'})">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.104.17.06.336-.128.496-1.865 1.504-4.012 2.578-6.44 3.224-2.43.646-4.865.754-7.308.327-2.442-.428-4.7-1.348-6.77-2.762-.172-.116-.195-.224-.12-.34z"/></svg>
+        amazon.com
+      </a>
+      <a class="btn-amazon btn-amazon-uk" href="https://www.amazon.co.uk/dp/B0H2WRTMJX" target="_blank" rel="noopener"
+         onclick="typeof clarity !== 'undefined' && clarity('event', 'collection_click', {lang:'swahili',store:'uk'})">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.104.17.06.336-.128.496-1.865 1.504-4.012 2.578-6.44 3.224-2.43.646-4.865.754-7.308.327-2.442-.428-4.7-1.348-6.77-2.762-.172-.116-.195-.224-.12-.34z"/></svg>
+        Amazon UK
+      </a>
+    </div>
+  </div>
+
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<!-- WATCH STORIES -->
+<div id="watch" class="section-heading">
+  <h2>Watch the Stories</h2>
+  <p>Free story videos on YouTube — follow along before you buy.</p>
   <div class="divider"></div>
 </div>
 
@@ -387,7 +699,6 @@
 
 <div class="stories-section" id="story-library">
 
-  <!-- YORUBA -->
   <div class="lang-panel active" id="panel-yoruba">
     <div class="lang-header">
       <h3>Àwọn Ìtàn Yorùbá</h3>
@@ -396,7 +707,6 @@
     <div class="stories-grid" id="grid-yoruba"></div>
   </div>
 
-  <!-- IGBO -->
   <div class="lang-panel" id="panel-igbo">
     <div class="lang-header">
       <h3>Akụkọ Igbo</h3>
@@ -405,7 +715,6 @@
     <div class="stories-grid" id="grid-igbo"></div>
   </div>
 
-  <!-- HAUSA -->
   <div class="lang-panel" id="panel-hausa">
     <div class="lang-header">
       <h3>Labarun Hausa</h3>
@@ -414,7 +723,6 @@
     <div class="stories-grid" id="grid-hausa"></div>
   </div>
 
-  <!-- SWAHILI -->
   <div class="lang-panel" id="panel-swahili">
     <div class="lang-header">
       <h3>Hadithi za Kiswahili</h3>
@@ -425,21 +733,15 @@
 
 </div>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <h1 id="hero-title">To Sleep Stories</h1>
-    <p id="hero-subtitle">Calm bedtime stories made simple for kids, parents, and grandparents.</p>
-  </div>
-</section>
-
 <!-- FOOTER -->
 <footer>
   <p>
     © 2026 To Sleep Stories &nbsp;·&nbsp;
     <a href="mailto:hello@tosleepstories.com">hello@tosleepstories.com</a>
+  </p>
+  <p class="footer-legal">
+    <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="terms.html">Terms and Conditions</a>
   </p>
 </footer>
 
@@ -526,32 +828,90 @@
     swahili: { name: "Swahili" }
   };
 
-  // ── Hero translations ────────────────────────────────────────────────────
   const HERO_CONTENT = {
     en: {
       title: "To Sleep Stories",
-      subtitle: "Calm bedtime stories made simple for kids, parents, and grandparents."
+      subtitle: "Bilingual bedtime books for kids, parents, and grandparents."
     },
     yo: {
       title: "Àwọn Ìtàn Ìsun",
-      subtitle: "Àwọn ìtàn pẹ̀lẹ́pẹ̀lẹ́ fún ìsinmi alẹ́ — rọrùn láti tẹ̀lé."
+      subtitle: "Àwọn ìwé ìtàn oníbeji fún ìsinmi alẹ́ — rọrùn láti tẹ̀lé."
     },
     ig: {
       title: "Akụkọ Ụra",
-      subtitle: "Akụkọ dị nro maka ụra dị jụụ — dị mfe iso."
+      subtitle: "Akwụkwọ akụkọ asụsụ abụọ maka ụra dị jụụ — dị mfe iso."
     },
     ha: {
       title: "Labaran Barci",
-      subtitle: "Labaran kwantar da hankali masu daɗi — masu sauƙin bi."
+      subtitle: "Littattafan labarai masu harsuna biyu don barci mai kyau."
     },
     sw: {
       title: "Hadithi za Kulala",
-      subtitle: "Hadithi tulivu kwa usingizi mzuri — rahisi kufuata."
+      subtitle: "Vitabu vya hadithi za lugha mbili kwa usingizi mzuri."
     }
   };
 
-  // ── Build story grids ────────────────────────────────────────────────────
+  const NAV_TO_STORY_LANG = {
+    yo: 'yoruba',
+    ig: 'igbo',
+    ha: 'hausa',
+    sw: 'swahili'
+  };
+
+  function showLang(lang) {
+    document.querySelectorAll('.lang-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
+    const panel = document.getElementById('panel-' + lang);
+    if (panel) panel.classList.add('active');
+    const tab = document.querySelector('.lang-tab[data-lang="' + lang + '"]');
+    if (tab) tab.classList.add('active');
+  }
+
+  function setNavLang(lang, btn) {
+    const c = HERO_CONTENT[lang] || HERO_CONTENT.en;
+    document.getElementById('hero-title').textContent = c.title;
+    document.getElementById('hero-subtitle').textContent = c.subtitle;
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    if (btn) btn.classList.add('active');
+
+    const grid = document.getElementById('collections-grid');
+    const storyLang = NAV_TO_STORY_LANG[lang];
+
+    document.querySelectorAll('.collection-card').forEach(card => {
+      if (lang === 'en') {
+        card.classList.remove('hidden');
+      } else {
+        card.classList.toggle('hidden', card.dataset.lang !== storyLang);
+      }
+    });
+
+    if (lang === 'en') {
+      grid.classList.remove('single-lang');
+    } else {
+      grid.classList.add('single-lang');
+      showLang(storyLang);
+    }
+  }
+
   const LANG_KEYS = ['yoruba', 'igbo', 'hausa', 'swahili'];
+
+  document.querySelectorAll('.collection-card[data-lang]').forEach(card => {
+    const lang = card.dataset.lang;
+    const featured = Math.floor(Math.random() * 3) + 1;
+    const others = [1, 2, 3].filter(s => s !== featured);
+    card.dataset.coverStory = featured;
+
+    const base = (story) => 'assets/covers/' + story + '/' + lang + '/';
+    const front = card.querySelector('.cover-front');
+    const back = card.querySelector('.cover-back');
+    const peekL = card.querySelector('.cover-peek-left');
+    const peekR = card.querySelector('.cover-peek-right');
+
+    if (front) front.src = base(featured) + 'front.png';
+    if (back) back.src = base(featured) + 'back.png';
+    if (peekL) peekL.src = base(others[0]) + 'front.png';
+    if (peekR) peekR.src = base(others[1]) + 'front.png';
+  });
 
   LANG_KEYS.forEach(lang => {
     const grid = document.getElementById('grid-' + lang);
@@ -564,11 +924,7 @@
       if (ytId) {
         videoHtml = `<iframe src="https://www.youtube.com/embed/${ytId}" title="${title}" allowfullscreen loading="lazy"></iframe>`;
       } else {
-        videoHtml = `
-          <div class="video-placeholder">
-            <span class="play-icon">▶</span>
-            <span>Video coming soon</span>
-          </div>`;
+        videoHtml = `<div class="video-placeholder"><span class="play-icon">▶</span><span>Video coming soon</span></div>`;
       }
 
       grid.innerHTML += `
@@ -579,47 +935,14 @@
             <p>Story ${story.id} · ${LANG_LABELS[lang].name}</p>
             <div class="card-actions">
               <a class="btn-amazon" href="${amazonUrl}" target="_blank" rel="noopener">
-                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.104.17.06.336-.128.496-1.865 1.504-4.012 2.578-6.44 3.224-2.43.646-4.865.754-7.308.327-2.442-.428-4.7-1.348-6.77-2.762-.172-.116-.195-.224-.12-.34zm3.28-7.41c0-.563.2-1.03.6-1.4.4-.37.94-.56 1.62-.56.67 0 1.2.19 1.59.56.39.37.59.85.59 1.43v.14h-1.18v-.16c0-.29-.08-.52-.25-.7-.17-.18-.4-.27-.7-.27-.3 0-.54.08-.72.24-.18.16-.27.38-.27.66 0 .25.07.46.2.64.13.18.35.37.66.57l1.04.67c.48.3.84.64 1.08 1.01.24.37.36.8.36 1.27 0 .61-.21 1.1-.63 1.48-.42.38-.98.57-1.68.57-.72 0-1.28-.2-1.69-.6-.41-.4-.62-.94-.62-1.6v-.24h1.18v.26c0 .32.09.57.27.75.18.18.43.27.75.27.32 0 .57-.09.75-.27.18-.18.27-.43.27-.75 0-.27-.08-.5-.23-.68-.15-.18-.4-.38-.73-.59l-1.02-.65c-.46-.3-.8-.63-1.04-.99-.23-.37-.35-.8-.35-1.28zm7.37-3.08h1.28l1.5 7.43 1.5-7.43h1.28l-1.96 9h-1.64l-1.96-9zm8.38 0h4.4v1.08h-3.2v2.77h2.76v1.05h-2.76v3.02h3.2v1.08h-4.4v-9z"/></svg>
-                Get the Book
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.104.17.06.336-.128.496-1.865 1.504-4.012 2.578-6.44 3.224-2.43.646-4.865.754-7.308.327-2.442-.428-4.7-1.348-6.77-2.762-.172-.116-.195-.224-.12-.34z"/></svg>
+                Get this Book
               </a>
             </div>
           </div>
         </div>`;
     });
   });
-
-  const NAV_TO_STORY_LANG = {
-    yo: 'yoruba',
-    ig: 'igbo',
-    ha: 'hausa',
-    sw: 'swahili'
-  };
-
-  // ── Language tab switcher ────────────────────────────────────────────────
-  function showLang(lang) {
-    document.querySelectorAll('.lang-panel').forEach(p => p.classList.remove('active'));
-    document.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
-    const panel = document.getElementById('panel-' + lang);
-    if (panel) panel.classList.add('active');
-    const tab = document.querySelector('.lang-tab[data-lang="' + lang + '"]');
-    if (tab) tab.classList.add('active');
-  }
-
-  // ── Nav language switcher ────────────────────────────────────────────────
-  function setNavLang(lang, btn) {
-    const c = HERO_CONTENT[lang] || HERO_CONTENT.en;
-    document.getElementById('hero-title').textContent = c.title;
-    document.getElementById('hero-subtitle').textContent = c.subtitle;
-    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-    if (btn) btn.classList.add('active');
-
-    const storyLang = NAV_TO_STORY_LANG[lang];
-    if (storyLang) {
-      showLang(storyLang);
-      const lib = document.getElementById('story-library');
-      if (lib) lib.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  }
 </script>
 </body>
 </html>
