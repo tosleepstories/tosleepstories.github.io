@@ -25,7 +25,7 @@
       overflow-x: hidden;
     }
 
-    main { padding-top: 74px; }
+    main { padding-top: 118px; }
 
     /* ── NAV ── */
     nav {
@@ -33,25 +33,34 @@
       top: 0; left: 0; right: 0;
       z-index: 100;
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: space-between;
-      padding: 14px 32px;
+      gap: 14px;
+      padding: 14px 32px 16px;
       background: rgba(255, 250, 242, 0.97);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(200, 152, 51, 0.25);
     }
 
+    .nav-primary {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 52px;
+      width: 100%;
+    }
+
     .nav-logo {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
       text-decoration: none;
     }
 
-    .nav-logo img { height: 36px; border-radius: 6px; }
+    .nav-logo img { height: 48px; border-radius: 7px; }
 
     .nav-logo span {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       color: var(--gold-light);
       letter-spacing: 0.03em;
     }
@@ -59,9 +68,10 @@
     .nav-links {
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 8px;
       flex-wrap: wrap;
-      justify-content: flex-end;
+      width: 100%;
     }
 
     .lang-btn {
@@ -83,10 +93,34 @@
       color: var(--navy);
     }
 
+    .btn-legacy {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 6px 11px;
+      background: linear-gradient(135deg, #c89833, #9f6f19);
+      border: none;
+      border-radius: 6px;
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Georgia', serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.02em;
+      line-height: 1.25;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-legacy:hover {
+      background: linear-gradient(135deg, #d4a840, #b07f2a);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(200, 152, 51, 0.3);
+    }
+
     /* ── BOOKS (background + collections) ── */
     .books-section {
       position: relative;
-      scroll-margin-top: 88px;
+      scroll-margin-top: 120px;
       padding: 32px 28px 40px;
       overflow: hidden;
     }
@@ -184,6 +218,7 @@
       transition: opacity 0.25s, transform 0.25s, box-shadow 0.25s;
       backdrop-filter: blur(4px);
       border-top-width: 4px;
+      scroll-margin-top: 130px;
     }
 
     .collection-card[data-lang="yoruba"] {
@@ -416,7 +451,7 @@
     }
 
     .stories-section { padding: 18px 32px 46px; }
-    #story-library { scroll-margin-top: 88px; }
+    #story-library { scroll-margin-top: 120px; }
 
     .lang-panel { display: none; }
     .lang-panel.active { display: block; }
@@ -513,15 +548,27 @@
     .footer-legal { margin-top: 4px; opacity: 0.5; }
 
     @media (max-width: 640px) {
-      main { padding-top: 72px; }
-      nav { padding: 10px 14px; flex-wrap: wrap; gap: 8px; }
+      main { padding-top: 112px; }
+      nav {
+        padding: 10px 12px 12px;
+        gap: 10px;
+      }
+      .nav-primary {
+        gap: 28px;
+      }
+      .nav-logo img { height: 42px; }
       .nav-logo span { display: none; }
-      .nav-links { gap: 6px; }
       .lang-btn { padding: 5px 9px; font-size: 0.74rem; }
-      .books-section { padding: 22px 14px 32px; }
+      .btn-legacy {
+        font-size: 0.7rem;
+        padding: 5px 10px;
+        white-space: nowrap;
+      }
+      .books-section { padding: 22px 14px 32px; scroll-margin-top: 118px; }
       .collections-grid { grid-template-columns: 1fr; gap: 16px; }
       .collections-grid.single-lang { max-width: 100%; }
       .stories-section { padding: 14px 14px 36px; }
+      #story-library { scroll-margin-top: 118px; }
       footer { padding: 28px 18px; }
     }
   </style>
@@ -530,10 +577,13 @@
 
 <!-- NAV -->
 <nav>
-  <a class="nav-logo" href="#">
-    <img src="logo.png" alt="To Sleep Stories">
-    <span>To Sleep Stories</span>
-  </a>
+  <div class="nav-primary">
+    <a class="nav-logo" href="#">
+      <img src="logo.png" alt="To Sleep Stories">
+      <span>To Sleep Stories</span>
+    </a>
+    <a class="btn-legacy" href="legacy/">🎙 Record story in your voice</a>
+  </div>
   <div class="nav-links">
     <button type="button" class="lang-btn active" onclick="setNavLang('en', this)">English</button>
     <button type="button" class="lang-btn" onclick="setNavLang('yo', this)">Yoruba</button>
@@ -867,6 +917,26 @@
     if (tab) tab.classList.add('active');
   }
 
+  const STORY_LANG_TO_NAV = {
+    yoruba: 'yo',
+    igbo: 'ig',
+    hausa: 'ha',
+    swahili: 'sw',
+  };
+
+  function scrollToBookLinks(lang) {
+    const navCode = STORY_LANG_TO_NAV[lang];
+    if (navCode) {
+      const navBtn = document.querySelector('.nav-links .lang-btn[onclick*="\'' + navCode + '\'"]');
+      if (navBtn) setNavLang(navCode, navBtn);
+    }
+    requestAnimationFrame(() => {
+      const card = document.getElementById('collection-' + lang);
+      const target = card || document.getElementById('books');
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+
   function setNavLang(lang, btn) {
     const c = HERO_CONTENT[lang] || HERO_CONTENT.en;
     document.getElementById('hero-title').textContent = c.title;
@@ -918,7 +988,6 @@
     STORIES.forEach(story => {
       const ytId = story.youtubeIds[lang];
       const title = story.titles[lang];
-      const amazonUrl = story.amazonLinks[lang];
 
       let videoHtml;
       if (ytId) {
@@ -934,7 +1003,7 @@
             <h4>${title}</h4>
             <p>Story ${story.id} · ${LANG_LABELS[lang].name}</p>
             <div class="card-actions">
-              <a class="btn-amazon" href="${amazonUrl}" target="_blank" rel="noopener">
+              <a class="btn-amazon" href="#books" onclick="event.preventDefault(); scrollToBookLinks('${lang}')">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.494.124.104.17.06.336-.128.496-1.865 1.504-4.012 2.578-6.44 3.224-2.43.646-4.865.754-7.308.327-2.442-.428-4.7-1.348-6.77-2.762-.172-.116-.195-.224-.12-.34z"/></svg>
                 Get this Book
               </a>
