@@ -159,14 +159,15 @@
       line-height: 1.25;
     }
 
-    .welcome-banner p {
+    .welcome-banner p,
+    .welcome-banner #ui-welcome-body p {
       font-size: 0.93rem;
       color: var(--text-dim);
       line-height: 1.7;
       margin-bottom: 14px;
     }
 
-    .welcome-banner p:last-child { margin-bottom: 0; }
+    .welcome-banner #ui-welcome-body p:last-child { margin-bottom: 0; }
 
     .privacy-note {
       display: inline-flex;
@@ -845,14 +846,15 @@
     <!-- Welcome banner -->
     <div class="welcome-banner">
       <h1 id="ui-welcome-title">🌙 Your voice, their bedtime story</h1>
-      <p id="ui-welcome-body">
-        When you cannot be there at bedtime, recording in your own voice is the closest thing to
-        reading the story yourself. Pick a language, choose a tale, and follow the highlighted words —
-        starting with the title on screen. Save the video and share it with the children you love.
-      </p>
+      <div id="ui-welcome-body">
+        <p>Sometimes the people we love can't be there for bedtime.</p>
+        <p>A parent working away from home. A grandparent living in another country. A family separated by distance.</p>
+        <p>Record yourself reading a story in your own voice and send it to the children you love.</p>
+        <p>They can see the pictures, hear your voice, and share a bedtime moment with you—even when you're far away.</p>
+      </div>
       <p>
         <span class="privacy-note" id="ui-privacy">
-          🔒 Your recording never leaves your device — we don't store any files on our servers.
+          🔒 Your recording never leaves your device.
         </span>
       </p>
     </div>
@@ -951,8 +953,11 @@ const LANG_LABELS = {
 const UI_STRINGS = {
   english: {
     welcomeTitle: '🌙 Your voice, their bedtime story',
-    welcomeBody: 'When you cannot be there at bedtime, recording in your own voice is the closest thing to reading the story yourself. Pick a language, choose a tale, and follow the highlighted words — starting with the title on screen. Save the video and share it with the children you love.',
-    privacy: '🔒 Your recording never leaves your device — we don\'t store any files on our servers.',
+    welcomeBodyHtml: '<p>Sometimes the people we love can\'t be there for bedtime.</p>'
+      + '<p>A parent working away from home. A grandparent living in another country. A family separated by distance.</p>'
+      + '<p>Record yourself reading a story in your own voice and send it to the children you love.</p>'
+      + '<p>They can see the pictures, hear your voice, and share a bedtime moment with you—even when you\'re far away.</p>',
+    privacy: '🔒 Your recording never leaves your device.',
     pickStory: 'Choose a story',
     storyLabel: 'Story',
     startRecording: 'Record story',
@@ -975,6 +980,7 @@ const UI_STRINGS = {
     micDenied: 'Microphone access denied. Please allow microphone access to record.',
     videoLoadFailed: 'Could not load the story video. Please refresh and try again.',
     preparingVideo: 'Preparing your video…',
+    postDownloadRedirect: 'Your recording is downloading. Taking you to the homepage…',
   },
   yoruba: {
     welcomeTitle: '🌙 Ohùn rẹ, ìtàn alẹ́ wọn',
@@ -1000,6 +1006,7 @@ const UI_STRINGS = {
     recordUnsupported: 'A kò lè ṣe igbasilẹ nínú bírósaà yìí.',
     noFormat: 'A kò rí fọ́mátì igbasilẹ tí a fàyè gba.',
     micDenied: 'A kọ̀ àyè gbohùngbohùn. Jọ̀wọ́ fàyè gba gbohùngbohùn láti ṣe igbasilẹ.',
+    postDownloadRedirect: 'A ń ṣe igbasilẹ rẹ. A ń mú ọ padà sí ojú ìwé…',
   },
   igbo: {
     welcomeTitle: '🌙 Olụ gị, akụkọ ụra ha',
@@ -1025,6 +1032,7 @@ const UI_STRINGS = {
     recordUnsupported: 'Enweghị ike idekọ na brawza a.',
     noFormat: 'Enweghị usoro ndekọ a na-akwado.',
     micDenied: 'Megidere igweokwu. Biko kwe ka igweokwu ka ị dee ndekọ.',
+    postDownloadRedirect: 'A na-ebudata ndekọ gị. A na-elegharị anyị gaa na ibe ụlọ…',
   },
   hausa: {
     welcomeTitle: '🌙 Muryarku, labarin barcin su',
@@ -1050,6 +1058,7 @@ const UI_STRINGS = {
     recordUnsupported: 'Ba a goyi bayan rikodi a wannan burauza ba.',
     noFormat: 'Ba a sami tsarin rikodi da ake goyan baya ba.',
     micDenied: 'An hana mikrofon. Don Allah bada izinin mikrofon don rikodi.',
+    postDownloadRedirect: 'Ana sauke rikodin ku. Ana kuelekeza kwenye ukurasa wa nyumbani…',
   },
   swahili: {
     welcomeTitle: '🌙 Sauti yako, hadithi yao ya kulala',
@@ -1075,8 +1084,12 @@ const UI_STRINGS = {
     recordUnsupported: 'Kurekodi hakutumiki kwenye kivinjari hiki.',
     noFormat: 'Hakuna muundo wa kurekodi unaotumika.',
     micDenied: 'Mikrofoni imekataliwa. Tafadhali ruhusu mikrofoni ili kurekodi.',
+    postDownloadRedirect: 'Rekodi yako inapakuliwa. Tunakupeleka kwenye ukurasa wa nyumbani…',
   },
 };
+
+const HOME_URL = '../';
+const POST_DOWNLOAD_REDIRECT_MS = 2500;
 
 function ui(key) {
   const s = UI_STRINGS[currentLang] || UI_STRINGS.english;
@@ -1086,7 +1099,12 @@ function ui(key) {
 function updateUiLang() {
   const set = (id, text) => { const el = document.getElementById(id); if (el) el.textContent = text; };
   set('ui-welcome-title', ui('welcomeTitle'));
-  set('ui-welcome-body', ui('welcomeBody'));
+  const welcomeBodyEl = document.getElementById('ui-welcome-body');
+  if (welcomeBodyEl) {
+    const html = ui('welcomeBodyHtml');
+    if (html) welcomeBodyEl.innerHTML = html;
+    else welcomeBodyEl.innerHTML = '<p>' + ui('welcomeBody') + '</p>';
+  }
   set('ui-privacy', ui('privacy'));
   set('ui-picker-heading', ui('pickStory'));
   set('countdown-hint', ui('countdownHint'));
@@ -1620,14 +1638,31 @@ function resetStoryVideo() {
 function showPreparingVideo(show) {
   const loadingEl = document.getElementById('loading');
   const loadingText = loadingEl && loadingEl.querySelector('span');
+  const spinner = loadingEl && loadingEl.querySelector('.spinner');
   if (!loadingEl) return;
   if (show) {
     if (loadingText) loadingText.textContent = ui('preparingVideo');
+    if (spinner) spinner.style.display = '';
     loadingEl.classList.add('show');
   } else {
     if (loadingText) loadingText.textContent = ui('loading');
+    if (spinner) spinner.style.display = '';
     loadingEl.classList.remove('show');
   }
+}
+
+function redirectToHomeAfterDownload() {
+  const loadingEl = document.getElementById('loading');
+  const loadingText = loadingEl && loadingEl.querySelector('span');
+  const spinner = loadingEl && loadingEl.querySelector('.spinner');
+  if (loadingEl) {
+    if (loadingText) loadingText.textContent = ui('postDownloadRedirect');
+    if (spinner) spinner.style.display = 'none';
+    loadingEl.classList.add('show');
+  }
+  window.setTimeout(() => {
+    window.location.href = HOME_URL;
+  }, POST_DOWNLOAD_REDIRECT_MS);
 }
 
 async function muxAudioWithStoryVideo(audioBlob, audioMime) {
@@ -1839,6 +1874,7 @@ function downloadRecording() {
   document.body.appendChild(a);
   a.click();
   a.remove();
+  redirectToHomeAfterDownload();
 }
 
 function closePreview() {
