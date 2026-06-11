@@ -20201,5 +20201,6411 @@
         ]
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "A Joyful Celebration in the Meadow",
+    "language": "english",
+    "label": "English",
+    "videoPath": "videos/story_4_english.mp4",
+    "scenes": [
+      {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "A",
+            "start": 0.15,
+            "end": 0.583
+          },
+          {
+            "text": "Joyful",
+            "start": 0.583,
+            "end": 1.017
+          },
+          {
+            "text": "Celebration",
+            "start": 1.017,
+            "end": 1.45
+          },
+          {
+            "text": "in",
+            "start": 1.45,
+            "end": 1.883
+          },
+          {
+            "text": "the",
+            "start": 1.883,
+            "end": 2.317
+          },
+          {
+            "text": "Meadow",
+            "start": 2.317,
+            "end": 2.75
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Afternoon in the Meadow",
+        "videoOffset": 3.0,
+        "words": [
+          {
+            "text": "The",
+            "start": 0.081,
+            "end": 0.174
+          },
+          {
+            "text": "meadow",
+            "start": 0.255,
+            "end": 0.65
+          },
+          {
+            "text": "was",
+            "start": 0.755,
+            "end": 0.952
+          },
+          {
+            "text": "big",
+            "start": 1.057,
+            "end": 1.451
+          },
+          {
+            "text": "and",
+            "start": 1.544,
+            "end": 1.73
+          },
+          {
+            "text": "golden",
+            "start": 1.811,
+            "end": 2.415
+          },
+          {
+            "text": "under",
+            "start": 2.577,
+            "end": 2.879
+          },
+          {
+            "text": "the",
+            "start": 2.937,
+            "end": 3.042
+          },
+          {
+            "text": "afternoon",
+            "start": 3.111,
+            "end": 3.762
+          },
+          {
+            "text": "sun.",
+            "start": 3.901,
+            "end": 4.331
+          },
+          {
+            "text": "Pip,",
+            "start": 4.435,
+            "end": 4.923
+          },
+          {
+            "text": "a",
+            "start": 4.981,
+            "end": 5.062
+          },
+          {
+            "text": "little",
+            "start": 5.166,
+            "end": 5.503
+          },
+          {
+            "text": "round",
+            "start": 5.573,
+            "end": 5.875
+          },
+          {
+            "text": "bird,",
+            "start": 5.968,
+            "end": 6.385
+          },
+          {
+            "text": "hopped",
+            "start": 6.432,
+            "end": 6.827
+          },
+          {
+            "text": "happily",
+            "start": 6.908,
+            "end": 7.407
+          },
+          {
+            "text": "through",
+            "start": 7.488,
+            "end": 7.744
+          },
+          {
+            "text": "the",
+            "start": 7.79,
+            "end": 7.86
+          },
+          {
+            "text": "tall",
+            "start": 7.906,
+            "end": 8.243
+          },
+          {
+            "text": "grass.",
+            "start": 8.324,
+            "end": 9.009
+          },
+          {
+            "text": "He",
+            "start": 9.079,
+            "end": 9.23
+          },
+          {
+            "text": "had",
+            "start": 9.311,
+            "end": 9.462
+          },
+          {
+            "text": "spent",
+            "start": 9.532,
+            "end": 9.973
+          },
+          {
+            "text": "the",
+            "start": 10.089,
+            "end": 10.217
+          },
+          {
+            "text": "whole",
+            "start": 10.286,
+            "end": 10.67
+          },
+          {
+            "text": "week",
+            "start": 10.728,
+            "end": 11.099
+          },
+          {
+            "text": "watching",
+            "start": 11.204,
+            "end": 11.714
+          },
+          {
+            "text": "wildflowers",
+            "start": 11.819,
+            "end": 12.725
+          },
+          {
+            "text": "bloom,",
+            "start": 12.806,
+            "end": 13.282
+          },
+          {
+            "text": "and",
+            "start": 13.305,
+            "end": 13.468
+          },
+          {
+            "text": "today",
+            "start": 13.549,
+            "end": 14.071
+          },
+          {
+            "text": "was",
+            "start": 14.176,
+            "end": 14.362
+          },
+          {
+            "text": "the",
+            "start": 14.454,
+            "end": 14.547
+          },
+          {
+            "text": "perfect",
+            "start": 14.663,
+            "end": 15.372
+          },
+          {
+            "text": "day",
+            "start": 15.476,
+            "end": 15.801
+          },
+          {
+            "text": "to",
+            "start": 15.871,
+            "end": 15.987
+          },
+          {
+            "text": "celebrate.",
+            "start": 16.068,
+            "end": 16.834
+          },
+          {
+            "text": "An",
+            "start": 16.869,
+            "end": 17.02
+          },
+          {
+            "text": "old",
+            "start": 17.125,
+            "end": 17.577
+          },
+          {
+            "text": "wise",
+            "start": 17.694,
+            "end": 18.251
+          },
+          {
+            "text": "owl",
+            "start": 18.321,
+            "end": 18.773
+          },
+          {
+            "text": "lived",
+            "start": 18.913,
+            "end": 19.342
+          },
+          {
+            "text": "in",
+            "start": 19.423,
+            "end": 19.551
+          },
+          {
+            "text": "a",
+            "start": 19.609,
+            "end": 19.644
+          },
+          {
+            "text": "big",
+            "start": 19.749,
+            "end": 20.085
+          },
+          {
+            "text": "oak",
+            "start": 20.236,
+            "end": 20.619
+          },
+          {
+            "text": "at",
+            "start": 20.724,
+            "end": 20.875
+          },
+          {
+            "text": "the",
+            "start": 20.933,
+            "end": 21.014
+          },
+          {
+            "text": "edge",
+            "start": 21.13,
+            "end": 21.455
+          },
+          {
+            "text": "of",
+            "start": 21.49,
+            "end": 21.56
+          },
+          {
+            "text": "the",
+            "start": 21.629,
+            "end": 21.699
+          },
+          {
+            "text": "meadow,",
+            "start": 21.757,
+            "end": 22.28
+          },
+          {
+            "text": "dozing",
+            "start": 22.663,
+            "end": 23.301
+          },
+          {
+            "text": "gently",
+            "start": 23.417,
+            "end": 23.882
+          },
+          {
+            "text": "in",
+            "start": 23.928,
+            "end": 23.998
+          },
+          {
+            "text": "the",
+            "start": 24.056,
+            "end": 24.126
+          },
+          {
+            "text": "sunlight,",
+            "start": 24.172,
+            "end": 24.938
+          },
+          {
+            "text": "and",
+            "start": 24.961,
+            "end": 25.136
+          },
+          {
+            "text": "a",
+            "start": 25.205,
+            "end": 25.24
+          },
+          {
+            "text": "small",
+            "start": 25.356,
+            "end": 25.832
+          },
+          {
+            "text": "frog",
+            "start": 25.948,
+            "end": 26.413
+          },
+          {
+            "text": "sat",
+            "start": 26.529,
+            "end": 26.854
+          },
+          {
+            "text": "on",
+            "start": 26.935,
+            "end": 27.074
+          },
+          {
+            "text": "a",
+            "start": 27.132,
+            "end": 27.156
+          },
+          {
+            "text": "mossy",
+            "start": 27.249,
+            "end": 27.678
+          },
+          {
+            "text": "rock",
+            "start": 27.771,
+            "end": 28.096
+          },
+          {
+            "text": "nearby.",
+            "start": 28.189,
+            "end": 28.932
+          },
+          {
+            "text": "They",
+            "start": 28.99,
+            "end": 29.187
+          },
+          {
+            "text": "were",
+            "start": 29.234,
+            "end": 29.385
+          },
+          {
+            "text": "Pip's",
+            "start": 29.431,
+            "end": 29.884
+          },
+          {
+            "text": "dear",
+            "start": 30.035,
+            "end": 30.348
+          },
+          {
+            "text": "friends,",
+            "start": 30.441,
+            "end": 31.15
+          },
+          {
+            "text": "gathering",
+            "start": 31.184,
+            "end": 31.753
+          },
+          {
+            "text": "here",
+            "start": 31.835,
+            "end": 32.113
+          },
+          {
+            "text": "every",
+            "start": 32.229,
+            "end": 32.694
+          },
+          {
+            "text": "afternoon.",
+            "start": 32.787,
+            "end": 33.669
+          },
+          {
+            "text": "Pip",
+            "start": 33.715,
+            "end": 34.052
+          },
+          {
+            "text": "chirped",
+            "start": 34.168,
+            "end": 34.598
+          },
+          {
+            "text": "a",
+            "start": 34.644,
+            "end": 34.679
+          },
+          {
+            "text": "joyful",
+            "start": 34.795,
+            "end": 35.341
+          },
+          {
+            "text": "hello,",
+            "start": 35.422,
+            "end": 35.979
+          },
+          {
+            "text": "announcing",
+            "start": 36.014,
+            "end": 36.711
+          },
+          {
+            "text": "it",
+            "start": 36.78,
+            "end": 36.861
+          },
+          {
+            "text": "was",
+            "start": 36.908,
+            "end": 37.047
+          },
+          {
+            "text": "time",
+            "start": 37.117,
+            "end": 37.5
+          },
+          {
+            "text": "to",
+            "start": 37.546,
+            "end": 37.639
+          },
+          {
+            "text": "celebrate",
+            "start": 37.732,
+            "end": 38.359
+          },
+          {
+            "text": "the",
+            "start": 38.394,
+            "end": 38.475
+          },
+          {
+            "text": "flowers",
+            "start": 38.522,
+            "end": 38.986
+          },
+          {
+            "text": "opening.",
+            "start": 39.044,
+            "end": 39.706
+          },
+          {
+            "text": "Good",
+            "start": 40.82,
+            "end": 41.041
+          },
+          {
+            "text": "things",
+            "start": 41.076,
+            "end": 41.343
+          },
+          {
+            "text": "are",
+            "start": 41.378,
+            "end": 41.459
+          },
+          {
+            "text": "worth",
+            "start": 41.482,
+            "end": 41.68
+          },
+          {
+            "text": "waiting",
+            "start": 41.726,
+            "end": 42.063
+          },
+          {
+            "text": "for,",
+            "start": 42.132,
+            "end": 42.411
+          },
+          {
+            "text": "Pip",
+            "start": 42.457,
+            "end": 42.701
+          },
+          {
+            "text": "thought,",
+            "start": 42.771,
+            "end": 43.235
+          },
+          {
+            "text": "and",
+            "start": 43.259,
+            "end": 43.409
+          },
+          {
+            "text": "the",
+            "start": 43.456,
+            "end": 43.526
+          },
+          {
+            "text": "whole",
+            "start": 43.572,
+            "end": 43.804
+          },
+          {
+            "text": "meadow",
+            "start": 43.851,
+            "end": 44.164
+          },
+          {
+            "text": "seemed",
+            "start": 44.245,
+            "end": 44.559
+          },
+          {
+            "text": "warmer",
+            "start": 44.629,
+            "end": 45.0
+          },
+          {
+            "text": "with",
+            "start": 45.046,
+            "end": 45.186
+          },
+          {
+            "text": "that",
+            "start": 45.232,
+            "end": 45.418
+          },
+          {
+            "text": "thought.",
+            "start": 45.476,
+            "end": 45.952
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Something's Missing",
+        "videoOffset": 49.275,
+        "words": [
+          {
+            "text": "At",
+            "start": 0.174,
+            "end": 0.348
+          },
+          {
+            "text": "the",
+            "start": 0.395,
+            "end": 0.476
+          },
+          {
+            "text": "wildflower",
+            "start": 0.546,
+            "end": 1.312
+          },
+          {
+            "text": "patch",
+            "start": 1.382,
+            "end": 1.869
+          },
+          {
+            "text": "in",
+            "start": 1.927,
+            "end": 2.009
+          },
+          {
+            "text": "the",
+            "start": 2.067,
+            "end": 2.136
+          },
+          {
+            "text": "middle",
+            "start": 2.194,
+            "end": 2.496
+          },
+          {
+            "text": "of",
+            "start": 2.531,
+            "end": 2.601
+          },
+          {
+            "text": "the",
+            "start": 2.682,
+            "end": 2.752
+          },
+          {
+            "text": "meadow,",
+            "start": 2.821,
+            "end": 3.379
+          },
+          {
+            "text": "Pip",
+            "start": 3.495,
+            "end": 3.866
+          },
+          {
+            "text": "landed",
+            "start": 4.017,
+            "end": 4.563
+          },
+          {
+            "text": "softly,",
+            "start": 4.679,
+            "end": 5.515
+          },
+          {
+            "text": "looking",
+            "start": 5.608,
+            "end": 5.979
+          },
+          {
+            "text": "around",
+            "start": 6.049,
+            "end": 6.536
+          },
+          {
+            "text": "with",
+            "start": 6.618,
+            "end": 6.803
+          },
+          {
+            "text": "sharp",
+            "start": 6.885,
+            "end": 7.338
+          },
+          {
+            "text": "eyes.",
+            "start": 7.43,
+            "end": 8.197
+          },
+          {
+            "text": "The",
+            "start": 8.243,
+            "end": 8.359
+          },
+          {
+            "text": "flowers",
+            "start": 8.44,
+            "end": 9.079
+          },
+          {
+            "text": "swayed",
+            "start": 9.172,
+            "end": 9.776
+          },
+          {
+            "text": "in",
+            "start": 9.834,
+            "end": 9.915
+          },
+          {
+            "text": "the",
+            "start": 9.961,
+            "end": 10.054
+          },
+          {
+            "text": "afternoon",
+            "start": 10.136,
+            "end": 10.774
+          },
+          {
+            "text": "breeze,",
+            "start": 10.855,
+            "end": 11.459
+          },
+          {
+            "text": "but",
+            "start": 11.494,
+            "end": 11.68
+          },
+          {
+            "text": "only",
+            "start": 11.761,
+            "end": 12.179
+          },
+          {
+            "text": "a",
+            "start": 12.249,
+            "end": 12.283
+          },
+          {
+            "text": "few",
+            "start": 12.399,
+            "end": 12.725
+          },
+          {
+            "text": "had",
+            "start": 12.794,
+            "end": 12.922
+          },
+          {
+            "text": "opened--most",
+            "start": 12.992,
+            "end": 14.338
+          },
+          {
+            "text": "were",
+            "start": 14.42,
+            "end": 14.605
+          },
+          {
+            "text": "still",
+            "start": 14.652,
+            "end": 15.081
+          },
+          {
+            "text": "tightly",
+            "start": 15.197,
+            "end": 15.79
+          },
+          {
+            "text": "closed.",
+            "start": 15.882,
+            "end": 16.684
+          },
+          {
+            "text": "The",
+            "start": 16.742,
+            "end": 16.893
+          },
+          {
+            "text": "owl",
+            "start": 17.009,
+            "end": 17.519
+          },
+          {
+            "text": "ruffled",
+            "start": 17.67,
+            "end": 18.146
+          },
+          {
+            "text": "his",
+            "start": 18.204,
+            "end": 18.344
+          },
+          {
+            "text": "feathers",
+            "start": 18.425,
+            "end": 18.936
+          },
+          {
+            "text": "and",
+            "start": 19.006,
+            "end": 19.168
+          },
+          {
+            "text": "quietly",
+            "start": 19.284,
+            "end": 20.051
+          },
+          {
+            "text": "mentioned",
+            "start": 20.144,
+            "end": 20.759
+          },
+          {
+            "text": "that",
+            "start": 20.84,
+            "end": 21.026
+          },
+          {
+            "text": "not",
+            "start": 21.096,
+            "end": 21.397
+          },
+          {
+            "text": "all",
+            "start": 21.444,
+            "end": 21.804
+          },
+          {
+            "text": "the",
+            "start": 21.92,
+            "end": 22.001
+          },
+          {
+            "text": "flowers",
+            "start": 22.059,
+            "end": 22.57
+          },
+          {
+            "text": "might",
+            "start": 22.64,
+            "end": 22.849
+          },
+          {
+            "text": "bloom",
+            "start": 22.895,
+            "end": 23.197
+          },
+          {
+            "text": "in",
+            "start": 23.267,
+            "end": 23.348
+          },
+          {
+            "text": "time",
+            "start": 23.429,
+            "end": 23.859
+          },
+          {
+            "text": "for",
+            "start": 23.917,
+            "end": 24.079
+          },
+          {
+            "text": "a",
+            "start": 24.137,
+            "end": 24.172
+          },
+          {
+            "text": "proper",
+            "start": 24.242,
+            "end": 24.579
+          },
+          {
+            "text": "celebration.",
+            "start": 24.637,
+            "end": 25.67
+          },
+          {
+            "text": "The",
+            "start": 25.716,
+            "end": 25.832
+          },
+          {
+            "text": "frog",
+            "start": 25.902,
+            "end": 26.227
+          },
+          {
+            "text": "nodded,",
+            "start": 26.343,
+            "end": 26.912
+          },
+          {
+            "text": "asking",
+            "start": 26.935,
+            "end": 27.527
+          },
+          {
+            "text": "gently",
+            "start": 27.644,
+            "end": 28.236
+          },
+          {
+            "text": "if",
+            "start": 28.317,
+            "end": 28.468
+          },
+          {
+            "text": "they",
+            "start": 28.526,
+            "end": 28.677
+          },
+          {
+            "text": "could",
+            "start": 28.723,
+            "end": 28.886
+          },
+          {
+            "text": "wait",
+            "start": 28.944,
+            "end": 29.304
+          },
+          {
+            "text": "a",
+            "start": 29.42,
+            "end": 29.501
+          },
+          {
+            "text": "little",
+            "start": 29.594,
+            "end": 29.896
+          },
+          {
+            "text": "longer.",
+            "start": 29.954,
+            "end": 30.569
+          },
+          {
+            "text": "A",
+            "start": 30.604,
+            "end": 30.674
+          },
+          {
+            "text": "soft",
+            "start": 30.825,
+            "end": 31.312
+          },
+          {
+            "text": "worry",
+            "start": 31.394,
+            "end": 31.893
+          },
+          {
+            "text": "settled",
+            "start": 32.009,
+            "end": 32.473
+          },
+          {
+            "text": "over",
+            "start": 32.531,
+            "end": 32.775
+          },
+          {
+            "text": "the",
+            "start": 32.845,
+            "end": 32.915
+          },
+          {
+            "text": "three",
+            "start": 32.984,
+            "end": 33.309
+          },
+          {
+            "text": "friends:",
+            "start": 33.391,
+            "end": 34.215
+          },
+          {
+            "text": "What",
+            "start": 34.238,
+            "end": 34.482
+          },
+          {
+            "text": "if",
+            "start": 34.552,
+            "end": 34.691
+          },
+          {
+            "text": "the",
+            "start": 34.76,
+            "end": 34.853
+          },
+          {
+            "text": "wildflowers",
+            "start": 34.969,
+            "end": 36.049
+          },
+          {
+            "text": "didn't",
+            "start": 36.13,
+            "end": 36.432
+          },
+          {
+            "text": "bloom",
+            "start": 36.479,
+            "end": 36.781
+          },
+          {
+            "text": "in",
+            "start": 36.85,
+            "end": 36.932
+          },
+          {
+            "text": "time",
+            "start": 37.013,
+            "end": 37.431
+          },
+          {
+            "text": "for",
+            "start": 37.489,
+            "end": 37.628
+          },
+          {
+            "text": "their",
+            "start": 37.675,
+            "end": 37.872
+          },
+          {
+            "text": "afternoon",
+            "start": 37.942,
+            "end": 38.65
+          },
+          {
+            "text": "party?",
+            "start": 38.743,
+            "end": 39.463
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Pip's First Idea",
+        "videoOffset": 89.096,
+        "words": [
+          {
+            "text": "Pip",
+            "start": 0.116,
+            "end": 0.43
+          },
+          {
+            "text": "flew",
+            "start": 0.58,
+            "end": 0.998
+          },
+          {
+            "text": "up",
+            "start": 1.115,
+            "end": 1.347
+          },
+          {
+            "text": "to",
+            "start": 1.44,
+            "end": 1.567
+          },
+          {
+            "text": "a",
+            "start": 1.683,
+            "end": 1.718
+          },
+          {
+            "text": "tall",
+            "start": 1.8,
+            "end": 2.171
+          },
+          {
+            "text": "stem",
+            "start": 2.287,
+            "end": 2.705
+          },
+          {
+            "text": "near",
+            "start": 2.821,
+            "end": 3.042
+          },
+          {
+            "text": "the",
+            "start": 3.1,
+            "end": 3.17
+          },
+          {
+            "text": "wildflowers,",
+            "start": 3.239,
+            "end": 4.412
+          },
+          {
+            "text": "looking",
+            "start": 4.47,
+            "end": 4.946
+          },
+          {
+            "text": "at",
+            "start": 5.062,
+            "end": 5.236
+          },
+          {
+            "text": "the",
+            "start": 5.283,
+            "end": 5.352
+          },
+          {
+            "text": "closed",
+            "start": 5.41,
+            "end": 5.956
+          },
+          {
+            "text": "buds,",
+            "start": 6.037,
+            "end": 6.641
+          },
+          {
+            "text": "trying",
+            "start": 6.664,
+            "end": 7.175
+          },
+          {
+            "text": "to",
+            "start": 7.256,
+            "end": 7.349
+          },
+          {
+            "text": "understand",
+            "start": 7.465,
+            "end": 8.231
+          },
+          {
+            "text": "what",
+            "start": 8.324,
+            "end": 8.545
+          },
+          {
+            "text": "they",
+            "start": 8.603,
+            "end": 8.754
+          },
+          {
+            "text": "needed.",
+            "start": 8.824,
+            "end": 9.334
+          },
+          {
+            "text": "Maybe",
+            "start": 9.404,
+            "end": 9.973
+          },
+          {
+            "text": "they",
+            "start": 10.089,
+            "end": 10.298
+          },
+          {
+            "text": "need",
+            "start": 10.368,
+            "end": 10.6
+          },
+          {
+            "text": "more",
+            "start": 10.681,
+            "end": 10.925
+          },
+          {
+            "text": "sun,",
+            "start": 11.006,
+            "end": 11.494
+          },
+          {
+            "text": "he",
+            "start": 11.552,
+            "end": 11.668
+          },
+          {
+            "text": "suggested,",
+            "start": 11.738,
+            "end": 12.55
+          },
+          {
+            "text": "flapping",
+            "start": 12.597,
+            "end": 13.119
+          },
+          {
+            "text": "his",
+            "start": 13.212,
+            "end": 13.34
+          },
+          {
+            "text": "small",
+            "start": 13.398,
+            "end": 13.781
+          },
+          {
+            "text": "wings",
+            "start": 13.874,
+            "end": 14.396
+          },
+          {
+            "text": "to",
+            "start": 14.478,
+            "end": 14.582
+          },
+          {
+            "text": "move",
+            "start": 14.698,
+            "end": 15.035
+          },
+          {
+            "text": "the",
+            "start": 15.093,
+            "end": 15.197
+          },
+          {
+            "text": "tall",
+            "start": 15.256,
+            "end": 15.581
+          },
+          {
+            "text": "grass",
+            "start": 15.662,
+            "end": 16.115
+          },
+          {
+            "text": "aside",
+            "start": 16.161,
+            "end": 16.73
+          },
+          {
+            "text": "to",
+            "start": 16.788,
+            "end": 16.893
+          },
+          {
+            "text": "let",
+            "start": 16.974,
+            "end": 17.194
+          },
+          {
+            "text": "more",
+            "start": 17.31,
+            "end": 17.577
+          },
+          {
+            "text": "light",
+            "start": 17.636,
+            "end": 18.007
+          },
+          {
+            "text": "reach",
+            "start": 18.123,
+            "end": 18.448
+          },
+          {
+            "text": "the",
+            "start": 18.529,
+            "end": 18.61
+          },
+          {
+            "text": "flowers.",
+            "start": 18.668,
+            "end": 19.365
+          },
+          {
+            "text": "The",
+            "start": 19.411,
+            "end": 19.551
+          },
+          {
+            "text": "owl",
+            "start": 19.644,
+            "end": 20.096
+          },
+          {
+            "text": "watched",
+            "start": 20.213,
+            "end": 20.677
+          },
+          {
+            "text": "carefully",
+            "start": 20.747,
+            "end": 21.211
+          },
+          {
+            "text": "and",
+            "start": 21.246,
+            "end": 21.316
+          },
+          {
+            "text": "said",
+            "start": 21.362,
+            "end": 21.513
+          },
+          {
+            "text": "the",
+            "start": 21.548,
+            "end": 21.617
+          },
+          {
+            "text": "grass",
+            "start": 21.664,
+            "end": 22.07
+          },
+          {
+            "text": "was",
+            "start": 22.117,
+            "end": 22.233
+          },
+          {
+            "text": "too",
+            "start": 22.291,
+            "end": 22.465
+          },
+          {
+            "text": "thick",
+            "start": 22.558,
+            "end": 22.871
+          },
+          {
+            "text": "for",
+            "start": 22.953,
+            "end": 23.069
+          },
+          {
+            "text": "Pip's",
+            "start": 23.127,
+            "end": 23.452
+          },
+          {
+            "text": "little",
+            "start": 23.498,
+            "end": 23.777
+          },
+          {
+            "text": "wings",
+            "start": 23.823,
+            "end": 24.253
+          },
+          {
+            "text": "alone.",
+            "start": 24.311,
+            "end": 24.903
+          },
+          {
+            "text": "The",
+            "start": 24.973,
+            "end": 25.077
+          },
+          {
+            "text": "frog",
+            "start": 25.147,
+            "end": 25.449
+          },
+          {
+            "text": "hopped",
+            "start": 25.53,
+            "end": 25.878
+          },
+          {
+            "text": "over,",
+            "start": 25.936,
+            "end": 26.203
+          },
+          {
+            "text": "using",
+            "start": 26.261,
+            "end": 26.563
+          },
+          {
+            "text": "his",
+            "start": 26.621,
+            "end": 26.726
+          },
+          {
+            "text": "strong",
+            "start": 26.784,
+            "end": 27.202
+          },
+          {
+            "text": "legs",
+            "start": 27.283,
+            "end": 27.643
+          },
+          {
+            "text": "to",
+            "start": 27.701,
+            "end": 27.771
+          },
+          {
+            "text": "push",
+            "start": 27.852,
+            "end": 28.165
+          },
+          {
+            "text": "the",
+            "start": 28.235,
+            "end": 28.305
+          },
+          {
+            "text": "grass,",
+            "start": 28.363,
+            "end": 28.932
+          },
+          {
+            "text": "but",
+            "start": 28.966,
+            "end": 29.129
+          },
+          {
+            "text": "the",
+            "start": 29.164,
+            "end": 29.245
+          },
+          {
+            "text": "stems",
+            "start": 29.315,
+            "end": 29.86
+          },
+          {
+            "text": "bounced",
+            "start": 29.953,
+            "end": 30.522
+          },
+          {
+            "text": "back",
+            "start": 30.592,
+            "end": 30.929
+          },
+          {
+            "text": "quickly.",
+            "start": 31.045,
+            "end": 31.59
+          },
+          {
+            "text": "The",
+            "start": 31.637,
+            "end": 31.753
+          },
+          {
+            "text": "wildflowers",
+            "start": 31.834,
+            "end": 32.716
+          },
+          {
+            "text": "stayed",
+            "start": 32.763,
+            "end": 33.204
+          },
+          {
+            "text": "just",
+            "start": 33.32,
+            "end": 33.668
+          },
+          {
+            "text": "as",
+            "start": 33.727,
+            "end": 33.819
+          },
+          {
+            "text": "they",
+            "start": 33.889,
+            "end": 34.04
+          },
+          {
+            "text": "were--buds",
+            "start": 34.11,
+            "end": 35.096
+          },
+          {
+            "text": "tightly",
+            "start": 35.213,
+            "end": 35.828
+          },
+          {
+            "text": "closed,",
+            "start": 35.898,
+            "end": 36.687
+          },
+          {
+            "text": "and",
+            "start": 36.71,
+            "end": 36.803
+          },
+          {
+            "text": "the",
+            "start": 36.838,
+            "end": 36.908
+          },
+          {
+            "text": "celebration",
+            "start": 36.954,
+            "end": 37.778
+          },
+          {
+            "text": "was",
+            "start": 37.836,
+            "end": 37.953
+          },
+          {
+            "text": "still",
+            "start": 37.999,
+            "end": 38.278
+          },
+          {
+            "text": "missing",
+            "start": 38.347,
+            "end": 38.742
+          },
+          {
+            "text": "its",
+            "start": 38.812,
+            "end": 38.974
+          },
+          {
+            "text": "flowers.",
+            "start": 39.032,
+            "end": 39.74
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Owl's Suggestion",
+        "videoOffset": 129.195,
+        "words": [
+          {
+            "text": "The",
+            "start": 0.081,
+            "end": 0.221
+          },
+          {
+            "text": "owl",
+            "start": 0.337,
+            "end": 0.917
+          },
+          {
+            "text": "spread",
+            "start": 1.091,
+            "end": 1.602
+          },
+          {
+            "text": "one",
+            "start": 1.718,
+            "end": 2.183
+          },
+          {
+            "text": "big",
+            "start": 2.264,
+            "end": 2.624
+          },
+          {
+            "text": "wing,",
+            "start": 2.74,
+            "end": 3.239
+          },
+          {
+            "text": "pointing",
+            "start": 3.297,
+            "end": 3.924
+          },
+          {
+            "text": "toward",
+            "start": 4.017,
+            "end": 4.447
+          },
+          {
+            "text": "the",
+            "start": 4.516,
+            "end": 4.609
+          },
+          {
+            "text": "far",
+            "start": 4.702,
+            "end": 5.016
+          },
+          {
+            "text": "side",
+            "start": 5.132,
+            "end": 5.573
+          },
+          {
+            "text": "of",
+            "start": 5.608,
+            "end": 5.677
+          },
+          {
+            "text": "the",
+            "start": 5.759,
+            "end": 5.828
+          },
+          {
+            "text": "meadow",
+            "start": 5.898,
+            "end": 6.316
+          },
+          {
+            "text": "where",
+            "start": 6.467,
+            "end": 6.734
+          },
+          {
+            "text": "a",
+            "start": 6.78,
+            "end": 6.815
+          },
+          {
+            "text": "small",
+            "start": 6.931,
+            "end": 7.43
+          },
+          {
+            "text": "stream",
+            "start": 7.546,
+            "end": 8.162
+          },
+          {
+            "text": "flowed",
+            "start": 8.29,
+            "end": 8.8
+          },
+          {
+            "text": "beside",
+            "start": 8.87,
+            "end": 9.346
+          },
+          {
+            "text": "the",
+            "start": 9.392,
+            "end": 9.462
+          },
+          {
+            "text": "grass.",
+            "start": 9.52,
+            "end": 10.252
+          },
+          {
+            "text": "Maybe",
+            "start": 10.31,
+            "end": 10.844
+          },
+          {
+            "text": "the",
+            "start": 10.913,
+            "end": 11.018
+          },
+          {
+            "text": "flowers",
+            "start": 11.088,
+            "end": 11.575
+          },
+          {
+            "text": "were",
+            "start": 11.633,
+            "end": 11.784
+          },
+          {
+            "text": "thirsty",
+            "start": 11.842,
+            "end": 12.516
+          },
+          {
+            "text": "and",
+            "start": 12.597,
+            "end": 12.771
+          },
+          {
+            "text": "needed",
+            "start": 12.852,
+            "end": 13.201
+          },
+          {
+            "text": "a",
+            "start": 13.259,
+            "end": 13.293
+          },
+          {
+            "text": "drink",
+            "start": 13.363,
+            "end": 13.735
+          },
+          {
+            "text": "to",
+            "start": 13.816,
+            "end": 13.909
+          },
+          {
+            "text": "help",
+            "start": 14.002,
+            "end": 14.234
+          },
+          {
+            "text": "them",
+            "start": 14.315,
+            "end": 14.489
+          },
+          {
+            "text": "open.",
+            "start": 14.605,
+            "end": 15.139
+          },
+          {
+            "text": "Pip's",
+            "start": 15.174,
+            "end": 15.604
+          },
+          {
+            "text": "eyes",
+            "start": 15.72,
+            "end": 16.115
+          },
+          {
+            "text": "sparkled,",
+            "start": 16.196,
+            "end": 17.067
+          },
+          {
+            "text": "and",
+            "start": 17.09,
+            "end": 17.229
+          },
+          {
+            "text": "the",
+            "start": 17.287,
+            "end": 17.369
+          },
+          {
+            "text": "frog",
+            "start": 17.45,
+            "end": 17.879
+          },
+          {
+            "text": "immediately",
+            "start": 17.995,
+            "end": 19.028
+          },
+          {
+            "text": "volunteered--carrying",
+            "start": 19.11,
+            "end": 20.77
+          },
+          {
+            "text": "water",
+            "start": 20.863,
+            "end": 21.316
+          },
+          {
+            "text": "was",
+            "start": 21.385,
+            "end": 21.513
+          },
+          {
+            "text": "something",
+            "start": 21.559,
+            "end": 21.861
+          },
+          {
+            "text": "he",
+            "start": 21.908,
+            "end": 21.954
+          },
+          {
+            "text": "could",
+            "start": 22.001,
+            "end": 22.151
+          },
+          {
+            "text": "do",
+            "start": 22.186,
+            "end": 22.279
+          },
+          {
+            "text": "well.",
+            "start": 22.337,
+            "end": 22.918
+          },
+          {
+            "text": "The",
+            "start": 23.162,
+            "end": 23.278
+          },
+          {
+            "text": "frog",
+            "start": 23.336,
+            "end": 23.603
+          },
+          {
+            "text": "hopped",
+            "start": 23.684,
+            "end": 24.09
+          },
+          {
+            "text": "to",
+            "start": 24.172,
+            "end": 24.276
+          },
+          {
+            "text": "the",
+            "start": 24.357,
+            "end": 24.427
+          },
+          {
+            "text": "stream,",
+            "start": 24.485,
+            "end": 25.008
+          },
+          {
+            "text": "returning",
+            "start": 25.066,
+            "end": 25.669
+          },
+          {
+            "text": "with",
+            "start": 25.739,
+            "end": 25.89
+          },
+          {
+            "text": "wet",
+            "start": 25.971,
+            "end": 26.331
+          },
+          {
+            "text": "moss",
+            "start": 26.447,
+            "end": 26.935
+          },
+          {
+            "text": "balanced",
+            "start": 27.051,
+            "end": 27.597
+          },
+          {
+            "text": "on",
+            "start": 27.655,
+            "end": 27.747
+          },
+          {
+            "text": "his",
+            "start": 27.806,
+            "end": 27.91
+          },
+          {
+            "text": "wide",
+            "start": 27.98,
+            "end": 28.305
+          },
+          {
+            "text": "head,",
+            "start": 28.363,
+            "end": 28.758
+          },
+          {
+            "text": "dripping",
+            "start": 28.827,
+            "end": 29.326
+          },
+          {
+            "text": "cool",
+            "start": 29.443,
+            "end": 29.849
+          },
+          {
+            "text": "water",
+            "start": 29.965,
+            "end": 30.464
+          },
+          {
+            "text": "onto",
+            "start": 30.557,
+            "end": 30.836
+          },
+          {
+            "text": "the",
+            "start": 30.917,
+            "end": 30.998
+          },
+          {
+            "text": "soil",
+            "start": 31.068,
+            "end": 31.509
+          },
+          {
+            "text": "near",
+            "start": 31.602,
+            "end": 31.765
+          },
+          {
+            "text": "the",
+            "start": 31.799,
+            "end": 31.869
+          },
+          {
+            "text": "wildflowers.",
+            "start": 31.927,
+            "end": 33.123
+          },
+          {
+            "text": "The",
+            "start": 33.297,
+            "end": 33.402
+          },
+          {
+            "text": "ground",
+            "start": 33.471,
+            "end": 34.04
+          },
+          {
+            "text": "soaked",
+            "start": 34.191,
+            "end": 34.69
+          },
+          {
+            "text": "it",
+            "start": 34.736,
+            "end": 34.818
+          },
+          {
+            "text": "up,",
+            "start": 34.899,
+            "end": 35.236
+          },
+          {
+            "text": "but",
+            "start": 35.27,
+            "end": 35.456
+          },
+          {
+            "text": "the",
+            "start": 35.491,
+            "end": 35.572
+          },
+          {
+            "text": "buds",
+            "start": 35.642,
+            "end": 36.106
+          },
+          {
+            "text": "still",
+            "start": 36.281,
+            "end": 36.768
+          },
+          {
+            "text": "didn't",
+            "start": 36.849,
+            "end": 37.209
+          },
+          {
+            "text": "open,",
+            "start": 37.279,
+            "end": 38.057
+          },
+          {
+            "text": "and",
+            "start": 38.661,
+            "end": 38.835
+          },
+          {
+            "text": "Pip",
+            "start": 38.928,
+            "end": 39.322
+          },
+          {
+            "text": "felt",
+            "start": 39.647,
+            "end": 40.182
+          },
+          {
+            "text": "a",
+            "start": 40.507,
+            "end": 40.623
+          },
+          {
+            "text": "little",
+            "start": 40.716,
+            "end": 40.983
+          },
+          {
+            "text": "doubtful--what",
+            "start": 41.017,
+            "end": 43.432
+          },
+          {
+            "text": "if",
+            "start": 43.548,
+            "end": 43.873
+          },
+          {
+            "text": "nothing",
+            "start": 44.048,
+            "end": 44.582
+          },
+          {
+            "text": "they",
+            "start": 44.698,
+            "end": 44.918
+          },
+          {
+            "text": "tried",
+            "start": 44.988,
+            "end": 45.661
+          },
+          {
+            "text": "would",
+            "start": 46.045,
+            "end": 46.288
+          },
+          {
+            "text": "work",
+            "start": 46.358,
+            "end": 46.834
+          },
+          {
+            "text": "in",
+            "start": 47.008,
+            "end": 47.24
+          },
+          {
+            "text": "time?",
+            "start": 47.356,
+            "end": 48.1
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "A Moment of Doubt",
+        "videoOffset": 177.745,
+        "words": [
+          {
+            "text": "Pip",
+            "start": 0.07,
+            "end": 0.383
+          },
+          {
+            "text": "sat",
+            "start": 0.592,
+            "end": 1.01
+          },
+          {
+            "text": "quietly",
+            "start": 1.115,
+            "end": 1.892
+          },
+          {
+            "text": "on",
+            "start": 2.02,
+            "end": 2.206
+          },
+          {
+            "text": "the",
+            "start": 2.264,
+            "end": 2.334
+          },
+          {
+            "text": "mossy",
+            "start": 2.403,
+            "end": 2.798
+          },
+          {
+            "text": "rock",
+            "start": 2.879,
+            "end": 3.204
+          },
+          {
+            "text": "where",
+            "start": 3.32,
+            "end": 3.529
+          },
+          {
+            "text": "the",
+            "start": 3.564,
+            "end": 3.646
+          },
+          {
+            "text": "frog",
+            "start": 3.727,
+            "end": 4.098
+          },
+          {
+            "text": "usually",
+            "start": 4.214,
+            "end": 4.725
+          },
+          {
+            "text": "sat,",
+            "start": 4.807,
+            "end": 5.364
+          },
+          {
+            "text": "and",
+            "start": 5.399,
+            "end": 5.584
+          },
+          {
+            "text": "for",
+            "start": 5.7,
+            "end": 5.898
+          },
+          {
+            "text": "a",
+            "start": 5.968,
+            "end": 6.002
+          },
+          {
+            "text": "moment,",
+            "start": 6.084,
+            "end": 6.711
+          },
+          {
+            "text": "the",
+            "start": 6.78,
+            "end": 6.908
+          },
+          {
+            "text": "little",
+            "start": 6.989,
+            "end": 7.314
+          },
+          {
+            "text": "joyful",
+            "start": 7.384,
+            "end": 7.906
+          },
+          {
+            "text": "bird",
+            "start": 7.988,
+            "end": 8.429
+          },
+          {
+            "text": "wasn't",
+            "start": 8.533,
+            "end": 8.975
+          },
+          {
+            "text": "sure",
+            "start": 9.044,
+            "end": 9.381
+          },
+          {
+            "text": "what",
+            "start": 9.439,
+            "end": 9.683
+          },
+          {
+            "text": "to",
+            "start": 9.752,
+            "end": 9.834
+          },
+          {
+            "text": "do.",
+            "start": 9.915,
+            "end": 10.31
+          },
+          {
+            "text": "The",
+            "start": 10.356,
+            "end": 10.495
+          },
+          {
+            "text": "afternoon",
+            "start": 10.588,
+            "end": 11.285
+          },
+          {
+            "text": "sun",
+            "start": 11.413,
+            "end": 11.761
+          },
+          {
+            "text": "was",
+            "start": 11.854,
+            "end": 12.04
+          },
+          {
+            "text": "slowly",
+            "start": 12.109,
+            "end": 12.725
+          },
+          {
+            "text": "moving",
+            "start": 12.817,
+            "end": 13.201
+          },
+          {
+            "text": "across",
+            "start": 13.27,
+            "end": 13.688
+          },
+          {
+            "text": "the",
+            "start": 13.758,
+            "end": 13.839
+          },
+          {
+            "text": "sky,",
+            "start": 13.897,
+            "end": 14.431
+          },
+          {
+            "text": "and",
+            "start": 14.454,
+            "end": 14.594
+          },
+          {
+            "text": "the",
+            "start": 14.663,
+            "end": 14.745
+          },
+          {
+            "text": "wildflowers",
+            "start": 14.826,
+            "end": 15.766
+          },
+          {
+            "text": "still",
+            "start": 15.836,
+            "end": 16.173
+          },
+          {
+            "text": "kept",
+            "start": 16.266,
+            "end": 16.625
+          },
+          {
+            "text": "their",
+            "start": 16.684,
+            "end": 16.881
+          },
+          {
+            "text": "buds",
+            "start": 16.939,
+            "end": 17.392
+          },
+          {
+            "text": "like",
+            "start": 17.496,
+            "end": 17.775
+          },
+          {
+            "text": "little",
+            "start": 17.856,
+            "end": 18.227
+          },
+          {
+            "text": "clenched",
+            "start": 18.285,
+            "end": 18.831
+          },
+          {
+            "text": "fists.",
+            "start": 18.936,
+            "end": 19.632
+          },
+          {
+            "text": "The",
+            "start": 19.667,
+            "end": 19.806
+          },
+          {
+            "text": "owl",
+            "start": 19.899,
+            "end": 20.282
+          },
+          {
+            "text": "sat",
+            "start": 20.387,
+            "end": 20.712
+          },
+          {
+            "text": "close",
+            "start": 20.793,
+            "end": 21.153
+          },
+          {
+            "text": "to",
+            "start": 21.188,
+            "end": 21.246
+          },
+          {
+            "text": "Pip,",
+            "start": 21.316,
+            "end": 21.664
+          },
+          {
+            "text": "gently",
+            "start": 21.699,
+            "end": 22.337
+          },
+          {
+            "text": "saying",
+            "start": 22.512,
+            "end": 22.837
+          },
+          {
+            "text": "that",
+            "start": 22.883,
+            "end": 23.011
+          },
+          {
+            "text": "sometimes",
+            "start": 23.069,
+            "end": 23.591
+          },
+          {
+            "text": "the",
+            "start": 23.649,
+            "end": 23.731
+          },
+          {
+            "text": "hardest",
+            "start": 23.812,
+            "end": 24.288
+          },
+          {
+            "text": "thing",
+            "start": 24.346,
+            "end": 24.671
+          },
+          {
+            "text": "is",
+            "start": 24.822,
+            "end": 25.019
+          },
+          {
+            "text": "just",
+            "start": 25.112,
+            "end": 25.437
+          },
+          {
+            "text": "to",
+            "start": 25.484,
+            "end": 25.553
+          },
+          {
+            "text": "be",
+            "start": 25.623,
+            "end": 25.739
+          },
+          {
+            "text": "patient.",
+            "start": 25.797,
+            "end": 26.517
+          },
+          {
+            "text": "The",
+            "start": 26.552,
+            "end": 26.668
+          },
+          {
+            "text": "frog",
+            "start": 26.738,
+            "end": 27.156
+          },
+          {
+            "text": "sat",
+            "start": 27.248,
+            "end": 27.539
+          },
+          {
+            "text": "quietly",
+            "start": 27.62,
+            "end": 28.247
+          },
+          {
+            "text": "too,",
+            "start": 28.317,
+            "end": 28.769
+          },
+          {
+            "text": "his",
+            "start": 28.816,
+            "end": 28.99
+          },
+          {
+            "text": "wide",
+            "start": 29.083,
+            "end": 29.512
+          },
+          {
+            "text": "eyes",
+            "start": 29.57,
+            "end": 29.965
+          },
+          {
+            "text": "gazing",
+            "start": 30.058,
+            "end": 30.627
+          },
+          {
+            "text": "at",
+            "start": 30.685,
+            "end": 30.766
+          },
+          {
+            "text": "the",
+            "start": 30.813,
+            "end": 30.882
+          },
+          {
+            "text": "flowers",
+            "start": 30.952,
+            "end": 31.591
+          },
+          {
+            "text": "with",
+            "start": 31.66,
+            "end": 31.834
+          },
+          {
+            "text": "a",
+            "start": 31.881,
+            "end": 31.916
+          },
+          {
+            "text": "calm",
+            "start": 31.997,
+            "end": 32.531
+          },
+          {
+            "text": "Pip",
+            "start": 32.682,
+            "end": 32.984
+          },
+          {
+            "text": "wished",
+            "start": 33.1,
+            "end": 33.529
+          },
+          {
+            "text": "he",
+            "start": 33.587,
+            "end": 33.657
+          },
+          {
+            "text": "could",
+            "start": 33.715,
+            "end": 33.901
+          },
+          {
+            "text": "feel.",
+            "start": 33.971,
+            "end": 34.493
+          },
+          {
+            "text": "Good",
+            "start": 34.551,
+            "end": 34.807
+          },
+          {
+            "text": "things",
+            "start": 34.876,
+            "end": 35.352
+          },
+          {
+            "text": "are",
+            "start": 35.422,
+            "end": 35.573
+          },
+          {
+            "text": "worth",
+            "start": 35.619,
+            "end": 35.921
+          },
+          {
+            "text": "waiting",
+            "start": 35.991,
+            "end": 36.397
+          },
+          {
+            "text": "for,",
+            "start": 36.49,
+            "end": 37.001
+          },
+          {
+            "text": "Pip",
+            "start": 37.036,
+            "end": 37.314
+          },
+          {
+            "text": "whispered",
+            "start": 37.465,
+            "end": 37.999
+          },
+          {
+            "text": "to",
+            "start": 38.034,
+            "end": 38.092
+          },
+          {
+            "text": "the",
+            "start": 38.162,
+            "end": 38.232
+          },
+          {
+            "text": "afternoon",
+            "start": 38.313,
+            "end": 38.789
+          },
+          {
+            "text": "air,",
+            "start": 38.905,
+            "end": 39.242
+          },
+          {
+            "text": "trying",
+            "start": 39.277,
+            "end": 39.648
+          },
+          {
+            "text": "to",
+            "start": 39.706,
+            "end": 39.764
+          },
+          {
+            "text": "believe",
+            "start": 39.822,
+            "end": 40.321
+          },
+          {
+            "text": "again.",
+            "start": 40.368,
+            "end": 40.832
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Frog's Gentle Gift",
+        "videoOffset": 218.912,
+        "words": [
+          {
+            "text": "The",
+            "start": 0.07,
+            "end": 0.174
+          },
+          {
+            "text": "frog",
+            "start": 0.29,
+            "end": 0.697
+          },
+          {
+            "text": "cleared",
+            "start": 0.848,
+            "end": 1.393
+          },
+          {
+            "text": "his",
+            "start": 1.474,
+            "end": 1.637
+          },
+          {
+            "text": "throat",
+            "start": 1.718,
+            "end": 2.171
+          },
+          {
+            "text": "softly",
+            "start": 2.322,
+            "end": 3.007
+          },
+          {
+            "text": "and",
+            "start": 3.123,
+            "end": 3.309
+          },
+          {
+            "text": "began",
+            "start": 3.379,
+            "end": 3.855
+          },
+          {
+            "text": "to",
+            "start": 3.947,
+            "end": 4.063
+          },
+          {
+            "text": "hum--a",
+            "start": 4.156,
+            "end": 4.702
+          },
+          {
+            "text": "low,",
+            "start": 4.853,
+            "end": 5.341
+          },
+          {
+            "text": "steady",
+            "start": 5.457,
+            "end": 5.933
+          },
+          {
+            "text": "sound",
+            "start": 6.026,
+            "end": 6.56
+          },
+          {
+            "text": "that",
+            "start": 6.641,
+            "end": 6.827
+          },
+          {
+            "text": "rippled",
+            "start": 6.943,
+            "end": 7.523
+          },
+          {
+            "text": "through",
+            "start": 7.605,
+            "end": 7.883
+          },
+          {
+            "text": "the",
+            "start": 7.918,
+            "end": 7.988
+          },
+          {
+            "text": "meadow",
+            "start": 8.046,
+            "end": 8.348
+          },
+          {
+            "text": "grass",
+            "start": 8.417,
+            "end": 8.951
+          },
+          {
+            "text": "like",
+            "start": 9.033,
+            "end": 9.265
+          },
+          {
+            "text": "a",
+            "start": 9.3,
+            "end": 9.334
+          },
+          {
+            "text": "gentle",
+            "start": 9.451,
+            "end": 9.985
+          },
+          {
+            "text": "heartbeat.",
+            "start": 10.066,
+            "end": 11.053
+          },
+          {
+            "text": "Pip",
+            "start": 11.088,
+            "end": 11.447
+          },
+          {
+            "text": "lifted",
+            "start": 11.564,
+            "end": 12.005
+          },
+          {
+            "text": "his",
+            "start": 12.074,
+            "end": 12.237
+          },
+          {
+            "text": "head,",
+            "start": 12.318,
+            "end": 12.713
+          },
+          {
+            "text": "surprised,",
+            "start": 12.829,
+            "end": 13.793
+          },
+          {
+            "text": "as",
+            "start": 13.816,
+            "end": 13.978
+          },
+          {
+            "text": "the",
+            "start": 14.06,
+            "end": 14.153
+          },
+          {
+            "text": "frog",
+            "start": 14.245,
+            "end": 14.629
+          },
+          {
+            "text": "had",
+            "start": 14.71,
+            "end": 14.872
+          },
+          {
+            "text": "never",
+            "start": 14.988,
+            "end": 15.337
+          },
+          {
+            "text": "hummed",
+            "start": 15.43,
+            "end": 15.882
+          },
+          {
+            "text": "like",
+            "start": 15.975,
+            "end": 16.208
+          },
+          {
+            "text": "that",
+            "start": 16.242,
+            "end": 16.463
+          },
+          {
+            "text": "before.",
+            "start": 16.533,
+            "end": 17.078
+          },
+          {
+            "text": "The",
+            "start": 17.148,
+            "end": 17.287
+          },
+          {
+            "text": "owl",
+            "start": 17.369,
+            "end": 17.751
+          },
+          {
+            "text": "nodded",
+            "start": 17.867,
+            "end": 18.262
+          },
+          {
+            "text": "his",
+            "start": 18.332,
+            "end": 18.494
+          },
+          {
+            "text": "head,",
+            "start": 18.576,
+            "end": 19.063
+          },
+          {
+            "text": "listening,",
+            "start": 19.144,
+            "end": 19.806
+          },
+          {
+            "text": "and",
+            "start": 19.841,
+            "end": 20.015
+          },
+          {
+            "text": "the",
+            "start": 20.096,
+            "end": 20.201
+          },
+          {
+            "text": "afternoon",
+            "start": 20.317,
+            "end": 20.967
+          },
+          {
+            "text": "breeze",
+            "start": 21.037,
+            "end": 21.78
+          },
+          {
+            "text": "seemed",
+            "start": 21.803,
+            "end": 22.14
+          },
+          {
+            "text": "to",
+            "start": 22.163,
+            "end": 22.209
+          },
+          {
+            "text": "slow,",
+            "start": 22.326,
+            "end": 23.127
+          },
+          {
+            "text": "as",
+            "start": 23.15,
+            "end": 23.312
+          },
+          {
+            "text": "if",
+            "start": 23.382,
+            "end": 23.51
+          },
+          {
+            "text": "wanting",
+            "start": 23.603,
+            "end": 24.102
+          },
+          {
+            "text": "to",
+            "start": 24.183,
+            "end": 24.253
+          },
+          {
+            "text": "listen",
+            "start": 24.334,
+            "end": 24.659
+          },
+          {
+            "text": "too.",
+            "start": 24.74,
+            "end": 25.321
+          },
+          {
+            "text": "The",
+            "start": 25.437,
+            "end": 25.553
+          },
+          {
+            "text": "frog",
+            "start": 25.646,
+            "end": 26.052
+          },
+          {
+            "text": "explained",
+            "start": 26.122,
+            "end": 26.923
+          },
+          {
+            "text": "in",
+            "start": 26.981,
+            "end": 27.062
+          },
+          {
+            "text": "his",
+            "start": 27.132,
+            "end": 27.26
+          },
+          {
+            "text": "gentle",
+            "start": 27.353,
+            "end": 27.852
+          },
+          {
+            "text": "way",
+            "start": 27.91,
+            "end": 28.293
+          },
+          {
+            "text": "that",
+            "start": 28.409,
+            "end": 28.583
+          },
+          {
+            "text": "his",
+            "start": 28.63,
+            "end": 28.746
+          },
+          {
+            "text": "grandmother",
+            "start": 28.827,
+            "end": 29.559
+          },
+          {
+            "text": "used",
+            "start": 29.675,
+            "end": 29.942
+          },
+          {
+            "text": "to",
+            "start": 29.977,
+            "end": 30.046
+          },
+          {
+            "text": "hum",
+            "start": 30.162,
+            "end": 30.545
+          },
+          {
+            "text": "to",
+            "start": 30.662,
+            "end": 30.754
+          },
+          {
+            "text": "the",
+            "start": 30.824,
+            "end": 30.905
+          },
+          {
+            "text": "lake",
+            "start": 30.975,
+            "end": 31.277
+          },
+          {
+            "text": "flowers,",
+            "start": 31.323,
+            "end": 32.043
+          },
+          {
+            "text": "and",
+            "start": 32.066,
+            "end": 32.206
+          },
+          {
+            "text": "they",
+            "start": 32.264,
+            "end": 32.426
+          },
+          {
+            "text": "always",
+            "start": 32.508,
+            "end": 33.158
+          },
+          {
+            "text": "opened",
+            "start": 33.274,
+            "end": 33.843
+          },
+          {
+            "text": "when",
+            "start": 33.912,
+            "end": 34.075
+          },
+          {
+            "text": "they",
+            "start": 34.121,
+            "end": 34.261
+          },
+          {
+            "text": "heard.",
+            "start": 34.342,
+            "end": 34.899
+          },
+          {
+            "text": "Now",
+            "start": 35.015,
+            "end": 35.387
+          },
+          {
+            "text": "the",
+            "start": 35.503,
+            "end": 35.607
+          },
+          {
+            "text": "three",
+            "start": 35.689,
+            "end": 36.037
+          },
+          {
+            "text": "friends",
+            "start": 36.118,
+            "end": 36.664
+          },
+          {
+            "text": "had",
+            "start": 36.733,
+            "end": 36.908
+          },
+          {
+            "text": "a",
+            "start": 36.954,
+            "end": 36.989
+          },
+          {
+            "text": "new",
+            "start": 37.105,
+            "end": 37.36
+          },
+          {
+            "text": "idea,",
+            "start": 37.476,
+            "end": 38.266
+          },
+          {
+            "text": "and",
+            "start": 38.963,
+            "end": 39.113
+          },
+          {
+            "text": "Pip",
+            "start": 39.183,
+            "end": 39.404
+          },
+          {
+            "text": "felt",
+            "start": 39.52,
+            "end": 40.042
+          },
+          {
+            "text": "a",
+            "start": 40.251,
+            "end": 40.367
+          },
+          {
+            "text": "tiny",
+            "start": 40.483,
+            "end": 41.285
+          },
+          {
+            "text": "spark",
+            "start": 41.459,
+            "end": 42.26
+          },
+          {
+            "text": "of",
+            "start": 42.585,
+            "end": 42.771
+          },
+          {
+            "text": "hope",
+            "start": 42.945,
+            "end": 43.746
+          },
+          {
+            "text": "return--maybe",
+            "start": 44.442,
+            "end": 48.111
+          },
+          {
+            "text": "what",
+            "start": 48.227,
+            "end": 48.471
+          },
+          {
+            "text": "the",
+            "start": 48.529,
+            "end": 48.61
+          },
+          {
+            "text": "flowers",
+            "start": 48.692,
+            "end": 49.319
+          },
+          {
+            "text": "needed",
+            "start": 49.435,
+            "end": 50.062
+          },
+          {
+            "text": "wasn't",
+            "start": 50.236,
+            "end": 50.898
+          },
+          {
+            "text": "sun",
+            "start": 51.072,
+            "end": 51.652
+          },
+          {
+            "text": "or",
+            "start": 51.861,
+            "end": 52.059
+          },
+          {
+            "text": "water,",
+            "start": 52.175,
+            "end": 53.103
+          },
+          {
+            "text": "but",
+            "start": 53.8,
+            "end": 54.009
+          },
+          {
+            "text": "something",
+            "start": 54.102,
+            "end": 54.868
+          },
+          {
+            "text": "softer.",
+            "start": 55.193,
+            "end": 56.261
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "A Song for the Flowers",
+        "videoOffset": 275.589,
+        "words": [
+          {
+            "text": "Pip",
+            "start": 0.081,
+            "end": 0.395
+          },
+          {
+            "text": "fluttered",
+            "start": 0.569,
+            "end": 1.265
+          },
+          {
+            "text": "to",
+            "start": 1.37,
+            "end": 1.509
+          },
+          {
+            "text": "the",
+            "start": 1.602,
+            "end": 1.695
+          },
+          {
+            "text": "edge",
+            "start": 1.8,
+            "end": 2.159
+          },
+          {
+            "text": "of",
+            "start": 2.194,
+            "end": 2.264
+          },
+          {
+            "text": "the",
+            "start": 2.345,
+            "end": 2.415
+          },
+          {
+            "text": "wildflowers",
+            "start": 2.485,
+            "end": 3.437
+          },
+          {
+            "text": "and",
+            "start": 3.529,
+            "end": 3.715
+          },
+          {
+            "text": "began",
+            "start": 3.796,
+            "end": 4.226
+          },
+          {
+            "text": "to",
+            "start": 4.307,
+            "end": 4.412
+          },
+          {
+            "text": "sing--a",
+            "start": 4.516,
+            "end": 5.201
+          },
+          {
+            "text": "bright,",
+            "start": 5.306,
+            "end": 6.002
+          },
+          {
+            "text": "clear",
+            "start": 6.049,
+            "end": 6.502
+          },
+          {
+            "text": "melody",
+            "start": 6.594,
+            "end": 7.129
+          },
+          {
+            "text": "that",
+            "start": 7.198,
+            "end": 7.407
+          },
+          {
+            "text": "soared",
+            "start": 7.558,
+            "end": 8.069
+          },
+          {
+            "text": "above",
+            "start": 8.115,
+            "end": 8.475
+          },
+          {
+            "text": "the",
+            "start": 8.533,
+            "end": 8.626
+          },
+          {
+            "text": "frog's",
+            "start": 8.719,
+            "end": 9.172
+          },
+          {
+            "text": "hum",
+            "start": 9.253,
+            "end": 9.59
+          },
+          {
+            "text": "like",
+            "start": 9.741,
+            "end": 10.008
+          },
+          {
+            "text": "sunlight",
+            "start": 10.101,
+            "end": 10.751
+          },
+          {
+            "text": "dancing",
+            "start": 10.867,
+            "end": 11.424
+          },
+          {
+            "text": "on",
+            "start": 11.482,
+            "end": 11.587
+          },
+          {
+            "text": "water.",
+            "start": 11.703,
+            "end": 12.237
+          },
+          {
+            "text": "The",
+            "start": 12.283,
+            "end": 12.411
+          },
+          {
+            "text": "owl",
+            "start": 12.504,
+            "end": 12.841
+          },
+          {
+            "text": "joined",
+            "start": 12.957,
+            "end": 13.351
+          },
+          {
+            "text": "in",
+            "start": 13.421,
+            "end": 13.607
+          },
+          {
+            "text": "with",
+            "start": 13.688,
+            "end": 13.851
+          },
+          {
+            "text": "a",
+            "start": 13.909,
+            "end": 13.955
+          },
+          {
+            "text": "low,",
+            "start": 14.106,
+            "end": 14.571
+          },
+          {
+            "text": "gentle",
+            "start": 14.64,
+            "end": 15.256
+          },
+          {
+            "text": "sound",
+            "start": 15.325,
+            "end": 15.79
+          },
+          {
+            "text": "that",
+            "start": 15.871,
+            "end": 16.068
+          },
+          {
+            "text": "kept",
+            "start": 16.138,
+            "end": 16.486
+          },
+          {
+            "text": "time",
+            "start": 16.591,
+            "end": 17.078
+          },
+          {
+            "text": "like",
+            "start": 17.136,
+            "end": 17.345
+          },
+          {
+            "text": "a",
+            "start": 17.38,
+            "end": 17.415
+          },
+          {
+            "text": "heartbeat",
+            "start": 17.531,
+            "end": 18.251
+          },
+          {
+            "text": "beneath",
+            "start": 18.367,
+            "end": 18.82
+          },
+          {
+            "text": "the",
+            "start": 18.89,
+            "end": 19.017
+          },
+          {
+            "text": "other",
+            "start": 19.11,
+            "end": 19.389
+          },
+          {
+            "text": "two",
+            "start": 19.447,
+            "end": 19.633
+          },
+          {
+            "text": "voices.",
+            "start": 19.749,
+            "end": 20.538
+          },
+          {
+            "text": "Together,",
+            "start": 20.561,
+            "end": 21.293
+          },
+          {
+            "text": "the",
+            "start": 21.409,
+            "end": 21.525
+          },
+          {
+            "text": "three",
+            "start": 21.618,
+            "end": 22.024
+          },
+          {
+            "text": "friends",
+            "start": 22.14,
+            "end": 22.732
+          },
+          {
+            "text": "filled",
+            "start": 22.907,
+            "end": 23.441
+          },
+          {
+            "text": "the",
+            "start": 23.51,
+            "end": 23.615
+          },
+          {
+            "text": "afternoon",
+            "start": 23.696,
+            "end": 24.242
+          },
+          {
+            "text": "meadow",
+            "start": 24.323,
+            "end": 24.695
+          },
+          {
+            "text": "with",
+            "start": 24.822,
+            "end": 25.008
+          },
+          {
+            "text": "a",
+            "start": 25.054,
+            "end": 25.089
+          },
+          {
+            "text": "warm",
+            "start": 25.205,
+            "end": 25.67
+          },
+          {
+            "text": "sound",
+            "start": 25.797,
+            "end": 26.378
+          },
+          {
+            "text": "not",
+            "start": 26.494,
+            "end": 26.773
+          },
+          {
+            "text": "heard",
+            "start": 26.854,
+            "end": 27.226
+          },
+          {
+            "text": "for",
+            "start": 27.307,
+            "end": 27.446
+          },
+          {
+            "text": "a",
+            "start": 27.504,
+            "end": 27.539
+          },
+          {
+            "text": "long",
+            "start": 27.655,
+            "end": 28.038
+          },
+          {
+            "text": "time.",
+            "start": 28.154,
+            "end": 28.746
+          },
+          {
+            "text": "Pip",
+            "start": 28.828,
+            "end": 29.188
+          },
+          {
+            "text": "noticed",
+            "start": 29.362,
+            "end": 29.989
+          },
+          {
+            "text": "one",
+            "start": 30.082,
+            "end": 30.418
+          },
+          {
+            "text": "bud",
+            "start": 30.476,
+            "end": 30.836
+          },
+          {
+            "text": "at",
+            "start": 30.917,
+            "end": 31.068
+          },
+          {
+            "text": "the",
+            "start": 31.126,
+            "end": 31.208
+          },
+          {
+            "text": "edge",
+            "start": 31.324,
+            "end": 31.614
+          },
+          {
+            "text": "of",
+            "start": 31.649,
+            "end": 31.707
+          },
+          {
+            "text": "the",
+            "start": 31.777,
+            "end": 31.846
+          },
+          {
+            "text": "flower",
+            "start": 31.916,
+            "end": 32.299
+          },
+          {
+            "text": "patch",
+            "start": 32.369,
+            "end": 32.775
+          },
+          {
+            "text": "starting",
+            "start": 32.903,
+            "end": 33.448
+          },
+          {
+            "text": "to",
+            "start": 33.518,
+            "end": 33.588
+          },
+          {
+            "text": "tremble,",
+            "start": 33.669,
+            "end": 34.308
+          },
+          {
+            "text": "its",
+            "start": 34.366,
+            "end": 34.586
+          },
+          {
+            "text": "petals",
+            "start": 34.667,
+            "end": 35.341
+          },
+          {
+            "text": "loosening",
+            "start": 35.457,
+            "end": 36.037
+          },
+          {
+            "text": "a",
+            "start": 36.095,
+            "end": 36.118
+          },
+          {
+            "text": "little,",
+            "start": 36.176,
+            "end": 36.594
+          },
+          {
+            "text": "as",
+            "start": 36.629,
+            "end": 36.792
+          },
+          {
+            "text": "if",
+            "start": 36.861,
+            "end": 36.977
+          },
+          {
+            "text": "the",
+            "start": 37.047,
+            "end": 37.128
+          },
+          {
+            "text": "flowers",
+            "start": 37.221,
+            "end": 37.813
+          },
+          {
+            "text": "were",
+            "start": 37.871,
+            "end": 38.011
+          },
+          {
+            "text": "considering",
+            "start": 38.057,
+            "end": 38.789
+          },
+          {
+            "text": "opening.",
+            "start": 38.87,
+            "end": 39.659
+          },
+          {
+            "text": "It",
+            "start": 40.774,
+            "end": 41.006
+          },
+          {
+            "text": "wasn't",
+            "start": 41.122,
+            "end": 41.714
+          },
+          {
+            "text": "much,",
+            "start": 41.865,
+            "end": 42.817
+          },
+          {
+            "text": "but",
+            "start": 43.514,
+            "end": 43.746
+          },
+          {
+            "text": "it",
+            "start": 43.839,
+            "end": 44.106
+          },
+          {
+            "text": "was",
+            "start": 44.222,
+            "end": 44.454
+          },
+          {
+            "text": "more",
+            "start": 44.582,
+            "end": 44.965
+          },
+          {
+            "text": "than",
+            "start": 45.023,
+            "end": 45.22
+          },
+          {
+            "text": "before--and",
+            "start": 45.302,
+            "end": 47.635
+          },
+          {
+            "text": "that",
+            "start": 47.728,
+            "end": 48.1
+          },
+          {
+            "text": "small",
+            "start": 48.274,
+            "end": 48.785
+          },
+          {
+            "text": "change",
+            "start": 48.901,
+            "end": 49.621
+          },
+          {
+            "text": "made",
+            "start": 49.69,
+            "end": 49.981
+          },
+          {
+            "text": "the",
+            "start": 50.039,
+            "end": 50.143
+          },
+          {
+            "text": "three",
+            "start": 50.224,
+            "end": 50.561
+          },
+          {
+            "text": "friends",
+            "start": 50.654,
+            "end": 51.223
+          },
+          {
+            "text": "lean",
+            "start": 51.374,
+            "end": 51.652
+          },
+          {
+            "text": "closer",
+            "start": 51.769,
+            "end": 52.43
+          },
+          {
+            "text": "with",
+            "start": 52.523,
+            "end": 52.755
+          },
+          {
+            "text": "hopeful",
+            "start": 52.837,
+            "end": 53.44
+          },
+          {
+            "text": "eyes.",
+            "start": 53.556,
+            "end": 54.462
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Patience and Belief",
+        "videoOffset": 330.409,
+        "words": [
+          {
+            "text": "The",
+            "start": 0.07,
+            "end": 0.174
+          },
+          {
+            "text": "three",
+            "start": 0.244,
+            "end": 0.546
+          },
+          {
+            "text": "friends",
+            "start": 0.639,
+            "end": 1.196
+          },
+          {
+            "text": "kept",
+            "start": 1.312,
+            "end": 1.637
+          },
+          {
+            "text": "singing",
+            "start": 1.73,
+            "end": 2.125
+          },
+          {
+            "text": "together",
+            "start": 2.194,
+            "end": 2.728
+          },
+          {
+            "text": "in",
+            "start": 2.844,
+            "end": 2.995
+          },
+          {
+            "text": "the",
+            "start": 3.053,
+            "end": 3.135
+          },
+          {
+            "text": "warm",
+            "start": 3.204,
+            "end": 3.576
+          },
+          {
+            "text": "afternoon,",
+            "start": 3.692,
+            "end": 4.586
+          },
+          {
+            "text": "and",
+            "start": 4.621,
+            "end": 4.795
+          },
+          {
+            "text": "Pip",
+            "start": 4.888,
+            "end": 5.224
+          },
+          {
+            "text": "watched",
+            "start": 5.341,
+            "end": 5.851
+          },
+          {
+            "text": "each",
+            "start": 5.968,
+            "end": 6.316
+          },
+          {
+            "text": "bud",
+            "start": 6.409,
+            "end": 6.734
+          },
+          {
+            "text": "with",
+            "start": 6.815,
+            "end": 7.024
+          },
+          {
+            "text": "keen",
+            "start": 7.105,
+            "end": 7.581
+          },
+          {
+            "text": "eyes.",
+            "start": 7.697,
+            "end": 8.417
+          },
+          {
+            "text": "Two",
+            "start": 8.464,
+            "end": 8.684
+          },
+          {
+            "text": "more",
+            "start": 8.777,
+            "end": 8.998
+          },
+          {
+            "text": "buds",
+            "start": 9.056,
+            "end": 9.474
+          },
+          {
+            "text": "began",
+            "start": 9.555,
+            "end": 9.985
+          },
+          {
+            "text": "to",
+            "start": 10.066,
+            "end": 10.17
+          },
+          {
+            "text": "loosen,",
+            "start": 10.263,
+            "end": 10.902
+          },
+          {
+            "text": "their",
+            "start": 10.948,
+            "end": 11.157
+          },
+          {
+            "text": "petals",
+            "start": 11.215,
+            "end": 11.761
+          },
+          {
+            "text": "unfurling",
+            "start": 11.865,
+            "end": 12.783
+          },
+          {
+            "text": "at",
+            "start": 12.864,
+            "end": 13.026
+          },
+          {
+            "text": "the",
+            "start": 13.084,
+            "end": 13.166
+          },
+          {
+            "text": "tips",
+            "start": 13.235,
+            "end": 13.839
+          },
+          {
+            "text": "like",
+            "start": 13.99,
+            "end": 14.245
+          },
+          {
+            "text": "little",
+            "start": 14.338,
+            "end": 14.687
+          },
+          {
+            "text": "fingers",
+            "start": 14.745,
+            "end": 15.441
+          },
+          {
+            "text": "stretching",
+            "start": 15.615,
+            "end": 16.289
+          },
+          {
+            "text": "after",
+            "start": 16.405,
+            "end": 16.881
+          },
+          {
+            "text": "a",
+            "start": 16.974,
+            "end": 17.009
+          },
+          {
+            "text": "long",
+            "start": 17.125,
+            "end": 17.531
+          },
+          {
+            "text": "sleep.",
+            "start": 17.705,
+            "end": 18.367
+          },
+          {
+            "text": "The",
+            "start": 18.39,
+            "end": 18.53
+          },
+          {
+            "text": "owl",
+            "start": 18.646,
+            "end": 19.075
+          },
+          {
+            "text": "murmured",
+            "start": 19.168,
+            "end": 19.737
+          },
+          {
+            "text": "between",
+            "start": 19.818,
+            "end": 20.248
+          },
+          {
+            "text": "his",
+            "start": 20.306,
+            "end": 20.457
+          },
+          {
+            "text": "notes",
+            "start": 20.573,
+            "end": 21.026
+          },
+          {
+            "text": "that",
+            "start": 21.142,
+            "end": 21.351
+          },
+          {
+            "text": "the",
+            "start": 21.409,
+            "end": 21.49
+          },
+          {
+            "text": "flowers",
+            "start": 21.571,
+            "end": 22.07
+          },
+          {
+            "text": "were",
+            "start": 22.14,
+            "end": 22.279
+          },
+          {
+            "text": "listening",
+            "start": 22.314,
+            "end": 22.814
+          },
+          {
+            "text": "and",
+            "start": 22.883,
+            "end": 22.976
+          },
+          {
+            "text": "needed",
+            "start": 23.057,
+            "end": 23.626
+          },
+          {
+            "text": "just",
+            "start": 23.8,
+            "end": 24.265
+          },
+          {
+            "text": "a",
+            "start": 24.346,
+            "end": 24.381
+          },
+          {
+            "text": "little",
+            "start": 24.462,
+            "end": 24.799
+          },
+          {
+            "text": "more",
+            "start": 24.845,
+            "end": 25.124
+          },
+          {
+            "text": "time.",
+            "start": 25.182,
+            "end": 25.693
+          },
+          {
+            "text": "Pip",
+            "start": 25.751,
+            "end": 26.122
+          },
+          {
+            "text": "gently",
+            "start": 26.238,
+            "end": 26.796
+          },
+          {
+            "text": "asked",
+            "start": 26.877,
+            "end": 27.26
+          },
+          {
+            "text": "the",
+            "start": 27.307,
+            "end": 27.399
+          },
+          {
+            "text": "frog",
+            "start": 27.469,
+            "end": 27.852
+          },
+          {
+            "text": "if",
+            "start": 27.934,
+            "end": 28.073
+          },
+          {
+            "text": "he",
+            "start": 28.131,
+            "end": 28.212
+          },
+          {
+            "text": "thought",
+            "start": 28.293,
+            "end": 28.607
+          },
+          {
+            "text": "the",
+            "start": 28.653,
+            "end": 28.723
+          },
+          {
+            "text": "flowers",
+            "start": 28.793,
+            "end": 29.222
+          },
+          {
+            "text": "could",
+            "start": 29.28,
+            "end": 29.466
+          },
+          {
+            "text": "feel",
+            "start": 29.536,
+            "end": 29.965
+          },
+          {
+            "text": "how",
+            "start": 30.081,
+            "end": 30.279
+          },
+          {
+            "text": "much",
+            "start": 30.36,
+            "end": 30.662
+          },
+          {
+            "text": "they",
+            "start": 30.743,
+            "end": 30.906
+          },
+          {
+            "text": "wanted",
+            "start": 30.964,
+            "end": 31.428
+          },
+          {
+            "text": "to",
+            "start": 31.486,
+            "end": 31.579
+          },
+          {
+            "text": "celebrate.",
+            "start": 31.66,
+            "end": 32.508
+          },
+          {
+            "text": "The",
+            "start": 32.577,
+            "end": 32.717
+          },
+          {
+            "text": "frog",
+            "start": 32.798,
+            "end": 33.181
+          },
+          {
+            "text": "smiled",
+            "start": 33.297,
+            "end": 33.889
+          },
+          {
+            "text": "wide",
+            "start": 34.006,
+            "end": 34.563
+          },
+          {
+            "text": "and",
+            "start": 34.621,
+            "end": 34.807
+          },
+          {
+            "text": "calm,",
+            "start": 34.923,
+            "end": 35.457
+          },
+          {
+            "text": "saying",
+            "start": 35.515,
+            "end": 35.991
+          },
+          {
+            "text": "he",
+            "start": 36.107,
+            "end": 36.212
+          },
+          {
+            "text": "was",
+            "start": 36.293,
+            "end": 36.456
+          },
+          {
+            "text": "sure--because",
+            "start": 36.537,
+            "end": 37.489
+          },
+          {
+            "text": "anything",
+            "start": 37.535,
+            "end": 38.093
+          },
+          {
+            "text": "surrounded",
+            "start": 38.209,
+            "end": 38.87
+          },
+          {
+            "text": "by",
+            "start": 38.928,
+            "end": 39.161
+          },
+          {
+            "text": "so",
+            "start": 39.335,
+            "end": 39.834
+          },
+          {
+            "text": "much",
+            "start": 40.113,
+            "end": 40.577
+          },
+          {
+            "text": "hope",
+            "start": 40.856,
+            "end": 41.657
+          },
+          {
+            "text": "couldn't",
+            "start": 42.26,
+            "end": 42.609
+          },
+          {
+            "text": "stay",
+            "start": 42.667,
+            "end": 42.957
+          },
+          {
+            "text": "closed",
+            "start": 43.05,
+            "end": 43.77
+          },
+          {
+            "text": "forever.",
+            "start": 44.374,
+            "end": 45.035
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "The Wind Joins In",
+        "videoOffset": 375.802,
+        "words": [
+          {
+            "text": "A",
+            "start": 0.163,
+            "end": 0.279
+          },
+          {
+            "text": "warm",
+            "start": 0.383,
+            "end": 0.755
+          },
+          {
+            "text": "breeze",
+            "start": 0.848,
+            "end": 1.463
+          },
+          {
+            "text": "swept",
+            "start": 1.567,
+            "end": 2.125
+          },
+          {
+            "text": "through",
+            "start": 2.218,
+            "end": 2.519
+          },
+          {
+            "text": "the",
+            "start": 2.566,
+            "end": 2.635
+          },
+          {
+            "text": "meadow,",
+            "start": 2.682,
+            "end": 3.239
+          },
+          {
+            "text": "carrying",
+            "start": 3.355,
+            "end": 3.994
+          },
+          {
+            "text": "their",
+            "start": 4.075,
+            "end": 4.284
+          },
+          {
+            "text": "song",
+            "start": 4.365,
+            "end": 4.748
+          },
+          {
+            "text": "farther",
+            "start": 4.946,
+            "end": 5.526
+          },
+          {
+            "text": "than",
+            "start": 5.596,
+            "end": 5.782
+          },
+          {
+            "text": "Pip's",
+            "start": 5.898,
+            "end": 6.397
+          },
+          {
+            "text": "small",
+            "start": 6.478,
+            "end": 6.92
+          },
+          {
+            "text": "voice",
+            "start": 7.001,
+            "end": 7.593
+          },
+          {
+            "text": "could",
+            "start": 7.628,
+            "end": 7.848
+          },
+          {
+            "text": "reach",
+            "start": 7.93,
+            "end": 8.231
+          },
+          {
+            "text": "alone.",
+            "start": 8.29,
+            "end": 8.847
+          },
+          {
+            "text": "The",
+            "start": 8.893,
+            "end": 8.998
+          },
+          {
+            "text": "grass",
+            "start": 9.067,
+            "end": 9.613
+          },
+          {
+            "text": "bowed",
+            "start": 9.718,
+            "end": 10.217
+          },
+          {
+            "text": "and",
+            "start": 10.275,
+            "end": 10.379
+          },
+          {
+            "text": "swayed,",
+            "start": 10.484,
+            "end": 11.122
+          },
+          {
+            "text": "and",
+            "start": 11.157,
+            "end": 11.285
+          },
+          {
+            "text": "the",
+            "start": 11.355,
+            "end": 11.436
+          },
+          {
+            "text": "wildflowers",
+            "start": 11.505,
+            "end": 12.492
+          },
+          {
+            "text": "rustled",
+            "start": 12.608,
+            "end": 13.201
+          },
+          {
+            "text": "as",
+            "start": 13.259,
+            "end": 13.41
+          },
+          {
+            "text": "if",
+            "start": 13.479,
+            "end": 13.642
+          },
+          {
+            "text": "the",
+            "start": 13.711,
+            "end": 13.827
+          },
+          {
+            "text": "whole",
+            "start": 13.897,
+            "end": 14.234
+          },
+          {
+            "text": "world",
+            "start": 14.303,
+            "end": 14.826
+          },
+          {
+            "text": "was",
+            "start": 14.919,
+            "end": 15.093
+          },
+          {
+            "text": "breathing",
+            "start": 15.197,
+            "end": 15.801
+          },
+          {
+            "text": "with",
+            "start": 15.894,
+            "end": 16.068
+          },
+          {
+            "text": "the",
+            "start": 16.126,
+            "end": 16.196
+          },
+          {
+            "text": "music.",
+            "start": 16.266,
+            "end": 16.974
+          },
+          {
+            "text": "Pip",
+            "start": 17.009,
+            "end": 17.345
+          },
+          {
+            "text": "felt",
+            "start": 17.496,
+            "end": 17.833
+          },
+          {
+            "text": "something",
+            "start": 17.937,
+            "end": 18.46
+          },
+          {
+            "text": "shift--not",
+            "start": 18.599,
+            "end": 19.609
+          },
+          {
+            "text": "just",
+            "start": 19.679,
+            "end": 20.051
+          },
+          {
+            "text": "in",
+            "start": 20.109,
+            "end": 20.201
+          },
+          {
+            "text": "the",
+            "start": 20.259,
+            "end": 20.329
+          },
+          {
+            "text": "flowers,",
+            "start": 20.399,
+            "end": 20.91
+          },
+          {
+            "text": "but",
+            "start": 20.933,
+            "end": 21.13
+          },
+          {
+            "text": "somewhere",
+            "start": 21.571,
+            "end": 22.175
+          },
+          {
+            "text": "deep",
+            "start": 22.245,
+            "end": 22.628
+          },
+          {
+            "text": "inside",
+            "start": 22.872,
+            "end": 23.568
+          },
+          {
+            "text": "his",
+            "start": 23.626,
+            "end": 23.812
+          },
+          {
+            "text": "little",
+            "start": 23.928,
+            "end": 24.195
+          },
+          {
+            "text": "chest.",
+            "start": 24.242,
+            "end": 25.043
+          },
+          {
+            "text": "This",
+            "start": 25.252,
+            "end": 25.507
+          },
+          {
+            "text": "was",
+            "start": 25.588,
+            "end": 25.774
+          },
+          {
+            "text": "a",
+            "start": 25.844,
+            "end": 25.879
+          },
+          {
+            "text": "gentle",
+            "start": 25.995,
+            "end": 26.622
+          },
+          {
+            "text": "'aha'",
+            "start": 26.645,
+            "end": 27.295
+          },
+          {
+            "text": "moment,",
+            "start": 27.365,
+            "end": 28.061
+          },
+          {
+            "text": "like",
+            "start": 28.143,
+            "end": 28.398
+          },
+          {
+            "text": "the",
+            "start": 28.445,
+            "end": 28.549
+          },
+          {
+            "text": "warmth",
+            "start": 28.63,
+            "end": 29.164
+          },
+          {
+            "text": "of",
+            "start": 29.234,
+            "end": 29.327
+          },
+          {
+            "text": "the",
+            "start": 29.397,
+            "end": 29.489
+          },
+          {
+            "text": "afternoon",
+            "start": 29.582,
+            "end": 30.232
+          },
+          {
+            "text": "sun:",
+            "start": 30.36,
+            "end": 30.836
+          },
+          {
+            "text": "hope",
+            "start": 30.952,
+            "end": 31.324
+          },
+          {
+            "text": "wasn't",
+            "start": 31.382,
+            "end": 31.8
+          },
+          {
+            "text": "about",
+            "start": 31.846,
+            "end": 32.171
+          },
+          {
+            "text": "making",
+            "start": 32.241,
+            "end": 32.659
+          },
+          {
+            "text": "things",
+            "start": 32.74,
+            "end": 33.054
+          },
+          {
+            "text": "happen",
+            "start": 33.112,
+            "end": 33.425
+          },
+          {
+            "text": "faster",
+            "start": 33.518,
+            "end": 34.145
+          },
+          {
+            "text": "but",
+            "start": 34.215,
+            "end": 34.377
+          },
+          {
+            "text": "about",
+            "start": 34.424,
+            "end": 34.784
+          },
+          {
+            "text": "believing",
+            "start": 34.865,
+            "end": 35.573
+          },
+          {
+            "text": "good",
+            "start": 35.689,
+            "end": 35.921
+          },
+          {
+            "text": "things",
+            "start": 35.979,
+            "end": 36.316
+          },
+          {
+            "text": "would",
+            "start": 36.362,
+            "end": 36.548
+          },
+          {
+            "text": "come",
+            "start": 36.606,
+            "end": 37.001
+          },
+          {
+            "text": "if",
+            "start": 37.047,
+            "end": 37.198
+          },
+          {
+            "text": "you",
+            "start": 37.268,
+            "end": 37.384
+          },
+          {
+            "text": "stayed",
+            "start": 37.477,
+            "end": 38.057
+          },
+          {
+            "text": "and",
+            "start": 38.127,
+            "end": 38.255
+          },
+          {
+            "text": "cared",
+            "start": 38.348,
+            "end": 38.847
+          },
+          {
+            "text": "enough",
+            "start": 38.916,
+            "end": 39.358
+          },
+          {
+            "text": "to",
+            "start": 39.532,
+            "end": 39.729
+          },
+          {
+            "text": "wait.",
+            "start": 39.845,
+            "end": 40.693
+          },
+          {
+            "text": "The",
+            "start": 41.296,
+            "end": 41.494
+          },
+          {
+            "text": "owl",
+            "start": 41.61,
+            "end": 42.179
+          },
+          {
+            "text": "nodded",
+            "start": 42.562,
+            "end": 43.201
+          },
+          {
+            "text": "slowly,",
+            "start": 43.375,
+            "end": 44.675
+          },
+          {
+            "text": "as",
+            "start": 45.279,
+            "end": 45.511
+          },
+          {
+            "text": "if",
+            "start": 45.627,
+            "end": 45.824
+          },
+          {
+            "text": "he",
+            "start": 45.906,
+            "end": 46.033
+          },
+          {
+            "text": "had",
+            "start": 46.126,
+            "end": 46.3
+          },
+          {
+            "text": "known",
+            "start": 46.37,
+            "end": 46.718
+          },
+          {
+            "text": "this",
+            "start": 46.8,
+            "end": 47.16
+          },
+          {
+            "text": "all",
+            "start": 47.276,
+            "end": 47.624
+          },
+          {
+            "text": "along",
+            "start": 47.705,
+            "end": 48.204
+          },
+          {
+            "text": "but",
+            "start": 48.413,
+            "end": 48.657
+          },
+          {
+            "text": "had",
+            "start": 48.715,
+            "end": 48.855
+          },
+          {
+            "text": "been",
+            "start": 48.913,
+            "end": 49.122
+          },
+          {
+            "text": "waiting",
+            "start": 49.203,
+            "end": 49.807
+          },
+          {
+            "text": "for",
+            "start": 49.958,
+            "end": 50.166
+          },
+          {
+            "text": "Pip",
+            "start": 50.259,
+            "end": 50.654
+          },
+          {
+            "text": "to",
+            "start": 50.77,
+            "end": 50.91
+          },
+          {
+            "text": "feel",
+            "start": 51.026,
+            "end": 51.397
+          },
+          {
+            "text": "it",
+            "start": 51.478,
+            "end": 51.664
+          },
+          {
+            "text": "himself.",
+            "start": 51.78,
+            "end": 52.918
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Wildflowers Bloom",
+        "videoOffset": 429.09,
+        "words": [
+          {
+            "text": "One",
+            "start": 0.174,
+            "end": 0.511
+          },
+          {
+            "text": "by",
+            "start": 0.569,
+            "end": 0.755
+          },
+          {
+            "text": "one,",
+            "start": 0.848,
+            "end": 1.196
+          },
+          {
+            "text": "as",
+            "start": 1.231,
+            "end": 1.416
+          },
+          {
+            "text": "if",
+            "start": 1.498,
+            "end": 1.637
+          },
+          {
+            "text": "they",
+            "start": 1.707,
+            "end": 1.881
+          },
+          {
+            "text": "had",
+            "start": 1.95,
+            "end": 2.078
+          },
+          {
+            "text": "been",
+            "start": 2.136,
+            "end": 2.322
+          },
+          {
+            "text": "waiting",
+            "start": 2.392,
+            "end": 2.914
+          },
+          {
+            "text": "for",
+            "start": 3.03,
+            "end": 3.204
+          },
+          {
+            "text": "just",
+            "start": 3.274,
+            "end": 3.692
+          },
+          {
+            "text": "this",
+            "start": 3.808,
+            "end": 4.075
+          },
+          {
+            "text": "moment,",
+            "start": 4.191,
+            "end": 4.911
+          },
+          {
+            "text": "the",
+            "start": 4.981,
+            "end": 5.097
+          },
+          {
+            "text": "buds",
+            "start": 5.166,
+            "end": 5.492
+          },
+          {
+            "text": "of",
+            "start": 5.55,
+            "end": 5.642
+          },
+          {
+            "text": "the",
+            "start": 5.724,
+            "end": 5.805
+          },
+          {
+            "text": "wildflowers",
+            "start": 5.875,
+            "end": 6.85
+          },
+          {
+            "text": "in",
+            "start": 6.908,
+            "end": 6.978
+          },
+          {
+            "text": "the",
+            "start": 7.036,
+            "end": 7.105
+          },
+          {
+            "text": "patch",
+            "start": 7.163,
+            "end": 7.605
+          },
+          {
+            "text": "began",
+            "start": 7.686,
+            "end": 8.069
+          },
+          {
+            "text": "to",
+            "start": 8.139,
+            "end": 8.231
+          },
+          {
+            "text": "open.",
+            "start": 8.348,
+            "end": 8.835
+          },
+          {
+            "text": "Petals",
+            "start": 8.928,
+            "end": 9.613
+          },
+          {
+            "text": "unfolded",
+            "start": 9.729,
+            "end": 10.658
+          },
+          {
+            "text": "in",
+            "start": 10.751,
+            "end": 10.89
+          },
+          {
+            "text": "all",
+            "start": 11.006,
+            "end": 11.285
+          },
+          {
+            "text": "directions,",
+            "start": 11.366,
+            "end": 12.446
+          },
+          {
+            "text": "and",
+            "start": 12.469,
+            "end": 12.643
+          },
+          {
+            "text": "the",
+            "start": 12.748,
+            "end": 12.841
+          },
+          {
+            "text": "middle",
+            "start": 12.922,
+            "end": 13.328
+          },
+          {
+            "text": "of",
+            "start": 13.398,
+            "end": 13.537
+          },
+          {
+            "text": "the",
+            "start": 13.63,
+            "end": 13.711
+          },
+          {
+            "text": "meadow",
+            "start": 13.793,
+            "end": 14.234
+          },
+          {
+            "text": "filled",
+            "start": 14.396,
+            "end": 14.93
+          },
+          {
+            "text": "with",
+            "start": 15.0,
+            "end": 15.174
+          },
+          {
+            "text": "soft",
+            "start": 15.29,
+            "end": 15.813
+          },
+          {
+            "text": "colors",
+            "start": 15.906,
+            "end": 16.486
+          },
+          {
+            "text": "and",
+            "start": 16.602,
+            "end": 16.788
+          },
+          {
+            "text": "a",
+            "start": 16.858,
+            "end": 16.893
+          },
+          {
+            "text": "sweet",
+            "start": 17.009,
+            "end": 17.543
+          },
+          {
+            "text": "scent",
+            "start": 17.682,
+            "end": 18.17
+          },
+          {
+            "text": "that",
+            "start": 18.251,
+            "end": 18.448
+          },
+          {
+            "text": "drifted",
+            "start": 18.53,
+            "end": 19.145
+          },
+          {
+            "text": "through",
+            "start": 19.203,
+            "end": 19.482
+          },
+          {
+            "text": "the",
+            "start": 19.528,
+            "end": 19.621
+          },
+          {
+            "text": "afternoon",
+            "start": 19.714,
+            "end": 20.341
+          },
+          {
+            "text": "air.",
+            "start": 20.457,
+            "end": 20.956
+          },
+          {
+            "text": "Pip",
+            "start": 21.56,
+            "end": 21.92
+          },
+          {
+            "text": "chirped",
+            "start": 22.129,
+            "end": 22.686
+          },
+          {
+            "text": "with",
+            "start": 22.756,
+            "end": 22.976
+          },
+          {
+            "text": "joy,",
+            "start": 23.15,
+            "end": 23.835
+          },
+          {
+            "text": "hopping",
+            "start": 24.079,
+            "end": 24.474
+          },
+          {
+            "text": "from",
+            "start": 24.555,
+            "end": 24.718
+          },
+          {
+            "text": "stem",
+            "start": 24.811,
+            "end": 25.101
+          },
+          {
+            "text": "to",
+            "start": 25.182,
+            "end": 25.263
+          },
+          {
+            "text": "stem,",
+            "start": 25.345,
+            "end": 25.937
+          },
+          {
+            "text": "unable",
+            "start": 26.03,
+            "end": 26.529
+          },
+          {
+            "text": "to",
+            "start": 26.575,
+            "end": 26.668
+          },
+          {
+            "text": "stay",
+            "start": 26.75,
+            "end": 27.051
+          },
+          {
+            "text": "still.",
+            "start": 27.144,
+            "end": 27.771
+          },
+          {
+            "text": "The",
+            "start": 28.375,
+            "end": 28.503
+          },
+          {
+            "text": "frog",
+            "start": 28.572,
+            "end": 28.944
+          },
+          {
+            "text": "croaked",
+            "start": 29.095,
+            "end": 29.629
+          },
+          {
+            "text": "happily,",
+            "start": 29.699,
+            "end": 30.36
+          },
+          {
+            "text": "and",
+            "start": 30.383,
+            "end": 30.558
+          },
+          {
+            "text": "the",
+            "start": 30.627,
+            "end": 30.72
+          },
+          {
+            "text": "owl",
+            "start": 30.813,
+            "end": 31.254
+          },
+          {
+            "text": "spread",
+            "start": 31.428,
+            "end": 31.904
+          },
+          {
+            "text": "his",
+            "start": 31.986,
+            "end": 32.148
+          },
+          {
+            "text": "wide",
+            "start": 32.264,
+            "end": 32.705
+          },
+          {
+            "text": "wings,",
+            "start": 32.775,
+            "end": 33.518
+          },
+          {
+            "text": "and",
+            "start": 33.541,
+            "end": 33.727
+          },
+          {
+            "text": "the",
+            "start": 33.808,
+            "end": 33.901
+          },
+          {
+            "text": "three",
+            "start": 33.971,
+            "end": 34.296
+          },
+          {
+            "text": "friends",
+            "start": 34.377,
+            "end": 34.865
+          },
+          {
+            "text": "looked",
+            "start": 35.016,
+            "end": 35.376
+          },
+          {
+            "text": "at",
+            "start": 35.422,
+            "end": 35.503
+          },
+          {
+            "text": "each",
+            "start": 35.562,
+            "end": 35.771
+          },
+          {
+            "text": "other",
+            "start": 35.829,
+            "end": 36.084
+          },
+          {
+            "text": "with",
+            "start": 36.165,
+            "end": 36.351
+          },
+          {
+            "text": "the",
+            "start": 36.409,
+            "end": 36.49
+          },
+          {
+            "text": "kind",
+            "start": 36.56,
+            "end": 36.885
+          },
+          {
+            "text": "of",
+            "start": 36.955,
+            "end": 37.025
+          },
+          {
+            "text": "warmth",
+            "start": 37.141,
+            "end": 37.687
+          },
+          {
+            "text": "that",
+            "start": 37.803,
+            "end": 37.988
+          },
+          {
+            "text": "comes",
+            "start": 38.058,
+            "end": 38.383
+          },
+          {
+            "text": "from",
+            "start": 38.464,
+            "end": 38.65
+          },
+          {
+            "text": "sharing",
+            "start": 38.731,
+            "end": 39.196
+          },
+          {
+            "text": "something",
+            "start": 39.312,
+            "end": 39.811
+          },
+          {
+            "text": "you've",
+            "start": 39.869,
+            "end": 40.043
+          },
+          {
+            "text": "waited",
+            "start": 40.067,
+            "end": 40.473
+          },
+          {
+            "text": "for",
+            "start": 40.543,
+            "end": 40.821
+          },
+          {
+            "text": "together.",
+            "start": 40.972,
+            "end": 41.831
+          },
+          {
+            "text": "The",
+            "start": 43.132,
+            "end": 43.271
+          },
+          {
+            "text": "celebration",
+            "start": 43.329,
+            "end": 44.13
+          },
+          {
+            "text": "they",
+            "start": 44.188,
+            "end": 44.328
+          },
+          {
+            "text": "had",
+            "start": 44.374,
+            "end": 44.478
+          },
+          {
+            "text": "hoped",
+            "start": 44.536,
+            "end": 44.838
+          },
+          {
+            "text": "for",
+            "start": 44.908,
+            "end": 45.152
+          },
+          {
+            "text": "was",
+            "start": 45.233,
+            "end": 45.384
+          },
+          {
+            "text": "finally",
+            "start": 45.5,
+            "end": 46.069
+          },
+          {
+            "text": "here--and",
+            "start": 46.15,
+            "end": 47.938
+          },
+          {
+            "text": "it",
+            "start": 48.008,
+            "end": 48.078
+          },
+          {
+            "text": "was",
+            "start": 48.112,
+            "end": 48.228
+          },
+          {
+            "text": "all",
+            "start": 48.298,
+            "end": 48.542
+          },
+          {
+            "text": "the",
+            "start": 48.612,
+            "end": 48.681
+          },
+          {
+            "text": "more",
+            "start": 48.739,
+            "end": 48.925
+          },
+          {
+            "text": "beautiful",
+            "start": 48.971,
+            "end": 49.575
+          },
+          {
+            "text": "because",
+            "start": 49.668,
+            "end": 50.028
+          },
+          {
+            "text": "they",
+            "start": 50.063,
+            "end": 50.214
+          },
+          {
+            "text": "had",
+            "start": 50.272,
+            "end": 50.376
+          },
+          {
+            "text": "been",
+            "start": 50.423,
+            "end": 50.585
+          },
+          {
+            "text": "patient",
+            "start": 50.643,
+            "end": 51.143
+          },
+          {
+            "text": "enough",
+            "start": 51.201,
+            "end": 51.526
+          },
+          {
+            "text": "to",
+            "start": 51.584,
+            "end": 51.665
+          },
+          {
+            "text": "let",
+            "start": 51.746,
+            "end": 51.932
+          },
+          {
+            "text": "it",
+            "start": 51.99,
+            "end": 52.083
+          },
+          {
+            "text": "come",
+            "start": 52.141,
+            "end": 52.431
+          },
+          {
+            "text": "on",
+            "start": 52.489,
+            "end": 52.663
+          },
+          {
+            "text": "its",
+            "start": 52.722,
+            "end": 52.896
+          },
+          {
+            "text": "own.",
+            "start": 52.965,
+            "end": 53.476
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "A Quiet Celebration",
+        "videoOffset": 482.936,
+        "words": [
+          {
+            "text": "The",
+            "start": 0.07,
+            "end": 0.174
+          },
+          {
+            "text": "three",
+            "start": 0.267,
+            "end": 0.72
+          },
+          {
+            "text": "friends",
+            "start": 0.836,
+            "end": 1.428
+          },
+          {
+            "text": "sat",
+            "start": 1.591,
+            "end": 2.032
+          },
+          {
+            "text": "together",
+            "start": 2.148,
+            "end": 2.775
+          },
+          {
+            "text": "at",
+            "start": 2.937,
+            "end": 3.135
+          },
+          {
+            "text": "the",
+            "start": 3.193,
+            "end": 3.297
+          },
+          {
+            "text": "edge",
+            "start": 3.413,
+            "end": 3.901
+          },
+          {
+            "text": "of",
+            "start": 3.947,
+            "end": 4.098
+          },
+          {
+            "text": "the",
+            "start": 4.18,
+            "end": 4.249
+          },
+          {
+            "text": "blooming",
+            "start": 4.307,
+            "end": 4.853
+          },
+          {
+            "text": "wildflowers",
+            "start": 4.969,
+            "end": 6.014
+          },
+          {
+            "text": "as",
+            "start": 6.13,
+            "end": 6.304
+          },
+          {
+            "text": "the",
+            "start": 6.374,
+            "end": 6.467
+          },
+          {
+            "text": "afternoon",
+            "start": 6.548,
+            "end": 7.233
+          },
+          {
+            "text": "light",
+            "start": 7.326,
+            "end": 7.686
+          },
+          {
+            "text": "turned",
+            "start": 7.779,
+            "end": 8.104
+          },
+          {
+            "text": "golden",
+            "start": 8.185,
+            "end": 8.754
+          },
+          {
+            "text": "and",
+            "start": 8.87,
+            "end": 9.079
+          },
+          {
+            "text": "thick",
+            "start": 9.195,
+            "end": 9.578
+          },
+          {
+            "text": "around",
+            "start": 9.683,
+            "end": 10.124
+          },
+          {
+            "text": "them.",
+            "start": 10.194,
+            "end": 10.472
+          },
+          {
+            "text": "Pip",
+            "start": 10.507,
+            "end": 10.879
+          },
+          {
+            "text": "caught",
+            "start": 10.983,
+            "end": 11.308
+          },
+          {
+            "text": "the",
+            "start": 11.366,
+            "end": 11.459
+          },
+          {
+            "text": "last",
+            "start": 11.564,
+            "end": 12.144
+          },
+          {
+            "text": "soft",
+            "start": 12.249,
+            "end": 12.69
+          },
+          {
+            "text": "melody--not",
+            "start": 12.794,
+            "end": 13.746
+          },
+          {
+            "text": "big",
+            "start": 13.862,
+            "end": 14.269
+          },
+          {
+            "text": "or",
+            "start": 14.385,
+            "end": 14.594
+          },
+          {
+            "text": "bright",
+            "start": 14.675,
+            "end": 15.128
+          },
+          {
+            "text": "this",
+            "start": 15.209,
+            "end": 15.43
+          },
+          {
+            "text": "time,",
+            "start": 15.511,
+            "end": 16.01
+          },
+          {
+            "text": "but",
+            "start": 16.057,
+            "end": 16.266
+          },
+          {
+            "text": "gentle,",
+            "start": 16.347,
+            "end": 16.985
+          },
+          {
+            "text": "like",
+            "start": 17.055,
+            "end": 17.287
+          },
+          {
+            "text": "a",
+            "start": 17.334,
+            "end": 17.369
+          },
+          {
+            "text": "lullaby",
+            "start": 17.485,
+            "end": 18.181
+          },
+          {
+            "text": "the",
+            "start": 18.309,
+            "end": 18.39
+          },
+          {
+            "text": "meadow",
+            "start": 18.471,
+            "end": 18.878
+          },
+          {
+            "text": "had",
+            "start": 18.994,
+            "end": 19.133
+          },
+          {
+            "text": "been",
+            "start": 19.191,
+            "end": 19.377
+          },
+          {
+            "text": "waiting",
+            "start": 19.447,
+            "end": 19.957
+          },
+          {
+            "text": "to",
+            "start": 20.027,
+            "end": 20.131
+          },
+          {
+            "text": "hear.",
+            "start": 20.248,
+            "end": 20.677
+          },
+          {
+            "text": "The",
+            "start": 20.712,
+            "end": 20.851
+          },
+          {
+            "text": "owl",
+            "start": 20.967,
+            "end": 21.467
+          },
+          {
+            "text": "hummed",
+            "start": 21.606,
+            "end": 21.966
+          },
+          {
+            "text": "along,",
+            "start": 22.082,
+            "end": 22.895
+          },
+          {
+            "text": "and",
+            "start": 23.104,
+            "end": 23.243
+          },
+          {
+            "text": "the",
+            "start": 23.289,
+            "end": 23.347
+          },
+          {
+            "text": "frog",
+            "start": 23.44,
+            "end": 23.951
+          },
+          {
+            "text": "tapped",
+            "start": 24.056,
+            "end": 24.532
+          },
+          {
+            "text": "his",
+            "start": 24.578,
+            "end": 24.717
+          },
+          {
+            "text": "foot",
+            "start": 24.81,
+            "end": 25.159
+          },
+          {
+            "text": "on",
+            "start": 25.251,
+            "end": 25.391
+          },
+          {
+            "text": "the",
+            "start": 25.437,
+            "end": 25.507
+          },
+          {
+            "text": "mossy",
+            "start": 25.6,
+            "end": 26.099
+          },
+          {
+            "text": "rock",
+            "start": 26.215,
+            "end": 26.598
+          },
+          {
+            "text": "in",
+            "start": 26.738,
+            "end": 26.888
+          },
+          {
+            "text": "a",
+            "start": 26.958,
+            "end": 26.97
+          },
+          {
+            "text": "slow,",
+            "start": 27.121,
+            "end": 27.933
+          },
+          {
+            "text": "easy",
+            "start": 28.049,
+            "end": 28.526
+          },
+          {
+            "text": "rhythm.",
+            "start": 28.607,
+            "end": 29.106
+          },
+          {
+            "text": "They",
+            "start": 29.164,
+            "end": 29.35
+          },
+          {
+            "text": "didn't",
+            "start": 29.408,
+            "end": 29.71
+          },
+          {
+            "text": "need",
+            "start": 29.779,
+            "end": 30.139
+          },
+          {
+            "text": "anything",
+            "start": 30.244,
+            "end": 30.778
+          },
+          {
+            "text": "fancy",
+            "start": 30.882,
+            "end": 31.393
+          },
+          {
+            "text": "for",
+            "start": 31.463,
+            "end": 31.556
+          },
+          {
+            "text": "their",
+            "start": 31.602,
+            "end": 31.776
+          },
+          {
+            "text": "celebration--just",
+            "start": 31.834,
+            "end": 33.274
+          },
+          {
+            "text": "the",
+            "start": 33.378,
+            "end": 33.529
+          },
+          {
+            "text": "open",
+            "start": 33.634,
+            "end": 33.982
+          },
+          {
+            "text": "flowers,",
+            "start": 34.087,
+            "end": 34.899
+          },
+          {
+            "text": "the",
+            "start": 34.934,
+            "end": 35.062
+          },
+          {
+            "text": "warm",
+            "start": 35.143,
+            "end": 35.538
+          },
+          {
+            "text": "air,",
+            "start": 35.642,
+            "end": 36.13
+          },
+          {
+            "text": "and",
+            "start": 36.153,
+            "end": 36.362
+          },
+          {
+            "text": "each",
+            "start": 36.444,
+            "end": 36.675
+          },
+          {
+            "text": "other.",
+            "start": 36.733,
+            "end": 37.117
+          },
+          {
+            "text": "Good",
+            "start": 37.221,
+            "end": 37.465
+          },
+          {
+            "text": "things",
+            "start": 37.535,
+            "end": 37.906
+          },
+          {
+            "text": "are",
+            "start": 37.953,
+            "end": 38.092
+          },
+          {
+            "text": "worth",
+            "start": 38.115,
+            "end": 38.394
+          },
+          {
+            "text": "waiting",
+            "start": 38.475,
+            "end": 38.823
+          },
+          {
+            "text": "for,",
+            "start": 38.905,
+            "end": 39.439
+          },
+          {
+            "text": "Pip",
+            "start": 40.391,
+            "end": 40.669
+          },
+          {
+            "text": "sang",
+            "start": 40.785,
+            "end": 41.25
+          },
+          {
+            "text": "softly,",
+            "start": 41.575,
+            "end": 42.597
+          },
+          {
+            "text": "and",
+            "start": 43.711,
+            "end": 44.025
+          },
+          {
+            "text": "this",
+            "start": 44.141,
+            "end": 44.477
+          },
+          {
+            "text": "time",
+            "start": 44.593,
+            "end": 45.371
+          },
+          {
+            "text": "the",
+            "start": 46.323,
+            "end": 46.486
+          },
+          {
+            "text": "words",
+            "start": 46.567,
+            "end": 47.252
+          },
+          {
+            "text": "felt",
+            "start": 47.577,
+            "end": 48.111
+          },
+          {
+            "text": "as",
+            "start": 48.285,
+            "end": 48.552
+          },
+          {
+            "text": "true",
+            "start": 48.68,
+            "end": 49.33
+          },
+          {
+            "text": "as",
+            "start": 49.412,
+            "end": 49.655
+          },
+          {
+            "text": "the",
+            "start": 49.771,
+            "end": 49.864
+          },
+          {
+            "text": "ground",
+            "start": 49.934,
+            "end": 50.526
+          },
+          {
+            "text": "beneath",
+            "start": 50.642,
+            "end": 51.095
+          },
+          {
+            "text": "them.",
+            "start": 51.176,
+            "end": 51.629
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Safe in the Meadow",
+        "videoOffset": 534.97,
+        "words": [
+          {
+            "text": "The",
+            "start": 0.07,
+            "end": 0.163
+          },
+          {
+            "text": "golden",
+            "start": 0.267,
+            "end": 0.859
+          },
+          {
+            "text": "afternoon",
+            "start": 0.998,
+            "end": 1.788
+          },
+          {
+            "text": "settled",
+            "start": 1.95,
+            "end": 2.519
+          },
+          {
+            "text": "deep",
+            "start": 2.635,
+            "end": 3.065
+          },
+          {
+            "text": "into",
+            "start": 3.193,
+            "end": 3.46
+          },
+          {
+            "text": "the",
+            "start": 3.529,
+            "end": 3.599
+          },
+          {
+            "text": "meadow,",
+            "start": 3.657,
+            "end": 4.133
+          },
+          {
+            "text": "and",
+            "start": 4.168,
+            "end": 4.365
+          },
+          {
+            "text": "Pip",
+            "start": 4.47,
+            "end": 4.841
+          },
+          {
+            "text": "curled",
+            "start": 4.957,
+            "end": 5.468
+          },
+          {
+            "text": "his",
+            "start": 5.526,
+            "end": 5.677
+          },
+          {
+            "text": "little",
+            "start": 5.782,
+            "end": 6.188
+          },
+          {
+            "text": "round",
+            "start": 6.258,
+            "end": 6.629
+          },
+          {
+            "text": "body",
+            "start": 6.722,
+            "end": 7.117
+          },
+          {
+            "text": "into",
+            "start": 7.256,
+            "end": 7.546
+          },
+          {
+            "text": "the",
+            "start": 7.628,
+            "end": 7.709
+          },
+          {
+            "text": "soft",
+            "start": 7.802,
+            "end": 8.266
+          },
+          {
+            "text": "grass",
+            "start": 8.348,
+            "end": 8.893
+          },
+          {
+            "text": "near",
+            "start": 8.998,
+            "end": 9.195
+          },
+          {
+            "text": "the",
+            "start": 9.242,
+            "end": 9.311
+          },
+          {
+            "text": "wildflowers",
+            "start": 9.381,
+            "end": 10.321
+          },
+          {
+            "text": "where",
+            "start": 10.379,
+            "end": 10.588
+          },
+          {
+            "text": "the",
+            "start": 10.623,
+            "end": 10.681
+          },
+          {
+            "text": "day",
+            "start": 10.751,
+            "end": 11.006
+          },
+          {
+            "text": "had",
+            "start": 11.076,
+            "end": 11.204
+          },
+          {
+            "text": "begun.",
+            "start": 11.273,
+            "end": 11.761
+          },
+          {
+            "text": "The",
+            "start": 11.784,
+            "end": 11.912
+          },
+          {
+            "text": "frog",
+            "start": 12.016,
+            "end": 12.411
+          },
+          {
+            "text": "nestled",
+            "start": 12.55,
+            "end": 13.166
+          },
+          {
+            "text": "onto",
+            "start": 13.247,
+            "end": 13.56
+          },
+          {
+            "text": "his",
+            "start": 13.665,
+            "end": 13.804
+          },
+          {
+            "text": "mossy",
+            "start": 13.92,
+            "end": 14.373
+          },
+          {
+            "text": "rock,",
+            "start": 14.478,
+            "end": 14.942
+          },
+          {
+            "text": "and",
+            "start": 14.965,
+            "end": 15.128
+          },
+          {
+            "text": "the",
+            "start": 15.197,
+            "end": 15.314
+          },
+          {
+            "text": "owl",
+            "start": 15.418,
+            "end": 15.824
+          },
+          {
+            "text": "folded",
+            "start": 15.975,
+            "end": 16.509
+          },
+          {
+            "text": "his",
+            "start": 16.591,
+            "end": 16.73
+          },
+          {
+            "text": "wide",
+            "start": 16.834,
+            "end": 17.287
+          },
+          {
+            "text": "wings",
+            "start": 17.357,
+            "end": 17.879
+          },
+          {
+            "text": "and",
+            "start": 17.96,
+            "end": 18.134
+          },
+          {
+            "text": "closed",
+            "start": 18.239,
+            "end": 18.796
+          },
+          {
+            "text": "his",
+            "start": 18.854,
+            "end": 18.982
+          },
+          {
+            "text": "eyes",
+            "start": 19.086,
+            "end": 19.551
+          },
+          {
+            "text": "on",
+            "start": 19.667,
+            "end": 19.829
+          },
+          {
+            "text": "a",
+            "start": 19.888,
+            "end": 19.911
+          },
+          {
+            "text": "low",
+            "start": 20.05,
+            "end": 20.352
+          },
+          {
+            "text": "branch",
+            "start": 20.468,
+            "end": 20.956
+          },
+          {
+            "text": "of",
+            "start": 21.014,
+            "end": 21.083
+          },
+          {
+            "text": "the",
+            "start": 21.153,
+            "end": 21.223
+          },
+          {
+            "text": "big",
+            "start": 21.269,
+            "end": 21.432
+          },
+          {
+            "text": "oak.",
+            "start": 21.501,
+            "end": 22.059
+          },
+          {
+            "text": "The",
+            "start": 22.755,
+            "end": 22.883
+          },
+          {
+            "text": "wildflowers",
+            "start": 22.953,
+            "end": 23.87
+          },
+          {
+            "text": "had",
+            "start": 23.916,
+            "end": 24.032
+          },
+          {
+            "text": "bloomed",
+            "start": 24.079,
+            "end": 24.613
+          },
+          {
+            "text": "because",
+            "start": 24.694,
+            "end": 25.054
+          },
+          {
+            "text": "the",
+            "start": 25.1,
+            "end": 25.17
+          },
+          {
+            "text": "three",
+            "start": 25.228,
+            "end": 25.495
+          },
+          {
+            "text": "friends",
+            "start": 25.553,
+            "end": 25.936
+          },
+          {
+            "text": "stayed,",
+            "start": 25.994,
+            "end": 26.656
+          },
+          {
+            "text": "sang,",
+            "start": 26.714,
+            "end": 27.213
+          },
+          {
+            "text": "and",
+            "start": 27.237,
+            "end": 27.341
+          },
+          {
+            "text": "waited",
+            "start": 27.422,
+            "end": 27.829
+          },
+          {
+            "text": "together--and",
+            "start": 27.875,
+            "end": 28.665
+          },
+          {
+            "text": "that",
+            "start": 28.734,
+            "end": 28.943
+          },
+          {
+            "text": "was",
+            "start": 29.013,
+            "end": 29.164
+          },
+          {
+            "text": "the",
+            "start": 29.234,
+            "end": 29.326
+          },
+          {
+            "text": "only",
+            "start": 29.443,
+            "end": 29.884
+          },
+          {
+            "text": "celebration",
+            "start": 29.965,
+            "end": 30.824
+          },
+          {
+            "text": "any",
+            "start": 30.94,
+            "end": 31.23
+          },
+          {
+            "text": "of",
+            "start": 31.3,
+            "end": 31.37
+          },
+          {
+            "text": "them",
+            "start": 31.439,
+            "end": 31.579
+          },
+          {
+            "text": "ever",
+            "start": 31.637,
+            "end": 31.823
+          },
+          {
+            "text": "needed.",
+            "start": 31.881,
+            "end": 32.554
+          },
+          {
+            "text": "Good",
+            "start": 33.367,
+            "end": 33.599
+          },
+          {
+            "text": "things",
+            "start": 33.657,
+            "end": 33.994
+          },
+          {
+            "text": "are",
+            "start": 34.04,
+            "end": 34.133
+          },
+          {
+            "text": "worth",
+            "start": 34.168,
+            "end": 34.435
+          },
+          {
+            "text": "waiting",
+            "start": 34.504,
+            "end": 34.911
+          },
+          {
+            "text": "for,",
+            "start": 34.992,
+            "end": 35.48
+          },
+          {
+            "text": "Pip",
+            "start": 35.596,
+            "end": 35.851
+          },
+          {
+            "text": "thought",
+            "start": 35.921,
+            "end": 36.223
+          },
+          {
+            "text": "one",
+            "start": 36.292,
+            "end": 36.501
+          },
+          {
+            "text": "last",
+            "start": 36.559,
+            "end": 36.896
+          },
+          {
+            "text": "time,",
+            "start": 36.931,
+            "end": 37.813
+          },
+          {
+            "text": "feeling",
+            "start": 38.417,
+            "end": 39.102
+          },
+          {
+            "text": "its",
+            "start": 39.253,
+            "end": 39.497
+          },
+          {
+            "text": "warmth",
+            "start": 39.59,
+            "end": 40.24
+          },
+          {
+            "text": "in",
+            "start": 40.414,
+            "end": 40.577
+          },
+          {
+            "text": "his",
+            "start": 40.669,
+            "end": 40.809
+          },
+          {
+            "text": "chest",
+            "start": 40.925,
+            "end": 41.738
+          },
+          {
+            "text": "like",
+            "start": 42.341,
+            "end": 42.631
+          },
+          {
+            "text": "the",
+            "start": 42.69,
+            "end": 42.806
+          },
+          {
+            "text": "sun.",
+            "start": 42.922,
+            "end": 43.723
+          },
+          {
+            "text": "The",
+            "start": 44.837,
+            "end": 44.988
+          },
+          {
+            "text": "meadow",
+            "start": 45.081,
+            "end": 45.441
+          },
+          {
+            "text": "was",
+            "start": 45.511,
+            "end": 45.662
+          },
+          {
+            "text": "quiet,",
+            "start": 45.755,
+            "end": 46.858
+          },
+          {
+            "text": "the",
+            "start": 47.461,
+            "end": 47.601
+          },
+          {
+            "text": "air",
+            "start": 47.717,
+            "end": 48.146
+          },
+          {
+            "text": "was",
+            "start": 48.239,
+            "end": 48.436
+          },
+          {
+            "text": "gentle,",
+            "start": 48.553,
+            "end": 49.388
+          },
+          {
+            "text": "and",
+            "start": 49.435,
+            "end": 49.667
+          },
+          {
+            "text": "everyone",
+            "start": 49.795,
+            "end": 50.677
+          },
+          {
+            "text": "was",
+            "start": 50.735,
+            "end": 50.909
+          },
+          {
+            "text": "safe--it",
+            "start": 50.991,
+            "end": 52.79
+          },
+          {
+            "text": "was",
+            "start": 52.848,
+            "end": 52.988
+          },
+          {
+            "text": "time",
+            "start": 53.069,
+            "end": 53.464
+          },
+          {
+            "text": "to",
+            "start": 53.522,
+            "end": 53.615
+          },
+          {
+            "text": "rest,",
+            "start": 53.731,
+            "end": 54.625
+          },
+          {
+            "text": "close",
+            "start": 54.776,
+            "end": 55.205
+          },
+          {
+            "text": "their",
+            "start": 55.252,
+            "end": 55.449
+          },
+          {
+            "text": "eyes,",
+            "start": 55.519,
+            "end": 56.285
+          },
+          {
+            "text": "and",
+            "start": 56.331,
+            "end": 56.552
+          },
+          {
+            "text": "sleep.",
+            "start": 56.645,
+            "end": 57.376
+          }
+        ]
+      }
+    ]
   }
 ]

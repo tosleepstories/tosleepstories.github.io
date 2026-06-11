@@ -926,7 +926,7 @@
 <!-- Story data loaded per language via fetch (see script below) -->
 
 <script>
-const DATA_VERSION = '20260611';
+const DATA_VERSION = '20260614';
 const TITLE_CARD_SEC = 3;
 const LEGACY_LANGS = ['english', 'yoruba', 'igbo', 'hausa', 'swahili'];
 const STORIES_CACHE = {};
@@ -1167,6 +1167,28 @@ async function refreshPickerForLang() {
   }
 }
 
+function storyMaxEndTime(variant) {
+  let max = 0;
+  (variant.scenes || []).forEach(scene => {
+    const off = scene.videoOffset || 0;
+    (scene.words || []).forEach(w => {
+      const end = off + (w.end || 0);
+      if (end > max) max = end;
+    });
+  });
+  return max;
+}
+
+function isStoryReady(variant) {
+  if (!variant || !variant.scenes || variant.scenes.length === 0) return false;
+  // Need real word timing past the title card (not placeholder 0-duration words).
+  const contentScenes = variant.scenes.filter(s => !s.isTitle);
+  const hasTimedWords = contentScenes.some(scene =>
+    (scene.words || []).some(w => (w.end || 0) > 0.05)
+  );
+  return hasTimedWords && storyMaxEndTime(variant) > TITLE_CARD_SEC + 30;
+}
+
 // ── Build picker ─────────────────────────────────────────────────────────
 function buildPicker() {
   const container = document.getElementById('story-cards');
@@ -1183,11 +1205,14 @@ function buildPicker() {
   }
 
   stories.forEach(story => {
+    const ready = isStoryReady(story);
     const card = document.createElement('div');
-    card.className = 'story-card';
+    card.className = 'story-card' + (ready ? '' : ' disabled');
     card.dataset.storyId = story.id;
 
-    const durationEl = `<span class="meta-badge" id="dur-${story.id}">⏱ …</span>`;
+    const durationEl = ready
+      ? `<span class="meta-badge" id="dur-${story.id}">⏱ …</span>`
+      : `<span class="meta-badge">${ui('comingSoon')}</span>`;
 
     card.innerHTML = `
       <div class="card-header">
@@ -1196,24 +1221,17 @@ function buildPicker() {
         <div class="card-meta">${durationEl}</div>
       </div>
       <div class="card-footer" style="justify-content:flex-end">
-        <button class="btn-start" onclick="startStory(${story.id})">● ${ui('startRecording')}</button>
+        <button class="btn-start" ${ready ? `onclick="startStory(${story.id})"` : 'disabled'}>● ${ui('startRecording')}</button>
       </div>
     `;
 
     container.appendChild(card);
-    probeDurationFromWords(story.id, story);
+    if (ready) probeDurationFromWords(story.id, story);
   });
 }
 
 function probeDurationFromWords(storyId, variant) {
-  let max = 0;
-  (variant.scenes || []).forEach(scene => {
-    const off = scene.videoOffset || 0;
-    (scene.words || []).forEach(w => {
-      const end = off + (w.end || 0);
-      if (end > max) max = end;
-    });
-  });
+  const max = storyMaxEndTime(variant);
   const badge = document.getElementById('dur-' + storyId);
   if (badge) badge.textContent = max > 0 ? '⏱ ' + formatTime(max) : '⏱ ~10 min';
 }
@@ -1278,7 +1296,7 @@ function endPlayback() {
 
 function startStory(storyId) {
   const story = currentStories.find(s => s.id === storyId);
-  if (!story || !story.scenes || story.scenes.length === 0) return;
+  if (!story || !isStoryReady(story)) return;
   currentStory = story;
   void beginStoryWithMic(story);
 }

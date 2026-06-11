@@ -20051,5 +20051,6011 @@
         ]
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "Ọṅụ Na-Enwu N'Ọhịa Ahịhịa",
+    "language": "igbo",
+    "label": "Igbo",
+    "videoPath": "videos/story_4_english.mp4",
+    "scenes": [
+      {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Ọṅụ",
+            "start": 0.15,
+            "end": 0.67
+          },
+          {
+            "text": "Na",
+            "start": 0.67,
+            "end": 1.19
+          },
+          {
+            "text": "Enwu",
+            "start": 1.19,
+            "end": 1.71
+          },
+          {
+            "text": "N'Ọhịa",
+            "start": 1.71,
+            "end": 2.23
+          },
+          {
+            "text": "Ahịhịa",
+            "start": 2.23,
+            "end": 2.75
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Ehihie N'Ọhịa Ahịhịa",
+        "videoOffset": 3.0,
+        "words": [
+          {
+            "text": "Ohia",
+            "start": 0.035,
+            "end": 0.673
+          },
+          {
+            "text": "ahihia",
+            "start": 0.789,
+            "end": 1.533
+          },
+          {
+            "text": "ahu",
+            "start": 1.66,
+            "end": 2.043
+          },
+          {
+            "text": "buru",
+            "start": 2.101,
+            "end": 2.368
+          },
+          {
+            "text": "ibu,",
+            "start": 2.438,
+            "end": 2.984
+          },
+          {
+            "text": "o",
+            "start": 3.367,
+            "end": 3.46
+          },
+          {
+            "text": "na-egbu",
+            "start": 3.529,
+            "end": 4.087
+          },
+          {
+            "text": "oku",
+            "start": 4.133,
+            "end": 4.481
+          },
+          {
+            "text": "olaedo",
+            "start": 4.551,
+            "end": 4.992
+          },
+          {
+            "text": "n'okpuru",
+            "start": 5.062,
+            "end": 5.654
+          },
+          {
+            "text": "anyanwu",
+            "start": 5.712,
+            "end": 6.246
+          },
+          {
+            "text": "ehihie.",
+            "start": 6.362,
+            "end": 7.152
+          },
+          {
+            "text": "Pip,",
+            "start": 7.187,
+            "end": 7.593
+          },
+          {
+            "text": "otu",
+            "start": 7.639,
+            "end": 7.895
+          },
+          {
+            "text": "obere",
+            "start": 7.953,
+            "end": 8.29
+          },
+          {
+            "text": "nnunu",
+            "start": 8.324,
+            "end": 8.789
+          },
+          {
+            "text": "okirikiri,",
+            "start": 8.847,
+            "end": 9.625
+          },
+          {
+            "text": "na-awuli",
+            "start": 9.671,
+            "end": 10.24
+          },
+          {
+            "text": "onu",
+            "start": 10.31,
+            "end": 10.495
+          },
+          {
+            "text": "n'etiti",
+            "start": 10.542,
+            "end": 10.995
+          },
+          {
+            "text": "ahihia",
+            "start": 11.053,
+            "end": 11.68
+          },
+          {
+            "text": "ogologo.",
+            "start": 11.761,
+            "end": 12.411
+          },
+          {
+            "text": "O",
+            "start": 12.446,
+            "end": 12.516
+          },
+          {
+            "text": "tinyere",
+            "start": 12.632,
+            "end": 13.038
+          },
+          {
+            "text": "izu",
+            "start": 13.108,
+            "end": 13.363
+          },
+          {
+            "text": "niile",
+            "start": 13.421,
+            "end": 13.665
+          },
+          {
+            "text": "na-ele",
+            "start": 13.723,
+            "end": 14.141
+          },
+          {
+            "text": "ka",
+            "start": 14.187,
+            "end": 14.303
+          },
+          {
+            "text": "okooko",
+            "start": 14.35,
+            "end": 14.872
+          },
+          {
+            "text": "ohia",
+            "start": 14.93,
+            "end": 15.395
+          },
+          {
+            "text": "na-amiputa,",
+            "start": 15.488,
+            "end": 16.382
+          },
+          {
+            "text": "ma",
+            "start": 16.416,
+            "end": 16.498
+          },
+          {
+            "text": "taa",
+            "start": 16.544,
+            "end": 16.753
+          },
+          {
+            "text": "bu",
+            "start": 16.811,
+            "end": 16.974
+          },
+          {
+            "text": "ubochi",
+            "start": 17.009,
+            "end": 17.45
+          },
+          {
+            "text": "kachasi",
+            "start": 17.496,
+            "end": 18.112
+          },
+          {
+            "text": "mma",
+            "start": 18.17,
+            "end": 18.309
+          },
+          {
+            "text": "iji",
+            "start": 18.39,
+            "end": 18.68
+          },
+          {
+            "text": "mee",
+            "start": 18.75,
+            "end": 18.913
+          },
+          {
+            "text": "mmemme.",
+            "start": 18.936,
+            "end": 19.365
+          },
+          {
+            "text": "Otu",
+            "start": 19.4,
+            "end": 19.656
+          },
+          {
+            "text": "ikwighikwighi",
+            "start": 19.725,
+            "end": 20.573
+          },
+          {
+            "text": "ochie",
+            "start": 20.689,
+            "end": 20.991
+          },
+          {
+            "text": "maara",
+            "start": 21.049,
+            "end": 21.316
+          },
+          {
+            "text": "ihe",
+            "start": 21.397,
+            "end": 21.595
+          },
+          {
+            "text": "bi",
+            "start": 21.653,
+            "end": 21.745
+          },
+          {
+            "text": "n'elu",
+            "start": 21.792,
+            "end": 21.989
+          },
+          {
+            "text": "osisi",
+            "start": 22.024,
+            "end": 22.581
+          },
+          {
+            "text": "ook",
+            "start": 22.825,
+            "end": 23.081
+          },
+          {
+            "text": "ukwu",
+            "start": 23.162,
+            "end": 23.452
+          },
+          {
+            "text": "di",
+            "start": 23.522,
+            "end": 23.591
+          },
+          {
+            "text": "n'onu",
+            "start": 23.65,
+            "end": 23.917
+          },
+          {
+            "text": "ohia",
+            "start": 23.975,
+            "end": 24.427
+          },
+          {
+            "text": "ahu,",
+            "start": 24.497,
+            "end": 24.938
+          },
+          {
+            "text": "na-arahu",
+            "start": 25.182,
+            "end": 25.832
+          },
+          {
+            "text": "ura",
+            "start": 25.902,
+            "end": 26.18
+          },
+          {
+            "text": "nwayoo",
+            "start": 26.25,
+            "end": 26.68
+          },
+          {
+            "text": "n'anyanwu.",
+            "start": 26.761,
+            "end": 27.492
+          },
+          {
+            "text": "Otu",
+            "start": 27.736,
+            "end": 28.061
+          },
+          {
+            "text": "obere",
+            "start": 28.108,
+            "end": 28.421
+          },
+          {
+            "text": "awo",
+            "start": 28.491,
+            "end": 28.711
+          },
+          {
+            "text": "nokwa",
+            "start": 28.793,
+            "end": 29.141
+          },
+          {
+            "text": "n'elu",
+            "start": 29.199,
+            "end": 29.396
+          },
+          {
+            "text": "nkume",
+            "start": 29.431,
+            "end": 29.733
+          },
+          {
+            "text": "nke",
+            "start": 29.768,
+            "end": 30.0
+          },
+          {
+            "text": "ahihia",
+            "start": 30.058,
+            "end": 30.627
+          },
+          {
+            "text": "ndu",
+            "start": 30.662,
+            "end": 30.824
+          },
+          {
+            "text": "kpuchiri.",
+            "start": 30.871,
+            "end": 31.556
+          },
+          {
+            "text": "Ha",
+            "start": 31.881,
+            "end": 32.02
+          },
+          {
+            "text": "bu",
+            "start": 32.067,
+            "end": 32.16
+          },
+          {
+            "text": "ndi",
+            "start": 32.183,
+            "end": 32.334
+          },
+          {
+            "text": "enyi",
+            "start": 32.392,
+            "end": 32.578
+          },
+          {
+            "text": "Pip",
+            "start": 32.636,
+            "end": 32.798
+          },
+          {
+            "text": "nke",
+            "start": 32.891,
+            "end": 33.112
+          },
+          {
+            "text": "ukwuu,",
+            "start": 33.17,
+            "end": 33.622
+          },
+          {
+            "text": "ha",
+            "start": 33.797,
+            "end": 33.901
+          },
+          {
+            "text": "na-ezuko",
+            "start": 33.959,
+            "end": 34.516
+          },
+          {
+            "text": "ebe",
+            "start": 34.563,
+            "end": 34.772
+          },
+          {
+            "text": "a",
+            "start": 34.807,
+            "end": 34.83
+          },
+          {
+            "text": "kwa",
+            "start": 34.888,
+            "end": 35.074
+          },
+          {
+            "text": "ehihie.",
+            "start": 35.155,
+            "end": 35.933
+          },
+          {
+            "text": "Pip",
+            "start": 36.177,
+            "end": 36.409
+          },
+          {
+            "text": "kwara",
+            "start": 36.49,
+            "end": 36.769
+          },
+          {
+            "text": "uda",
+            "start": 36.827,
+            "end": 37.025
+          },
+          {
+            "text": "onu,",
+            "start": 37.094,
+            "end": 37.454
+          },
+          {
+            "text": "na-ekwu",
+            "start": 37.663,
+            "end": 38.093
+          },
+          {
+            "text": "na",
+            "start": 38.151,
+            "end": 38.209
+          },
+          {
+            "text": "oge",
+            "start": 38.244,
+            "end": 38.429
+          },
+          {
+            "text": "eruola",
+            "start": 38.453,
+            "end": 38.778
+          },
+          {
+            "text": "ka",
+            "start": 38.824,
+            "end": 38.905
+          },
+          {
+            "text": "ha",
+            "start": 38.952,
+            "end": 39.01
+          },
+          {
+            "text": "mee",
+            "start": 39.056,
+            "end": 39.149
+          },
+          {
+            "text": "mmemme",
+            "start": 39.172,
+            "end": 39.544
+          },
+          {
+            "text": "maka",
+            "start": 39.59,
+            "end": 39.788
+          },
+          {
+            "text": "okooko",
+            "start": 39.834,
+            "end": 40.182
+          },
+          {
+            "text": "ohia",
+            "start": 40.229,
+            "end": 40.473
+          },
+          {
+            "text": "na-emeghe.",
+            "start": 40.519,
+            "end": 40.995
+          },
+          {
+            "text": "Ihe",
+            "start": 41.378,
+            "end": 41.599
+          },
+          {
+            "text": "oma",
+            "start": 41.657,
+            "end": 41.819
+          },
+          {
+            "text": "bu",
+            "start": 41.854,
+            "end": 41.947
+          },
+          {
+            "text": "ihe",
+            "start": 41.97,
+            "end": 42.11
+          },
+          {
+            "text": "kwesiri",
+            "start": 42.156,
+            "end": 42.481
+          },
+          {
+            "text": "ichere,",
+            "start": 42.504,
+            "end": 42.899
+          },
+          {
+            "text": "Pip",
+            "start": 43.073,
+            "end": 43.294
+          },
+          {
+            "text": "chere",
+            "start": 43.364,
+            "end": 43.549
+          },
+          {
+            "text": "n'obi",
+            "start": 43.596,
+            "end": 43.851
+          },
+          {
+            "text": "ya,",
+            "start": 43.874,
+            "end": 44.072
+          },
+          {
+            "text": "ohia",
+            "start": 44.246,
+            "end": 44.559
+          },
+          {
+            "text": "ahu",
+            "start": 44.583,
+            "end": 44.745
+          },
+          {
+            "text": "niile",
+            "start": 44.792,
+            "end": 44.966
+          },
+          {
+            "text": "dikwa",
+            "start": 45.012,
+            "end": 45.279
+          },
+          {
+            "text": "ka",
+            "start": 45.326,
+            "end": 45.407
+          },
+          {
+            "text": "o",
+            "start": 45.442,
+            "end": 45.465
+          },
+          {
+            "text": "na-ekpo",
+            "start": 45.511,
+            "end": 45.883
+          },
+          {
+            "text": "oku",
+            "start": 45.941,
+            "end": 46.115
+          },
+          {
+            "text": "karia.",
+            "start": 46.162,
+            "end": 46.545
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Ihe Fọdụrụ",
+        "videoOffset": 50.065,
+        "words": [
+          {
+            "text": "N'etiti",
+            "start": 0.035,
+            "end": 0.43
+          },
+          {
+            "text": "okooko",
+            "start": 0.511,
+            "end": 0.94
+          },
+          {
+            "text": "ohia",
+            "start": 0.998,
+            "end": 1.416
+          },
+          {
+            "text": "di",
+            "start": 1.474,
+            "end": 1.544
+          },
+          {
+            "text": "n'etiti",
+            "start": 1.602,
+            "end": 1.997
+          },
+          {
+            "text": "ohia",
+            "start": 2.067,
+            "end": 2.496
+          },
+          {
+            "text": "ahihia,",
+            "start": 2.577,
+            "end": 3.437
+          },
+          {
+            "text": "Pip",
+            "start": 3.704,
+            "end": 3.901
+          },
+          {
+            "text": "dara",
+            "start": 3.971,
+            "end": 4.18
+          },
+          {
+            "text": "nwayoo,",
+            "start": 4.261,
+            "end": 5.027
+          },
+          {
+            "text": "na-eleghari",
+            "start": 5.341,
+            "end": 5.933
+          },
+          {
+            "text": "anya",
+            "start": 6.002,
+            "end": 6.316
+          },
+          {
+            "text": "nke",
+            "start": 6.351,
+            "end": 6.56
+          },
+          {
+            "text": "oma.",
+            "start": 6.676,
+            "end": 7.187
+          },
+          {
+            "text": "Okooko",
+            "start": 7.674,
+            "end": 8.127
+          },
+          {
+            "text": "ohia",
+            "start": 8.208,
+            "end": 8.661
+          },
+          {
+            "text": "na-efeghari",
+            "start": 8.766,
+            "end": 9.404
+          },
+          {
+            "text": "n'ikuku",
+            "start": 9.451,
+            "end": 9.834
+          },
+          {
+            "text": "ehihie,",
+            "start": 9.927,
+            "end": 10.739
+          },
+          {
+            "text": "mana",
+            "start": 11.111,
+            "end": 11.308
+          },
+          {
+            "text": "o",
+            "start": 11.378,
+            "end": 11.401
+          },
+          {
+            "text": "bu",
+            "start": 11.447,
+            "end": 11.622
+          },
+          {
+            "text": "naani",
+            "start": 11.703,
+            "end": 11.97
+          },
+          {
+            "text": "ole",
+            "start": 12.04,
+            "end": 12.26
+          },
+          {
+            "text": "na",
+            "start": 12.318,
+            "end": 12.399
+          },
+          {
+            "text": "ole",
+            "start": 12.458,
+            "end": 12.62
+          },
+          {
+            "text": "meghere--otutu",
+            "start": 12.69,
+            "end": 14.06
+          },
+          {
+            "text": "ka",
+            "start": 14.106,
+            "end": 14.187
+          },
+          {
+            "text": "mechiri",
+            "start": 14.222,
+            "end": 14.594
+          },
+          {
+            "text": "emechi.",
+            "start": 14.663,
+            "end": 15.29
+          },
+          {
+            "text": "Ikwighikwighi",
+            "start": 15.72,
+            "end": 16.475
+          },
+          {
+            "text": "kpara",
+            "start": 16.521,
+            "end": 16.881
+          },
+          {
+            "text": "nku",
+            "start": 16.904,
+            "end": 17.067
+          },
+          {
+            "text": "ya",
+            "start": 17.148,
+            "end": 17.218
+          },
+          {
+            "text": "ma",
+            "start": 17.252,
+            "end": 17.334
+          },
+          {
+            "text": "juo",
+            "start": 17.38,
+            "end": 17.566
+          },
+          {
+            "text": "nwayoo",
+            "start": 17.636,
+            "end": 18.042
+          },
+          {
+            "text": "ma",
+            "start": 18.089,
+            "end": 18.193
+          },
+          {
+            "text": "okooko",
+            "start": 18.24,
+            "end": 18.611
+          },
+          {
+            "text": "ohia",
+            "start": 18.692,
+            "end": 19.087
+          },
+          {
+            "text": "niile",
+            "start": 19.157,
+            "end": 19.412
+          },
+          {
+            "text": "ga-amiputa",
+            "start": 19.447,
+            "end": 20.039
+          },
+          {
+            "text": "n'oge.",
+            "start": 20.097,
+            "end": 20.585
+          },
+          {
+            "text": "Awo",
+            "start": 21.189,
+            "end": 21.456
+          },
+          {
+            "text": "kwekwara",
+            "start": 21.502,
+            "end": 21.85
+          },
+          {
+            "text": "isi,",
+            "start": 21.885,
+            "end": 22.454
+          },
+          {
+            "text": "juo",
+            "start": 22.837,
+            "end": 23.058
+          },
+          {
+            "text": "nwayoo",
+            "start": 23.139,
+            "end": 23.534
+          },
+          {
+            "text": "ma",
+            "start": 23.58,
+            "end": 23.65
+          },
+          {
+            "text": "ha",
+            "start": 23.696,
+            "end": 23.778
+          },
+          {
+            "text": "nwere",
+            "start": 23.812,
+            "end": 24.056
+          },
+          {
+            "text": "ike",
+            "start": 24.103,
+            "end": 24.288
+          },
+          {
+            "text": "ichere",
+            "start": 24.335,
+            "end": 24.59
+          },
+          {
+            "text": "ntakiri",
+            "start": 24.613,
+            "end": 24.985
+          },
+          {
+            "text": "oge.",
+            "start": 25.031,
+            "end": 25.473
+          },
+          {
+            "text": "Nchegbu",
+            "start": 26.285,
+            "end": 26.785
+          },
+          {
+            "text": "dara",
+            "start": 26.843,
+            "end": 27.052
+          },
+          {
+            "text": "n'etiti",
+            "start": 27.11,
+            "end": 27.481
+          },
+          {
+            "text": "ndi",
+            "start": 27.504,
+            "end": 27.667
+          },
+          {
+            "text": "enyi",
+            "start": 27.737,
+            "end": 27.992
+          },
+          {
+            "text": "ato",
+            "start": 28.062,
+            "end": 28.317
+          },
+          {
+            "text": "ahu:",
+            "start": 28.398,
+            "end": 28.932
+          },
+          {
+            "text": "Gini",
+            "start": 29.443,
+            "end": 29.664
+          },
+          {
+            "text": "ma",
+            "start": 29.71,
+            "end": 29.78
+          },
+          {
+            "text": "okooko",
+            "start": 29.826,
+            "end": 30.209
+          },
+          {
+            "text": "ohia",
+            "start": 30.291,
+            "end": 30.709
+          },
+          {
+            "text": "ahu",
+            "start": 30.767,
+            "end": 31.022
+          },
+          {
+            "text": "amighi",
+            "start": 31.08,
+            "end": 31.394
+          },
+          {
+            "text": "n'oge",
+            "start": 31.452,
+            "end": 31.672
+          },
+          {
+            "text": "mmemme",
+            "start": 31.719,
+            "end": 31.997
+          },
+          {
+            "text": "ehihie",
+            "start": 32.067,
+            "end": 32.659
+          },
+          {
+            "text": "ha?",
+            "start": 32.717,
+            "end": 33.089
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Echiche Mbụ Pip",
+        "videoOffset": 83.57,
+        "words": [
+          {
+            "text": "Pip",
+            "start": 0.325,
+            "end": 0.65
+          },
+          {
+            "text": "feliri",
+            "start": 0.72,
+            "end": 1.057
+          },
+          {
+            "text": "elu",
+            "start": 1.091,
+            "end": 1.242
+          },
+          {
+            "text": "n'otu",
+            "start": 1.312,
+            "end": 1.579
+          },
+          {
+            "text": "ogwe",
+            "start": 1.625,
+            "end": 1.834
+          },
+          {
+            "text": "ahihia",
+            "start": 1.869,
+            "end": 2.392
+          },
+          {
+            "text": "ogologo",
+            "start": 2.438,
+            "end": 2.821
+          },
+          {
+            "text": "di",
+            "start": 2.868,
+            "end": 2.949
+          },
+          {
+            "text": "nso",
+            "start": 2.995,
+            "end": 3.32
+          },
+          {
+            "text": "okooko",
+            "start": 3.355,
+            "end": 3.785
+          },
+          {
+            "text": "ohia,",
+            "start": 3.82,
+            "end": 4.423
+          },
+          {
+            "text": "na-ele",
+            "start": 4.748,
+            "end": 5.016
+          },
+          {
+            "text": "mkpuru",
+            "start": 5.062,
+            "end": 5.422
+          },
+          {
+            "text": "ndu",
+            "start": 5.445,
+            "end": 5.584
+          },
+          {
+            "text": "mechiri",
+            "start": 5.631,
+            "end": 6.049
+          },
+          {
+            "text": "emechi,",
+            "start": 6.095,
+            "end": 6.745
+          },
+          {
+            "text": "na-acho",
+            "start": 6.989,
+            "end": 7.338
+          },
+          {
+            "text": "ighota",
+            "start": 7.372,
+            "end": 7.755
+          },
+          {
+            "text": "ihe",
+            "start": 7.802,
+            "end": 7.988
+          },
+          {
+            "text": "ha",
+            "start": 8.011,
+            "end": 8.069
+          },
+          {
+            "text": "choro.",
+            "start": 8.139,
+            "end": 8.661
+          },
+          {
+            "text": "Eleghi",
+            "start": 8.986,
+            "end": 9.358
+          },
+          {
+            "text": "anya",
+            "start": 9.416,
+            "end": 9.636
+          },
+          {
+            "text": "ha",
+            "start": 9.694,
+            "end": 9.764
+          },
+          {
+            "text": "choro",
+            "start": 9.822,
+            "end": 10.112
+          },
+          {
+            "text": "anyanwu",
+            "start": 10.159,
+            "end": 10.484
+          },
+          {
+            "text": "karia,",
+            "start": 10.53,
+            "end": 11.111
+          },
+          {
+            "text": "o",
+            "start": 11.285,
+            "end": 11.378
+          },
+          {
+            "text": "turu",
+            "start": 11.436,
+            "end": 11.656
+          },
+          {
+            "text": "aro,",
+            "start": 11.726,
+            "end": 12.202
+          },
+          {
+            "text": "na-aku",
+            "start": 12.376,
+            "end": 12.713
+          },
+          {
+            "text": "obere",
+            "start": 12.771,
+            "end": 13.003
+          },
+          {
+            "text": "nku",
+            "start": 13.026,
+            "end": 13.189
+          },
+          {
+            "text": "ya",
+            "start": 13.259,
+            "end": 13.328
+          },
+          {
+            "text": "iji",
+            "start": 13.375,
+            "end": 13.549
+          },
+          {
+            "text": "kwapu",
+            "start": 13.595,
+            "end": 13.909
+          },
+          {
+            "text": "ahihia",
+            "start": 13.955,
+            "end": 14.466
+          },
+          {
+            "text": "ka",
+            "start": 14.524,
+            "end": 14.652
+          },
+          {
+            "text": "ìhè",
+            "start": 14.721,
+            "end": 14.919
+          },
+          {
+            "text": "ruo",
+            "start": 14.954,
+            "end": 15.105
+          },
+          {
+            "text": "okooko",
+            "start": 15.151,
+            "end": 15.604
+          },
+          {
+            "text": "ohia.",
+            "start": 15.65,
+            "end": 16.196
+          },
+          {
+            "text": "Ikwighikwighi",
+            "start": 16.44,
+            "end": 17.137
+          },
+          {
+            "text": "lere",
+            "start": 17.195,
+            "end": 17.427
+          },
+          {
+            "text": "anya",
+            "start": 17.473,
+            "end": 17.694
+          },
+          {
+            "text": "nke",
+            "start": 17.729,
+            "end": 17.88
+          },
+          {
+            "text": "oma",
+            "start": 17.903,
+            "end": 18.042
+          },
+          {
+            "text": "wee",
+            "start": 18.077,
+            "end": 18.17
+          },
+          {
+            "text": "kwuo",
+            "start": 18.205,
+            "end": 18.332
+          },
+          {
+            "text": "na",
+            "start": 18.39,
+            "end": 18.46
+          },
+          {
+            "text": "ahihia",
+            "start": 18.483,
+            "end": 19.145
+          },
+          {
+            "text": "ahu",
+            "start": 19.389,
+            "end": 19.621
+          },
+          {
+            "text": "siri",
+            "start": 19.691,
+            "end": 19.935
+          },
+          {
+            "text": "ike",
+            "start": 19.969,
+            "end": 20.155
+          },
+          {
+            "text": "karia",
+            "start": 20.213,
+            "end": 20.469
+          },
+          {
+            "text": "nku",
+            "start": 20.492,
+            "end": 20.678
+          },
+          {
+            "text": "obere",
+            "start": 20.736,
+            "end": 20.991
+          },
+          {
+            "text": "Pip.",
+            "start": 21.061,
+            "end": 21.525
+          },
+          {
+            "text": "Awo",
+            "start": 21.85,
+            "end": 22.106
+          },
+          {
+            "text": "wuliri,",
+            "start": 22.164,
+            "end": 22.814
+          },
+          {
+            "text": "jiri",
+            "start": 23.023,
+            "end": 23.348
+          },
+          {
+            "text": "ukwu",
+            "start": 23.406,
+            "end": 23.603
+          },
+          {
+            "text": "ya",
+            "start": 23.685,
+            "end": 23.766
+          },
+          {
+            "text": "siri",
+            "start": 23.835,
+            "end": 24.091
+          },
+          {
+            "text": "ike",
+            "start": 24.114,
+            "end": 24.311
+          },
+          {
+            "text": "nuo",
+            "start": 24.37,
+            "end": 24.509
+          },
+          {
+            "text": "ahihia,",
+            "start": 24.579,
+            "end": 25.38
+          },
+          {
+            "text": "mana",
+            "start": 25.623,
+            "end": 25.879
+          },
+          {
+            "text": "ogwe",
+            "start": 25.914,
+            "end": 26.169
+          },
+          {
+            "text": "ahihia",
+            "start": 26.204,
+            "end": 26.854
+          },
+          {
+            "text": "laghachiri",
+            "start": 27.063,
+            "end": 27.713
+          },
+          {
+            "text": "azu",
+            "start": 27.76,
+            "end": 27.945
+          },
+          {
+            "text": "ngwa",
+            "start": 27.98,
+            "end": 28.154
+          },
+          {
+            "text": "ngwa.",
+            "start": 28.189,
+            "end": 28.596
+          },
+          {
+            "text": "Okooko",
+            "start": 28.921,
+            "end": 29.373
+          },
+          {
+            "text": "ohia",
+            "start": 29.49,
+            "end": 30.024
+          },
+          {
+            "text": "ahu",
+            "start": 30.233,
+            "end": 30.465
+          },
+          {
+            "text": "nogidere",
+            "start": 30.511,
+            "end": 30.987
+          },
+          {
+            "text": "ka",
+            "start": 31.034,
+            "end": 31.138
+          },
+          {
+            "text": "ha",
+            "start": 31.196,
+            "end": 31.324
+          },
+          {
+            "text": "no--mkpuru",
+            "start": 31.382,
+            "end": 32.427
+          },
+          {
+            "text": "ndu",
+            "start": 32.45,
+            "end": 32.589
+          },
+          {
+            "text": "mechiri",
+            "start": 32.636,
+            "end": 32.996
+          },
+          {
+            "text": "emechi,",
+            "start": 33.042,
+            "end": 33.727
+          },
+          {
+            "text": "mmemme",
+            "start": 33.971,
+            "end": 34.308
+          },
+          {
+            "text": "ahu",
+            "start": 34.343,
+            "end": 34.551
+          },
+          {
+            "text": "ka",
+            "start": 34.61,
+            "end": 34.702
+          },
+          {
+            "text": "na-enweghi",
+            "start": 34.749,
+            "end": 35.306
+          },
+          {
+            "text": "okooko",
+            "start": 35.376,
+            "end": 35.771
+          },
+          {
+            "text": "ya.",
+            "start": 35.84,
+            "end": 36.165
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Ndụmọdụ Ikwighịkwighị",
+        "videoOffset": 120.186,
+        "words": [
+          {
+            "text": "Ikwighikwighi",
+            "start": 0.035,
+            "end": 0.975
+          },
+          {
+            "text": "gbasapuru",
+            "start": 1.057,
+            "end": 1.95
+          },
+          {
+            "text": "otu",
+            "start": 2.067,
+            "end": 2.334
+          },
+          {
+            "text": "nku",
+            "start": 2.368,
+            "end": 2.635
+          },
+          {
+            "text": "ya",
+            "start": 2.728,
+            "end": 2.821
+          },
+          {
+            "text": "ukwu,",
+            "start": 2.891,
+            "end": 3.553
+          },
+          {
+            "text": "na-atu",
+            "start": 3.924,
+            "end": 4.54
+          },
+          {
+            "text": "aka",
+            "start": 4.644,
+            "end": 4.876
+          },
+          {
+            "text": "n'akuku",
+            "start": 4.934,
+            "end": 5.48
+          },
+          {
+            "text": "ozo",
+            "start": 5.596,
+            "end": 5.933
+          },
+          {
+            "text": "ohia",
+            "start": 6.014,
+            "end": 6.513
+          },
+          {
+            "text": "ahihia",
+            "start": 6.606,
+            "end": 7.314
+          },
+          {
+            "text": "ebe",
+            "start": 7.465,
+            "end": 7.732
+          },
+          {
+            "text": "otu",
+            "start": 7.802,
+            "end": 8.081
+          },
+          {
+            "text": "obere",
+            "start": 8.162,
+            "end": 8.568
+          },
+          {
+            "text": "mmiri",
+            "start": 8.626,
+            "end": 8.928
+          },
+          {
+            "text": "na-aso",
+            "start": 9.044,
+            "end": 9.532
+          },
+          {
+            "text": "n'akuku",
+            "start": 9.601,
+            "end": 10.089
+          },
+          {
+            "text": "ahihia.",
+            "start": 10.182,
+            "end": 10.879
+          },
+          {
+            "text": "Eleghi",
+            "start": 11.053,
+            "end": 11.505
+          },
+          {
+            "text": "anya",
+            "start": 11.622,
+            "end": 11.958
+          },
+          {
+            "text": "okooko",
+            "start": 12.028,
+            "end": 12.562
+          },
+          {
+            "text": "ohia",
+            "start": 12.655,
+            "end": 13.119
+          },
+          {
+            "text": "nwere",
+            "start": 13.235,
+            "end": 13.526
+          },
+          {
+            "text": "akpiri",
+            "start": 13.584,
+            "end": 14.106
+          },
+          {
+            "text": "ikpo",
+            "start": 14.153,
+            "end": 14.524
+          },
+          {
+            "text": "nku,",
+            "start": 14.547,
+            "end": 14.93
+          },
+          {
+            "text": "ha",
+            "start": 14.977,
+            "end": 15.058
+          },
+          {
+            "text": "choro",
+            "start": 15.116,
+            "end": 15.395
+          },
+          {
+            "text": "mmiri",
+            "start": 15.453,
+            "end": 15.708
+          },
+          {
+            "text": "iji",
+            "start": 15.79,
+            "end": 16.091
+          },
+          {
+            "text": "nyere",
+            "start": 16.173,
+            "end": 16.475
+          },
+          {
+            "text": "ha",
+            "start": 16.544,
+            "end": 16.649
+          },
+          {
+            "text": "meghe.",
+            "start": 16.707,
+            "end": 17.136
+          },
+          {
+            "text": "Anya",
+            "start": 17.16,
+            "end": 17.485
+          },
+          {
+            "text": "Pip",
+            "start": 17.531,
+            "end": 17.705
+          },
+          {
+            "text": "gbara,",
+            "start": 17.786,
+            "end": 18.309
+          },
+          {
+            "text": "awo",
+            "start": 18.344,
+            "end": 18.587
+          },
+          {
+            "text": "kwukwara",
+            "start": 18.645,
+            "end": 19.156
+          },
+          {
+            "text": "ozugbo",
+            "start": 19.226,
+            "end": 19.76
+          },
+          {
+            "text": "na",
+            "start": 19.876,
+            "end": 20.05
+          },
+          {
+            "text": "ya",
+            "start": 20.155,
+            "end": 20.259
+          },
+          {
+            "text": "ga-enyere",
+            "start": 20.317,
+            "end": 20.909
+          },
+          {
+            "text": "aka--iburu",
+            "start": 20.967,
+            "end": 22.268
+          },
+          {
+            "text": "mmiri",
+            "start": 22.291,
+            "end": 22.488
+          },
+          {
+            "text": "bu",
+            "start": 22.535,
+            "end": 22.639
+          },
+          {
+            "text": "ihe",
+            "start": 22.674,
+            "end": 22.813
+          },
+          {
+            "text": "o",
+            "start": 22.86,
+            "end": 22.883
+          },
+          {
+            "text": "maara",
+            "start": 22.93,
+            "end": 23.092
+          },
+          {
+            "text": "nke",
+            "start": 23.115,
+            "end": 23.278
+          },
+          {
+            "text": "oma.",
+            "start": 23.324,
+            "end": 23.835
+          },
+          {
+            "text": "Awo",
+            "start": 24.95,
+            "end": 25.217
+          },
+          {
+            "text": "wuliri",
+            "start": 25.252,
+            "end": 25.53
+          },
+          {
+            "text": "gaa",
+            "start": 25.577,
+            "end": 25.704
+          },
+          {
+            "text": "n'iyi,",
+            "start": 25.751,
+            "end": 26.227
+          },
+          {
+            "text": "laghachi",
+            "start": 26.552,
+            "end": 26.912
+          },
+          {
+            "text": "na",
+            "start": 26.97,
+            "end": 27.028
+          },
+          {
+            "text": "ahihia",
+            "start": 27.063,
+            "end": 27.481
+          },
+          {
+            "text": "ndu",
+            "start": 27.504,
+            "end": 27.632
+          },
+          {
+            "text": "mmiri",
+            "start": 27.655,
+            "end": 27.841
+          },
+          {
+            "text": "juru",
+            "start": 27.887,
+            "end": 28.05
+          },
+          {
+            "text": "n'elu",
+            "start": 28.096,
+            "end": 28.305
+          },
+          {
+            "text": "isi",
+            "start": 28.34,
+            "end": 28.526
+          },
+          {
+            "text": "ya",
+            "start": 28.549,
+            "end": 28.595
+          },
+          {
+            "text": "obosara,",
+            "start": 28.618,
+            "end": 29.443
+          },
+          {
+            "text": "mmiri",
+            "start": 29.826,
+            "end": 30.046
+          },
+          {
+            "text": "na-atopu",
+            "start": 30.093,
+            "end": 30.534
+          },
+          {
+            "text": "n'ala",
+            "start": 30.581,
+            "end": 30.755
+          },
+          {
+            "text": "nso",
+            "start": 30.778,
+            "end": 30.952
+          },
+          {
+            "text": "okooko",
+            "start": 30.975,
+            "end": 31.266
+          },
+          {
+            "text": "ohia.",
+            "start": 31.312,
+            "end": 31.951
+          },
+          {
+            "text": "Ala",
+            "start": 32.903,
+            "end": 33.1
+          },
+          {
+            "text": "miri",
+            "start": 33.146,
+            "end": 33.32
+          },
+          {
+            "text": "ya,",
+            "start": 33.367,
+            "end": 33.785
+          },
+          {
+            "text": "mana",
+            "start": 34.11,
+            "end": 34.284
+          },
+          {
+            "text": "mkpuru",
+            "start": 34.319,
+            "end": 34.667
+          },
+          {
+            "text": "ndu",
+            "start": 34.69,
+            "end": 34.807
+          },
+          {
+            "text": "ahu",
+            "start": 34.853,
+            "end": 35.027
+          },
+          {
+            "text": "emeghekwaghi,",
+            "start": 35.062,
+            "end": 35.968
+          },
+          {
+            "text": "Pip",
+            "start": 36.293,
+            "end": 36.49
+          },
+          {
+            "text": "wee",
+            "start": 36.572,
+            "end": 36.653
+          },
+          {
+            "text": "noro",
+            "start": 36.699,
+            "end": 36.897
+          },
+          {
+            "text": "na-enweghi",
+            "start": 36.943,
+            "end": 37.384
+          },
+          {
+            "text": "ntukwasi",
+            "start": 37.407,
+            "end": 38.034
+          },
+          {
+            "text": "obi--gini",
+            "start": 38.638,
+            "end": 39.184
+          },
+          {
+            "text": "ma",
+            "start": 39.23,
+            "end": 39.335
+          },
+          {
+            "text": "ihe",
+            "start": 39.416,
+            "end": 39.648
+          },
+          {
+            "text": "o",
+            "start": 39.729,
+            "end": 39.788
+          },
+          {
+            "text": "bula",
+            "start": 39.846,
+            "end": 40.217
+          },
+          {
+            "text": "ha",
+            "start": 40.658,
+            "end": 40.774
+          },
+          {
+            "text": "nwara",
+            "start": 40.821,
+            "end": 41.111
+          },
+          {
+            "text": "agaghi",
+            "start": 41.158,
+            "end": 41.541
+          },
+          {
+            "text": "aru",
+            "start": 41.622,
+            "end": 41.935
+          },
+          {
+            "text": "oru",
+            "start": 42.539,
+            "end": 42.829
+          },
+          {
+            "text": "n'oge?",
+            "start": 42.887,
+            "end": 43.34
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Oge Obi Abụọ",
+        "videoOffset": 164.0,
+        "words": [
+          {
+            "text": "Pip",
+            "start": 0.058,
+            "end": 0.267
+          },
+          {
+            "text": "noduru",
+            "start": 0.383,
+            "end": 0.813
+          },
+          {
+            "text": "ala",
+            "start": 0.894,
+            "end": 1.022
+          },
+          {
+            "text": "nwayoo",
+            "start": 1.08,
+            "end": 1.544
+          },
+          {
+            "text": "n'elu",
+            "start": 1.614,
+            "end": 1.811
+          },
+          {
+            "text": "nkume",
+            "start": 1.834,
+            "end": 2.264
+          },
+          {
+            "text": "ahihia",
+            "start": 2.299,
+            "end": 2.81
+          },
+          {
+            "text": "ndu",
+            "start": 2.856,
+            "end": 3.03
+          },
+          {
+            "text": "kpuchiri",
+            "start": 3.065,
+            "end": 3.669
+          },
+          {
+            "text": "ebe",
+            "start": 3.727,
+            "end": 3.959
+          },
+          {
+            "text": "awo",
+            "start": 4.005,
+            "end": 4.18
+          },
+          {
+            "text": "na-anokari.",
+            "start": 4.238,
+            "end": 4.934
+          },
+          {
+            "text": "Nwa",
+            "start": 5.445,
+            "end": 5.654
+          },
+          {
+            "text": "oge,",
+            "start": 5.712,
+            "end": 6.049
+          },
+          {
+            "text": "obere",
+            "start": 6.13,
+            "end": 6.444
+          },
+          {
+            "text": "nnunu",
+            "start": 6.478,
+            "end": 6.838
+          },
+          {
+            "text": "onu",
+            "start": 6.896,
+            "end": 7.094
+          },
+          {
+            "text": "ahu",
+            "start": 7.152,
+            "end": 7.384
+          },
+          {
+            "text": "amaghi",
+            "start": 7.43,
+            "end": 7.837
+          },
+          {
+            "text": "ihe",
+            "start": 7.86,
+            "end": 8.081
+          },
+          {
+            "text": "o",
+            "start": 8.162,
+            "end": 8.208
+          },
+          {
+            "text": "ga-eme.",
+            "start": 8.278,
+            "end": 8.789
+          },
+          {
+            "text": "Anyanwu",
+            "start": 9.23,
+            "end": 9.776
+          },
+          {
+            "text": "ehihie",
+            "start": 9.868,
+            "end": 10.356
+          },
+          {
+            "text": "na-aga",
+            "start": 10.414,
+            "end": 10.739
+          },
+          {
+            "text": "nwayoo",
+            "start": 10.774,
+            "end": 11.227
+          },
+          {
+            "text": "n'eluigwe,",
+            "start": 11.297,
+            "end": 12.005
+          },
+          {
+            "text": "okooko",
+            "start": 12.179,
+            "end": 12.655
+          },
+          {
+            "text": "ohia",
+            "start": 12.69,
+            "end": 13.038
+          },
+          {
+            "text": "ka",
+            "start": 13.108,
+            "end": 13.189
+          },
+          {
+            "text": "no",
+            "start": 13.235,
+            "end": 13.317
+          },
+          {
+            "text": "na-ejide",
+            "start": 13.363,
+            "end": 13.886
+          },
+          {
+            "text": "mkpuru",
+            "start": 13.932,
+            "end": 14.338
+          },
+          {
+            "text": "ndu",
+            "start": 14.362,
+            "end": 14.559
+          },
+          {
+            "text": "ha",
+            "start": 14.629,
+            "end": 14.745
+          },
+          {
+            "text": "dika",
+            "start": 14.803,
+            "end": 15.012
+          },
+          {
+            "text": "obere",
+            "start": 15.07,
+            "end": 15.36
+          },
+          {
+            "text": "aka",
+            "start": 15.395,
+            "end": 15.557
+          },
+          {
+            "text": "kuchiri",
+            "start": 15.604,
+            "end": 16.079
+          },
+          {
+            "text": "akuchi.",
+            "start": 16.126,
+            "end": 16.695
+          },
+          {
+            "text": "Ikwighikwighi",
+            "start": 17.078,
+            "end": 17.879
+          },
+          {
+            "text": "noduru",
+            "start": 17.949,
+            "end": 18.343
+          },
+          {
+            "text": "nso",
+            "start": 18.367,
+            "end": 18.564
+          },
+          {
+            "text": "Pip,",
+            "start": 18.634,
+            "end": 19.075
+          },
+          {
+            "text": "kwuo",
+            "start": 19.4,
+            "end": 19.539
+          },
+          {
+            "text": "nwayoo",
+            "start": 19.597,
+            "end": 19.864
+          },
+          {
+            "text": "na",
+            "start": 19.899,
+            "end": 19.969
+          },
+          {
+            "text": "mgbe",
+            "start": 20.015,
+            "end": 20.282
+          },
+          {
+            "text": "ufodu",
+            "start": 20.305,
+            "end": 20.805
+          },
+          {
+            "text": "ihe",
+            "start": 21.188,
+            "end": 21.408
+          },
+          {
+            "text": "kasi",
+            "start": 21.466,
+            "end": 21.687
+          },
+          {
+            "text": "sie",
+            "start": 21.733,
+            "end": 21.826
+          },
+          {
+            "text": "ike",
+            "start": 21.85,
+            "end": 22.001
+          },
+          {
+            "text": "bu",
+            "start": 22.047,
+            "end": 22.14
+          },
+          {
+            "text": "naani",
+            "start": 22.186,
+            "end": 22.488
+          },
+          {
+            "text": "ino",
+            "start": 22.523,
+            "end": 22.674
+          },
+          {
+            "text": "diri",
+            "start": 22.732,
+            "end": 22.894
+          },
+          {
+            "text": "ndidi.",
+            "start": 22.918,
+            "end": 23.475
+          },
+          {
+            "text": "Awo",
+            "start": 23.858,
+            "end": 24.055
+          },
+          {
+            "text": "nokwa",
+            "start": 24.102,
+            "end": 24.381
+          },
+          {
+            "text": "juu,",
+            "start": 24.439,
+            "end": 24.903
+          },
+          {
+            "text": "anya",
+            "start": 25.182,
+            "end": 25.437
+          },
+          {
+            "text": "ya",
+            "start": 25.484,
+            "end": 25.553
+          },
+          {
+            "text": "abuo",
+            "start": 25.6,
+            "end": 25.96
+          },
+          {
+            "text": "buru",
+            "start": 26.029,
+            "end": 26.319
+          },
+          {
+            "text": "ibu",
+            "start": 26.703,
+            "end": 26.923
+          },
+          {
+            "text": "na-ele",
+            "start": 26.97,
+            "end": 27.364
+          },
+          {
+            "text": "okooko",
+            "start": 27.411,
+            "end": 27.887
+          },
+          {
+            "text": "ohia",
+            "start": 27.98,
+            "end": 28.386
+          },
+          {
+            "text": "ahu",
+            "start": 28.456,
+            "end": 28.676
+          },
+          {
+            "text": "n'udo--udo",
+            "start": 28.723,
+            "end": 29.826
+          },
+          {
+            "text": "Pip",
+            "start": 29.872,
+            "end": 30.093
+          },
+          {
+            "text": "choro",
+            "start": 30.174,
+            "end": 30.499
+          },
+          {
+            "text": "inwe.",
+            "start": 30.557,
+            "end": 30.998
+          },
+          {
+            "text": "Ihe",
+            "start": 31.439,
+            "end": 31.66
+          },
+          {
+            "text": "oma",
+            "start": 31.718,
+            "end": 31.881
+          },
+          {
+            "text": "bu",
+            "start": 31.927,
+            "end": 32.043
+          },
+          {
+            "text": "ihe",
+            "start": 32.113,
+            "end": 32.264
+          },
+          {
+            "text": "kwesiri",
+            "start": 32.322,
+            "end": 32.763
+          },
+          {
+            "text": "ichere,",
+            "start": 32.809,
+            "end": 33.448
+          },
+          {
+            "text": "Pip",
+            "start": 33.727,
+            "end": 33.947
+          },
+          {
+            "text": "suru",
+            "start": 34.028,
+            "end": 34.237
+          },
+          {
+            "text": "nwayoo",
+            "start": 34.284,
+            "end": 34.563
+          },
+          {
+            "text": "n'ikuku",
+            "start": 34.597,
+            "end": 35.027
+          },
+          {
+            "text": "ehihie,",
+            "start": 35.12,
+            "end": 35.851
+          },
+          {
+            "text": "na-agbali",
+            "start": 36.176,
+            "end": 36.838
+          },
+          {
+            "text": "ikwere",
+            "start": 36.861,
+            "end": 37.198
+          },
+          {
+            "text": "ozo.",
+            "start": 37.268,
+            "end": 37.79
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Onyinye Nwayọọ Awọ",
+        "videoOffset": 202.241,
+        "words": [
+          {
+            "text": "Awo",
+            "start": 0.174,
+            "end": 0.348
+          },
+          {
+            "text": "kwuchara",
+            "start": 0.406,
+            "end": 0.813
+          },
+          {
+            "text": "akpiri",
+            "start": 0.836,
+            "end": 1.347
+          },
+          {
+            "text": "ya",
+            "start": 1.37,
+            "end": 1.428
+          },
+          {
+            "text": "nwayoo",
+            "start": 1.474,
+            "end": 1.927
+          },
+          {
+            "text": "wee",
+            "start": 1.962,
+            "end": 2.055
+          },
+          {
+            "text": "malite",
+            "start": 2.113,
+            "end": 2.461
+          },
+          {
+            "text": "ikwa",
+            "start": 2.508,
+            "end": 2.786
+          },
+          {
+            "text": "uda--otu",
+            "start": 2.844,
+            "end": 3.831
+          },
+          {
+            "text": "uda",
+            "start": 3.878,
+            "end": 4.063
+          },
+          {
+            "text": "di",
+            "start": 4.11,
+            "end": 4.214
+          },
+          {
+            "text": "ala,",
+            "start": 4.284,
+            "end": 4.632
+          },
+          {
+            "text": "kwu",
+            "start": 4.667,
+            "end": 4.841
+          },
+          {
+            "text": "chim,",
+            "start": 4.899,
+            "end": 5.341
+          },
+          {
+            "text": "na-agafe",
+            "start": 5.666,
+            "end": 6.223
+          },
+          {
+            "text": "n'ahihia",
+            "start": 6.281,
+            "end": 6.908
+          },
+          {
+            "text": "ohia",
+            "start": 7.001,
+            "end": 7.384
+          },
+          {
+            "text": "dika",
+            "start": 7.442,
+            "end": 7.674
+          },
+          {
+            "text": "obi",
+            "start": 7.732,
+            "end": 7.964
+          },
+          {
+            "text": "na-aku",
+            "start": 8.022,
+            "end": 8.417
+          },
+          {
+            "text": "nwayoo.",
+            "start": 8.487,
+            "end": 9.067
+          },
+          {
+            "text": "Pip",
+            "start": 9.509,
+            "end": 9.694
+          },
+          {
+            "text": "weliri",
+            "start": 9.787,
+            "end": 10.147
+          },
+          {
+            "text": "isi",
+            "start": 10.194,
+            "end": 10.495
+          },
+          {
+            "text": "ya,",
+            "start": 10.553,
+            "end": 10.774
+          },
+          {
+            "text": "o",
+            "start": 10.844,
+            "end": 10.913
+          },
+          {
+            "text": "juru",
+            "start": 10.983,
+            "end": 11.215
+          },
+          {
+            "text": "ya",
+            "start": 11.297,
+            "end": 11.378
+          },
+          {
+            "text": "anya,",
+            "start": 11.424,
+            "end": 11.877
+          },
+          {
+            "text": "n'ihi",
+            "start": 12.156,
+            "end": 12.365
+          },
+          {
+            "text": "na",
+            "start": 12.434,
+            "end": 12.527
+          },
+          {
+            "text": "awo",
+            "start": 12.585,
+            "end": 12.841
+          },
+          {
+            "text": "akwabeghi",
+            "start": 12.922,
+            "end": 13.549
+          },
+          {
+            "text": "uda",
+            "start": 13.63,
+            "end": 13.839
+          },
+          {
+            "text": "di",
+            "start": 13.886,
+            "end": 13.967
+          },
+          {
+            "text": "otú",
+            "start": 14.036,
+            "end": 14.269
+          },
+          {
+            "text": "a",
+            "start": 14.35,
+            "end": 14.385
+          },
+          {
+            "text": "mbu.",
+            "start": 14.431,
+            "end": 14.779
+          },
+          {
+            "text": "Ikwighikwighi",
+            "start": 15.163,
+            "end": 15.952
+          },
+          {
+            "text": "kwekwara",
+            "start": 16.01,
+            "end": 16.556
+          },
+          {
+            "text": "isi,",
+            "start": 16.637,
+            "end": 17.078
+          },
+          {
+            "text": "na-ege",
+            "start": 17.124,
+            "end": 17.531
+          },
+          {
+            "text": "nti,",
+            "start": 17.565,
+            "end": 17.96
+          },
+          {
+            "text": "ikuku",
+            "start": 18.204,
+            "end": 18.599
+          },
+          {
+            "text": "ehihie",
+            "start": 18.68,
+            "end": 19.191
+          },
+          {
+            "text": "dikwa",
+            "start": 19.249,
+            "end": 19.574
+          },
+          {
+            "text": "ka",
+            "start": 19.62,
+            "end": 19.737
+          },
+          {
+            "text": "o",
+            "start": 19.806,
+            "end": 19.829
+          },
+          {
+            "text": "na-ebelata,",
+            "start": 19.887,
+            "end": 20.723
+          },
+          {
+            "text": "dika",
+            "start": 21.048,
+            "end": 21.269
+          },
+          {
+            "text": "o",
+            "start": 21.315,
+            "end": 21.35
+          },
+          {
+            "text": "chokwara",
+            "start": 21.385,
+            "end": 21.745
+          },
+          {
+            "text": "ige",
+            "start": 21.768,
+            "end": 21.919
+          },
+          {
+            "text": "nti.",
+            "start": 21.942,
+            "end": 22.453
+          },
+          {
+            "text": "Awo",
+            "start": 23.057,
+            "end": 23.336
+          },
+          {
+            "text": "kowara",
+            "start": 23.382,
+            "end": 23.649
+          },
+          {
+            "text": "nwayoo",
+            "start": 23.696,
+            "end": 23.974
+          },
+          {
+            "text": "na",
+            "start": 24.021,
+            "end": 24.09
+          },
+          {
+            "text": "nne",
+            "start": 24.148,
+            "end": 24.241
+          },
+          {
+            "text": "nne",
+            "start": 24.288,
+            "end": 24.392
+          },
+          {
+            "text": "ya",
+            "start": 24.439,
+            "end": 24.508
+          },
+          {
+            "text": "na-akwakari",
+            "start": 24.555,
+            "end": 25.112
+          },
+          {
+            "text": "uda",
+            "start": 25.147,
+            "end": 25.298
+          },
+          {
+            "text": "nye",
+            "start": 25.333,
+            "end": 25.425
+          },
+          {
+            "text": "okooko",
+            "start": 25.46,
+            "end": 25.82
+          },
+          {
+            "text": "ohia",
+            "start": 25.878,
+            "end": 26.18
+          },
+          {
+            "text": "odo",
+            "start": 26.226,
+            "end": 26.401
+          },
+          {
+            "text": "mmiri,",
+            "start": 26.459,
+            "end": 27.004
+          },
+          {
+            "text": "ha",
+            "start": 27.329,
+            "end": 27.411
+          },
+          {
+            "text": "na-emeghekari",
+            "start": 27.457,
+            "end": 28.049
+          },
+          {
+            "text": "mgbe",
+            "start": 28.084,
+            "end": 28.374
+          },
+          {
+            "text": "ha",
+            "start": 28.421,
+            "end": 28.514
+          },
+          {
+            "text": "nuru.",
+            "start": 28.572,
+            "end": 29.048
+          },
+          {
+            "text": "Ugbu",
+            "start": 29.651,
+            "end": 29.965
+          },
+          {
+            "text": "a",
+            "start": 30.035,
+            "end": 30.058
+          },
+          {
+            "text": "ndi",
+            "start": 30.093,
+            "end": 30.255
+          },
+          {
+            "text": "enyi",
+            "start": 30.325,
+            "end": 30.534
+          },
+          {
+            "text": "ato",
+            "start": 30.592,
+            "end": 30.731
+          },
+          {
+            "text": "nwere",
+            "start": 30.778,
+            "end": 30.987
+          },
+          {
+            "text": "echiche",
+            "start": 31.033,
+            "end": 31.381
+          },
+          {
+            "text": "ohuru,",
+            "start": 31.416,
+            "end": 32.02
+          },
+          {
+            "text": "Pip",
+            "start": 32.345,
+            "end": 32.542
+          },
+          {
+            "text": "nwekwara",
+            "start": 32.612,
+            "end": 33.018
+          },
+          {
+            "text": "obere",
+            "start": 33.053,
+            "end": 33.309
+          },
+          {
+            "text": "olileanya--eleghi",
+            "start": 33.344,
+            "end": 34.888
+          },
+          {
+            "text": "anya",
+            "start": 34.946,
+            "end": 35.19
+          },
+          {
+            "text": "ihe",
+            "start": 35.224,
+            "end": 35.387
+          },
+          {
+            "text": "okooko",
+            "start": 35.422,
+            "end": 36.885
+          },
+          {
+            "text": "ohia",
+            "start": 37.488,
+            "end": 38.046
+          },
+          {
+            "text": "choro",
+            "start": 38.742,
+            "end": 39.439
+          },
+          {
+            "text": "abughi",
+            "start": 40.553,
+            "end": 41.958
+          },
+          {
+            "text": "anyanwu",
+            "start": 42.771,
+            "end": 44.489
+          },
+          {
+            "text": "ma",
+            "start": 45.302,
+            "end": 45.801
+          },
+          {
+            "text": "o",
+            "start": 46.916,
+            "end": 47.159
+          },
+          {
+            "text": "bu",
+            "start": 47.368,
+            "end": 47.763
+          },
+          {
+            "text": "mmiri,",
+            "start": 48.007,
+            "end": 49.319
+          },
+          {
+            "text": "kama",
+            "start": 50.015,
+            "end": 50.666
+          },
+          {
+            "text": "ihe",
+            "start": 51.362,
+            "end": 51.931
+          },
+          {
+            "text": "di",
+            "start": 52.744,
+            "end": 53.104
+          },
+          {
+            "text": "nro",
+            "start": 53.916,
+            "end": 54.485
+          },
+          {
+            "text": "karia.",
+            "start": 55.182,
+            "end": 56.122
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Abụ Maka Okooko Ọhịa",
+        "videoOffset": 258.733,
+        "words": [
+          {
+            "text": "Pip",
+            "start": 0.383,
+            "end": 0.697
+          },
+          {
+            "text": "feliri",
+            "start": 0.778,
+            "end": 1.126
+          },
+          {
+            "text": "gaa",
+            "start": 1.184,
+            "end": 1.393
+          },
+          {
+            "text": "n'onu",
+            "start": 1.463,
+            "end": 1.66
+          },
+          {
+            "text": "okooko",
+            "start": 1.718,
+            "end": 2.287
+          },
+          {
+            "text": "ohia",
+            "start": 2.368,
+            "end": 2.763
+          },
+          {
+            "text": "wee",
+            "start": 2.81,
+            "end": 2.902
+          },
+          {
+            "text": "malite",
+            "start": 2.949,
+            "end": 3.309
+          },
+          {
+            "text": "ibu",
+            "start": 3.355,
+            "end": 3.576
+          },
+          {
+            "text": "abu--otu",
+            "start": 3.622,
+            "end": 4.656
+          },
+          {
+            "text": "uda",
+            "start": 4.714,
+            "end": 4.934
+          },
+          {
+            "text": "di",
+            "start": 4.981,
+            "end": 5.05
+          },
+          {
+            "text": "mma,",
+            "start": 5.12,
+            "end": 5.584
+          },
+          {
+            "text": "doro",
+            "start": 5.759,
+            "end": 6.002
+          },
+          {
+            "text": "anya,",
+            "start": 6.072,
+            "end": 6.629
+          },
+          {
+            "text": "na-ari",
+            "start": 6.803,
+            "end": 7.21
+          },
+          {
+            "text": "elu",
+            "start": 7.256,
+            "end": 7.43
+          },
+          {
+            "text": "karia",
+            "start": 7.477,
+            "end": 7.802
+          },
+          {
+            "text": "uda",
+            "start": 7.86,
+            "end": 8.115
+          },
+          {
+            "text": "awo",
+            "start": 8.173,
+            "end": 8.359
+          },
+          {
+            "text": "dika",
+            "start": 8.406,
+            "end": 8.661
+          },
+          {
+            "text": "ìhè",
+            "start": 8.754,
+            "end": 9.079
+          },
+          {
+            "text": "anyanwu",
+            "start": 9.125,
+            "end": 9.567
+          },
+          {
+            "text": "na-agba",
+            "start": 9.659,
+            "end": 10.286
+          },
+          {
+            "text": "egwu",
+            "start": 10.356,
+            "end": 10.646
+          },
+          {
+            "text": "n'elu",
+            "start": 10.762,
+            "end": 11.006
+          },
+          {
+            "text": "mmiri.",
+            "start": 11.053,
+            "end": 11.482
+          },
+          {
+            "text": "Ikwighikwighi",
+            "start": 11.865,
+            "end": 12.62
+          },
+          {
+            "text": "sonyeere",
+            "start": 12.69,
+            "end": 13.177
+          },
+          {
+            "text": "ya",
+            "start": 13.247,
+            "end": 13.317
+          },
+          {
+            "text": "n'otu",
+            "start": 13.375,
+            "end": 13.63
+          },
+          {
+            "text": "uda",
+            "start": 13.677,
+            "end": 13.886
+          },
+          {
+            "text": "di",
+            "start": 13.932,
+            "end": 14.013
+          },
+          {
+            "text": "ala,",
+            "start": 14.095,
+            "end": 14.629
+          },
+          {
+            "text": "nwayoo,",
+            "start": 14.803,
+            "end": 15.476
+          },
+          {
+            "text": "na-edobe",
+            "start": 15.65,
+            "end": 16.161
+          },
+          {
+            "text": "oge",
+            "start": 16.219,
+            "end": 16.405
+          },
+          {
+            "text": "dika",
+            "start": 16.451,
+            "end": 16.684
+          },
+          {
+            "text": "obi",
+            "start": 16.753,
+            "end": 16.997
+          },
+          {
+            "text": "na-aku",
+            "start": 17.055,
+            "end": 17.461
+          },
+          {
+            "text": "n'okpuru",
+            "start": 17.531,
+            "end": 18.007
+          },
+          {
+            "text": "olu",
+            "start": 18.076,
+            "end": 18.32
+          },
+          {
+            "text": "abuo",
+            "start": 18.39,
+            "end": 18.668
+          },
+          {
+            "text": "ndi",
+            "start": 18.715,
+            "end": 18.877
+          },
+          {
+            "text": "ozo.",
+            "start": 18.97,
+            "end": 19.458
+          },
+          {
+            "text": "Onu,",
+            "start": 19.841,
+            "end": 20.294
+          },
+          {
+            "text": "ndi",
+            "start": 20.41,
+            "end": 20.619
+          },
+          {
+            "text": "enyi",
+            "start": 20.677,
+            "end": 20.921
+          },
+          {
+            "text": "ato",
+            "start": 21.002,
+            "end": 21.234
+          },
+          {
+            "text": "mejuputara",
+            "start": 21.281,
+            "end": 21.792
+          },
+          {
+            "text": "ohia",
+            "start": 21.873,
+            "end": 22.384
+          },
+          {
+            "text": "ahihia",
+            "start": 22.697,
+            "end": 23.254
+          },
+          {
+            "text": "ehihie",
+            "start": 23.312,
+            "end": 23.893
+          },
+          {
+            "text": "n'otu",
+            "start": 24.16,
+            "end": 24.404
+          },
+          {
+            "text": "uda",
+            "start": 24.462,
+            "end": 24.694
+          },
+          {
+            "text": "di",
+            "start": 24.752,
+            "end": 24.822
+          },
+          {
+            "text": "oku",
+            "start": 24.891,
+            "end": 25.112
+          },
+          {
+            "text": "nke",
+            "start": 25.158,
+            "end": 25.449
+          },
+          {
+            "text": "a",
+            "start": 25.53,
+            "end": 25.704
+          },
+          {
+            "text": "na-anubeghi",
+            "start": 26.018,
+            "end": 26.935
+          },
+          {
+            "text": "ogologo",
+            "start": 27.167,
+            "end": 27.747
+          },
+          {
+            "text": "oge.",
+            "start": 27.829,
+            "end": 28.235
+          },
+          {
+            "text": "Pip",
+            "start": 28.653,
+            "end": 28.885
+          },
+          {
+            "text": "huru",
+            "start": 28.943,
+            "end": 29.152
+          },
+          {
+            "text": "otu",
+            "start": 29.187,
+            "end": 29.408
+          },
+          {
+            "text": "mkpuru",
+            "start": 29.454,
+            "end": 29.849
+          },
+          {
+            "text": "ndu",
+            "start": 29.872,
+            "end": 30.081
+          },
+          {
+            "text": "di",
+            "start": 30.151,
+            "end": 30.22
+          },
+          {
+            "text": "n'onu",
+            "start": 30.278,
+            "end": 30.545
+          },
+          {
+            "text": "okooko",
+            "start": 30.603,
+            "end": 30.963
+          },
+          {
+            "text": "ohia",
+            "start": 31.033,
+            "end": 31.486
+          },
+          {
+            "text": "na-amalite",
+            "start": 31.799,
+            "end": 32.403
+          },
+          {
+            "text": "ima",
+            "start": 32.461,
+            "end": 32.658
+          },
+          {
+            "text": "jijiji,",
+            "start": 32.717,
+            "end": 33.32
+          },
+          {
+            "text": "petals",
+            "start": 33.529,
+            "end": 33.877
+          },
+          {
+            "text": "ya",
+            "start": 33.936,
+            "end": 33.994
+          },
+          {
+            "text": "na-atopu",
+            "start": 34.04,
+            "end": 34.493
+          },
+          {
+            "text": "ntakiri,",
+            "start": 34.528,
+            "end": 35.178
+          },
+          {
+            "text": "dika",
+            "start": 35.41,
+            "end": 35.631
+          },
+          {
+            "text": "okooko",
+            "start": 35.689,
+            "end": 36.06
+          },
+          {
+            "text": "ohia",
+            "start": 36.118,
+            "end": 36.606
+          },
+          {
+            "text": "na-atule",
+            "start": 36.908,
+            "end": 37.488
+          },
+          {
+            "text": "imeghe.",
+            "start": 37.523,
+            "end": 38.046
+          },
+          {
+            "text": "O",
+            "start": 38.359,
+            "end": 38.464
+          },
+          {
+            "text": "bughi",
+            "start": 38.557,
+            "end": 38.777
+          },
+          {
+            "text": "nnukwu",
+            "start": 38.824,
+            "end": 39.125
+          },
+          {
+            "text": "ihe,",
+            "start": 39.195,
+            "end": 39.613
+          },
+          {
+            "text": "mana",
+            "start": 39.938,
+            "end": 40.136
+          },
+          {
+            "text": "o",
+            "start": 40.17,
+            "end": 40.194
+          },
+          {
+            "text": "kariri",
+            "start": 40.252,
+            "end": 40.646
+          },
+          {
+            "text": "ihe",
+            "start": 40.67,
+            "end": 40.82
+          },
+          {
+            "text": "dibu",
+            "start": 40.867,
+            "end": 41.029
+          },
+          {
+            "text": "na",
+            "start": 41.076,
+            "end": 41.134
+          },
+          {
+            "text": "mbu--obere",
+            "start": 41.157,
+            "end": 42.202
+          },
+          {
+            "text": "mgbanwe",
+            "start": 42.249,
+            "end": 42.678
+          },
+          {
+            "text": "ahu",
+            "start": 42.713,
+            "end": 42.852
+          },
+          {
+            "text": "mere",
+            "start": 42.887,
+            "end": 43.05
+          },
+          {
+            "text": "ka",
+            "start": 43.096,
+            "end": 43.166
+          },
+          {
+            "text": "ndi",
+            "start": 43.189,
+            "end": 43.34
+          },
+          {
+            "text": "enyi",
+            "start": 43.421,
+            "end": 43.804
+          },
+          {
+            "text": "ato",
+            "start": 44.083,
+            "end": 44.315
+          },
+          {
+            "text": "gbadaa",
+            "start": 44.362,
+            "end": 44.756
+          },
+          {
+            "text": "nso",
+            "start": 44.791,
+            "end": 44.977
+          },
+          {
+            "text": "na",
+            "start": 45.035,
+            "end": 45.105
+          },
+          {
+            "text": "anya",
+            "start": 45.151,
+            "end": 45.395
+          },
+          {
+            "text": "olileanya.",
+            "start": 45.43,
+            "end": 46.219
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Ndidi Na Nkwenye",
+        "videoOffset": 305.426,
+        "words": [
+          {
+            "text": "Ndi",
+            "start": 0.035,
+            "end": 0.267
+          },
+          {
+            "text": "enyi",
+            "start": 0.36,
+            "end": 0.813
+          },
+          {
+            "text": "ato",
+            "start": 0.929,
+            "end": 1.149
+          },
+          {
+            "text": "gara",
+            "start": 1.219,
+            "end": 1.405
+          },
+          {
+            "text": "n'ihu",
+            "start": 1.474,
+            "end": 1.881
+          },
+          {
+            "text": "na-abu",
+            "start": 2.392,
+            "end": 2.833
+          },
+          {
+            "text": "abu",
+            "start": 2.891,
+            "end": 3.088
+          },
+          {
+            "text": "onu",
+            "start": 3.17,
+            "end": 3.518
+          },
+          {
+            "text": "n'ehihie",
+            "start": 3.634,
+            "end": 4.389
+          },
+          {
+            "text": "di",
+            "start": 4.458,
+            "end": 4.551
+          },
+          {
+            "text": "oku,",
+            "start": 4.644,
+            "end": 5.294
+          },
+          {
+            "text": "Pip",
+            "start": 5.724,
+            "end": 5.956
+          },
+          {
+            "text": "ji",
+            "start": 6.049,
+            "end": 6.165
+          },
+          {
+            "text": "anya",
+            "start": 6.235,
+            "end": 6.56
+          },
+          {
+            "text": "ya",
+            "start": 6.653,
+            "end": 6.722
+          },
+          {
+            "text": "di",
+            "start": 6.769,
+            "end": 6.85
+          },
+          {
+            "text": "nko",
+            "start": 6.908,
+            "end": 7.198
+          },
+          {
+            "text": "na-ele",
+            "start": 7.279,
+            "end": 7.663
+          },
+          {
+            "text": "mkpuru",
+            "start": 7.721,
+            "end": 8.208
+          },
+          {
+            "text": "ndu",
+            "start": 8.231,
+            "end": 8.429
+          },
+          {
+            "text": "o",
+            "start": 8.545,
+            "end": 8.58
+          },
+          {
+            "text": "bula.",
+            "start": 8.649,
+            "end": 9.253
+          },
+          {
+            "text": "Mkpuru",
+            "start": 9.845,
+            "end": 10.298
+          },
+          {
+            "text": "ndu",
+            "start": 10.321,
+            "end": 10.484
+          },
+          {
+            "text": "abuo",
+            "start": 10.553,
+            "end": 10.879
+          },
+          {
+            "text": "ozo",
+            "start": 10.995,
+            "end": 11.285
+          },
+          {
+            "text": "malitere",
+            "start": 11.343,
+            "end": 11.796
+          },
+          {
+            "text": "itopu,",
+            "start": 11.831,
+            "end": 12.55
+          },
+          {
+            "text": "petals",
+            "start": 12.875,
+            "end": 13.27
+          },
+          {
+            "text": "ha",
+            "start": 13.328,
+            "end": 13.363
+          },
+          {
+            "text": "na-emeghe",
+            "start": 13.433,
+            "end": 13.897
+          },
+          {
+            "text": "n'isi",
+            "start": 13.955,
+            "end": 14.211
+          },
+          {
+            "text": "dika",
+            "start": 14.269,
+            "end": 14.489
+          },
+          {
+            "text": "obere",
+            "start": 14.571,
+            "end": 14.965
+          },
+          {
+            "text": "mkpisiaka",
+            "start": 15.012,
+            "end": 15.824
+          },
+          {
+            "text": "na-agbati",
+            "start": 15.882,
+            "end": 16.44
+          },
+          {
+            "text": "mgbe",
+            "start": 16.486,
+            "end": 16.881
+          },
+          {
+            "text": "ha",
+            "start": 16.939,
+            "end": 17.055
+          },
+          {
+            "text": "si",
+            "start": 17.125,
+            "end": 17.241
+          },
+          {
+            "text": "n'ura",
+            "start": 17.299,
+            "end": 17.531
+          },
+          {
+            "text": "ogologo",
+            "start": 17.601,
+            "end": 18.088
+          },
+          {
+            "text": "tetara.",
+            "start": 18.146,
+            "end": 18.843
+          },
+          {
+            "text": "Ikwighikwighi",
+            "start": 19.272,
+            "end": 20.131
+          },
+          {
+            "text": "suru",
+            "start": 20.271,
+            "end": 20.503
+          },
+          {
+            "text": "n'etiti",
+            "start": 20.549,
+            "end": 20.932
+          },
+          {
+            "text": "uda",
+            "start": 21.014,
+            "end": 21.292
+          },
+          {
+            "text": "ya",
+            "start": 21.35,
+            "end": 21.432
+          },
+          {
+            "text": "na",
+            "start": 21.49,
+            "end": 21.559
+          },
+          {
+            "text": "okooko",
+            "start": 21.594,
+            "end": 22.07
+          },
+          {
+            "text": "ohia",
+            "start": 22.674,
+            "end": 23.115
+          },
+          {
+            "text": "na-ege",
+            "start": 23.173,
+            "end": 23.545
+          },
+          {
+            "text": "nti,",
+            "start": 23.568,
+            "end": 24.114
+          },
+          {
+            "text": "ha",
+            "start": 24.497,
+            "end": 24.601
+          },
+          {
+            "text": "choro",
+            "start": 24.659,
+            "end": 24.915
+          },
+          {
+            "text": "naani",
+            "start": 24.961,
+            "end": 25.17
+          },
+          {
+            "text": "ntakiri",
+            "start": 25.193,
+            "end": 25.611
+          },
+          {
+            "text": "oge.",
+            "start": 25.681,
+            "end": 26.192
+          },
+          {
+            "text": "Pip",
+            "start": 26.633,
+            "end": 26.888
+          },
+          {
+            "text": "juru",
+            "start": 26.981,
+            "end": 27.225
+          },
+          {
+            "text": "awo",
+            "start": 27.306,
+            "end": 27.481
+          },
+          {
+            "text": "nwayoo",
+            "start": 27.527,
+            "end": 27.852
+          },
+          {
+            "text": "ma",
+            "start": 27.91,
+            "end": 28.015
+          },
+          {
+            "text": "o",
+            "start": 28.049,
+            "end": 28.073
+          },
+          {
+            "text": "chere",
+            "start": 28.119,
+            "end": 28.421
+          },
+          {
+            "text": "na",
+            "start": 28.467,
+            "end": 28.537
+          },
+          {
+            "text": "okooko",
+            "start": 28.572,
+            "end": 29.048
+          },
+          {
+            "text": "ohia",
+            "start": 29.559,
+            "end": 30.0
+          },
+          {
+            "text": "nwere",
+            "start": 30.035,
+            "end": 30.279
+          },
+          {
+            "text": "ike",
+            "start": 30.313,
+            "end": 30.522
+          },
+          {
+            "text": "inu",
+            "start": 30.58,
+            "end": 30.755
+          },
+          {
+            "text": "otú",
+            "start": 30.801,
+            "end": 30.987
+          },
+          {
+            "text": "ha",
+            "start": 31.056,
+            "end": 31.184
+          },
+          {
+            "text": "si",
+            "start": 31.242,
+            "end": 31.347
+          },
+          {
+            "text": "choo",
+            "start": 31.393,
+            "end": 31.521
+          },
+          {
+            "text": "mmemme.",
+            "start": 31.556,
+            "end": 32.078
+          },
+          {
+            "text": "Awo",
+            "start": 32.519,
+            "end": 32.763
+          },
+          {
+            "text": "mumuru",
+            "start": 32.809,
+            "end": 33.216
+          },
+          {
+            "text": "onu",
+            "start": 33.262,
+            "end": 33.436
+          },
+          {
+            "text": "ochi",
+            "start": 33.471,
+            "end": 33.692
+          },
+          {
+            "text": "obosara,",
+            "start": 33.75,
+            "end": 34.481
+          },
+          {
+            "text": "di",
+            "start": 34.76,
+            "end": 34.876
+          },
+          {
+            "text": "juu,",
+            "start": 34.946,
+            "end": 35.41
+          },
+          {
+            "text": "kwuo",
+            "start": 35.619,
+            "end": 35.851
+          },
+          {
+            "text": "na",
+            "start": 35.921,
+            "end": 35.991
+          },
+          {
+            "text": "o",
+            "start": 36.037,
+            "end": 36.072
+          },
+          {
+            "text": "ji",
+            "start": 36.13,
+            "end": 36.223
+          },
+          {
+            "text": "n'aka--n'ihi",
+            "start": 36.269,
+            "end": 37.395
+          },
+          {
+            "text": "na",
+            "start": 37.453,
+            "end": 37.535
+          },
+          {
+            "text": "ihe",
+            "start": 37.581,
+            "end": 37.79
+          },
+          {
+            "text": "o",
+            "start": 37.848,
+            "end": 37.871
+          },
+          {
+            "text": "bula",
+            "start": 37.918,
+            "end": 38.127
+          },
+          {
+            "text": "olileanya",
+            "start": 38.185,
+            "end": 38.707
+          },
+          {
+            "text": "gbara",
+            "start": 38.754,
+            "end": 39.056
+          },
+          {
+            "text": "gburugburu",
+            "start": 39.09,
+            "end": 39.694
+          },
+          {
+            "text": "enweghi",
+            "start": 40.077,
+            "end": 40.542
+          },
+          {
+            "text": "ike",
+            "start": 40.623,
+            "end": 40.855
+          },
+          {
+            "text": "inogide",
+            "start": 40.902,
+            "end": 41.32
+          },
+          {
+            "text": "na-emechi",
+            "start": 41.378,
+            "end": 41.842
+          },
+          {
+            "text": "ruo",
+            "start": 41.9,
+            "end": 42.097
+          },
+          {
+            "text": "mgbe",
+            "start": 42.155,
+            "end": 42.481
+          },
+          {
+            "text": "ebighi",
+            "start": 42.573,
+            "end": 42.98
+          },
+          {
+            "text": "ebi.",
+            "start": 43.073,
+            "end": 43.444
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Ikuku Sonyeere",
+        "videoOffset": 349.379,
+        "words": [
+          {
+            "text": "Otu",
+            "start": 0.035,
+            "end": 0.29
+          },
+          {
+            "text": "ikuku",
+            "start": 0.348,
+            "end": 0.755
+          },
+          {
+            "text": "di",
+            "start": 0.801,
+            "end": 0.871
+          },
+          {
+            "text": "oku",
+            "start": 0.917,
+            "end": 1.091
+          },
+          {
+            "text": "feputara",
+            "start": 1.149,
+            "end": 1.707
+          },
+          {
+            "text": "n'ohia",
+            "start": 1.765,
+            "end": 2.264
+          },
+          {
+            "text": "ahihia,",
+            "start": 2.345,
+            "end": 3.1
+          },
+          {
+            "text": "na-eburu",
+            "start": 3.425,
+            "end": 3.913
+          },
+          {
+            "text": "abu",
+            "start": 3.959,
+            "end": 4.145
+          },
+          {
+            "text": "ha",
+            "start": 4.214,
+            "end": 4.365
+          },
+          {
+            "text": "gaa",
+            "start": 4.481,
+            "end": 4.644
+          },
+          {
+            "text": "ebe",
+            "start": 4.714,
+            "end": 4.934
+          },
+          {
+            "text": "nke",
+            "start": 4.957,
+            "end": 5.143
+          },
+          {
+            "text": "olu",
+            "start": 5.259,
+            "end": 5.492
+          },
+          {
+            "text": "obere",
+            "start": 5.538,
+            "end": 5.828
+          },
+          {
+            "text": "Pip",
+            "start": 5.886,
+            "end": 6.165
+          },
+          {
+            "text": "na-enweghi",
+            "start": 6.281,
+            "end": 6.896
+          },
+          {
+            "text": "ike",
+            "start": 6.978,
+            "end": 7.221
+          },
+          {
+            "text": "iru",
+            "start": 7.303,
+            "end": 7.535
+          },
+          {
+            "text": "naani",
+            "start": 7.593,
+            "end": 8.022
+          },
+          {
+            "text": "ya.",
+            "start": 8.057,
+            "end": 8.336
+          },
+          {
+            "text": "Ahihia",
+            "start": 8.719,
+            "end": 9.288
+          },
+          {
+            "text": "dara",
+            "start": 9.369,
+            "end": 9.59
+          },
+          {
+            "text": "ala",
+            "start": 9.648,
+            "end": 9.892
+          },
+          {
+            "text": "na-efeghari,",
+            "start": 9.95,
+            "end": 10.809
+          },
+          {
+            "text": "okooko",
+            "start": 11.053,
+            "end": 11.482
+          },
+          {
+            "text": "ohia",
+            "start": 11.564,
+            "end": 11.923
+          },
+          {
+            "text": "na-ada",
+            "start": 11.993,
+            "end": 12.353
+          },
+          {
+            "text": "uda",
+            "start": 12.411,
+            "end": 12.643
+          },
+          {
+            "text": "dika",
+            "start": 12.69,
+            "end": 12.934
+          },
+          {
+            "text": "uwa",
+            "start": 13.015,
+            "end": 13.259
+          },
+          {
+            "text": "niile",
+            "start": 13.317,
+            "end": 13.572
+          },
+          {
+            "text": "na-eku",
+            "start": 13.63,
+            "end": 14.048
+          },
+          {
+            "text": "ume",
+            "start": 14.141,
+            "end": 14.362
+          },
+          {
+            "text": "na",
+            "start": 14.408,
+            "end": 14.501
+          },
+          {
+            "text": "egwu",
+            "start": 14.582,
+            "end": 14.884
+          },
+          {
+            "text": "ahu.",
+            "start": 15.0,
+            "end": 15.453
+          },
+          {
+            "text": "Pip",
+            "start": 15.836,
+            "end": 16.045
+          },
+          {
+            "text": "nwere",
+            "start": 16.115,
+            "end": 16.358
+          },
+          {
+            "text": "mmetuta",
+            "start": 16.405,
+            "end": 16.893
+          },
+          {
+            "text": "na",
+            "start": 16.951,
+            "end": 17.032
+          },
+          {
+            "text": "ihe",
+            "start": 17.113,
+            "end": 17.311
+          },
+          {
+            "text": "gbanwere--o",
+            "start": 17.357,
+            "end": 18.611
+          },
+          {
+            "text": "bughi",
+            "start": 18.669,
+            "end": 18.948
+          },
+          {
+            "text": "naani",
+            "start": 19.064,
+            "end": 19.377
+          },
+          {
+            "text": "n'okooko",
+            "start": 19.435,
+            "end": 19.877
+          },
+          {
+            "text": "ohia,",
+            "start": 19.958,
+            "end": 20.573
+          },
+          {
+            "text": "kama",
+            "start": 20.852,
+            "end": 21.107
+          },
+          {
+            "text": "n'ime",
+            "start": 21.154,
+            "end": 21.351
+          },
+          {
+            "text": "obi",
+            "start": 21.398,
+            "end": 21.665
+          },
+          {
+            "text": "ya",
+            "start": 21.688,
+            "end": 21.757
+          },
+          {
+            "text": "obere.",
+            "start": 21.839,
+            "end": 22.454
+          },
+          {
+            "text": "Nke",
+            "start": 22.965,
+            "end": 23.244
+          },
+          {
+            "text": "a",
+            "start": 23.29,
+            "end": 23.313
+          },
+          {
+            "text": "bu",
+            "start": 23.36,
+            "end": 23.464
+          },
+          {
+            "text": "otu",
+            "start": 23.511,
+            "end": 23.696
+          },
+          {
+            "text": "oge",
+            "start": 23.743,
+            "end": 23.929
+          },
+          {
+            "text": "nghota",
+            "start": 23.952,
+            "end": 24.312
+          },
+          {
+            "text": "di",
+            "start": 24.358,
+            "end": 24.428
+          },
+          {
+            "text": "nwayoo,",
+            "start": 24.474,
+            "end": 25.078
+          },
+          {
+            "text": "dika",
+            "start": 25.287,
+            "end": 25.531
+          },
+          {
+            "text": "oku",
+            "start": 25.577,
+            "end": 25.775
+          },
+          {
+            "text": "anyanwu",
+            "start": 25.833,
+            "end": 26.216
+          },
+          {
+            "text": "ehihie:",
+            "start": 26.297,
+            "end": 27.121
+          },
+          {
+            "text": "olileanya",
+            "start": 27.562,
+            "end": 28.131
+          },
+          {
+            "text": "abughi",
+            "start": 28.178,
+            "end": 28.538
+          },
+          {
+            "text": "ime",
+            "start": 28.619,
+            "end": 28.805
+          },
+          {
+            "text": "ka",
+            "start": 28.851,
+            "end": 28.979
+          },
+          {
+            "text": "ihe",
+            "start": 29.025,
+            "end": 29.211
+          },
+          {
+            "text": "mee",
+            "start": 29.281,
+            "end": 29.385
+          },
+          {
+            "text": "ngwa",
+            "start": 29.408,
+            "end": 29.629
+          },
+          {
+            "text": "ngwa",
+            "start": 29.652,
+            "end": 29.838
+          },
+          {
+            "text": "kama",
+            "start": 29.884,
+            "end": 30.128
+          },
+          {
+            "text": "o",
+            "start": 30.186,
+            "end": 30.221
+          },
+          {
+            "text": "bu",
+            "start": 30.268,
+            "end": 30.384
+          },
+          {
+            "text": "ikwere",
+            "start": 30.43,
+            "end": 30.778
+          },
+          {
+            "text": "na",
+            "start": 30.836,
+            "end": 30.929
+          },
+          {
+            "text": "ihe",
+            "start": 30.987,
+            "end": 31.173
+          },
+          {
+            "text": "oma",
+            "start": 31.243,
+            "end": 31.44
+          },
+          {
+            "text": "ga-abia",
+            "start": 31.487,
+            "end": 31.986
+          },
+          {
+            "text": "ma",
+            "start": 32.044,
+            "end": 32.148
+          },
+          {
+            "text": "i",
+            "start": 32.206,
+            "end": 32.23
+          },
+          {
+            "text": "noro,",
+            "start": 32.299,
+            "end": 32.857
+          },
+          {
+            "text": "lekota",
+            "start": 33.182,
+            "end": 33.611
+          },
+          {
+            "text": "anya,",
+            "start": 33.669,
+            "end": 34.157
+          },
+          {
+            "text": "wee",
+            "start": 34.366,
+            "end": 34.598
+          },
+          {
+            "text": "chere.",
+            "start": 34.645,
+            "end": 35.202
+          },
+          {
+            "text": "Ikwighikwighi",
+            "start": 35.713,
+            "end": 36.491
+          },
+          {
+            "text": "kwekwara",
+            "start": 36.549,
+            "end": 37.094
+          },
+          {
+            "text": "isi",
+            "start": 37.141,
+            "end": 37.315
+          },
+          {
+            "text": "nwayoo,",
+            "start": 37.373,
+            "end": 38.012
+          },
+          {
+            "text": "dika",
+            "start": 38.453,
+            "end": 38.708
+          },
+          {
+            "text": "onye",
+            "start": 38.755,
+            "end": 38.94
+          },
+          {
+            "text": "maara",
+            "start": 38.998,
+            "end": 39.254
+          },
+          {
+            "text": "nke",
+            "start": 39.277,
+            "end": 39.463
+          },
+          {
+            "text": "a",
+            "start": 39.533,
+            "end": 39.556
+          },
+          {
+            "text": "kemgbe",
+            "start": 39.614,
+            "end": 39.95
+          },
+          {
+            "text": "mana",
+            "start": 40.009,
+            "end": 40.206
+          },
+          {
+            "text": "na-echere",
+            "start": 40.264,
+            "end": 40.728
+          },
+          {
+            "text": "ka",
+            "start": 40.775,
+            "end": 40.856
+          },
+          {
+            "text": "Pip",
+            "start": 40.902,
+            "end": 41.042
+          },
+          {
+            "text": "nuo",
+            "start": 41.135,
+            "end": 41.309
+          },
+          {
+            "text": "ya",
+            "start": 41.379,
+            "end": 41.46
+          },
+          {
+            "text": "n'onwe",
+            "start": 41.518,
+            "end": 41.82
+          },
+          {
+            "text": "ya.",
+            "start": 41.866,
+            "end": 42.145
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Okooko Ọhịa Amịpụtara",
+        "videoOffset": 391.986,
+        "words": [
+          {
+            "text": "Otu",
+            "start": 0.035,
+            "end": 0.325
+          },
+          {
+            "text": "otu,",
+            "start": 0.441,
+            "end": 0.964
+          },
+          {
+            "text": "dika",
+            "start": 1.289,
+            "end": 1.649
+          },
+          {
+            "text": "ha",
+            "start": 1.695,
+            "end": 1.753
+          },
+          {
+            "text": "na-echere",
+            "start": 1.811,
+            "end": 2.229
+          },
+          {
+            "text": "naani",
+            "start": 2.287,
+            "end": 2.577
+          },
+          {
+            "text": "oge",
+            "start": 2.635,
+            "end": 2.879
+          },
+          {
+            "text": "a,",
+            "start": 2.926,
+            "end": 3.216
+          },
+          {
+            "text": "mkpuru",
+            "start": 3.46,
+            "end": 3.913
+          },
+          {
+            "text": "ndu",
+            "start": 3.936,
+            "end": 4.087
+          },
+          {
+            "text": "okooko",
+            "start": 4.133,
+            "end": 4.656
+          },
+          {
+            "text": "ohia",
+            "start": 4.748,
+            "end": 5.074
+          },
+          {
+            "text": "malitere",
+            "start": 5.132,
+            "end": 5.584
+          },
+          {
+            "text": "imeghe.",
+            "start": 5.654,
+            "end": 6.223
+          },
+          {
+            "text": "Petals",
+            "start": 6.606,
+            "end": 7.036
+          },
+          {
+            "text": "gbasapuru",
+            "start": 7.105,
+            "end": 7.697
+          },
+          {
+            "text": "n'akuku",
+            "start": 7.755,
+            "end": 8.139
+          },
+          {
+            "text": "niile,",
+            "start": 8.208,
+            "end": 8.626
+          },
+          {
+            "text": "etiti",
+            "start": 8.777,
+            "end": 9.149
+          },
+          {
+            "text": "ohia",
+            "start": 9.23,
+            "end": 9.555
+          },
+          {
+            "text": "ahihia",
+            "start": 9.625,
+            "end": 10.124
+          },
+          {
+            "text": "juputara",
+            "start": 10.182,
+            "end": 10.67
+          },
+          {
+            "text": "n'agba",
+            "start": 10.728,
+            "end": 11.041
+          },
+          {
+            "text": "di",
+            "start": 11.088,
+            "end": 11.157
+          },
+          {
+            "text": "nro",
+            "start": 11.215,
+            "end": 11.436
+          },
+          {
+            "text": "na",
+            "start": 11.482,
+            "end": 11.552
+          },
+          {
+            "text": "ísì",
+            "start": 11.61,
+            "end": 11.912
+          },
+          {
+            "text": "uto",
+            "start": 11.981,
+            "end": 12.19
+          },
+          {
+            "text": "na-efe",
+            "start": 12.249,
+            "end": 12.574
+          },
+          {
+            "text": "n'ikuku",
+            "start": 12.62,
+            "end": 13.003
+          },
+          {
+            "text": "ehihie.",
+            "start": 13.119,
+            "end": 13.816
+          },
+          {
+            "text": "Pip",
+            "start": 14.025,
+            "end": 14.199
+          },
+          {
+            "text": "kwara",
+            "start": 14.28,
+            "end": 14.617
+          },
+          {
+            "text": "uda",
+            "start": 14.663,
+            "end": 14.849
+          },
+          {
+            "text": "onu,",
+            "start": 14.907,
+            "end": 15.279
+          },
+          {
+            "text": "na-awuli",
+            "start": 15.488,
+            "end": 16.01
+          },
+          {
+            "text": "site",
+            "start": 16.057,
+            "end": 16.335
+          },
+          {
+            "text": "n'otu",
+            "start": 16.393,
+            "end": 16.613
+          },
+          {
+            "text": "ogwe",
+            "start": 16.683,
+            "end": 16.95
+          },
+          {
+            "text": "gaa",
+            "start": 16.997,
+            "end": 17.182
+          },
+          {
+            "text": "n'ozo,",
+            "start": 17.252,
+            "end": 17.728
+          },
+          {
+            "text": "enweghi",
+            "start": 17.902,
+            "end": 18.448
+          },
+          {
+            "text": "ike",
+            "start": 18.517,
+            "end": 18.761
+          },
+          {
+            "text": "ino",
+            "start": 18.819,
+            "end": 18.993
+          },
+          {
+            "text": "juu.",
+            "start": 19.063,
+            "end": 19.458
+          },
+          {
+            "text": "Awo",
+            "start": 20.154,
+            "end": 20.433
+          },
+          {
+            "text": "kwara",
+            "start": 20.491,
+            "end": 20.723
+          },
+          {
+            "text": "uda",
+            "start": 20.758,
+            "end": 20.944
+          },
+          {
+            "text": "onu,",
+            "start": 21.014,
+            "end": 21.455
+          },
+          {
+            "text": "ikwighikwighi",
+            "start": 21.78,
+            "end": 22.511
+          },
+          {
+            "text": "gbasapuru",
+            "start": 22.569,
+            "end": 23.22
+          },
+          {
+            "text": "nku",
+            "start": 23.243,
+            "end": 23.428
+          },
+          {
+            "text": "ya",
+            "start": 23.487,
+            "end": 23.556
+          },
+          {
+            "text": "abuo",
+            "start": 23.603,
+            "end": 23.928
+          },
+          {
+            "text": "buru",
+            "start": 23.986,
+            "end": 24.183
+          },
+          {
+            "text": "ibu,",
+            "start": 24.23,
+            "end": 24.74
+          },
+          {
+            "text": "ndi",
+            "start": 25.182,
+            "end": 25.379
+          },
+          {
+            "text": "enyi",
+            "start": 25.437,
+            "end": 25.658
+          },
+          {
+            "text": "ato",
+            "start": 25.704,
+            "end": 25.867
+          },
+          {
+            "text": "lekwara",
+            "start": 25.913,
+            "end": 26.261
+          },
+          {
+            "text": "ibe",
+            "start": 26.319,
+            "end": 26.517
+          },
+          {
+            "text": "ha",
+            "start": 26.575,
+            "end": 26.668
+          },
+          {
+            "text": "anya",
+            "start": 26.703,
+            "end": 26.911
+          },
+          {
+            "text": "n'udi",
+            "start": 26.958,
+            "end": 27.155
+          },
+          {
+            "text": "oku",
+            "start": 27.202,
+            "end": 27.387
+          },
+          {
+            "text": "mmuo",
+            "start": 27.422,
+            "end": 27.538
+          },
+          {
+            "text": "nke",
+            "start": 27.562,
+            "end": 27.736
+          },
+          {
+            "text": "na-abia",
+            "start": 27.782,
+            "end": 28.165
+          },
+          {
+            "text": "mgbe",
+            "start": 28.212,
+            "end": 28.479
+          },
+          {
+            "text": "i",
+            "start": 28.514,
+            "end": 28.537
+          },
+          {
+            "text": "na",
+            "start": 28.595,
+            "end": 28.665
+          },
+          {
+            "text": "ndi",
+            "start": 28.711,
+            "end": 28.874
+          },
+          {
+            "text": "enyi",
+            "start": 28.92,
+            "end": 29.129
+          },
+          {
+            "text": "gi",
+            "start": 29.187,
+            "end": 29.28
+          },
+          {
+            "text": "chere",
+            "start": 29.326,
+            "end": 29.64
+          },
+          {
+            "text": "ihe",
+            "start": 29.675,
+            "end": 29.872
+          },
+          {
+            "text": "onu.",
+            "start": 29.93,
+            "end": 30.36
+          },
+          {
+            "text": "Mmemme",
+            "start": 31.172,
+            "end": 31.555
+          },
+          {
+            "text": "ha",
+            "start": 31.602,
+            "end": 31.672
+          },
+          {
+            "text": "na-atu",
+            "start": 31.73,
+            "end": 32.078
+          },
+          {
+            "text": "anya",
+            "start": 32.136,
+            "end": 32.345
+          },
+          {
+            "text": "ya",
+            "start": 32.403,
+            "end": 32.484
+          },
+          {
+            "text": "abiala",
+            "start": 32.53,
+            "end": 32.948
+          },
+          {
+            "text": "n'ikpeazu--o",
+            "start": 32.995,
+            "end": 34.55
+          },
+          {
+            "text": "mara",
+            "start": 34.62,
+            "end": 34.806
+          },
+          {
+            "text": "mma",
+            "start": 34.852,
+            "end": 34.945
+          },
+          {
+            "text": "karia",
+            "start": 34.992,
+            "end": 35.293
+          },
+          {
+            "text": "n'ihi",
+            "start": 35.351,
+            "end": 35.549
+          },
+          {
+            "text": "na",
+            "start": 35.607,
+            "end": 35.677
+          },
+          {
+            "text": "ha",
+            "start": 35.735,
+            "end": 35.955
+          },
+          {
+            "text": "nwere",
+            "start": 36.466,
+            "end": 36.78
+          },
+          {
+            "text": "ndidi",
+            "start": 36.803,
+            "end": 37.058
+          },
+          {
+            "text": "ka",
+            "start": 37.105,
+            "end": 37.221
+          },
+          {
+            "text": "o",
+            "start": 37.256,
+            "end": 37.29
+          },
+          {
+            "text": "bia",
+            "start": 37.36,
+            "end": 37.569
+          },
+          {
+            "text": "n'onwe",
+            "start": 37.627,
+            "end": 37.952
+          },
+          {
+            "text": "ya.",
+            "start": 37.987,
+            "end": 38.254
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Mmemme Dị Jụụ",
+        "videoOffset": 430.737,
+        "words": [
+          {
+            "text": "Ndi",
+            "start": 0.081,
+            "end": 0.186
+          },
+          {
+            "text": "enyi",
+            "start": 0.232,
+            "end": 0.406
+          },
+          {
+            "text": "ato",
+            "start": 0.464,
+            "end": 0.685
+          },
+          {
+            "text": "noduru",
+            "start": 0.731,
+            "end": 1.126
+          },
+          {
+            "text": "ala",
+            "start": 1.184,
+            "end": 1.335
+          },
+          {
+            "text": "onu",
+            "start": 1.405,
+            "end": 1.637
+          },
+          {
+            "text": "n'onu",
+            "start": 1.683,
+            "end": 1.927
+          },
+          {
+            "text": "okooko",
+            "start": 1.974,
+            "end": 2.508
+          },
+          {
+            "text": "ohia",
+            "start": 2.577,
+            "end": 2.868
+          },
+          {
+            "text": "mepere",
+            "start": 2.914,
+            "end": 3.344
+          },
+          {
+            "text": "emepe",
+            "start": 3.39,
+            "end": 3.75
+          },
+          {
+            "text": "ka",
+            "start": 3.796,
+            "end": 4.029
+          },
+          {
+            "text": "ìhè",
+            "start": 4.122,
+            "end": 4.47
+          },
+          {
+            "text": "ehihie",
+            "start": 4.54,
+            "end": 5.143
+          },
+          {
+            "text": "ghoro",
+            "start": 5.201,
+            "end": 5.55
+          },
+          {
+            "text": "olaedo",
+            "start": 5.608,
+            "end": 6.002
+          },
+          {
+            "text": "gbaa",
+            "start": 6.049,
+            "end": 6.385
+          },
+          {
+            "text": "ha",
+            "start": 6.455,
+            "end": 6.583
+          },
+          {
+            "text": "gburugburu.",
+            "start": 6.641,
+            "end": 7.314
+          },
+          {
+            "text": "Pip",
+            "start": 7.338,
+            "end": 7.535
+          },
+          {
+            "text": "jidere",
+            "start": 7.605,
+            "end": 7.976
+          },
+          {
+            "text": "abu",
+            "start": 8.034,
+            "end": 8.278
+          },
+          {
+            "text": "ikpeazu",
+            "start": 8.313,
+            "end": 8.882
+          },
+          {
+            "text": "di",
+            "start": 8.928,
+            "end": 8.998
+          },
+          {
+            "text": "nro--o",
+            "start": 9.044,
+            "end": 9.509
+          },
+          {
+            "text": "bughi",
+            "start": 9.567,
+            "end": 9.81
+          },
+          {
+            "text": "nke",
+            "start": 9.845,
+            "end": 10.043
+          },
+          {
+            "text": "di",
+            "start": 10.089,
+            "end": 10.159
+          },
+          {
+            "text": "ukwuu",
+            "start": 10.205,
+            "end": 10.565
+          },
+          {
+            "text": "ma",
+            "start": 10.646,
+            "end": 10.797
+          },
+          {
+            "text": "o",
+            "start": 10.867,
+            "end": 10.913
+          },
+          {
+            "text": "bu",
+            "start": 10.971,
+            "end": 11.064
+          },
+          {
+            "text": "di",
+            "start": 11.111,
+            "end": 11.18
+          },
+          {
+            "text": "egwu,",
+            "start": 11.238,
+            "end": 11.622
+          },
+          {
+            "text": "kama",
+            "start": 11.645,
+            "end": 11.877
+          },
+          {
+            "text": "nke",
+            "start": 11.912,
+            "end": 12.098
+          },
+          {
+            "text": "di",
+            "start": 12.144,
+            "end": 12.214
+          },
+          {
+            "text": "nwayoo,",
+            "start": 12.249,
+            "end": 12.748
+          },
+          {
+            "text": "dika",
+            "start": 12.783,
+            "end": 13.061
+          },
+          {
+            "text": "abu",
+            "start": 13.119,
+            "end": 13.41
+          },
+          {
+            "text": "ura",
+            "start": 13.479,
+            "end": 13.723
+          },
+          {
+            "text": "ohia",
+            "start": 13.804,
+            "end": 14.222
+          },
+          {
+            "text": "ahihia",
+            "start": 14.292,
+            "end": 14.931
+          },
+          {
+            "text": "na-echere",
+            "start": 15.0,
+            "end": 15.604
+          },
+          {
+            "text": "inu.",
+            "start": 15.674,
+            "end": 15.976
+          },
+          {
+            "text": "Ikwighikwighi",
+            "start": 16.01,
+            "end": 16.695
+          },
+          {
+            "text": "kwakwara",
+            "start": 16.742,
+            "end": 17.113
+          },
+          {
+            "text": "uda",
+            "start": 17.125,
+            "end": 17.253
+          },
+          {
+            "text": "ya,",
+            "start": 17.52,
+            "end": 18.17
+          },
+          {
+            "text": "awo",
+            "start": 18.425,
+            "end": 18.681
+          },
+          {
+            "text": "ji",
+            "start": 18.855,
+            "end": 19.377
+          },
+          {
+            "text": "ukwu",
+            "start": 19.633,
+            "end": 20.027
+          },
+          {
+            "text": "ya",
+            "start": 20.294,
+            "end": 20.503
+          },
+          {
+            "text": "na-aku",
+            "start": 20.608,
+            "end": 21.757
+          },
+          {
+            "text": "nkume",
+            "start": 21.897,
+            "end": 22.384
+          },
+          {
+            "text": "ahihia",
+            "start": 22.547,
+            "end": 23.092
+          },
+          {
+            "text": "ndu",
+            "start": 23.197,
+            "end": 23.441
+          },
+          {
+            "text": "kpuchiri",
+            "start": 23.522,
+            "end": 24.033
+          },
+          {
+            "text": "nwayoo",
+            "start": 24.137,
+            "end": 24.695
+          },
+          {
+            "text": "nwayoo.",
+            "start": 24.788,
+            "end": 25.414
+          },
+          {
+            "text": "Ha",
+            "start": 25.681,
+            "end": 25.879
+          },
+          {
+            "text": "achoghi",
+            "start": 25.995,
+            "end": 26.366
+          },
+          {
+            "text": "ihe",
+            "start": 26.471,
+            "end": 26.761
+          },
+          {
+            "text": "puru",
+            "start": 26.831,
+            "end": 27.051
+          },
+          {
+            "text": "iche",
+            "start": 27.11,
+            "end": 27.388
+          },
+          {
+            "text": "maka",
+            "start": 27.435,
+            "end": 27.644
+          },
+          {
+            "text": "mmemme",
+            "start": 27.76,
+            "end": 28.201
+          },
+          {
+            "text": "ha--naani",
+            "start": 28.398,
+            "end": 29.106
+          },
+          {
+            "text": "okooko",
+            "start": 29.188,
+            "end": 29.652
+          },
+          {
+            "text": "ohia",
+            "start": 29.78,
+            "end": 30.105
+          },
+          {
+            "text": "mepere",
+            "start": 30.198,
+            "end": 30.546
+          },
+          {
+            "text": "emepe,",
+            "start": 30.651,
+            "end": 31.103
+          },
+          {
+            "text": "ikuku",
+            "start": 31.185,
+            "end": 31.521
+          },
+          {
+            "text": "di",
+            "start": 31.603,
+            "end": 31.823
+          },
+          {
+            "text": "oku,",
+            "start": 31.928,
+            "end": 32.276
+          },
+          {
+            "text": "na",
+            "start": 32.369,
+            "end": 32.52
+          },
+          {
+            "text": "ibe",
+            "start": 32.601,
+            "end": 32.798
+          },
+          {
+            "text": "ha.",
+            "start": 32.833,
+            "end": 33.077
+          },
+          {
+            "text": "Ihe",
+            "start": 33.17,
+            "end": 33.437
+          },
+          {
+            "text": "oma",
+            "start": 33.53,
+            "end": 33.785
+          },
+          {
+            "text": "bu",
+            "start": 33.843,
+            "end": 33.983
+          },
+          {
+            "text": "ihe",
+            "start": 34.052,
+            "end": 34.307
+          },
+          {
+            "text": "kwesiri",
+            "start": 34.377,
+            "end": 34.656
+          },
+          {
+            "text": "ichere,",
+            "start": 34.702,
+            "end": 35.085
+          },
+          {
+            "text": "Pip",
+            "start": 35.109,
+            "end": 35.26
+          },
+          {
+            "text": "buru",
+            "start": 35.341,
+            "end": 35.585
+          },
+          {
+            "text": "nwayoo,",
+            "start": 35.654,
+            "end": 36.119
+          },
+          {
+            "text": "oge",
+            "start": 36.153,
+            "end": 36.386
+          },
+          {
+            "text": "a",
+            "start": 36.409,
+            "end": 36.432
+          },
+          {
+            "text": "okwu",
+            "start": 36.513,
+            "end": 37.001
+          },
+          {
+            "text": "ahu",
+            "start": 37.28,
+            "end": 37.605
+          },
+          {
+            "text": "di",
+            "start": 37.93,
+            "end": 38.174
+          },
+          {
+            "text": "ezi",
+            "start": 38.499,
+            "end": 38.835
+          },
+          {
+            "text": "ka",
+            "start": 38.893,
+            "end": 39.091
+          },
+          {
+            "text": "ala",
+            "start": 39.369,
+            "end": 39.764
+          },
+          {
+            "text": "ha",
+            "start": 40.043,
+            "end": 40.345
+          },
+          {
+            "text": "no",
+            "start": 40.67,
+            "end": 40.972
+          },
+          {
+            "text": "n'elu",
+            "start": 41.355,
+            "end": 41.761
+          },
+          {
+            "text": "ya.",
+            "start": 42.086,
+            "end": 42.527
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Nchekwa N'Ọhịa Ahịhịa",
+        "videoOffset": 473.715,
+        "words": [
+          {
+            "text": "Ìhè",
+            "start": 0.035,
+            "end": 0.186
+          },
+          {
+            "text": "olaedo",
+            "start": 0.244,
+            "end": 0.766
+          },
+          {
+            "text": "ehihie",
+            "start": 0.882,
+            "end": 1.44
+          },
+          {
+            "text": "dara",
+            "start": 1.498,
+            "end": 1.753
+          },
+          {
+            "text": "ogbo",
+            "start": 1.823,
+            "end": 2.101
+          },
+          {
+            "text": "n'ohia",
+            "start": 2.159,
+            "end": 2.519
+          },
+          {
+            "text": "ahihia,",
+            "start": 2.589,
+            "end": 3.239
+          },
+          {
+            "text": "Pip",
+            "start": 3.274,
+            "end": 3.471
+          },
+          {
+            "text": "kpuchiri",
+            "start": 3.541,
+            "end": 4.052
+          },
+          {
+            "text": "obere",
+            "start": 4.122,
+            "end": 4.493
+          },
+          {
+            "text": "ahu",
+            "start": 4.54,
+            "end": 4.748
+          },
+          {
+            "text": "ya",
+            "start": 4.807,
+            "end": 4.865
+          },
+          {
+            "text": "okirikiri",
+            "start": 4.899,
+            "end": 5.422
+          },
+          {
+            "text": "n'ahihia",
+            "start": 5.48,
+            "end": 6.049
+          },
+          {
+            "text": "di",
+            "start": 6.107,
+            "end": 6.188
+          },
+          {
+            "text": "nro",
+            "start": 6.223,
+            "end": 6.409
+          },
+          {
+            "text": "nso",
+            "start": 6.444,
+            "end": 6.734
+          },
+          {
+            "text": "okooko",
+            "start": 6.803,
+            "end": 7.221
+          },
+          {
+            "text": "ohia",
+            "start": 7.303,
+            "end": 7.628
+          },
+          {
+            "text": "ebe",
+            "start": 7.686,
+            "end": 7.918
+          },
+          {
+            "text": "ubochi",
+            "start": 7.953,
+            "end": 8.313
+          },
+          {
+            "text": "bidoro.",
+            "start": 8.359,
+            "end": 8.835
+          },
+          {
+            "text": "Awo",
+            "start": 8.87,
+            "end": 9.079
+          },
+          {
+            "text": "zuru",
+            "start": 9.149,
+            "end": 9.439
+          },
+          {
+            "text": "ike",
+            "start": 9.474,
+            "end": 9.625
+          },
+          {
+            "text": "n'elu",
+            "start": 9.683,
+            "end": 9.88
+          },
+          {
+            "text": "nkume",
+            "start": 9.903,
+            "end": 10.228
+          },
+          {
+            "text": "ahihia",
+            "start": 10.286,
+            "end": 10.797
+          },
+          {
+            "text": "ndu",
+            "start": 10.832,
+            "end": 10.983
+          },
+          {
+            "text": "kpuchiri",
+            "start": 11.018,
+            "end": 11.552
+          },
+          {
+            "text": "ya,",
+            "start": 11.575,
+            "end": 11.749
+          },
+          {
+            "text": "ikwighikwighi",
+            "start": 11.784,
+            "end": 12.492
+          },
+          {
+            "text": "chipuru",
+            "start": 12.55,
+            "end": 12.887
+          },
+          {
+            "text": "nku",
+            "start": 12.91,
+            "end": 13.084
+          },
+          {
+            "text": "ya",
+            "start": 13.154,
+            "end": 13.282
+          },
+          {
+            "text": "abuo",
+            "start": 13.351,
+            "end": 13.677
+          },
+          {
+            "text": "buru",
+            "start": 13.735,
+            "end": 13.932
+          },
+          {
+            "text": "ibu",
+            "start": 13.967,
+            "end": 14.153
+          },
+          {
+            "text": "mechie",
+            "start": 14.199,
+            "end": 14.57
+          },
+          {
+            "text": "anya",
+            "start": 14.64,
+            "end": 15.0
+          },
+          {
+            "text": "ya",
+            "start": 15.058,
+            "end": 15.232
+          },
+          {
+            "text": "n'alaka",
+            "start": 15.29,
+            "end": 15.662
+          },
+          {
+            "text": "di",
+            "start": 15.72,
+            "end": 15.824
+          },
+          {
+            "text": "ala",
+            "start": 15.882,
+            "end": 16.057
+          },
+          {
+            "text": "nke",
+            "start": 16.08,
+            "end": 16.265
+          },
+          {
+            "text": "osisi",
+            "start": 16.335,
+            "end": 16.8
+          },
+          {
+            "text": "ook",
+            "start": 16.881,
+            "end": 17.055
+          },
+          {
+            "text": "ukwu",
+            "start": 17.148,
+            "end": 17.357
+          },
+          {
+            "text": "ahu.",
+            "start": 17.426,
+            "end": 17.81
+          },
+          {
+            "text": "Okooko",
+            "start": 18.297,
+            "end": 18.773
+          },
+          {
+            "text": "ohia",
+            "start": 18.971,
+            "end": 19.319
+          },
+          {
+            "text": "amiputara",
+            "start": 19.493,
+            "end": 20.004
+          },
+          {
+            "text": "n'ihi",
+            "start": 20.062,
+            "end": 20.306
+          },
+          {
+            "text": "na",
+            "start": 20.573,
+            "end": 20.677
+          },
+          {
+            "text": "ndi",
+            "start": 20.701,
+            "end": 20.817
+          },
+          {
+            "text": "enyi",
+            "start": 20.863,
+            "end": 21.06
+          },
+          {
+            "text": "ato",
+            "start": 21.13,
+            "end": 21.351
+          },
+          {
+            "text": "noro,",
+            "start": 21.385,
+            "end": 21.792
+          },
+          {
+            "text": "buo",
+            "start": 21.989,
+            "end": 22.268
+          },
+          {
+            "text": "abu,",
+            "start": 22.372,
+            "end": 22.802
+          },
+          {
+            "text": "wee",
+            "start": 22.999,
+            "end": 23.301
+          },
+          {
+            "text": "chere",
+            "start": 23.429,
+            "end": 23.719
+          },
+          {
+            "text": "onu--nke",
+            "start": 23.789,
+            "end": 24.799
+          },
+          {
+            "text": "ahu",
+            "start": 24.868,
+            "end": 25.159
+          },
+          {
+            "text": "bu",
+            "start": 25.263,
+            "end": 25.368
+          },
+          {
+            "text": "naani",
+            "start": 25.414,
+            "end": 25.809
+          },
+          {
+            "text": "mmemme",
+            "start": 25.913,
+            "end": 26.343
+          },
+          {
+            "text": "ha",
+            "start": 26.447,
+            "end": 26.587
+          },
+          {
+            "text": "choro.",
+            "start": 26.645,
+            "end": 27.121
+          },
+          {
+            "text": "Ihe",
+            "start": 27.62,
+            "end": 27.887
+          },
+          {
+            "text": "oma",
+            "start": 28.061,
+            "end": 28.259
+          },
+          {
+            "text": "bu",
+            "start": 28.293,
+            "end": 28.456
+          },
+          {
+            "text": "ihe",
+            "start": 28.549,
+            "end": 28.723
+          },
+          {
+            "text": "kwesiri",
+            "start": 28.769,
+            "end": 29.153
+          },
+          {
+            "text": "ichere,",
+            "start": 29.211,
+            "end": 29.698
+          },
+          {
+            "text": "Pip",
+            "start": 29.977,
+            "end": 30.116
+          },
+          {
+            "text": "chere",
+            "start": 30.174,
+            "end": 30.43
+          },
+          {
+            "text": "otu",
+            "start": 30.499,
+            "end": 30.685
+          },
+          {
+            "text": "ugboro",
+            "start": 30.732,
+            "end": 31.057
+          },
+          {
+            "text": "ikpeazu,",
+            "start": 31.103,
+            "end": 31.695
+          },
+          {
+            "text": "na-anu",
+            "start": 32.067,
+            "end": 32.415
+          },
+          {
+            "text": "oku",
+            "start": 32.461,
+            "end": 32.752
+          },
+          {
+            "text": "ya",
+            "start": 32.926,
+            "end": 33.019
+          },
+          {
+            "text": "n'obi",
+            "start": 33.065,
+            "end": 33.332
+          },
+          {
+            "text": "ya",
+            "start": 33.483,
+            "end": 33.576
+          },
+          {
+            "text": "dika",
+            "start": 33.622,
+            "end": 33.878
+          },
+          {
+            "text": "anyanwu.",
+            "start": 34.029,
+            "end": 34.563
+          },
+          {
+            "text": "Ohia",
+            "start": 35.062,
+            "end": 35.399
+          },
+          {
+            "text": "ahihia",
+            "start": 35.526,
+            "end": 36.037
+          },
+          {
+            "text": "di",
+            "start": 36.153,
+            "end": 36.258
+          },
+          {
+            "text": "juu,",
+            "start": 36.316,
+            "end": 36.734
+          },
+          {
+            "text": "ikuku",
+            "start": 37.059,
+            "end": 37.547
+          },
+          {
+            "text": "di",
+            "start": 37.663,
+            "end": 37.779
+          },
+          {
+            "text": "nwayoo,",
+            "start": 37.825,
+            "end": 38.383
+          },
+          {
+            "text": "onye",
+            "start": 38.824,
+            "end": 39.068
+          },
+          {
+            "text": "o",
+            "start": 39.126,
+            "end": 39.16
+          },
+          {
+            "text": "bula",
+            "start": 39.207,
+            "end": 39.381
+          },
+          {
+            "text": "no",
+            "start": 39.427,
+            "end": 39.497
+          },
+          {
+            "text": "n'udo--oge",
+            "start": 39.544,
+            "end": 40.693
+          },
+          {
+            "text": "eruola",
+            "start": 40.728,
+            "end": 41.088
+          },
+          {
+            "text": "izuike,",
+            "start": 41.146,
+            "end": 41.9
+          },
+          {
+            "text": "mechie",
+            "start": 42.284,
+            "end": 42.551
+          },
+          {
+            "text": "anya,",
+            "start": 42.609,
+            "end": 43.096
+          },
+          {
+            "text": "rahu",
+            "start": 43.479,
+            "end": 43.7
+          },
+          {
+            "text": "ura.",
+            "start": 43.723,
+            "end": 44.129
+          }
+        ]
+      }
+    ]
   }
 ]

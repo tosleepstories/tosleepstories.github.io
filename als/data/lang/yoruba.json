@@ -19786,5 +19786,6516 @@
         ]
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "Ayẹyẹ Àyọ̀ Ní Pápá",
+    "language": "yoruba",
+    "label": "Yoruba",
+    "videoPath": "videos/story_4_english.mp4",
+    "scenes": [
+      {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Ayẹyẹ",
+            "start": 0.15,
+            "end": 0.8
+          },
+          {
+            "text": "Àyọ̀",
+            "start": 0.8,
+            "end": 1.45
+          },
+          {
+            "text": "Ní",
+            "start": 1.45,
+            "end": 2.1
+          },
+          {
+            "text": "Pápá",
+            "start": 2.1,
+            "end": 2.75
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Ìrọ̀lẹ́ Ní Pápá",
+        "videoOffset": 3.0,
+        "words": [
+          {
+            "text": "Pápá",
+            "start": 0.081,
+            "end": 0.488
+          },
+          {
+            "text": "náà",
+            "start": 0.615,
+            "end": 0.836
+          },
+          {
+            "text": "gbòòrò,",
+            "start": 0.917,
+            "end": 1.533
+          },
+          {
+            "text": "ó",
+            "start": 1.591,
+            "end": 1.718
+          },
+          {
+            "text": "sì",
+            "start": 1.8,
+            "end": 2.032
+          },
+          {
+            "text": "jé",
+            "start": 2.113,
+            "end": 2.287
+          },
+          {
+            "text": "wúrà",
+            "start": 2.322,
+            "end": 2.682
+          },
+          {
+            "text": "lábé",
+            "start": 2.798,
+            "end": 3.193
+          },
+          {
+            "text": "oòrùn",
+            "start": 3.251,
+            "end": 3.611
+          },
+          {
+            "text": "osán.",
+            "start": 3.692,
+            "end": 4.214
+          },
+          {
+            "text": "Pip,",
+            "start": 4.238,
+            "end": 4.551
+          },
+          {
+            "text": "eye",
+            "start": 4.598,
+            "end": 4.772
+          },
+          {
+            "text": "kékeré",
+            "start": 4.818,
+            "end": 5.283
+          },
+          {
+            "text": "oníká",
+            "start": 5.364,
+            "end": 5.84
+          },
+          {
+            "text": "yíká,",
+            "start": 5.933,
+            "end": 6.374
+          },
+          {
+            "text": "ń",
+            "start": 6.409,
+            "end": 6.49
+          },
+          {
+            "text": "fo",
+            "start": 6.606,
+            "end": 6.792
+          },
+          {
+            "text": "ìdùnnú",
+            "start": 6.861,
+            "end": 7.303
+          },
+          {
+            "text": "lára",
+            "start": 7.361,
+            "end": 7.639
+          },
+          {
+            "text": "koríko",
+            "start": 7.732,
+            "end": 8.197
+          },
+          {
+            "text": "gíga.",
+            "start": 8.255,
+            "end": 8.673
+          },
+          {
+            "text": "Ó",
+            "start": 8.731,
+            "end": 8.858
+          },
+          {
+            "text": "ti",
+            "start": 8.94,
+            "end": 9.033
+          },
+          {
+            "text": "lo",
+            "start": 9.091,
+            "end": 9.253
+          },
+          {
+            "text": "ose",
+            "start": 9.3,
+            "end": 9.625
+          },
+          {
+            "text": "kan",
+            "start": 9.718,
+            "end": 9.857
+          },
+          {
+            "text": "gbáko",
+            "start": 9.915,
+            "end": 10.368
+          },
+          {
+            "text": "ń",
+            "start": 10.437,
+            "end": 10.507
+          },
+          {
+            "text": "wo",
+            "start": 10.565,
+            "end": 10.635
+          },
+          {
+            "text": "bí",
+            "start": 10.693,
+            "end": 10.879
+          },
+          {
+            "text": "odòdó",
+            "start": 10.96,
+            "end": 11.424
+          },
+          {
+            "text": "igbó",
+            "start": 11.505,
+            "end": 11.819
+          },
+          {
+            "text": "se",
+            "start": 11.9,
+            "end": 12.04
+          },
+          {
+            "text": "ń",
+            "start": 12.086,
+            "end": 12.132
+          },
+          {
+            "text": "tàn,",
+            "start": 12.214,
+            "end": 12.492
+          },
+          {
+            "text": "lónìí",
+            "start": 12.574,
+            "end": 12.945
+          },
+          {
+            "text": "sì",
+            "start": 13.026,
+            "end": 13.235
+          },
+          {
+            "text": "jé",
+            "start": 13.317,
+            "end": 13.526
+          },
+          {
+            "text": "ojó",
+            "start": 13.572,
+            "end": 13.886
+          },
+          {
+            "text": "tó",
+            "start": 13.932,
+            "end": 14.06
+          },
+          {
+            "text": "dára",
+            "start": 14.141,
+            "end": 14.443
+          },
+          {
+            "text": "láti",
+            "start": 14.536,
+            "end": 14.861
+          },
+          {
+            "text": "sayeye.",
+            "start": 14.93,
+            "end": 15.453
+          },
+          {
+            "text": "Òwìwí",
+            "start": 15.499,
+            "end": 15.952
+          },
+          {
+            "text": "àgbà",
+            "start": 16.045,
+            "end": 16.416
+          },
+          {
+            "text": "olóògbón",
+            "start": 16.486,
+            "end": 17.183
+          },
+          {
+            "text": "kan",
+            "start": 17.264,
+            "end": 17.461
+          },
+          {
+            "text": "ń",
+            "start": 17.554,
+            "end": 17.636
+          },
+          {
+            "text": "gbé",
+            "start": 17.694,
+            "end": 17.972
+          },
+          {
+            "text": "nínú",
+            "start": 18.053,
+            "end": 18.413
+          },
+          {
+            "text": "igi",
+            "start": 18.494,
+            "end": 18.82
+          },
+          {
+            "text": "óòkù",
+            "start": 18.901,
+            "end": 19.319
+          },
+          {
+            "text": "ńlá",
+            "start": 19.4,
+            "end": 19.621
+          },
+          {
+            "text": "ní",
+            "start": 19.702,
+            "end": 19.888
+          },
+          {
+            "text": "egbé",
+            "start": 19.969,
+            "end": 20.387
+          },
+          {
+            "text": "pápá,",
+            "start": 20.422,
+            "end": 20.863
+          },
+          {
+            "text": "ó",
+            "start": 20.909,
+            "end": 21.014
+          },
+          {
+            "text": "ń",
+            "start": 21.06,
+            "end": 21.083
+          },
+          {
+            "text": "tòòró",
+            "start": 21.13,
+            "end": 21.443
+          },
+          {
+            "text": "sùn",
+            "start": 21.501,
+            "end": 21.641
+          },
+          {
+            "text": "nínú",
+            "start": 21.676,
+            "end": 21.896
+          },
+          {
+            "text": "ìmóle",
+            "start": 21.943,
+            "end": 22.291
+          },
+          {
+            "text": "oòrùn.",
+            "start": 22.326,
+            "end": 22.941
+          },
+          {
+            "text": "Opoló",
+            "start": 23.44,
+            "end": 23.731
+          },
+          {
+            "text": "kékeré",
+            "start": 23.754,
+            "end": 24.137
+          },
+          {
+            "text": "kan",
+            "start": 24.207,
+            "end": 24.357
+          },
+          {
+            "text": "sì",
+            "start": 24.427,
+            "end": 24.601
+          },
+          {
+            "text": "jókòó",
+            "start": 24.683,
+            "end": 25.112
+          },
+          {
+            "text": "lórí",
+            "start": 25.182,
+            "end": 25.46
+          },
+          {
+            "text": "àpáta",
+            "start": 25.53,
+            "end": 25.948
+          },
+          {
+            "text": "tó",
+            "start": 26.018,
+            "end": 26.157
+          },
+          {
+            "text": "ní",
+            "start": 26.238,
+            "end": 26.343
+          },
+          {
+            "text": "ìrù",
+            "start": 26.401,
+            "end": 26.656
+          },
+          {
+            "text": "ewé.",
+            "start": 26.726,
+            "end": 27.179
+          },
+          {
+            "text": "Àwon",
+            "start": 27.55,
+            "end": 27.84
+          },
+          {
+            "text": "méjèèjì",
+            "start": 27.887,
+            "end": 28.421
+          },
+          {
+            "text": "yìí",
+            "start": 28.514,
+            "end": 28.758
+          },
+          {
+            "text": "ni",
+            "start": 28.827,
+            "end": 28.932
+          },
+          {
+            "text": "oré",
+            "start": 29.013,
+            "end": 29.292
+          },
+          {
+            "text": "tímótímó",
+            "start": 29.327,
+            "end": 29.791
+          },
+          {
+            "text": "Pip,",
+            "start": 29.814,
+            "end": 30.197
+          },
+          {
+            "text": "wón",
+            "start": 30.511,
+            "end": 30.708
+          },
+          {
+            "text": "máa",
+            "start": 30.766,
+            "end": 30.987
+          },
+          {
+            "text": "ń",
+            "start": 31.022,
+            "end": 31.056
+          },
+          {
+            "text": "pàdé",
+            "start": 31.126,
+            "end": 31.44
+          },
+          {
+            "text": "níbí",
+            "start": 31.509,
+            "end": 31.776
+          },
+          {
+            "text": "ní",
+            "start": 31.834,
+            "end": 31.939
+          },
+          {
+            "text": "gbogbo",
+            "start": 31.997,
+            "end": 32.438
+          },
+          {
+            "text": "osán.",
+            "start": 32.496,
+            "end": 33.077
+          },
+          {
+            "text": "Pip",
+            "start": 33.587,
+            "end": 33.762
+          },
+          {
+            "text": "korin",
+            "start": 33.831,
+            "end": 34.098
+          },
+          {
+            "text": "ìkíni",
+            "start": 34.168,
+            "end": 34.574
+          },
+          {
+            "text": "àyo,",
+            "start": 34.644,
+            "end": 35.155
+          },
+          {
+            "text": "ó",
+            "start": 35.387,
+            "end": 35.503
+          },
+          {
+            "text": "so",
+            "start": 35.55,
+            "end": 35.654
+          },
+          {
+            "text": "pé",
+            "start": 35.689,
+            "end": 35.828
+          },
+          {
+            "text": "àkókò",
+            "start": 35.898,
+            "end": 36.327
+          },
+          {
+            "text": "ti",
+            "start": 36.385,
+            "end": 36.478
+          },
+          {
+            "text": "tó",
+            "start": 36.513,
+            "end": 36.606
+          },
+          {
+            "text": "láti",
+            "start": 36.675,
+            "end": 36.966
+          },
+          {
+            "text": "sayeye",
+            "start": 37.035,
+            "end": 37.546
+          },
+          {
+            "text": "títàn",
+            "start": 37.604,
+            "end": 38.022
+          },
+          {
+            "text": "odòdó.",
+            "start": 38.092,
+            "end": 38.73
+          },
+          {
+            "text": "Ohun",
+            "start": 38.823,
+            "end": 39.357
+          },
+          {
+            "text": "rere",
+            "start": 39.473,
+            "end": 39.81
+          },
+          {
+            "text": "tó",
+            "start": 39.88,
+            "end": 40.054
+          },
+          {
+            "text": "bá",
+            "start": 40.147,
+            "end": 40.379
+          },
+          {
+            "text": "pé",
+            "start": 40.53,
+            "end": 40.774
+          },
+          {
+            "text": "tó,",
+            "start": 40.89,
+            "end": 41.227
+          },
+          {
+            "text": "ó",
+            "start": 41.343,
+            "end": 41.552
+          },
+          {
+            "text": "tóó,",
+            "start": 41.668,
+            "end": 42.144
+          },
+          {
+            "text": "Pip",
+            "start": 42.19,
+            "end": 42.446
+          },
+          {
+            "text": "rò",
+            "start": 42.562,
+            "end": 42.713
+          },
+          {
+            "text": "bée,",
+            "start": 42.805,
+            "end": 43.27
+          },
+          {
+            "text": "pápá",
+            "start": 43.316,
+            "end": 43.827
+          },
+          {
+            "text": "gbogbo",
+            "start": 43.92,
+            "end": 44.64
+          },
+          {
+            "text": "sì",
+            "start": 44.756,
+            "end": 45.116
+          },
+          {
+            "text": "dà",
+            "start": 45.209,
+            "end": 45.418
+          },
+          {
+            "text": "bí",
+            "start": 45.534,
+            "end": 45.824
+          },
+          {
+            "text": "eni",
+            "start": 45.94,
+            "end": 46.3
+          },
+          {
+            "text": "pé",
+            "start": 46.37,
+            "end": 46.648
+          },
+          {
+            "text": "ó",
+            "start": 46.764,
+            "end": 46.939
+          },
+          {
+            "text": "gbóná",
+            "start": 47.055,
+            "end": 47.658
+          },
+          {
+            "text": "móra",
+            "start": 47.775,
+            "end": 48.274
+          },
+          {
+            "text": "pelú",
+            "start": 48.39,
+            "end": 48.889
+          },
+          {
+            "text": "èrò",
+            "start": 49.017,
+            "end": 49.412
+          },
+          {
+            "text": "yen.",
+            "start": 49.528,
+            "end": 50.027
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Nǹkan Kan Kò Sí",
+        "videoOffset": 53.455,
+        "words": [
+          {
+            "text": "Ní",
+            "start": 0.116,
+            "end": 0.29
+          },
+          {
+            "text": "àárín",
+            "start": 0.337,
+            "end": 0.743
+          },
+          {
+            "text": "pápá,",
+            "start": 0.801,
+            "end": 1.219
+          },
+          {
+            "text": "níbi",
+            "start": 1.289,
+            "end": 1.567
+          },
+          {
+            "text": "tí",
+            "start": 1.591,
+            "end": 1.765
+          },
+          {
+            "text": "odòdó",
+            "start": 1.846,
+            "end": 2.31
+          },
+          {
+            "text": "igbó",
+            "start": 2.392,
+            "end": 2.752
+          },
+          {
+            "text": "wà,",
+            "start": 2.821,
+            "end": 3.03
+          },
+          {
+            "text": "Pip",
+            "start": 3.065,
+            "end": 3.262
+          },
+          {
+            "text": "bale",
+            "start": 3.367,
+            "end": 3.669
+          },
+          {
+            "text": "roro,",
+            "start": 3.75,
+            "end": 4.11
+          },
+          {
+            "text": "ó",
+            "start": 4.191,
+            "end": 4.307
+          },
+          {
+            "text": "ń",
+            "start": 4.377,
+            "end": 4.423
+          },
+          {
+            "text": "wo",
+            "start": 4.505,
+            "end": 4.667
+          },
+          {
+            "text": "àyíká",
+            "start": 4.772,
+            "end": 5.259
+          },
+          {
+            "text": "re",
+            "start": 5.329,
+            "end": 5.422
+          },
+          {
+            "text": "dáadáa.",
+            "start": 5.48,
+            "end": 6.084
+          },
+          {
+            "text": "Odòdó",
+            "start": 6.165,
+            "end": 6.664
+          },
+          {
+            "text": "náà",
+            "start": 6.769,
+            "end": 7.036
+          },
+          {
+            "text": "ń",
+            "start": 7.117,
+            "end": 7.198
+          },
+          {
+            "text": "mì",
+            "start": 7.268,
+            "end": 7.43
+          },
+          {
+            "text": "nínú",
+            "start": 7.5,
+            "end": 7.848
+          },
+          {
+            "text": "aféfé",
+            "start": 7.918,
+            "end": 8.452
+          },
+          {
+            "text": "osán,",
+            "start": 8.498,
+            "end": 8.986
+          },
+          {
+            "text": "sùgbón",
+            "start": 9.044,
+            "end": 9.52
+          },
+          {
+            "text": "díe",
+            "start": 9.601,
+            "end": 9.822
+          },
+          {
+            "text": "nínú",
+            "start": 9.903,
+            "end": 10.205
+          },
+          {
+            "text": "won",
+            "start": 10.286,
+            "end": 10.484
+          },
+          {
+            "text": "ló",
+            "start": 10.565,
+            "end": 10.728
+          },
+          {
+            "text": "ti",
+            "start": 10.797,
+            "end": 10.937
+          },
+          {
+            "text": "sí--opo",
+            "start": 11.006,
+            "end": 11.656
+          },
+          {
+            "text": "jù",
+            "start": 11.703,
+            "end": 11.877
+          },
+          {
+            "text": "lo",
+            "start": 11.958,
+            "end": 12.074
+          },
+          {
+            "text": "sì",
+            "start": 12.144,
+            "end": 12.341
+          },
+          {
+            "text": "pa",
+            "start": 12.446,
+            "end": 12.62
+          },
+          {
+            "text": "mó",
+            "start": 12.701,
+            "end": 12.899
+          },
+          {
+            "text": "dáadáa.",
+            "start": 12.945,
+            "end": 13.549
+          },
+          {
+            "text": "Òwìwí",
+            "start": 13.572,
+            "end": 14.048
+          },
+          {
+            "text": "gbon",
+            "start": 14.118,
+            "end": 14.42
+          },
+          {
+            "text": "ìyé",
+            "start": 14.536,
+            "end": 14.861
+          },
+          {
+            "text": "re,",
+            "start": 14.93,
+            "end": 15.151
+          },
+          {
+            "text": "ó",
+            "start": 15.232,
+            "end": 15.348
+          },
+          {
+            "text": "sì",
+            "start": 15.418,
+            "end": 15.615
+          },
+          {
+            "text": "so",
+            "start": 15.72,
+            "end": 15.906
+          },
+          {
+            "text": "pelepele",
+            "start": 15.952,
+            "end": 16.591
+          },
+          {
+            "text": "pé",
+            "start": 16.637,
+            "end": 16.811
+          },
+          {
+            "text": "bóyá",
+            "start": 16.881,
+            "end": 17.252
+          },
+          {
+            "text": "kì",
+            "start": 17.322,
+            "end": 17.508
+          },
+          {
+            "text": "í",
+            "start": 17.577,
+            "end": 17.659
+          },
+          {
+            "text": "se",
+            "start": 17.775,
+            "end": 17.961
+          },
+          {
+            "text": "gbogbo",
+            "start": 18.031,
+            "end": 18.518
+          },
+          {
+            "text": "odòdó",
+            "start": 18.6,
+            "end": 19.099
+          },
+          {
+            "text": "ló",
+            "start": 19.18,
+            "end": 19.331
+          },
+          {
+            "text": "máa",
+            "start": 19.412,
+            "end": 19.656
+          },
+          {
+            "text": "tàn",
+            "start": 19.714,
+            "end": 19.912
+          },
+          {
+            "text": "kí",
+            "start": 19.993,
+            "end": 20.167
+          },
+          {
+            "text": "àkókò",
+            "start": 20.237,
+            "end": 20.747
+          },
+          {
+            "text": "ayeye",
+            "start": 20.84,
+            "end": 21.328
+          },
+          {
+            "text": "tó.",
+            "start": 21.386,
+            "end": 21.839
+          },
+          {
+            "text": "Opoló",
+            "start": 22.489,
+            "end": 22.988
+          },
+          {
+            "text": "te",
+            "start": 23.023,
+            "end": 23.128
+          },
+          {
+            "text": "orí,",
+            "start": 23.22,
+            "end": 23.743
+          },
+          {
+            "text": "ó",
+            "start": 23.905,
+            "end": 24.103
+          },
+          {
+            "text": "béèrè",
+            "start": 24.207,
+            "end": 24.869
+          },
+          {
+            "text": "pele",
+            "start": 25.032,
+            "end": 25.589
+          },
+          {
+            "text": "bóyá",
+            "start": 26.065,
+            "end": 26.46
+          },
+          {
+            "text": "wón",
+            "start": 26.564,
+            "end": 26.936
+          },
+          {
+            "text": "lè",
+            "start": 27.075,
+            "end": 27.33
+          },
+          {
+            "text": "dúró",
+            "start": 27.435,
+            "end": 27.922
+          },
+          {
+            "text": "díe",
+            "start": 28.027,
+            "end": 28.352
+          },
+          {
+            "text": "sí",
+            "start": 28.445,
+            "end": 28.816
+          },
+          {
+            "text": "i.",
+            "start": 28.956,
+            "end": 29.455
+          },
+          {
+            "text": "Àníyàn",
+            "start": 30.117,
+            "end": 30.802
+          },
+          {
+            "text": "kékeré",
+            "start": 30.906,
+            "end": 31.533
+          },
+          {
+            "text": "kan",
+            "start": 31.672,
+            "end": 31.916
+          },
+          {
+            "text": "bò",
+            "start": 32.021,
+            "end": 32.253
+          },
+          {
+            "text": "àwon",
+            "start": 32.369,
+            "end": 32.903
+          },
+          {
+            "text": "oré",
+            "start": 33.008,
+            "end": 33.495
+          },
+          {
+            "text": "méteeta:",
+            "start": 33.577,
+            "end": 34.61
+          },
+          {
+            "text": "Njé",
+            "start": 35.272,
+            "end": 35.736
+          },
+          {
+            "text": "odòdó",
+            "start": 35.84,
+            "end": 36.491
+          },
+          {
+            "text": "igbó",
+            "start": 36.607,
+            "end": 37.118
+          },
+          {
+            "text": "yóò",
+            "start": 37.257,
+            "end": 37.617
+          },
+          {
+            "text": "tàn",
+            "start": 37.779,
+            "end": 38.046
+          },
+          {
+            "text": "ní",
+            "start": 38.162,
+            "end": 38.406
+          },
+          {
+            "text": "àkókò",
+            "start": 38.522,
+            "end": 39.103
+          },
+          {
+            "text": "fún",
+            "start": 39.242,
+            "end": 39.614
+          },
+          {
+            "text": "ayeye",
+            "start": 39.718,
+            "end": 40.322
+          },
+          {
+            "text": "osán",
+            "start": 40.426,
+            "end": 40.914
+          },
+          {
+            "text": "won?",
+            "start": 41.053,
+            "end": 41.564
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Èrò Àkọ́kọ́ Pip",
+        "videoOffset": 95.366,
+        "words": [
+          {
+            "text": "Pip",
+            "start": 0.081,
+            "end": 0.255
+          },
+          {
+            "text": "fò",
+            "start": 0.313,
+            "end": 0.534
+          },
+          {
+            "text": "lo",
+            "start": 0.615,
+            "end": 0.685
+          },
+          {
+            "text": "sórí",
+            "start": 0.743,
+            "end": 1.138
+          },
+          {
+            "text": "igi",
+            "start": 1.254,
+            "end": 1.509
+          },
+          {
+            "text": "gíga",
+            "start": 1.567,
+            "end": 1.916
+          },
+          {
+            "text": "kan",
+            "start": 1.997,
+            "end": 2.194
+          },
+          {
+            "text": "légbeé",
+            "start": 2.264,
+            "end": 2.775
+          },
+          {
+            "text": "odòdó,",
+            "start": 2.833,
+            "end": 3.402
+          },
+          {
+            "text": "ó",
+            "start": 3.483,
+            "end": 3.599
+          },
+          {
+            "text": "ń",
+            "start": 3.646,
+            "end": 3.762
+          },
+          {
+            "text": "wo",
+            "start": 3.843,
+            "end": 3.982
+          },
+          {
+            "text": "àwon",
+            "start": 4.063,
+            "end": 4.377
+          },
+          {
+            "text": "tó",
+            "start": 4.447,
+            "end": 4.621
+          },
+          {
+            "text": "sì",
+            "start": 4.725,
+            "end": 4.946
+          },
+          {
+            "text": "pa",
+            "start": 5.027,
+            "end": 5.143
+          },
+          {
+            "text": "mó,",
+            "start": 5.19,
+            "end": 5.422
+          },
+          {
+            "text": "ó",
+            "start": 5.503,
+            "end": 5.619
+          },
+          {
+            "text": "ń",
+            "start": 5.654,
+            "end": 5.782
+          },
+          {
+            "text": "gbìyànjú",
+            "start": 5.851,
+            "end": 6.571
+          },
+          {
+            "text": "láti",
+            "start": 6.653,
+            "end": 6.896
+          },
+          {
+            "text": "mo",
+            "start": 6.943,
+            "end": 7.094
+          },
+          {
+            "text": "ohun",
+            "start": 7.175,
+            "end": 7.523
+          },
+          {
+            "text": "tí",
+            "start": 7.605,
+            "end": 7.779
+          },
+          {
+            "text": "wón",
+            "start": 7.883,
+            "end": 8.173
+          },
+          {
+            "text": "nílò.",
+            "start": 8.255,
+            "end": 8.615
+          },
+          {
+            "text": "Bóyá",
+            "start": 8.649,
+            "end": 9.091
+          },
+          {
+            "text": "oòrùn",
+            "start": 9.172,
+            "end": 9.567
+          },
+          {
+            "text": "ló",
+            "start": 9.636,
+            "end": 9.81
+          },
+          {
+            "text": "kù",
+            "start": 9.892,
+            "end": 10.066
+          },
+          {
+            "text": "fún",
+            "start": 10.147,
+            "end": 10.414
+          },
+          {
+            "text": "won,",
+            "start": 10.495,
+            "end": 10.797
+          },
+          {
+            "text": "ó",
+            "start": 10.867,
+            "end": 11.006
+          },
+          {
+            "text": "dábàá,",
+            "start": 11.088,
+            "end": 11.54
+          },
+          {
+            "text": "ó",
+            "start": 11.587,
+            "end": 11.703
+          },
+          {
+            "text": "ń",
+            "start": 11.738,
+            "end": 11.842
+          },
+          {
+            "text": "lu",
+            "start": 11.923,
+            "end": 12.098
+          },
+          {
+            "text": "ìyé",
+            "start": 12.19,
+            "end": 12.481
+          },
+          {
+            "text": "kékeré",
+            "start": 12.516,
+            "end": 12.98
+          },
+          {
+            "text": "re",
+            "start": 13.084,
+            "end": 13.177
+          },
+          {
+            "text": "láti",
+            "start": 13.293,
+            "end": 13.677
+          },
+          {
+            "text": "yí",
+            "start": 13.746,
+            "end": 13.909
+          },
+          {
+            "text": "koríko",
+            "start": 13.99,
+            "end": 14.42
+          },
+          {
+            "text": "sí",
+            "start": 14.501,
+            "end": 14.721
+          },
+          {
+            "text": "apá",
+            "start": 14.826,
+            "end": 15.139
+          },
+          {
+            "text": "kan",
+            "start": 15.221,
+            "end": 15.406
+          },
+          {
+            "text": "kí",
+            "start": 15.488,
+            "end": 15.685
+          },
+          {
+            "text": "ìmóle",
+            "start": 15.766,
+            "end": 16.254
+          },
+          {
+            "text": "lè",
+            "start": 16.324,
+            "end": 16.509
+          },
+          {
+            "text": "dé",
+            "start": 16.591,
+            "end": 16.788
+          },
+          {
+            "text": "odòdó.",
+            "start": 16.869,
+            "end": 17.427
+          },
+          {
+            "text": "Òwìwí",
+            "start": 17.473,
+            "end": 17.937
+          },
+          {
+            "text": "wò",
+            "start": 18.019,
+            "end": 18.181
+          },
+          {
+            "text": "ó",
+            "start": 18.262,
+            "end": 18.378
+          },
+          {
+            "text": "dáadáa,",
+            "start": 18.459,
+            "end": 19.051
+          },
+          {
+            "text": "ó",
+            "start": 19.086,
+            "end": 19.214
+          },
+          {
+            "text": "sì",
+            "start": 19.284,
+            "end": 19.493
+          },
+          {
+            "text": "so",
+            "start": 19.574,
+            "end": 19.783
+          },
+          {
+            "text": "pé",
+            "start": 19.829,
+            "end": 19.992
+          },
+          {
+            "text": "koríko",
+            "start": 20.073,
+            "end": 20.561
+          },
+          {
+            "text": "náà",
+            "start": 20.642,
+            "end": 20.863
+          },
+          {
+            "text": "nípon",
+            "start": 20.909,
+            "end": 21.362
+          },
+          {
+            "text": "jù",
+            "start": 21.455,
+            "end": 21.664
+          },
+          {
+            "text": "fún",
+            "start": 21.757,
+            "end": 22.024
+          },
+          {
+            "text": "ìyé",
+            "start": 22.175,
+            "end": 22.395
+          },
+          {
+            "text": "kékeré",
+            "start": 22.442,
+            "end": 22.929
+          },
+          {
+            "text": "Pip",
+            "start": 22.999,
+            "end": 23.208
+          },
+          {
+            "text": "nìkan.",
+            "start": 23.324,
+            "end": 23.974
+          },
+          {
+            "text": "Opoló",
+            "start": 24.485,
+            "end": 25.019
+          },
+          {
+            "text": "fo",
+            "start": 25.077,
+            "end": 25.286
+          },
+          {
+            "text": "wá,",
+            "start": 25.344,
+            "end": 25.727
+          },
+          {
+            "text": "ó",
+            "start": 25.774,
+            "end": 25.89
+          },
+          {
+            "text": "fi",
+            "start": 25.983,
+            "end": 26.168
+          },
+          {
+            "text": "ese",
+            "start": 26.238,
+            "end": 26.552
+          },
+          {
+            "text": "alágbára",
+            "start": 26.621,
+            "end": 27.387
+          },
+          {
+            "text": "re",
+            "start": 27.457,
+            "end": 27.562
+          },
+          {
+            "text": "tì",
+            "start": 27.62,
+            "end": 27.747
+          },
+          {
+            "text": "koríko,",
+            "start": 27.817,
+            "end": 28.49
+          },
+          {
+            "text": "sùgbón",
+            "start": 28.56,
+            "end": 29.257
+          },
+          {
+            "text": "koríko",
+            "start": 29.35,
+            "end": 29.907
+          },
+          {
+            "text": "padà",
+            "start": 29.965,
+            "end": 30.243
+          },
+          {
+            "text": "bo",
+            "start": 30.302,
+            "end": 30.429
+          },
+          {
+            "text": "sípò",
+            "start": 30.499,
+            "end": 30.905
+          },
+          {
+            "text": "lésekese.",
+            "start": 31.021,
+            "end": 32.101
+          },
+          {
+            "text": "Odòdó",
+            "start": 32.705,
+            "end": 33.274
+          },
+          {
+            "text": "igbó",
+            "start": 33.343,
+            "end": 33.761
+          },
+          {
+            "text": "sì",
+            "start": 33.877,
+            "end": 34.144
+          },
+          {
+            "text": "wà",
+            "start": 34.261,
+            "end": 34.493
+          },
+          {
+            "text": "bí",
+            "start": 34.609,
+            "end": 34.829
+          },
+          {
+            "text": "ó",
+            "start": 34.946,
+            "end": 35.073
+          },
+          {
+            "text": "ti",
+            "start": 35.155,
+            "end": 35.294
+          },
+          {
+            "text": "wà--wón",
+            "start": 35.375,
+            "end": 36.246
+          },
+          {
+            "text": "pa",
+            "start": 36.327,
+            "end": 36.466
+          },
+          {
+            "text": "mó",
+            "start": 36.524,
+            "end": 36.71
+          },
+          {
+            "text": "gbongbon,",
+            "start": 36.745,
+            "end": 37.662
+          },
+          {
+            "text": "ayeye",
+            "start": 37.72,
+            "end": 38.312
+          },
+          {
+            "text": "sì",
+            "start": 38.394,
+            "end": 38.638
+          },
+          {
+            "text": "sì",
+            "start": 38.754,
+            "end": 39.044
+          },
+          {
+            "text": "ń",
+            "start": 39.218,
+            "end": 39.264
+          },
+          {
+            "text": "dúró",
+            "start": 39.381,
+            "end": 39.822
+          },
+          {
+            "text": "de",
+            "start": 39.903,
+            "end": 40.007
+          },
+          {
+            "text": "odòdó",
+            "start": 40.066,
+            "end": 40.507
+          },
+          {
+            "text": "re.",
+            "start": 40.6,
+            "end": 40.983
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Ìmọ̀ràn Òwìwí",
+        "videoOffset": 136.765,
+        "words": [
+          {
+            "text": "Òwìwí",
+            "start": 0.104,
+            "end": 0.708
+          },
+          {
+            "text": "nà",
+            "start": 0.789,
+            "end": 0.929
+          },
+          {
+            "text": "ìyé",
+            "start": 1.057,
+            "end": 1.265
+          },
+          {
+            "text": "ńlá",
+            "start": 1.289,
+            "end": 1.544
+          },
+          {
+            "text": "kan,",
+            "start": 1.625,
+            "end": 1.904
+          },
+          {
+            "text": "ó",
+            "start": 1.962,
+            "end": 2.113
+          },
+          {
+            "text": "tóka",
+            "start": 2.159,
+            "end": 2.45
+          },
+          {
+            "text": "sí",
+            "start": 2.519,
+            "end": 2.752
+          },
+          {
+            "text": "ìhà",
+            "start": 2.833,
+            "end": 3.088
+          },
+          {
+            "text": "kejì",
+            "start": 3.158,
+            "end": 3.506
+          },
+          {
+            "text": "pápá",
+            "start": 3.587,
+            "end": 3.936
+          },
+          {
+            "text": "níbi",
+            "start": 4.029,
+            "end": 4.365
+          },
+          {
+            "text": "tí",
+            "start": 4.4,
+            "end": 4.586
+          },
+          {
+            "text": "odò",
+            "start": 4.69,
+            "end": 4.911
+          },
+          {
+            "text": "kékeré",
+            "start": 4.992,
+            "end": 5.468
+          },
+          {
+            "text": "kan",
+            "start": 5.55,
+            "end": 5.747
+          },
+          {
+            "text": "ń",
+            "start": 5.863,
+            "end": 5.898
+          },
+          {
+            "text": "sàn",
+            "start": 6.002,
+            "end": 6.258
+          },
+          {
+            "text": "légbeé",
+            "start": 6.339,
+            "end": 6.745
+          },
+          {
+            "text": "koríko.",
+            "start": 6.792,
+            "end": 7.361
+          },
+          {
+            "text": "Bóyá",
+            "start": 7.396,
+            "end": 7.686
+          },
+          {
+            "text": "ongbe",
+            "start": 7.767,
+            "end": 8.208
+          },
+          {
+            "text": "ń",
+            "start": 8.336,
+            "end": 8.382
+          },
+          {
+            "text": "gbe",
+            "start": 8.464,
+            "end": 8.707
+          },
+          {
+            "text": "odòdó,",
+            "start": 8.789,
+            "end": 9.3
+          },
+          {
+            "text": "wón",
+            "start": 9.334,
+            "end": 9.543
+          },
+          {
+            "text": "sì",
+            "start": 9.625,
+            "end": 9.834
+          },
+          {
+            "text": "nílò",
+            "start": 9.938,
+            "end": 10.31
+          },
+          {
+            "text": "omi",
+            "start": 10.379,
+            "end": 10.623
+          },
+          {
+            "text": "láti",
+            "start": 10.693,
+            "end": 10.995
+          },
+          {
+            "text": "sí.",
+            "start": 11.053,
+            "end": 11.331
+          },
+          {
+            "text": "Ojú",
+            "start": 11.413,
+            "end": 11.691
+          },
+          {
+            "text": "Pip",
+            "start": 11.738,
+            "end": 11.9
+          },
+          {
+            "text": "tàn,",
+            "start": 11.981,
+            "end": 12.26
+          },
+          {
+            "text": "opoló",
+            "start": 12.318,
+            "end": 12.759
+          },
+          {
+            "text": "sì",
+            "start": 12.817,
+            "end": 13.05
+          },
+          {
+            "text": "yára",
+            "start": 13.142,
+            "end": 13.456
+          },
+          {
+            "text": "so",
+            "start": 13.537,
+            "end": 13.711
+          },
+          {
+            "text": "pé",
+            "start": 13.769,
+            "end": 13.99
+          },
+          {
+            "text": "òun",
+            "start": 14.095,
+            "end": 14.303
+          },
+          {
+            "text": "yóò",
+            "start": 14.396,
+            "end": 14.64
+          },
+          {
+            "text": "lo--gbígbé",
+            "start": 14.721,
+            "end": 15.406
+          },
+          {
+            "text": "omi",
+            "start": 15.476,
+            "end": 15.766
+          },
+          {
+            "text": "ni",
+            "start": 15.848,
+            "end": 16.033
+          },
+          {
+            "text": "ohun",
+            "start": 16.115,
+            "end": 16.405
+          },
+          {
+            "text": "tó",
+            "start": 16.475,
+            "end": 16.684
+          },
+          {
+            "text": "lè",
+            "start": 16.8,
+            "end": 16.985
+          },
+          {
+            "text": "se",
+            "start": 17.067,
+            "end": 17.218
+          },
+          {
+            "text": "dáadáa.",
+            "start": 17.299,
+            "end": 17.833
+          },
+          {
+            "text": "Opoló",
+            "start": 17.879,
+            "end": 18.297
+          },
+          {
+            "text": "fo",
+            "start": 18.344,
+            "end": 18.53
+          },
+          {
+            "text": "lo",
+            "start": 18.599,
+            "end": 18.75
+          },
+          {
+            "text": "sí",
+            "start": 18.831,
+            "end": 19.017
+          },
+          {
+            "text": "odò,",
+            "start": 19.098,
+            "end": 19.447
+          },
+          {
+            "text": "ó",
+            "start": 19.493,
+            "end": 19.598
+          },
+          {
+            "text": "padà",
+            "start": 19.667,
+            "end": 20.016
+          },
+          {
+            "text": "wá",
+            "start": 20.097,
+            "end": 20.248
+          },
+          {
+            "text": "pelú",
+            "start": 20.329,
+            "end": 20.724
+          },
+          {
+            "text": "ìrù",
+            "start": 20.852,
+            "end": 21.258
+          },
+          {
+            "text": "ewé",
+            "start": 21.467,
+            "end": 21.85
+          },
+          {
+            "text": "olómi",
+            "start": 21.955,
+            "end": 22.442
+          },
+          {
+            "text": "lórí",
+            "start": 22.5,
+            "end": 22.965
+          },
+          {
+            "text": "re,",
+            "start": 23.104,
+            "end": 23.394
+          },
+          {
+            "text": "omi",
+            "start": 23.452,
+            "end": 23.812
+          },
+          {
+            "text": "ń",
+            "start": 23.986,
+            "end": 24.01
+          },
+          {
+            "text": "ro",
+            "start": 24.114,
+            "end": 24.323
+          },
+          {
+            "text": "sórí",
+            "start": 24.567,
+            "end": 25.136
+          },
+          {
+            "text": "ile",
+            "start": 25.321,
+            "end": 25.705
+          },
+          {
+            "text": "légbeé",
+            "start": 25.832,
+            "end": 26.831
+          },
+          {
+            "text": "odòdó.",
+            "start": 26.935,
+            "end": 27.609
+          },
+          {
+            "text": "Ile",
+            "start": 27.736,
+            "end": 28.119
+          },
+          {
+            "text": "mu",
+            "start": 28.212,
+            "end": 28.421
+          },
+          {
+            "text": "omi",
+            "start": 28.514,
+            "end": 28.839
+          },
+          {
+            "text": "náà,",
+            "start": 28.967,
+            "end": 29.431
+          },
+          {
+            "text": "sùgbón",
+            "start": 29.536,
+            "end": 30.256
+          },
+          {
+            "text": "odòdó",
+            "start": 30.36,
+            "end": 30.975
+          },
+          {
+            "text": "kò",
+            "start": 31.068,
+            "end": 31.289
+          },
+          {
+            "text": "sí,",
+            "start": 31.393,
+            "end": 31.811
+          },
+          {
+            "text": "Pip",
+            "start": 31.858,
+            "end": 32.125
+          },
+          {
+            "text": "sì",
+            "start": 32.218,
+            "end": 32.473
+          },
+          {
+            "text": "bere",
+            "start": 32.566,
+            "end": 32.984
+          },
+          {
+            "text": "sí",
+            "start": 33.112,
+            "end": 33.448
+          },
+          {
+            "text": "í",
+            "start": 33.588,
+            "end": 33.774
+          },
+          {
+            "text": "siyèméjì--sé",
+            "start": 33.913,
+            "end": 35.503
+          },
+          {
+            "text": "ohunkóhun",
+            "start": 35.596,
+            "end": 36.641
+          },
+          {
+            "text": "tí",
+            "start": 36.78,
+            "end": 37.059
+          },
+          {
+            "text": "wón",
+            "start": 37.187,
+            "end": 37.57
+          },
+          {
+            "text": "bá",
+            "start": 37.721,
+            "end": 38.0
+          },
+          {
+            "text": "gbìyànjú",
+            "start": 38.092,
+            "end": 39.01
+          },
+          {
+            "text": "yóò",
+            "start": 39.184,
+            "end": 39.555
+          },
+          {
+            "text": "sisé",
+            "start": 39.706,
+            "end": 40.322
+          },
+          {
+            "text": "ní",
+            "start": 40.426,
+            "end": 40.67
+          },
+          {
+            "text": "àkókò?",
+            "start": 40.763,
+            "end": 41.459
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Àkókò Ìyèméjì",
+        "videoOffset": 178.582,
+        "words": [
+          {
+            "text": "Pip",
+            "start": 0.081,
+            "end": 0.29
+          },
+          {
+            "text": "jókòó",
+            "start": 0.372,
+            "end": 0.801
+          },
+          {
+            "text": "roro",
+            "start": 0.906,
+            "end": 1.173
+          },
+          {
+            "text": "lórí",
+            "start": 1.231,
+            "end": 1.579
+          },
+          {
+            "text": "àpáta",
+            "start": 1.637,
+            "end": 2.159
+          },
+          {
+            "text": "tí",
+            "start": 2.218,
+            "end": 2.368
+          },
+          {
+            "text": "opoló",
+            "start": 2.426,
+            "end": 2.844
+          },
+          {
+            "text": "máa",
+            "start": 2.902,
+            "end": 3.123
+          },
+          {
+            "text": "ń",
+            "start": 3.17,
+            "end": 3.204
+          },
+          {
+            "text": "jókòó,",
+            "start": 3.286,
+            "end": 3.808
+          },
+          {
+            "text": "fún",
+            "start": 3.889,
+            "end": 4.191
+          },
+          {
+            "text": "ìséjú",
+            "start": 4.296,
+            "end": 4.818
+          },
+          {
+            "text": "kan,",
+            "start": 4.876,
+            "end": 5.143
+          },
+          {
+            "text": "eye",
+            "start": 5.224,
+            "end": 5.492
+          },
+          {
+            "text": "kékeré",
+            "start": 5.538,
+            "end": 5.979
+          },
+          {
+            "text": "oníàyo",
+            "start": 6.06,
+            "end": 6.653
+          },
+          {
+            "text": "yìí",
+            "start": 6.722,
+            "end": 6.966
+          },
+          {
+            "text": "kò",
+            "start": 7.047,
+            "end": 7.21
+          },
+          {
+            "text": "mo",
+            "start": 7.291,
+            "end": 7.488
+          },
+          {
+            "text": "ohun",
+            "start": 7.593,
+            "end": 7.895
+          },
+          {
+            "text": "tó",
+            "start": 7.953,
+            "end": 8.081
+          },
+          {
+            "text": "máa",
+            "start": 8.139,
+            "end": 8.394
+          },
+          {
+            "text": "se.",
+            "start": 8.475,
+            "end": 8.789
+          },
+          {
+            "text": "Oòrùn",
+            "start": 8.916,
+            "end": 9.334
+          },
+          {
+            "text": "osán",
+            "start": 9.416,
+            "end": 9.88
+          },
+          {
+            "text": "ń",
+            "start": 9.961,
+            "end": 10.054
+          },
+          {
+            "text": "rìn",
+            "start": 10.136,
+            "end": 10.31
+          },
+          {
+            "text": "kánkán",
+            "start": 10.368,
+            "end": 10.89
+          },
+          {
+            "text": "lójú",
+            "start": 10.995,
+            "end": 11.343
+          },
+          {
+            "text": "orun,",
+            "start": 11.436,
+            "end": 11.842
+          },
+          {
+            "text": "odòdó",
+            "start": 11.923,
+            "end": 12.434
+          },
+          {
+            "text": "igbó",
+            "start": 12.516,
+            "end": 12.875
+          },
+          {
+            "text": "sì",
+            "start": 12.968,
+            "end": 13.154
+          },
+          {
+            "text": "sì",
+            "start": 13.235,
+            "end": 13.444
+          },
+          {
+            "text": "pa",
+            "start": 13.526,
+            "end": 13.653
+          },
+          {
+            "text": "mó",
+            "start": 13.7,
+            "end": 13.862
+          },
+          {
+            "text": "bí",
+            "start": 13.897,
+            "end": 14.071
+          },
+          {
+            "text": "owó",
+            "start": 14.199,
+            "end": 14.501
+          },
+          {
+            "text": "tí",
+            "start": 14.536,
+            "end": 14.733
+          },
+          {
+            "text": "wón",
+            "start": 14.814,
+            "end": 15.047
+          },
+          {
+            "text": "dì",
+            "start": 15.139,
+            "end": 15.314
+          },
+          {
+            "text": "móra.",
+            "start": 15.395,
+            "end": 15.871
+          },
+          {
+            "text": "Òwìwí",
+            "start": 15.952,
+            "end": 16.37
+          },
+          {
+            "text": "sún",
+            "start": 16.451,
+            "end": 16.684
+          },
+          {
+            "text": "mó",
+            "start": 16.765,
+            "end": 16.962
+          },
+          {
+            "text": "Pip,",
+            "start": 17.02,
+            "end": 17.369
+          },
+          {
+            "text": "ó",
+            "start": 17.403,
+            "end": 17.554
+          },
+          {
+            "text": "so",
+            "start": 17.636,
+            "end": 17.821
+          },
+          {
+            "text": "pele",
+            "start": 17.891,
+            "end": 18.17
+          },
+          {
+            "text": "pé",
+            "start": 18.216,
+            "end": 18.378
+          },
+          {
+            "text": "nígbà",
+            "start": 18.436,
+            "end": 18.808
+          },
+          {
+            "text": "mìíràn,",
+            "start": 18.866,
+            "end": 19.423
+          },
+          {
+            "text": "ohun",
+            "start": 19.469,
+            "end": 19.771
+          },
+          {
+            "text": "tó",
+            "start": 19.853,
+            "end": 20.015
+          },
+          {
+            "text": "le",
+            "start": 20.096,
+            "end": 20.224
+          },
+          {
+            "text": "jù",
+            "start": 20.317,
+            "end": 20.503
+          },
+          {
+            "text": "ni",
+            "start": 20.584,
+            "end": 20.688
+          },
+          {
+            "text": "láti",
+            "start": 20.747,
+            "end": 21.13
+          },
+          {
+            "text": "ní",
+            "start": 21.188,
+            "end": 21.292
+          },
+          {
+            "text": "sùúrù.",
+            "start": 21.362,
+            "end": 21.989
+          },
+          {
+            "text": "Opoló",
+            "start": 22.024,
+            "end": 22.569
+          },
+          {
+            "text": "náà",
+            "start": 22.604,
+            "end": 22.999
+          },
+          {
+            "text": "jókòó",
+            "start": 23.196,
+            "end": 23.812
+          },
+          {
+            "text": "lédùú,",
+            "start": 23.916,
+            "end": 24.694
+          },
+          {
+            "text": "ojú",
+            "start": 24.81,
+            "end": 25.298
+          },
+          {
+            "text": "re",
+            "start": 25.414,
+            "end": 25.553
+          },
+          {
+            "text": "ńlá",
+            "start": 25.669,
+            "end": 26.064
+          },
+          {
+            "text": "ń",
+            "start": 26.168,
+            "end": 26.203
+          },
+          {
+            "text": "wo",
+            "start": 26.319,
+            "end": 26.54
+          },
+          {
+            "text": "odòdó",
+            "start": 26.656,
+            "end": 27.364
+          },
+          {
+            "text": "pelú",
+            "start": 27.445,
+            "end": 27.875
+          },
+          {
+            "text": "ìfokànbale",
+            "start": 28.014,
+            "end": 29.28
+          },
+          {
+            "text": "tí",
+            "start": 29.338,
+            "end": 29.582
+          },
+          {
+            "text": "Pip",
+            "start": 29.698,
+            "end": 30.058
+          },
+          {
+            "text": "fé",
+            "start": 30.162,
+            "end": 30.429
+          },
+          {
+            "text": "ní.",
+            "start": 30.476,
+            "end": 30.743
+          },
+          {
+            "text": "Ohun",
+            "start": 30.778,
+            "end": 31.207
+          },
+          {
+            "text": "rere",
+            "start": 31.323,
+            "end": 31.741
+          },
+          {
+            "text": "tó",
+            "start": 31.811,
+            "end": 32.043
+          },
+          {
+            "text": "bá",
+            "start": 32.159,
+            "end": 32.391
+          },
+          {
+            "text": "pé",
+            "start": 32.473,
+            "end": 32.728
+          },
+          {
+            "text": "tó,",
+            "start": 32.809,
+            "end": 33.146
+          },
+          {
+            "text": "ó",
+            "start": 33.227,
+            "end": 33.401
+          },
+          {
+            "text": "tóó,",
+            "start": 33.506,
+            "end": 33.959
+          },
+          {
+            "text": "Pip",
+            "start": 33.994,
+            "end": 34.342
+          },
+          {
+            "text": "soro",
+            "start": 34.458,
+            "end": 34.911
+          },
+          {
+            "text": "sí",
+            "start": 35.027,
+            "end": 35.34
+          },
+          {
+            "text": "aféfé",
+            "start": 35.456,
+            "end": 36.339
+          },
+          {
+            "text": "osán,",
+            "start": 36.408,
+            "end": 37.14
+          },
+          {
+            "text": "ó",
+            "start": 37.233,
+            "end": 37.407
+          },
+          {
+            "text": "ń",
+            "start": 37.511,
+            "end": 37.581
+          },
+          {
+            "text": "gbìyànjú",
+            "start": 37.697,
+            "end": 38.765
+          },
+          {
+            "text": "láti",
+            "start": 38.905,
+            "end": 39.357
+          },
+          {
+            "text": "gbàgbó",
+            "start": 39.415,
+            "end": 40.182
+          },
+          {
+            "text": "léekan",
+            "start": 40.24,
+            "end": 40.96
+          },
+          {
+            "text": "sí",
+            "start": 41.122,
+            "end": 41.482
+          },
+          {
+            "text": "i.",
+            "start": 41.621,
+            "end": 41.97
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Ẹ̀bùn Ọ̀pọ̀lọ́",
+        "videoOffset": 220.91,
+        "words": [
+          {
+            "text": "Opoló",
+            "start": 0.104,
+            "end": 0.534
+          },
+          {
+            "text": "san",
+            "start": 0.569,
+            "end": 0.743
+          },
+          {
+            "text": "ofun",
+            "start": 0.824,
+            "end": 1.126
+          },
+          {
+            "text": "re",
+            "start": 1.207,
+            "end": 1.289
+          },
+          {
+            "text": "pele,",
+            "start": 1.324,
+            "end": 1.683
+          },
+          {
+            "text": "ó",
+            "start": 1.753,
+            "end": 1.834
+          },
+          {
+            "text": "sì",
+            "start": 1.916,
+            "end": 2.125
+          },
+          {
+            "text": "bere",
+            "start": 2.206,
+            "end": 2.438
+          },
+          {
+            "text": "sí",
+            "start": 2.496,
+            "end": 2.728
+          },
+          {
+            "text": "í",
+            "start": 2.856,
+            "end": 2.961
+          },
+          {
+            "text": "ké",
+            "start": 3.042,
+            "end": 3.193
+          },
+          {
+            "text": "orin",
+            "start": 3.274,
+            "end": 3.576
+          },
+          {
+            "text": "ìró",
+            "start": 3.657,
+            "end": 3.866
+          },
+          {
+            "text": "kékeré",
+            "start": 3.936,
+            "end": 4.365
+          },
+          {
+            "text": "kan--ohùn",
+            "start": 4.435,
+            "end": 5.074
+          },
+          {
+            "text": "pele",
+            "start": 5.132,
+            "end": 5.433
+          },
+          {
+            "text": "tó",
+            "start": 5.492,
+            "end": 5.666
+          },
+          {
+            "text": "dúró",
+            "start": 5.747,
+            "end": 6.026
+          },
+          {
+            "text": "sinsin,",
+            "start": 6.084,
+            "end": 6.629
+          },
+          {
+            "text": "tó",
+            "start": 6.664,
+            "end": 6.838
+          },
+          {
+            "text": "ń",
+            "start": 6.92,
+            "end": 6.966
+          },
+          {
+            "text": "rìn",
+            "start": 7.059,
+            "end": 7.233
+          },
+          {
+            "text": "gba",
+            "start": 7.291,
+            "end": 7.581
+          },
+          {
+            "text": "koríko",
+            "start": 7.639,
+            "end": 8.127
+          },
+          {
+            "text": "pápá",
+            "start": 8.185,
+            "end": 8.557
+          },
+          {
+            "text": "bí",
+            "start": 8.638,
+            "end": 8.835
+          },
+          {
+            "text": "ìró",
+            "start": 8.916,
+            "end": 9.23
+          },
+          {
+            "text": "okàn.",
+            "start": 9.3,
+            "end": 9.729
+          },
+          {
+            "text": "Pip",
+            "start": 9.752,
+            "end": 9.961
+          },
+          {
+            "text": "gbé",
+            "start": 10.043,
+            "end": 10.333
+          },
+          {
+            "text": "orí",
+            "start": 10.414,
+            "end": 10.635
+          },
+          {
+            "text": "sókè,",
+            "start": 10.704,
+            "end": 11.169
+          },
+          {
+            "text": "ó",
+            "start": 11.227,
+            "end": 11.355
+          },
+          {
+            "text": "yà",
+            "start": 11.436,
+            "end": 11.598
+          },
+          {
+            "text": "á",
+            "start": 11.703,
+            "end": 11.819
+          },
+          {
+            "text": "lénu,",
+            "start": 11.935,
+            "end": 12.365
+          },
+          {
+            "text": "nítorí",
+            "start": 12.399,
+            "end": 12.875
+          },
+          {
+            "text": "opoló",
+            "start": 12.957,
+            "end": 13.444
+          },
+          {
+            "text": "kò",
+            "start": 13.479,
+            "end": 13.653
+          },
+          {
+            "text": "tíì",
+            "start": 13.735,
+            "end": 14.002
+          },
+          {
+            "text": "ké",
+            "start": 14.083,
+            "end": 14.245
+          },
+          {
+            "text": "bée",
+            "start": 14.327,
+            "end": 14.64
+          },
+          {
+            "text": "rí.",
+            "start": 14.721,
+            "end": 14.93
+          },
+          {
+            "text": "Òwìwí",
+            "start": 14.954,
+            "end": 15.406
+          },
+          {
+            "text": "te",
+            "start": 15.488,
+            "end": 15.65
+          },
+          {
+            "text": "orí,",
+            "start": 15.732,
+            "end": 16.08
+          },
+          {
+            "text": "ó",
+            "start": 16.161,
+            "end": 16.289
+          },
+          {
+            "text": "ń",
+            "start": 16.37,
+            "end": 16.417
+          },
+          {
+            "text": "fetísíle,",
+            "start": 16.498,
+            "end": 17.31
+          },
+          {
+            "text": "aféfé",
+            "start": 17.357,
+            "end": 17.937
+          },
+          {
+            "text": "osán",
+            "start": 17.972,
+            "end": 18.367
+          },
+          {
+            "text": "náà",
+            "start": 18.471,
+            "end": 18.715
+          },
+          {
+            "text": "sì",
+            "start": 18.796,
+            "end": 19.005
+          },
+          {
+            "text": "fà",
+            "start": 19.087,
+            "end": 19.272
+          },
+          {
+            "text": "séyìn",
+            "start": 19.354,
+            "end": 19.83
+          },
+          {
+            "text": "bí",
+            "start": 19.911,
+            "end": 20.166
+          },
+          {
+            "text": "eni",
+            "start": 20.282,
+            "end": 20.526
+          },
+          {
+            "text": "pé",
+            "start": 20.584,
+            "end": 20.77
+          },
+          {
+            "text": "ó",
+            "start": 20.863,
+            "end": 20.944
+          },
+          {
+            "text": "fé",
+            "start": 21.025,
+            "end": 21.234
+          },
+          {
+            "text": "gbó",
+            "start": 21.246,
+            "end": 21.42
+          },
+          {
+            "text": "pelú.",
+            "start": 21.443,
+            "end": 21.757
+          },
+          {
+            "text": "Opoló",
+            "start": 21.78,
+            "end": 22.175
+          },
+          {
+            "text": "so",
+            "start": 22.221,
+            "end": 22.395
+          },
+          {
+            "text": "pelepele",
+            "start": 22.442,
+            "end": 22.813
+          },
+          {
+            "text": "pé",
+            "start": 22.848,
+            "end": 23.022
+          },
+          {
+            "text": "ìyá",
+            "start": 23.092,
+            "end": 23.394
+          },
+          {
+            "text": "àgbà",
+            "start": 23.475,
+            "end": 23.905
+          },
+          {
+            "text": "òun",
+            "start": 23.986,
+            "end": 24.218
+          },
+          {
+            "text": "máa",
+            "start": 24.276,
+            "end": 24.567
+          },
+          {
+            "text": "ń",
+            "start": 24.648,
+            "end": 24.694
+          },
+          {
+            "text": "ké",
+            "start": 24.787,
+            "end": 24.973
+          },
+          {
+            "text": "orin",
+            "start": 25.066,
+            "end": 25.379
+          },
+          {
+            "text": "fún",
+            "start": 25.437,
+            "end": 25.704
+          },
+          {
+            "text": "odòdó",
+            "start": 25.786,
+            "end": 26.25
+          },
+          {
+            "text": "adágún,",
+            "start": 26.331,
+            "end": 26.9
+          },
+          {
+            "text": "wón",
+            "start": 26.923,
+            "end": 27.132
+          },
+          {
+            "text": "sì",
+            "start": 27.225,
+            "end": 27.434
+          },
+          {
+            "text": "máa",
+            "start": 27.515,
+            "end": 27.817
+          },
+          {
+            "text": "ń",
+            "start": 27.899,
+            "end": 27.957
+          },
+          {
+            "text": "sí",
+            "start": 28.038,
+            "end": 28.282
+          },
+          {
+            "text": "nígbà",
+            "start": 28.375,
+            "end": 28.734
+          },
+          {
+            "text": "tí",
+            "start": 28.793,
+            "end": 28.99
+          },
+          {
+            "text": "wón",
+            "start": 29.083,
+            "end": 29.303
+          },
+          {
+            "text": "bá",
+            "start": 29.35,
+            "end": 29.501
+          },
+          {
+            "text": "gbó.",
+            "start": 29.547,
+            "end": 29.791
+          },
+          {
+            "text": "Ní",
+            "start": 29.826,
+            "end": 30.023
+          },
+          {
+            "text": "báyìí,",
+            "start": 30.104,
+            "end": 30.639
+          },
+          {
+            "text": "àwon",
+            "start": 30.673,
+            "end": 31.056
+          },
+          {
+            "text": "oré",
+            "start": 31.126,
+            "end": 31.37
+          },
+          {
+            "text": "méteeta",
+            "start": 31.416,
+            "end": 32.101
+          },
+          {
+            "text": "ní",
+            "start": 32.183,
+            "end": 32.403
+          },
+          {
+            "text": "èrò",
+            "start": 32.485,
+            "end": 32.763
+          },
+          {
+            "text": "tuntun,",
+            "start": 32.856,
+            "end": 33.378
+          },
+          {
+            "text": "ìrètí",
+            "start": 33.437,
+            "end": 33.901
+          },
+          {
+            "text": "kékeré",
+            "start": 33.994,
+            "end": 34.505
+          },
+          {
+            "text": "sì",
+            "start": 34.586,
+            "end": 34.83
+          },
+          {
+            "text": "padà",
+            "start": 34.911,
+            "end": 35.224
+          },
+          {
+            "text": "bá",
+            "start": 35.306,
+            "end": 35.492
+          },
+          {
+            "text": "Pip--bóyá",
+            "start": 35.55,
+            "end": 36.281
+          },
+          {
+            "text": "ohun",
+            "start": 36.374,
+            "end": 36.699
+          },
+          {
+            "text": "tí",
+            "start": 36.78,
+            "end": 37.001
+          },
+          {
+            "text": "odòdó",
+            "start": 37.117,
+            "end": 37.593
+          },
+          {
+            "text": "nílò",
+            "start": 37.663,
+            "end": 37.976
+          },
+          {
+            "text": "kì",
+            "start": 38.046,
+            "end": 38.255
+          },
+          {
+            "text": "í",
+            "start": 38.336,
+            "end": 38.441
+          },
+          {
+            "text": "se",
+            "start": 38.615,
+            "end": 38.835
+          },
+          {
+            "text": "oòrùn",
+            "start": 38.951,
+            "end": 39.427
+          },
+          {
+            "text": "tàbí",
+            "start": 39.509,
+            "end": 39.88
+          },
+          {
+            "text": "omi,",
+            "start": 39.996,
+            "end": 40.449
+          },
+          {
+            "text": "ohun",
+            "start": 40.53,
+            "end": 40.89
+          },
+          {
+            "text": "tó",
+            "start": 40.972,
+            "end": 41.181
+          },
+          {
+            "text": "ro",
+            "start": 41.262,
+            "end": 41.448
+          },
+          {
+            "text": "jù",
+            "start": 41.564,
+            "end": 41.889
+          },
+          {
+            "text": "ló",
+            "start": 42.098,
+            "end": 42.423
+          },
+          {
+            "text": "jé.",
+            "start": 42.702,
+            "end": 45.976
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Orin Fún Odòdó",
+        "videoOffset": 267.464,
+        "words": [
+          {
+            "text": "Pip",
+            "start": 0.081,
+            "end": 0.279
+          },
+          {
+            "text": "fò",
+            "start": 0.372,
+            "end": 0.557
+          },
+          {
+            "text": "lo",
+            "start": 0.615,
+            "end": 0.731
+          },
+          {
+            "text": "sí",
+            "start": 0.789,
+            "end": 1.01
+          },
+          {
+            "text": "egbé",
+            "start": 1.091,
+            "end": 1.556
+          },
+          {
+            "text": "odòdó",
+            "start": 1.614,
+            "end": 2.113
+          },
+          {
+            "text": "igbó,",
+            "start": 2.194,
+            "end": 2.647
+          },
+          {
+            "text": "ó",
+            "start": 2.728,
+            "end": 2.856
+          },
+          {
+            "text": "sì",
+            "start": 2.926,
+            "end": 3.146
+          },
+          {
+            "text": "bere",
+            "start": 3.228,
+            "end": 3.437
+          },
+          {
+            "text": "sí",
+            "start": 3.518,
+            "end": 3.738
+          },
+          {
+            "text": "í",
+            "start": 3.82,
+            "end": 3.889
+          },
+          {
+            "text": "korin--orin",
+            "start": 3.971,
+            "end": 4.69
+          },
+          {
+            "text": "dídán",
+            "start": 4.737,
+            "end": 5.108
+          },
+          {
+            "text": "tó",
+            "start": 5.19,
+            "end": 5.352
+          },
+          {
+            "text": "ga",
+            "start": 5.422,
+            "end": 5.503
+          },
+          {
+            "text": "ju",
+            "start": 5.561,
+            "end": 5.677
+          },
+          {
+            "text": "ohùn",
+            "start": 5.735,
+            "end": 6.072
+          },
+          {
+            "text": "opoló",
+            "start": 6.153,
+            "end": 6.548
+          },
+          {
+            "text": "lo",
+            "start": 6.583,
+            "end": 6.664
+          },
+          {
+            "text": "bí",
+            "start": 6.711,
+            "end": 6.85
+          },
+          {
+            "text": "ìmóle",
+            "start": 6.931,
+            "end": 7.419
+          },
+          {
+            "text": "tó",
+            "start": 7.488,
+            "end": 7.697
+          },
+          {
+            "text": "ń",
+            "start": 7.779,
+            "end": 7.918
+          },
+          {
+            "text": "jó",
+            "start": 7.999,
+            "end": 8.162
+          },
+          {
+            "text": "lórí",
+            "start": 8.29,
+            "end": 8.638
+          },
+          {
+            "text": "omi.",
+            "start": 8.742,
+            "end": 9.091
+          },
+          {
+            "text": "Òwìwí",
+            "start": 9.102,
+            "end": 9.706
+          },
+          {
+            "text": "dara",
+            "start": 9.787,
+            "end": 10.031
+          },
+          {
+            "text": "po",
+            "start": 10.077,
+            "end": 10.194
+          },
+          {
+            "text": "mó",
+            "start": 10.252,
+            "end": 10.426
+          },
+          {
+            "text": "won",
+            "start": 10.449,
+            "end": 10.635
+          },
+          {
+            "text": "pelú",
+            "start": 10.716,
+            "end": 11.029
+          },
+          {
+            "text": "ohùn",
+            "start": 11.122,
+            "end": 11.494
+          },
+          {
+            "text": "pele",
+            "start": 11.564,
+            "end": 11.923
+          },
+          {
+            "text": "tó",
+            "start": 11.97,
+            "end": 12.167
+          },
+          {
+            "text": "ń",
+            "start": 12.249,
+            "end": 12.318
+          },
+          {
+            "text": "pa",
+            "start": 12.388,
+            "end": 12.562
+          },
+          {
+            "text": "ìlù",
+            "start": 12.632,
+            "end": 12.91
+          },
+          {
+            "text": "bí",
+            "start": 12.992,
+            "end": 13.166
+          },
+          {
+            "text": "ìró",
+            "start": 13.259,
+            "end": 13.572
+          },
+          {
+            "text": "okàn",
+            "start": 13.677,
+            "end": 14.013
+          },
+          {
+            "text": "lábé",
+            "start": 14.118,
+            "end": 14.524
+          },
+          {
+            "text": "ohùn",
+            "start": 14.582,
+            "end": 14.988
+          },
+          {
+            "text": "àwon",
+            "start": 15.081,
+            "end": 15.476
+          },
+          {
+            "text": "méjì",
+            "start": 15.592,
+            "end": 16.01
+          },
+          {
+            "text": "yòókù.",
+            "start": 16.126,
+            "end": 16.614
+          },
+          {
+            "text": "Papo,",
+            "start": 16.637,
+            "end": 17.043
+          },
+          {
+            "text": "àwon",
+            "start": 17.125,
+            "end": 17.496
+          },
+          {
+            "text": "oré",
+            "start": 17.601,
+            "end": 17.949
+          },
+          {
+            "text": "méteeta",
+            "start": 18.007,
+            "end": 18.564
+          },
+          {
+            "text": "kún",
+            "start": 18.622,
+            "end": 18.866
+          },
+          {
+            "text": "pápá",
+            "start": 18.936,
+            "end": 19.307
+          },
+          {
+            "text": "osán",
+            "start": 19.377,
+            "end": 19.737
+          },
+          {
+            "text": "pelú",
+            "start": 19.795,
+            "end": 20.132
+          },
+          {
+            "text": "ohùn",
+            "start": 20.213,
+            "end": 20.608
+          },
+          {
+            "text": "gbígbóná",
+            "start": 20.712,
+            "end": 21.177
+          },
+          {
+            "text": "tí",
+            "start": 21.328,
+            "end": 21.502
+          },
+          {
+            "text": "a",
+            "start": 21.664,
+            "end": 21.734
+          },
+          {
+            "text": "kò",
+            "start": 21.827,
+            "end": 22.001
+          },
+          {
+            "text": "tíì",
+            "start": 22.152,
+            "end": 22.465
+          },
+          {
+            "text": "gbó",
+            "start": 22.686,
+            "end": 23.057
+          },
+          {
+            "text": "fún",
+            "start": 23.208,
+            "end": 23.475
+          },
+          {
+            "text": "ìgbà",
+            "start": 23.661,
+            "end": 24.172
+          },
+          {
+            "text": "pípé.",
+            "start": 24.358,
+            "end": 24.845
+          },
+          {
+            "text": "Pip",
+            "start": 25.066,
+            "end": 25.263
+          },
+          {
+            "text": "sàkíyèsí",
+            "start": 25.426,
+            "end": 26.401
+          },
+          {
+            "text": "pé",
+            "start": 26.564,
+            "end": 26.761
+          },
+          {
+            "text": "odòdó",
+            "start": 26.854,
+            "end": 27.307
+          },
+          {
+            "text": "kan",
+            "start": 27.434,
+            "end": 27.585
+          },
+          {
+            "text": "ní",
+            "start": 27.69,
+            "end": 27.852
+          },
+          {
+            "text": "egbé",
+            "start": 27.968,
+            "end": 28.421
+          },
+          {
+            "text": "bere",
+            "start": 28.491,
+            "end": 28.758
+          },
+          {
+            "text": "sí",
+            "start": 28.862,
+            "end": 29.06
+          },
+          {
+            "text": "í",
+            "start": 29.222,
+            "end": 29.362
+          },
+          {
+            "text": "mì,",
+            "start": 29.513,
+            "end": 29.791
+          },
+          {
+            "text": "pétálì",
+            "start": 29.872,
+            "end": 30.372
+          },
+          {
+            "text": "re",
+            "start": 30.534,
+            "end": 30.685
+          },
+          {
+            "text": "ń",
+            "start": 30.848,
+            "end": 30.929
+          },
+          {
+            "text": "tú",
+            "start": 31.045,
+            "end": 31.196
+          },
+          {
+            "text": "díedíe,",
+            "start": 31.277,
+            "end": 31.811
+          },
+          {
+            "text": "bí",
+            "start": 31.893,
+            "end": 32.044
+          },
+          {
+            "text": "eni",
+            "start": 32.183,
+            "end": 32.438
+          },
+          {
+            "text": "pé",
+            "start": 32.52,
+            "end": 32.694
+          },
+          {
+            "text": "odòdó",
+            "start": 32.798,
+            "end": 33.181
+          },
+          {
+            "text": "ń",
+            "start": 33.297,
+            "end": 33.39
+          },
+          {
+            "text": "ronú",
+            "start": 33.472,
+            "end": 33.739
+          },
+          {
+            "text": "bóyá",
+            "start": 33.831,
+            "end": 34.122
+          },
+          {
+            "text": "yóò",
+            "start": 34.226,
+            "end": 34.493
+          },
+          {
+            "text": "sí.",
+            "start": 34.644,
+            "end": 34.958
+          },
+          {
+            "text": "Kò",
+            "start": 35.039,
+            "end": 35.178
+          },
+          {
+            "text": "po,",
+            "start": 35.294,
+            "end": 35.55
+          },
+          {
+            "text": "sùgbón",
+            "start": 35.654,
+            "end": 36.107
+          },
+          {
+            "text": "ó",
+            "start": 36.212,
+            "end": 36.328
+          },
+          {
+            "text": "ju",
+            "start": 36.409,
+            "end": 36.479
+          },
+          {
+            "text": "ti",
+            "start": 36.513,
+            "end": 36.571
+          },
+          {
+            "text": "téle",
+            "start": 36.618,
+            "end": 36.943
+          },
+          {
+            "text": "lo--ìyípadà",
+            "start": 37.036,
+            "end": 37.779
+          },
+          {
+            "text": "kékeré",
+            "start": 37.86,
+            "end": 38.162
+          },
+          {
+            "text": "yen",
+            "start": 38.255,
+            "end": 38.406
+          },
+          {
+            "text": "mú",
+            "start": 38.487,
+            "end": 38.65
+          },
+          {
+            "text": "àwon",
+            "start": 38.731,
+            "end": 39.021
+          },
+          {
+            "text": "oré",
+            "start": 39.102,
+            "end": 39.288
+          },
+          {
+            "text": "méteeta",
+            "start": 39.335,
+            "end": 39.799
+          },
+          {
+            "text": "sún",
+            "start": 39.869,
+            "end": 40.043
+          },
+          {
+            "text": "mólé",
+            "start": 40.101,
+            "end": 40.356
+          },
+          {
+            "text": "pelú",
+            "start": 40.438,
+            "end": 40.716
+          },
+          {
+            "text": "ojú",
+            "start": 40.809,
+            "end": 41.053
+          },
+          {
+            "text": "ìrètí.",
+            "start": 41.134,
+            "end": 41.599
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Sùúrù àti Ìgbàgbọ́",
+        "videoOffset": 309.374,
+        "words": [
+          {
+            "text": "Àwon",
+            "start": 0.139,
+            "end": 0.383
+          },
+          {
+            "text": "oré",
+            "start": 0.464,
+            "end": 0.755
+          },
+          {
+            "text": "méteeta",
+            "start": 0.801,
+            "end": 1.3
+          },
+          {
+            "text": "ń",
+            "start": 1.347,
+            "end": 1.382
+          },
+          {
+            "text": "bá",
+            "start": 1.463,
+            "end": 1.649
+          },
+          {
+            "text": "orin",
+            "start": 1.718,
+            "end": 1.997
+          },
+          {
+            "text": "won",
+            "start": 2.067,
+            "end": 2.218
+          },
+          {
+            "text": "lo",
+            "start": 2.276,
+            "end": 2.368
+          },
+          {
+            "text": "nínú",
+            "start": 2.415,
+            "end": 2.659
+          },
+          {
+            "text": "osán",
+            "start": 2.694,
+            "end": 3.146
+          },
+          {
+            "text": "gbígbóná,",
+            "start": 3.216,
+            "end": 3.947
+          },
+          {
+            "text": "Pip",
+            "start": 3.982,
+            "end": 4.168
+          },
+          {
+            "text": "sì",
+            "start": 4.261,
+            "end": 4.481
+          },
+          {
+            "text": "ń",
+            "start": 4.574,
+            "end": 4.667
+          },
+          {
+            "text": "wo",
+            "start": 4.748,
+            "end": 4.888
+          },
+          {
+            "text": "odòdó",
+            "start": 4.981,
+            "end": 5.387
+          },
+          {
+            "text": "kookan",
+            "start": 5.457,
+            "end": 5.886
+          },
+          {
+            "text": "dáadáa.",
+            "start": 5.956,
+            "end": 6.467
+          },
+          {
+            "text": "Méjì",
+            "start": 6.594,
+            "end": 6.931
+          },
+          {
+            "text": "sí",
+            "start": 7.024,
+            "end": 7.268
+          },
+          {
+            "text": "i",
+            "start": 7.361,
+            "end": 7.43
+          },
+          {
+            "text": "bere",
+            "start": 7.5,
+            "end": 7.755
+          },
+          {
+            "text": "sí",
+            "start": 7.825,
+            "end": 8.046
+          },
+          {
+            "text": "í",
+            "start": 8.139,
+            "end": 8.231
+          },
+          {
+            "text": "tú,",
+            "start": 8.301,
+            "end": 8.557
+          },
+          {
+            "text": "pétálì",
+            "start": 8.591,
+            "end": 9.172
+          },
+          {
+            "text": "won",
+            "start": 9.265,
+            "end": 9.462
+          },
+          {
+            "text": "ń",
+            "start": 9.578,
+            "end": 9.671
+          },
+          {
+            "text": "nà",
+            "start": 9.764,
+            "end": 9.95
+          },
+          {
+            "text": "bí",
+            "start": 10.043,
+            "end": 10.24
+          },
+          {
+            "text": "ìka",
+            "start": 10.368,
+            "end": 10.635
+          },
+          {
+            "text": "owó",
+            "start": 10.704,
+            "end": 10.96
+          },
+          {
+            "text": "tó",
+            "start": 11.006,
+            "end": 11.146
+          },
+          {
+            "text": "ń",
+            "start": 11.204,
+            "end": 11.25
+          },
+          {
+            "text": "nà",
+            "start": 11.32,
+            "end": 11.482
+          },
+          {
+            "text": "léyìn",
+            "start": 11.552,
+            "end": 11.993
+          },
+          {
+            "text": "oorun",
+            "start": 12.086,
+            "end": 12.434
+          },
+          {
+            "text": "gígùn.",
+            "start": 12.492,
+            "end": 12.992
+          },
+          {
+            "text": "Òwìwí",
+            "start": 13.05,
+            "end": 13.444
+          },
+          {
+            "text": "soro",
+            "start": 13.537,
+            "end": 13.862
+          },
+          {
+            "text": "pele",
+            "start": 13.92,
+            "end": 14.28
+          },
+          {
+            "text": "láàárín",
+            "start": 14.362,
+            "end": 14.965
+          },
+          {
+            "text": "orin",
+            "start": 15.058,
+            "end": 15.348
+          },
+          {
+            "text": "re",
+            "start": 15.441,
+            "end": 15.627
+          },
+          {
+            "text": "pé",
+            "start": 15.685,
+            "end": 15.882
+          },
+          {
+            "text": "odòdó",
+            "start": 15.975,
+            "end": 16.405
+          },
+          {
+            "text": "ń",
+            "start": 16.486,
+            "end": 16.533
+          },
+          {
+            "text": "gbó,",
+            "start": 16.614,
+            "end": 16.927
+          },
+          {
+            "text": "wón",
+            "start": 16.974,
+            "end": 17.183
+          },
+          {
+            "text": "kàn",
+            "start": 17.276,
+            "end": 17.496
+          },
+          {
+            "text": "nílò",
+            "start": 17.589,
+            "end": 17.972
+          },
+          {
+            "text": "àkókò",
+            "start": 18.065,
+            "end": 18.634
+          },
+          {
+            "text": "díe",
+            "start": 18.727,
+            "end": 18.983
+          },
+          {
+            "text": "sí",
+            "start": 19.075,
+            "end": 19.354
+          },
+          {
+            "text": "i.",
+            "start": 19.493,
+            "end": 19.772
+          },
+          {
+            "text": "Pip",
+            "start": 19.818,
+            "end": 20.039
+          },
+          {
+            "text": "béèrè",
+            "start": 20.132,
+            "end": 20.561
+          },
+          {
+            "text": "lówó",
+            "start": 20.654,
+            "end": 21.026
+          },
+          {
+            "text": "opoló",
+            "start": 21.096,
+            "end": 21.525
+          },
+          {
+            "text": "bóyá",
+            "start": 21.56,
+            "end": 22.013
+          },
+          {
+            "text": "ó",
+            "start": 22.129,
+            "end": 22.303
+          },
+          {
+            "text": "rò",
+            "start": 22.419,
+            "end": 22.535
+          },
+          {
+            "text": "pé",
+            "start": 22.605,
+            "end": 22.733
+          },
+          {
+            "text": "odòdó",
+            "start": 22.791,
+            "end": 23.185
+          },
+          {
+            "text": "lè",
+            "start": 23.243,
+            "end": 23.313
+          },
+          {
+            "text": "mo",
+            "start": 23.359,
+            "end": 23.464
+          },
+          {
+            "text": "bí",
+            "start": 23.522,
+            "end": 23.685
+          },
+          {
+            "text": "wón",
+            "start": 23.754,
+            "end": 24.068
+          },
+          {
+            "text": "se",
+            "start": 24.184,
+            "end": 24.335
+          },
+          {
+            "text": "fé",
+            "start": 24.393,
+            "end": 24.59
+          },
+          {
+            "text": "sayeye",
+            "start": 24.648,
+            "end": 25.159
+          },
+          {
+            "text": "tó.",
+            "start": 25.217,
+            "end": 25.519
+          },
+          {
+            "text": "Opoló",
+            "start": 25.554,
+            "end": 25.983
+          },
+          {
+            "text": "rérìn-ín",
+            "start": 26.03,
+            "end": 26.506
+          },
+          {
+            "text": "pele,",
+            "start": 26.575,
+            "end": 27.028
+          },
+          {
+            "text": "ó",
+            "start": 27.098,
+            "end": 27.272
+          },
+          {
+            "text": "so",
+            "start": 27.388,
+            "end": 27.562
+          },
+          {
+            "text": "pé",
+            "start": 27.62,
+            "end": 27.794
+          },
+          {
+            "text": "dájúdájú--nítorí",
+            "start": 27.876,
+            "end": 29.257
+          },
+          {
+            "text": "ohunkóhun",
+            "start": 29.327,
+            "end": 30.012
+          },
+          {
+            "text": "tí",
+            "start": 30.07,
+            "end": 30.233
+          },
+          {
+            "text": "ìrètí",
+            "start": 30.302,
+            "end": 30.732
+          },
+          {
+            "text": "bá",
+            "start": 30.79,
+            "end": 30.952
+          },
+          {
+            "text": "yí",
+            "start": 30.987,
+            "end": 31.173
+          },
+          {
+            "text": "ká",
+            "start": 31.289,
+            "end": 31.463
+          },
+          {
+            "text": "kò",
+            "start": 31.545,
+            "end": 31.777
+          },
+          {
+            "text": "lè",
+            "start": 31.893,
+            "end": 31.974
+          },
+          {
+            "text": "pa",
+            "start": 32.032,
+            "end": 32.148
+          },
+          {
+            "text": "mó",
+            "start": 32.206,
+            "end": 32.357
+          },
+          {
+            "text": "títí",
+            "start": 32.404,
+            "end": 32.705
+          },
+          {
+            "text": "láé.",
+            "start": 32.775,
+            "end": 33.17
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Afẹ́fẹ́ Dara Pọ̀ Mọ́ Wọn",
+        "videoOffset": 342.879,
+        "words": [
+          {
+            "text": "Aféfé",
+            "start": 0.104,
+            "end": 0.615
+          },
+          {
+            "text": "gbígbóná",
+            "start": 0.639,
+            "end": 1.265
+          },
+          {
+            "text": "kan",
+            "start": 1.347,
+            "end": 1.579
+          },
+          {
+            "text": "fé",
+            "start": 1.672,
+            "end": 1.869
+          },
+          {
+            "text": "gba",
+            "start": 1.904,
+            "end": 2.159
+          },
+          {
+            "text": "pápá,",
+            "start": 2.218,
+            "end": 2.67
+          },
+          {
+            "text": "ó",
+            "start": 2.752,
+            "end": 2.891
+          },
+          {
+            "text": "gbé",
+            "start": 2.949,
+            "end": 3.286
+          },
+          {
+            "text": "orin",
+            "start": 3.355,
+            "end": 3.646
+          },
+          {
+            "text": "won",
+            "start": 3.704,
+            "end": 3.889
+          },
+          {
+            "text": "lo",
+            "start": 3.971,
+            "end": 4.075
+          },
+          {
+            "text": "jìnnà",
+            "start": 4.122,
+            "end": 4.481
+          },
+          {
+            "text": "ju",
+            "start": 4.528,
+            "end": 4.702
+          },
+          {
+            "text": "bí",
+            "start": 4.783,
+            "end": 4.957
+          },
+          {
+            "text": "ohùn",
+            "start": 5.039,
+            "end": 5.341
+          },
+          {
+            "text": "kékeré",
+            "start": 5.422,
+            "end": 5.828
+          },
+          {
+            "text": "Pip",
+            "start": 5.886,
+            "end": 6.072
+          },
+          {
+            "text": "se",
+            "start": 6.153,
+            "end": 6.235
+          },
+          {
+            "text": "lè",
+            "start": 6.281,
+            "end": 6.409
+          },
+          {
+            "text": "dé",
+            "start": 6.467,
+            "end": 6.583
+          },
+          {
+            "text": "lo.",
+            "start": 6.687,
+            "end": 6.908
+          },
+          {
+            "text": "Koríko",
+            "start": 6.943,
+            "end": 7.419
+          },
+          {
+            "text": "terí",
+            "start": 7.5,
+            "end": 7.721
+          },
+          {
+            "text": "ba,",
+            "start": 7.779,
+            "end": 8.034
+          },
+          {
+            "text": "ó",
+            "start": 8.104,
+            "end": 8.255
+          },
+          {
+            "text": "ń",
+            "start": 8.336,
+            "end": 8.417
+          },
+          {
+            "text": "mì,",
+            "start": 8.475,
+            "end": 8.754
+          },
+          {
+            "text": "odòdó",
+            "start": 8.8,
+            "end": 9.323
+          },
+          {
+            "text": "igbó",
+            "start": 9.404,
+            "end": 9.764
+          },
+          {
+            "text": "sì",
+            "start": 9.88,
+            "end": 10.101
+          },
+          {
+            "text": "ń",
+            "start": 10.205,
+            "end": 10.286
+          },
+          {
+            "text": "sàrà",
+            "start": 10.368,
+            "end": 10.67
+          },
+          {
+            "text": "bí",
+            "start": 10.728,
+            "end": 10.925
+          },
+          {
+            "text": "eni",
+            "start": 11.006,
+            "end": 11.204
+          },
+          {
+            "text": "pé",
+            "start": 11.25,
+            "end": 11.401
+          },
+          {
+            "text": "gbogbo",
+            "start": 11.471,
+            "end": 11.993
+          },
+          {
+            "text": "ayé",
+            "start": 12.074,
+            "end": 12.388
+          },
+          {
+            "text": "ń",
+            "start": 12.469,
+            "end": 12.574
+          },
+          {
+            "text": "mí",
+            "start": 12.655,
+            "end": 12.841
+          },
+          {
+            "text": "papo",
+            "start": 12.91,
+            "end": 13.27
+          },
+          {
+            "text": "pelú",
+            "start": 13.317,
+            "end": 13.653
+          },
+          {
+            "text": "orin",
+            "start": 13.735,
+            "end": 13.99
+          },
+          {
+            "text": "náà.",
+            "start": 14.036,
+            "end": 14.338
+          },
+          {
+            "text": "Pip",
+            "start": 14.385,
+            "end": 14.594
+          },
+          {
+            "text": "ní",
+            "start": 14.675,
+            "end": 14.872
+          },
+          {
+            "text": "ìmolára",
+            "start": 14.954,
+            "end": 15.557
+          },
+          {
+            "text": "pé",
+            "start": 15.639,
+            "end": 15.836
+          },
+          {
+            "text": "nnkan",
+            "start": 15.917,
+            "end": 16.335
+          },
+          {
+            "text": "kan",
+            "start": 16.417,
+            "end": 16.602
+          },
+          {
+            "text": "yí",
+            "start": 16.672,
+            "end": 16.788
+          },
+          {
+            "text": "padà--kì",
+            "start": 16.869,
+            "end": 17.496
+          },
+          {
+            "text": "í",
+            "start": 17.578,
+            "end": 17.636
+          },
+          {
+            "text": "se",
+            "start": 17.752,
+            "end": 17.891
+          },
+          {
+            "text": "nínú",
+            "start": 17.961,
+            "end": 18.333
+          },
+          {
+            "text": "odòdó",
+            "start": 18.414,
+            "end": 18.925
+          },
+          {
+            "text": "nìkan,",
+            "start": 19.029,
+            "end": 19.47
+          },
+          {
+            "text": "sùgbón",
+            "start": 19.517,
+            "end": 20.063
+          },
+          {
+            "text": "nínú",
+            "start": 20.144,
+            "end": 20.55
+          },
+          {
+            "text": "àyà",
+            "start": 20.631,
+            "end": 20.794
+          },
+          {
+            "text": "kékeré",
+            "start": 20.829,
+            "end": 21.119
+          },
+          {
+            "text": "re",
+            "start": 21.154,
+            "end": 21.2
+          },
+          {
+            "text": "pelú.",
+            "start": 21.235,
+            "end": 21.491
+          },
+          {
+            "text": "Ó",
+            "start": 21.514,
+            "end": 21.676
+          },
+          {
+            "text": "dà",
+            "start": 21.792,
+            "end": 21.99
+          },
+          {
+            "text": "bí",
+            "start": 22.059,
+            "end": 22.245
+          },
+          {
+            "text": "ìgbóná",
+            "start": 22.326,
+            "end": 22.872
+          },
+          {
+            "text": "oòrùn",
+            "start": 22.977,
+            "end": 23.348
+          },
+          {
+            "text": "osán:",
+            "start": 23.453,
+            "end": 23.952
+          },
+          {
+            "text": "ìrètí",
+            "start": 24.022,
+            "end": 24.498
+          },
+          {
+            "text": "kì",
+            "start": 24.579,
+            "end": 24.776
+          },
+          {
+            "text": "í",
+            "start": 24.869,
+            "end": 24.974
+          },
+          {
+            "text": "se",
+            "start": 25.078,
+            "end": 25.241
+          },
+          {
+            "text": "pé",
+            "start": 25.31,
+            "end": 25.508
+          },
+          {
+            "text": "kí",
+            "start": 25.566,
+            "end": 25.775
+          },
+          {
+            "text": "a",
+            "start": 25.868,
+            "end": 25.972
+          },
+          {
+            "text": "mú",
+            "start": 26.042,
+            "end": 26.227
+          },
+          {
+            "text": "nnkan",
+            "start": 26.332,
+            "end": 26.669
+          },
+          {
+            "text": "yára,",
+            "start": 26.773,
+            "end": 27.098
+          },
+          {
+            "text": "sùgbón",
+            "start": 27.133,
+            "end": 27.539
+          },
+          {
+            "text": "pé",
+            "start": 27.621,
+            "end": 27.818
+          },
+          {
+            "text": "kí",
+            "start": 27.876,
+            "end": 28.085
+          },
+          {
+            "text": "a",
+            "start": 28.19,
+            "end": 28.294
+          },
+          {
+            "text": "gbàgbó",
+            "start": 28.364,
+            "end": 28.875
+          },
+          {
+            "text": "pé",
+            "start": 28.944,
+            "end": 29.153
+          },
+          {
+            "text": "ohun",
+            "start": 29.246,
+            "end": 29.629
+          },
+          {
+            "text": "rere",
+            "start": 29.734,
+            "end": 29.954
+          },
+          {
+            "text": "yóò",
+            "start": 30.024,
+            "end": 30.291
+          },
+          {
+            "text": "dé",
+            "start": 30.384,
+            "end": 30.546
+          },
+          {
+            "text": "bí",
+            "start": 30.616,
+            "end": 30.802
+          },
+          {
+            "text": "a",
+            "start": 30.906,
+            "end": 31.011
+          },
+          {
+            "text": "bá",
+            "start": 31.08,
+            "end": 31.266
+          },
+          {
+            "text": "dúró,",
+            "start": 31.336,
+            "end": 31.673
+          },
+          {
+            "text": "tí",
+            "start": 31.719,
+            "end": 31.916
+          },
+          {
+            "text": "a",
+            "start": 31.998,
+            "end": 32.09
+          },
+          {
+            "text": "sì",
+            "start": 32.16,
+            "end": 32.381
+          },
+          {
+            "text": "tójú",
+            "start": 32.474,
+            "end": 32.88
+          },
+          {
+            "text": "re",
+            "start": 32.973,
+            "end": 33.042
+          },
+          {
+            "text": "tó.",
+            "start": 33.077,
+            "end": 33.298
+          },
+          {
+            "text": "Òwìwí",
+            "start": 33.321,
+            "end": 33.751
+          },
+          {
+            "text": "te",
+            "start": 33.844,
+            "end": 34.029
+          },
+          {
+            "text": "orí",
+            "start": 34.122,
+            "end": 34.412
+          },
+          {
+            "text": "roro,",
+            "start": 34.505,
+            "end": 34.854
+          },
+          {
+            "text": "bí",
+            "start": 34.912,
+            "end": 35.097
+          },
+          {
+            "text": "eni",
+            "start": 35.19,
+            "end": 35.411
+          },
+          {
+            "text": "pé",
+            "start": 35.469,
+            "end": 35.666
+          },
+          {
+            "text": "ó",
+            "start": 35.748,
+            "end": 35.887
+          },
+          {
+            "text": "ti",
+            "start": 35.945,
+            "end": 36.061
+          },
+          {
+            "text": "mo",
+            "start": 36.119,
+            "end": 36.258
+          },
+          {
+            "text": "èyí",
+            "start": 36.363,
+            "end": 36.676
+          },
+          {
+            "text": "láti",
+            "start": 36.769,
+            "end": 37.083
+          },
+          {
+            "text": "ìgbà",
+            "start": 37.141,
+            "end": 37.501
+          },
+          {
+            "text": "pípé",
+            "start": 37.536,
+            "end": 37.907
+          },
+          {
+            "text": "sùgbón",
+            "start": 37.954,
+            "end": 38.418
+          },
+          {
+            "text": "ó",
+            "start": 38.522,
+            "end": 38.685
+          },
+          {
+            "text": "ń",
+            "start": 38.766,
+            "end": 38.871
+          },
+          {
+            "text": "dúró",
+            "start": 38.94,
+            "end": 39.254
+          },
+          {
+            "text": "fún",
+            "start": 39.324,
+            "end": 39.591
+          },
+          {
+            "text": "Pip",
+            "start": 39.649,
+            "end": 39.892
+          },
+          {
+            "text": "láti",
+            "start": 40.008,
+            "end": 40.368
+          },
+          {
+            "text": "mo",
+            "start": 40.438,
+            "end": 40.589
+          },
+          {
+            "text": "fúnra",
+            "start": 40.659,
+            "end": 41.019
+          },
+          {
+            "text": "re.",
+            "start": 41.077,
+            "end": 41.228
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Odòdó Igbó Tàn",
+        "videoOffset": 384.465,
+        "words": [
+          {
+            "text": "Okookan,",
+            "start": 0.104,
+            "end": 0.824
+          },
+          {
+            "text": "bí",
+            "start": 0.859,
+            "end": 1.01
+          },
+          {
+            "text": "eni",
+            "start": 1.045,
+            "end": 1.207
+          },
+          {
+            "text": "pé",
+            "start": 1.242,
+            "end": 1.44
+          },
+          {
+            "text": "wón",
+            "start": 1.521,
+            "end": 1.73
+          },
+          {
+            "text": "ti",
+            "start": 1.811,
+            "end": 1.939
+          },
+          {
+            "text": "ń",
+            "start": 1.985,
+            "end": 2.009
+          },
+          {
+            "text": "dúró",
+            "start": 2.09,
+            "end": 2.403
+          },
+          {
+            "text": "de",
+            "start": 2.461,
+            "end": 2.543
+          },
+          {
+            "text": "àkókò",
+            "start": 2.589,
+            "end": 3.065
+          },
+          {
+            "text": "yìí",
+            "start": 3.181,
+            "end": 3.297
+          },
+          {
+            "text": "gan-an,",
+            "start": 3.367,
+            "end": 3.773
+          },
+          {
+            "text": "odòdó",
+            "start": 3.808,
+            "end": 4.342
+          },
+          {
+            "text": "igbó",
+            "start": 4.435,
+            "end": 4.807
+          },
+          {
+            "text": "bere",
+            "start": 4.888,
+            "end": 5.143
+          },
+          {
+            "text": "sí",
+            "start": 5.201,
+            "end": 5.41
+          },
+          {
+            "text": "í",
+            "start": 5.492,
+            "end": 5.573
+          },
+          {
+            "text": "sí.",
+            "start": 5.7,
+            "end": 6.002
+          },
+          {
+            "text": "Pétálì",
+            "start": 6.026,
+            "end": 6.629
+          },
+          {
+            "text": "ń",
+            "start": 6.711,
+            "end": 6.745
+          },
+          {
+            "text": "tú",
+            "start": 6.827,
+            "end": 7.001
+          },
+          {
+            "text": "sí",
+            "start": 7.105,
+            "end": 7.338
+          },
+          {
+            "text": "gbogbo",
+            "start": 7.419,
+            "end": 7.918
+          },
+          {
+            "text": "ìhà,",
+            "start": 7.999,
+            "end": 8.359
+          },
+          {
+            "text": "àárín",
+            "start": 8.44,
+            "end": 8.789
+          },
+          {
+            "text": "pápá",
+            "start": 8.847,
+            "end": 9.218
+          },
+          {
+            "text": "sì",
+            "start": 9.311,
+            "end": 9.497
+          },
+          {
+            "text": "kún",
+            "start": 9.578,
+            "end": 9.764
+          },
+          {
+            "text": "fún",
+            "start": 9.822,
+            "end": 10.101
+          },
+          {
+            "text": "àwo",
+            "start": 10.194,
+            "end": 10.414
+          },
+          {
+            "text": "eléwà",
+            "start": 10.472,
+            "end": 10.902
+          },
+          {
+            "text": "àti",
+            "start": 10.983,
+            "end": 11.273
+          },
+          {
+            "text": "òórùn",
+            "start": 11.355,
+            "end": 11.668
+          },
+          {
+            "text": "dídùn",
+            "start": 11.738,
+            "end": 12.132
+          },
+          {
+            "text": "tó",
+            "start": 12.214,
+            "end": 12.388
+          },
+          {
+            "text": "ń",
+            "start": 12.469,
+            "end": 12.492
+          },
+          {
+            "text": "rìn",
+            "start": 12.585,
+            "end": 12.783
+          },
+          {
+            "text": "gba",
+            "start": 12.841,
+            "end": 13.142
+          },
+          {
+            "text": "aféfé",
+            "start": 13.224,
+            "end": 13.769
+          },
+          {
+            "text": "osán.",
+            "start": 13.816,
+            "end": 14.28
+          },
+          {
+            "text": "Pip",
+            "start": 14.292,
+            "end": 14.454
+          },
+          {
+            "text": "korin",
+            "start": 14.536,
+            "end": 14.872
+          },
+          {
+            "text": "àyo,",
+            "start": 14.977,
+            "end": 15.348
+          },
+          {
+            "text": "ó",
+            "start": 15.406,
+            "end": 15.523
+          },
+          {
+            "text": "ń",
+            "start": 15.627,
+            "end": 15.662
+          },
+          {
+            "text": "fo",
+            "start": 15.743,
+            "end": 15.929
+          },
+          {
+            "text": "láti",
+            "start": 16.01,
+            "end": 16.335
+          },
+          {
+            "text": "orí",
+            "start": 16.417,
+            "end": 16.718
+          },
+          {
+            "text": "igi",
+            "start": 16.823,
+            "end": 17.136
+          },
+          {
+            "text": "kan",
+            "start": 17.218,
+            "end": 17.427
+          },
+          {
+            "text": "sí",
+            "start": 17.543,
+            "end": 17.729
+          },
+          {
+            "text": "èkejì,",
+            "start": 17.787,
+            "end": 18.344
+          },
+          {
+            "text": "kò",
+            "start": 18.39,
+            "end": 18.553
+          },
+          {
+            "text": "lè",
+            "start": 18.634,
+            "end": 18.785
+          },
+          {
+            "text": "dáké.",
+            "start": 18.832,
+            "end": 19.319
+          },
+          {
+            "text": "Opoló",
+            "start": 19.366,
+            "end": 19.853
+          },
+          {
+            "text": "ké",
+            "start": 19.9,
+            "end": 20.074
+          },
+          {
+            "text": "ìdùnnú,",
+            "start": 20.167,
+            "end": 20.782
+          },
+          {
+            "text": "òwìwí",
+            "start": 20.829,
+            "end": 21.258
+          },
+          {
+            "text": "sì",
+            "start": 21.328,
+            "end": 21.49
+          },
+          {
+            "text": "nà",
+            "start": 21.595,
+            "end": 21.723
+          },
+          {
+            "text": "ìyé",
+            "start": 21.827,
+            "end": 22.129
+          },
+          {
+            "text": "ńlá",
+            "start": 22.152,
+            "end": 22.361
+          },
+          {
+            "text": "re,",
+            "start": 22.431,
+            "end": 22.686
+          },
+          {
+            "text": "àwon",
+            "start": 22.733,
+            "end": 23.22
+          },
+          {
+            "text": "oré",
+            "start": 23.383,
+            "end": 23.627
+          },
+          {
+            "text": "méteeta",
+            "start": 23.661,
+            "end": 24.172
+          },
+          {
+            "text": "sì",
+            "start": 24.242,
+            "end": 24.486
+          },
+          {
+            "text": "wò",
+            "start": 24.59,
+            "end": 24.788
+          },
+          {
+            "text": "ara",
+            "start": 24.892,
+            "end": 25.113
+          },
+          {
+            "text": "won",
+            "start": 25.182,
+            "end": 25.38
+          },
+          {
+            "text": "pelú",
+            "start": 25.461,
+            "end": 25.891
+          },
+          {
+            "text": "ìgbóná",
+            "start": 26.03,
+            "end": 26.657
+          },
+          {
+            "text": "tó",
+            "start": 26.738,
+            "end": 26.935
+          },
+          {
+            "text": "máa",
+            "start": 27.04,
+            "end": 27.319
+          },
+          {
+            "text": "ń",
+            "start": 27.353,
+            "end": 27.411
+          },
+          {
+            "text": "wá",
+            "start": 27.516,
+            "end": 27.69
+          },
+          {
+            "text": "nígbà",
+            "start": 27.795,
+            "end": 28.247
+          },
+          {
+            "text": "tí",
+            "start": 28.305,
+            "end": 28.445
+          },
+          {
+            "text": "edá",
+            "start": 28.503,
+            "end": 28.712
+          },
+          {
+            "text": "bá",
+            "start": 28.77,
+            "end": 28.944
+          },
+          {
+            "text": "pín",
+            "start": 28.99,
+            "end": 29.257
+          },
+          {
+            "text": "ohun",
+            "start": 29.397,
+            "end": 29.815
+          },
+          {
+            "text": "tí",
+            "start": 29.896,
+            "end": 30.024
+          },
+          {
+            "text": "wón",
+            "start": 30.093,
+            "end": 30.302
+          },
+          {
+            "text": "ti",
+            "start": 30.372,
+            "end": 30.476
+          },
+          {
+            "text": "dúró",
+            "start": 30.523,
+            "end": 30.755
+          },
+          {
+            "text": "de",
+            "start": 30.825,
+            "end": 30.894
+          },
+          {
+            "text": "papo.",
+            "start": 30.952,
+            "end": 31.44
+          },
+          {
+            "text": "Ayeye",
+            "start": 31.475,
+            "end": 32.044
+          },
+          {
+            "text": "tí",
+            "start": 32.113,
+            "end": 32.264
+          },
+          {
+            "text": "wón",
+            "start": 32.346,
+            "end": 32.601
+          },
+          {
+            "text": "ti",
+            "start": 32.682,
+            "end": 32.845
+          },
+          {
+            "text": "ń",
+            "start": 32.984,
+            "end": 33.089
+          },
+          {
+            "text": "retí",
+            "start": 33.193,
+            "end": 33.507
+          },
+          {
+            "text": "ti",
+            "start": 33.565,
+            "end": 33.75
+          },
+          {
+            "text": "dé",
+            "start": 33.855,
+            "end": 34.052
+          },
+          {
+            "text": "nísinsìnyí--ó",
+            "start": 34.157,
+            "end": 35.573
+          },
+          {
+            "text": "sì",
+            "start": 35.678,
+            "end": 35.922
+          },
+          {
+            "text": "léwà",
+            "start": 36.026,
+            "end": 36.479
+          },
+          {
+            "text": "ju",
+            "start": 36.63,
+            "end": 36.746
+          },
+          {
+            "text": "nítorí",
+            "start": 36.839,
+            "end": 37.361
+          },
+          {
+            "text": "pé",
+            "start": 37.419,
+            "end": 37.628
+          },
+          {
+            "text": "wón",
+            "start": 37.698,
+            "end": 37.953
+          },
+          {
+            "text": "ní",
+            "start": 38.011,
+            "end": 38.162
+          },
+          {
+            "text": "sùúrù,",
+            "start": 38.232,
+            "end": 38.882
+          },
+          {
+            "text": "wón",
+            "start": 38.929,
+            "end": 39.219
+          },
+          {
+            "text": "sì",
+            "start": 39.323,
+            "end": 39.59
+          },
+          {
+            "text": "jé",
+            "start": 39.718,
+            "end": 39.927
+          },
+          {
+            "text": "kó",
+            "start": 39.973,
+            "end": 40.182
+          },
+          {
+            "text": "dé",
+            "start": 40.252,
+            "end": 40.438
+          },
+          {
+            "text": "fúnra",
+            "start": 40.519,
+            "end": 41.03
+          },
+          {
+            "text": "re.",
+            "start": 41.1,
+            "end": 41.32
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Ayẹyẹ Pẹ̀lẹ̀",
+        "videoOffset": 426.143,
+        "words": [
+          {
+            "text": "Àwon",
+            "start": 0.128,
+            "end": 0.395
+          },
+          {
+            "text": "oré",
+            "start": 0.488,
+            "end": 0.65
+          },
+          {
+            "text": "méteeta",
+            "start": 0.685,
+            "end": 1.126
+          },
+          {
+            "text": "jókòó",
+            "start": 1.207,
+            "end": 1.614
+          },
+          {
+            "text": "papo",
+            "start": 1.695,
+            "end": 2.078
+          },
+          {
+            "text": "ní",
+            "start": 2.159,
+            "end": 2.299
+          },
+          {
+            "text": "egbé",
+            "start": 2.357,
+            "end": 2.752
+          },
+          {
+            "text": "odòdó",
+            "start": 2.821,
+            "end": 3.216
+          },
+          {
+            "text": "tó",
+            "start": 3.262,
+            "end": 3.39
+          },
+          {
+            "text": "tàn,",
+            "start": 3.448,
+            "end": 3.762
+          },
+          {
+            "text": "ìmóle",
+            "start": 3.843,
+            "end": 4.226
+          },
+          {
+            "text": "osán",
+            "start": 4.272,
+            "end": 4.621
+          },
+          {
+            "text": "sì",
+            "start": 4.714,
+            "end": 4.946
+          },
+          {
+            "text": "di",
+            "start": 5.004,
+            "end": 5.12
+          },
+          {
+            "text": "wúrà",
+            "start": 5.178,
+            "end": 5.492
+          },
+          {
+            "text": "tó",
+            "start": 5.573,
+            "end": 5.747
+          },
+          {
+            "text": "nípon",
+            "start": 5.828,
+            "end": 6.153
+          },
+          {
+            "text": "yí",
+            "start": 6.258,
+            "end": 6.339
+          },
+          {
+            "text": "won",
+            "start": 6.42,
+            "end": 6.629
+          },
+          {
+            "text": "ká.",
+            "start": 6.722,
+            "end": 6.954
+          },
+          {
+            "text": "Pip",
+            "start": 6.978,
+            "end": 7.187
+          },
+          {
+            "text": "mu",
+            "start": 7.291,
+            "end": 7.454
+          },
+          {
+            "text": "orin",
+            "start": 7.546,
+            "end": 7.779
+          },
+          {
+            "text": "ìkeyìn--kì",
+            "start": 7.86,
+            "end": 8.638
+          },
+          {
+            "text": "í",
+            "start": 8.754,
+            "end": 8.812
+          },
+          {
+            "text": "se",
+            "start": 8.94,
+            "end": 9.149
+          },
+          {
+            "text": "ohun",
+            "start": 9.23,
+            "end": 9.578
+          },
+          {
+            "text": "ńlá",
+            "start": 9.706,
+            "end": 9.985
+          },
+          {
+            "text": "tàbí",
+            "start": 10.066,
+            "end": 10.437
+          },
+          {
+            "text": "ohun",
+            "start": 10.519,
+            "end": 10.82
+          },
+          {
+            "text": "gíga,",
+            "start": 10.879,
+            "end": 11.273
+          },
+          {
+            "text": "sùgbón",
+            "start": 11.343,
+            "end": 11.865
+          },
+          {
+            "text": "ohun",
+            "start": 11.947,
+            "end": 12.272
+          },
+          {
+            "text": "pele,",
+            "start": 12.341,
+            "end": 12.69
+          },
+          {
+            "text": "bí",
+            "start": 12.725,
+            "end": 12.934
+          },
+          {
+            "text": "orin",
+            "start": 13.015,
+            "end": 13.27
+          },
+          {
+            "text": "ìsùn",
+            "start": 13.351,
+            "end": 13.723
+          },
+          {
+            "text": "tí",
+            "start": 13.781,
+            "end": 13.92
+          },
+          {
+            "text": "pápá",
+            "start": 13.99,
+            "end": 14.362
+          },
+          {
+            "text": "ti",
+            "start": 14.454,
+            "end": 14.64
+          },
+          {
+            "text": "ń",
+            "start": 14.733,
+            "end": 14.814
+          },
+          {
+            "text": "retí",
+            "start": 14.896,
+            "end": 15.197
+          },
+          {
+            "text": "láti",
+            "start": 15.314,
+            "end": 15.65
+          },
+          {
+            "text": "gbó.",
+            "start": 15.697,
+            "end": 16.045
+          },
+          {
+            "text": "Òwìwí",
+            "start": 16.115,
+            "end": 16.614
+          },
+          {
+            "text": "ké",
+            "start": 16.695,
+            "end": 16.858
+          },
+          {
+            "text": "pelú",
+            "start": 16.939,
+            "end": 17.264
+          },
+          {
+            "text": "re,",
+            "start": 17.345,
+            "end": 17.554
+          },
+          {
+            "text": "opoló",
+            "start": 17.6,
+            "end": 18.088
+          },
+          {
+            "text": "sì",
+            "start": 18.134,
+            "end": 18.343
+          },
+          {
+            "text": "ń",
+            "start": 18.425,
+            "end": 18.494
+          },
+          {
+            "text": "fi",
+            "start": 18.576,
+            "end": 18.808
+          },
+          {
+            "text": "ese",
+            "start": 18.889,
+            "end": 19.249
+          },
+          {
+            "text": "lu",
+            "start": 19.33,
+            "end": 19.528
+          },
+          {
+            "text": "ìlù",
+            "start": 19.632,
+            "end": 19.888
+          },
+          {
+            "text": "roro",
+            "start": 19.98,
+            "end": 20.375
+          },
+          {
+            "text": "lórí",
+            "start": 20.456,
+            "end": 20.851
+          },
+          {
+            "text": "àpáta",
+            "start": 20.979,
+            "end": 21.467
+          },
+          {
+            "text": "re.",
+            "start": 21.513,
+            "end": 21.71
+          },
+          {
+            "text": "Won",
+            "start": 21.908,
+            "end": 22.128
+          },
+          {
+            "text": "kò",
+            "start": 22.221,
+            "end": 22.442
+          },
+          {
+            "text": "nílò",
+            "start": 22.57,
+            "end": 22.929
+          },
+          {
+            "text": "ohunkóhun",
+            "start": 23.034,
+            "end": 23.765
+          },
+          {
+            "text": "ńlá",
+            "start": 23.8,
+            "end": 24.137
+          },
+          {
+            "text": "fún",
+            "start": 24.276,
+            "end": 24.555
+          },
+          {
+            "text": "ayeye",
+            "start": 24.671,
+            "end": 25.205
+          },
+          {
+            "text": "won--odòdó",
+            "start": 25.275,
+            "end": 26.227
+          },
+          {
+            "text": "tó",
+            "start": 26.343,
+            "end": 26.54
+          },
+          {
+            "text": "sí,",
+            "start": 26.645,
+            "end": 26.97
+          },
+          {
+            "text": "aféfé",
+            "start": 27.039,
+            "end": 27.782
+          },
+          {
+            "text": "gbígbóná,",
+            "start": 27.875,
+            "end": 28.769
+          },
+          {
+            "text": "àti",
+            "start": 28.897,
+            "end": 29.315
+          },
+          {
+            "text": "ara",
+            "start": 29.431,
+            "end": 29.756
+          },
+          {
+            "text": "won",
+            "start": 29.849,
+            "end": 30.046
+          },
+          {
+            "text": "ló",
+            "start": 30.139,
+            "end": 30.337
+          },
+          {
+            "text": "tó",
+            "start": 30.429,
+            "end": 30.638
+          },
+          {
+            "text": "won.",
+            "start": 30.731,
+            "end": 31.045
+          },
+          {
+            "text": "Ohun",
+            "start": 31.184,
+            "end": 31.498
+          },
+          {
+            "text": "rere",
+            "start": 31.59,
+            "end": 31.974
+          },
+          {
+            "text": "tó",
+            "start": 32.066,
+            "end": 32.287
+          },
+          {
+            "text": "bá",
+            "start": 32.38,
+            "end": 32.589
+          },
+          {
+            "text": "pé",
+            "start": 32.659,
+            "end": 32.96
+          },
+          {
+            "text": "tó,",
+            "start": 33.03,
+            "end": 33.309
+          },
+          {
+            "text": "ó",
+            "start": 33.367,
+            "end": 33.518
+          },
+          {
+            "text": "tóó,",
+            "start": 33.611,
+            "end": 33.959
+          },
+          {
+            "text": "Pip",
+            "start": 34.005,
+            "end": 34.238
+          },
+          {
+            "text": "korin",
+            "start": 34.33,
+            "end": 34.679
+          },
+          {
+            "text": "pele,",
+            "start": 34.748,
+            "end": 35.213
+          },
+          {
+            "text": "ní",
+            "start": 35.259,
+            "end": 35.422
+          },
+          {
+            "text": "àkókò",
+            "start": 35.491,
+            "end": 36.072
+          },
+          {
+            "text": "yìí",
+            "start": 36.2,
+            "end": 36.513
+          },
+          {
+            "text": "oro",
+            "start": 36.641,
+            "end": 37.001
+          },
+          {
+            "text": "náà",
+            "start": 37.105,
+            "end": 37.372
+          },
+          {
+            "text": "sì",
+            "start": 37.477,
+            "end": 37.721
+          },
+          {
+            "text": "dùn",
+            "start": 37.813,
+            "end": 38.08
+          },
+          {
+            "text": "mó",
+            "start": 38.185,
+            "end": 38.417
+          },
+          {
+            "text": "o",
+            "start": 38.487,
+            "end": 38.591
+          },
+          {
+            "text": "bí",
+            "start": 38.684,
+            "end": 38.951
+          },
+          {
+            "text": "ile",
+            "start": 39.079,
+            "end": 39.439
+          },
+          {
+            "text": "tó",
+            "start": 39.532,
+            "end": 39.752
+          },
+          {
+            "text": "wà",
+            "start": 39.892,
+            "end": 40.089
+          },
+          {
+            "text": "lábé",
+            "start": 40.217,
+            "end": 40.693
+          },
+          {
+            "text": "won.",
+            "start": 40.786,
+            "end": 41.111
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Ààbò Ní Pápá",
+        "videoOffset": 467.681,
+        "words": [
+          {
+            "text": "Ìmóle",
+            "start": 0.128,
+            "end": 0.43
+          },
+          {
+            "text": "wúrà",
+            "start": 0.488,
+            "end": 0.824
+          },
+          {
+            "text": "osán",
+            "start": 0.906,
+            "end": 1.254
+          },
+          {
+            "text": "ro",
+            "start": 1.335,
+            "end": 1.509
+          },
+          {
+            "text": "jìnnà",
+            "start": 1.579,
+            "end": 1.939
+          },
+          {
+            "text": "sínú",
+            "start": 2.02,
+            "end": 2.357
+          },
+          {
+            "text": "pápá,",
+            "start": 2.415,
+            "end": 2.891
+          },
+          {
+            "text": "Pip",
+            "start": 2.926,
+            "end": 3.1
+          },
+          {
+            "text": "sì",
+            "start": 3.181,
+            "end": 3.344
+          },
+          {
+            "text": "kó",
+            "start": 3.425,
+            "end": 3.599
+          },
+          {
+            "text": "ara",
+            "start": 3.68,
+            "end": 3.855
+          },
+          {
+            "text": "kékeré",
+            "start": 3.889,
+            "end": 4.342
+          },
+          {
+            "text": "yíká",
+            "start": 4.447,
+            "end": 4.818
+          },
+          {
+            "text": "re",
+            "start": 4.899,
+            "end": 4.992
+          },
+          {
+            "text": "sínú",
+            "start": 5.074,
+            "end": 5.445
+          },
+          {
+            "text": "koríko",
+            "start": 5.503,
+            "end": 5.898
+          },
+          {
+            "text": "ríro",
+            "start": 5.944,
+            "end": 6.177
+          },
+          {
+            "text": "légbeé",
+            "start": 6.235,
+            "end": 6.792
+          },
+          {
+            "text": "odòdó,",
+            "start": 6.85,
+            "end": 7.419
+          },
+          {
+            "text": "níbi",
+            "start": 7.5,
+            "end": 7.814
+          },
+          {
+            "text": "tí",
+            "start": 7.848,
+            "end": 8.057
+          },
+          {
+            "text": "ojó",
+            "start": 8.162,
+            "end": 8.406
+          },
+          {
+            "text": "ti",
+            "start": 8.452,
+            "end": 8.58
+          },
+          {
+            "text": "bere.",
+            "start": 8.649,
+            "end": 8.998
+          },
+          {
+            "text": "Opoló",
+            "start": 9.033,
+            "end": 9.427
+          },
+          {
+            "text": "bùsé",
+            "start": 9.474,
+            "end": 9.95
+          },
+          {
+            "text": "sórí",
+            "start": 10.031,
+            "end": 10.414
+          },
+          {
+            "text": "àpáta",
+            "start": 10.495,
+            "end": 10.948
+          },
+          {
+            "text": "re",
+            "start": 11.006,
+            "end": 11.169
+          },
+          {
+            "text": "tó",
+            "start": 11.25,
+            "end": 11.447
+          },
+          {
+            "text": "ní",
+            "start": 11.552,
+            "end": 11.761
+          },
+          {
+            "text": "ìrù",
+            "start": 11.842,
+            "end": 12.132
+          },
+          {
+            "text": "ewé,",
+            "start": 12.214,
+            "end": 12.574
+          },
+          {
+            "text": "òwìwí",
+            "start": 12.608,
+            "end": 13.073
+          },
+          {
+            "text": "sì",
+            "start": 13.177,
+            "end": 13.386
+          },
+          {
+            "text": "ka",
+            "start": 13.468,
+            "end": 13.642
+          },
+          {
+            "text": "ìyé",
+            "start": 13.723,
+            "end": 14.025
+          },
+          {
+            "text": "ńlá",
+            "start": 14.071,
+            "end": 14.396
+          },
+          {
+            "text": "re,",
+            "start": 14.489,
+            "end": 14.675
+          },
+          {
+            "text": "ó",
+            "start": 14.733,
+            "end": 14.838
+          },
+          {
+            "text": "pa",
+            "start": 14.919,
+            "end": 15.093
+          },
+          {
+            "text": "ojú",
+            "start": 15.174,
+            "end": 15.488
+          },
+          {
+            "text": "mó",
+            "start": 15.569,
+            "end": 15.755
+          },
+          {
+            "text": "lórí",
+            "start": 15.813,
+            "end": 16.138
+          },
+          {
+            "text": "eka",
+            "start": 16.196,
+            "end": 16.475
+          },
+          {
+            "text": "kékeré",
+            "start": 16.533,
+            "end": 16.997
+          },
+          {
+            "text": "igi",
+            "start": 17.078,
+            "end": 17.369
+          },
+          {
+            "text": "óòkù",
+            "start": 17.473,
+            "end": 17.868
+          },
+          {
+            "text": "ńlá.",
+            "start": 17.949,
+            "end": 18.251
+          },
+          {
+            "text": "Odòdó",
+            "start": 18.274,
+            "end": 18.774
+          },
+          {
+            "text": "igbó",
+            "start": 18.855,
+            "end": 19.25
+          },
+          {
+            "text": "tàn",
+            "start": 19.331,
+            "end": 19.517
+          },
+          {
+            "text": "nítorí",
+            "start": 19.633,
+            "end": 20.167
+          },
+          {
+            "text": "àwon",
+            "start": 20.248,
+            "end": 20.643
+          },
+          {
+            "text": "oré",
+            "start": 20.747,
+            "end": 21.014
+          },
+          {
+            "text": "méteeta",
+            "start": 21.049,
+            "end": 21.49
+          },
+          {
+            "text": "dúró,",
+            "start": 21.525,
+            "end": 21.897
+          },
+          {
+            "text": "wón",
+            "start": 21.932,
+            "end": 22.083
+          },
+          {
+            "text": "korin,",
+            "start": 22.152,
+            "end": 22.651
+          },
+          {
+            "text": "wón",
+            "start": 22.686,
+            "end": 22.826
+          },
+          {
+            "text": "sì",
+            "start": 22.884,
+            "end": 22.988
+          },
+          {
+            "text": "dúró",
+            "start": 23.046,
+            "end": 23.313
+          },
+          {
+            "text": "de",
+            "start": 23.383,
+            "end": 23.452
+          },
+          {
+            "text": "papo--ìyen",
+            "start": 23.499,
+            "end": 24.439
+          },
+          {
+            "text": "nìkan",
+            "start": 24.486,
+            "end": 24.962
+          },
+          {
+            "text": "ni",
+            "start": 25.055,
+            "end": 25.182
+          },
+          {
+            "text": "ayeye",
+            "start": 25.229,
+            "end": 25.658
+          },
+          {
+            "text": "tí",
+            "start": 25.716,
+            "end": 25.844
+          },
+          {
+            "text": "okàn",
+            "start": 25.914,
+            "end": 26.192
+          },
+          {
+            "text": "won",
+            "start": 26.25,
+            "end": 26.436
+          },
+          {
+            "text": "nílò.",
+            "start": 26.494,
+            "end": 27.005
+          },
+          {
+            "text": "Ohun",
+            "start": 27.04,
+            "end": 27.47
+          },
+          {
+            "text": "rere",
+            "start": 27.586,
+            "end": 27.829
+          },
+          {
+            "text": "tó",
+            "start": 27.888,
+            "end": 28.027
+          },
+          {
+            "text": "bá",
+            "start": 28.108,
+            "end": 28.224
+          },
+          {
+            "text": "pé",
+            "start": 28.271,
+            "end": 28.422
+          },
+          {
+            "text": "tó,",
+            "start": 28.456,
+            "end": 28.735
+          },
+          {
+            "text": "ó",
+            "start": 28.77,
+            "end": 28.909
+          },
+          {
+            "text": "tóó,",
+            "start": 28.967,
+            "end": 29.281
+          },
+          {
+            "text": "Pip",
+            "start": 29.316,
+            "end": 29.548
+          },
+          {
+            "text": "rò",
+            "start": 29.617,
+            "end": 29.792
+          },
+          {
+            "text": "fún",
+            "start": 29.861,
+            "end": 30.117
+          },
+          {
+            "text": "ìgbà",
+            "start": 30.175,
+            "end": 30.523
+          },
+          {
+            "text": "ìkeyìn,",
+            "start": 30.546,
+            "end": 31.185
+          },
+          {
+            "text": "ó",
+            "start": 31.22,
+            "end": 31.359
+          },
+          {
+            "text": "ní",
+            "start": 31.44,
+            "end": 31.614
+          },
+          {
+            "text": "ìmolára",
+            "start": 31.649,
+            "end": 32.323
+          },
+          {
+            "text": "ìgbóná",
+            "start": 32.427,
+            "end": 32.961
+          },
+          {
+            "text": "re",
+            "start": 33.019,
+            "end": 33.135
+          },
+          {
+            "text": "nínú",
+            "start": 33.182,
+            "end": 33.588
+          },
+          {
+            "text": "àyà",
+            "start": 33.669,
+            "end": 33.971
+          },
+          {
+            "text": "bí",
+            "start": 34.052,
+            "end": 34.215
+          },
+          {
+            "text": "oòrùn.",
+            "start": 34.296,
+            "end": 34.807
+          },
+          {
+            "text": "Pápá",
+            "start": 34.853,
+            "end": 35.155
+          },
+          {
+            "text": "dáké,",
+            "start": 35.201,
+            "end": 35.782
+          },
+          {
+            "text": "aféfé",
+            "start": 35.828,
+            "end": 36.386
+          },
+          {
+            "text": "ro,",
+            "start": 36.444,
+            "end": 36.711
+          },
+          {
+            "text": "gbogbo",
+            "start": 36.734,
+            "end": 37.338
+          },
+          {
+            "text": "èèyàn",
+            "start": 37.442,
+            "end": 37.953
+          },
+          {
+            "text": "sì",
+            "start": 38.057,
+            "end": 38.336
+          },
+          {
+            "text": "wà",
+            "start": 38.452,
+            "end": 38.661
+          },
+          {
+            "text": "láàbò--àkókò",
+            "start": 38.742,
+            "end": 40.159
+          },
+          {
+            "text": "ti",
+            "start": 40.24,
+            "end": 40.345
+          },
+          {
+            "text": "tó",
+            "start": 40.403,
+            "end": 40.577
+          },
+          {
+            "text": "láti",
+            "start": 40.67,
+            "end": 41.053
+          },
+          {
+            "text": "sinmi,",
+            "start": 41.111,
+            "end": 41.668
+          },
+          {
+            "text": "láti",
+            "start": 41.738,
+            "end": 42.133
+          },
+          {
+            "text": "pa",
+            "start": 42.191,
+            "end": 42.353
+          },
+          {
+            "text": "ojú",
+            "start": 42.469,
+            "end": 42.783
+          },
+          {
+            "text": "mó,",
+            "start": 42.864,
+            "end": 43.189
+          },
+          {
+            "text": "kí",
+            "start": 43.224,
+            "end": 43.445
+          },
+          {
+            "text": "a",
+            "start": 43.561,
+            "end": 43.619
+          },
+          {
+            "text": "sì",
+            "start": 43.735,
+            "end": 44.025
+          },
+          {
+            "text": "sùn.",
+            "start": 44.141,
+            "end": 44.571
+          }
+        ]
+      }
+    ]
   }
 ]
