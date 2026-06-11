@@ -7,9 +7,47 @@
     "videoPath": "videos/story_1_english.mp4",
     "scenes": [
       {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Luna",
+            "start": 0.15,
+            "end": 0.583
+          },
+          {
+            "text": "àti",
+            "start": 0.583,
+            "end": 1.017
+          },
+          {
+            "text": "Ẹfọ́n",
+            "start": 1.017,
+            "end": 1.45
+          },
+          {
+            "text": "ilẹ̀",
+            "start": 1.45,
+            "end": 1.883
+          },
+          {
+            "text": "Tó",
+            "start": 1.883,
+            "end": 2.317
+          },
+          {
+            "text": "Ṣìnà",
+            "start": 2.317,
+            "end": 2.75
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": "Adágún Yìnyín Ní Kùtùkùtù Òwúrọ̀",
-        "videoOffset": 0.0,
+        "videoOffset": 3.0,
         "words": [
           {
             "text": "Adágún",
@@ -506,7 +544,7 @@
       {
         "id": 2,
         "title": "Ọ̀rẹ́ Tó Ń Warìrì",
-        "videoOffset": 42.049,
+        "videoOffset": 45.049,
         "words": [
           {
             "text": "Ní",
@@ -1053,7 +1091,7 @@
       {
         "id": 3,
         "title": "Èrò Àkọ́kọ́ Luna",
-        "videoOffset": 82.24,
+        "videoOffset": 85.24,
         "words": [
           {
             "text": "Ní",
@@ -1445,7 +1483,7 @@
       {
         "id": 4,
         "title": "Wíwá Ní Ẹ̀bá Adágún",
-        "videoOffset": 115.187,
+        "videoOffset": 118.187,
         "words": [
           {
             "text": "Luna",
@@ -1942,7 +1980,7 @@
       {
         "id": 5,
         "title": "Àkókò Iyèméjì",
-        "videoOffset": 152.639,
+        "videoOffset": 155.639,
         "words": [
           {
             "text": "Ní",
@@ -2434,7 +2472,7 @@
       {
         "id": 6,
         "title": "Igi Tó Wó Lulẹ̀",
-        "videoOffset": 191.205,
+        "videoOffset": 194.205,
         "words": [
           {
             "text": "Luna",
@@ -2921,7 +2959,7 @@
       {
         "id": 7,
         "title": "Òórùn Tó Mọ̀yà",
-        "videoOffset": 232.79,
+        "videoOffset": 235.79,
         "words": [
           {
             "text": "Luna",
@@ -3403,7 +3441,7 @@
       {
         "id": 8,
         "title": "Afẹ́fẹ́ Àrà",
-        "videoOffset": 272.75,
+        "videoOffset": 275.75,
         "words": [
           {
             "text": "Ní",
@@ -3975,7 +4013,7 @@
       {
         "id": 9,
         "title": "Títẹ̀lé Ìgbóná Náà",
-        "videoOffset": 331.844,
+        "videoOffset": 334.844,
         "words": [
           {
             "text": "Ní",
@@ -4432,7 +4470,7 @@
       {
         "id": 10,
         "title": "Ihò Ní Ẹ̀bá Adágún",
-        "videoOffset": 367.346,
+        "videoOffset": 370.346,
         "words": [
           {
             "text": "Onà",
@@ -5029,7 +5067,7 @@
       {
         "id": 11,
         "title": "Ìgbóná Papọ̀",
-        "videoOffset": 409.953,
+        "videoOffset": 412.953,
         "words": [
           {
             "text": "Ní",
@@ -5536,7 +5574,7 @@
       {
         "id": 12,
         "title": "Àlàáfíà Àti Ìfẹ́",
-        "videoOffset": 451.956,
+        "videoOffset": 454.956,
         "words": [
           {
             "text": "Adágún",
@@ -6030,9 +6068,42 @@
     "videoPath": "videos/story_2_english.mp4",
     "scenes": [
       {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Theo",
+            "start": 0.15,
+            "end": 0.67
+          },
+          {
+            "text": "àti",
+            "start": 0.67,
+            "end": 1.19
+          },
+          {
+            "text": "Àwọn",
+            "start": 1.19,
+            "end": 1.71
+          },
+          {
+            "text": "Òkúta",
+            "start": 1.71,
+            "end": 2.23
+          },
+          {
+            "text": "Ìrekọjá",
+            "start": 2.23,
+            "end": 2.75
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": "Odò Tó Ń Kọrin",
-        "videoOffset": 0.0,
+        "videoOffset": 3.0,
         "words": [
           {
             "text": "Oòrùn",
@@ -6699,7 +6770,7 @@
       {
         "id": 2,
         "title": "Ọ̀rẹ́ Kan Lẹ́gbẹ̀ẹ́ Ẹ̀ṣọ̀",
-        "videoOffset": 49.34,
+        "videoOffset": 52.34,
         "words": [
           {
             "text": "Opoló",
@@ -7311,7 +7382,7 @@
       {
         "id": 3,
         "title": "Ìfò Ọ̀pọ̀lọ́",
-        "videoOffset": 95.522,
+        "videoOffset": 98.522,
         "words": [
           {
             "text": "Opoló",
@@ -7833,7 +7904,7 @@
       {
         "id": 4,
         "title": "Theo Gbìyànjú Nìkan",
-        "videoOffset": 136.828,
+        "videoOffset": 139.828,
         "words": [
           {
             "text": "Theo",
@@ -8265,7 +8336,7 @@
       {
         "id": 5,
         "title": "Dídúró àti Wíwo",
-        "videoOffset": 178.831,
+        "videoOffset": 181.831,
         "words": [
           {
             "text": "Opoló",
@@ -8912,7 +8983,7 @@
       {
         "id": 6,
         "title": "Ètò Kan Bẹ̀rẹ̀ Sí Fara Hàn",
-        "videoOffset": 238.481,
+        "videoOffset": 241.481,
         "words": [
           {
             "text": "Theo",
@@ -9524,7 +9595,7 @@
       {
         "id": 7,
         "title": "Ọ̀pọ̀lọ́ Bọ́ Sínú Omi",
-        "videoOffset": 283.038,
+        "videoOffset": 286.038,
         "words": [
           {
             "text": "Opoló",
@@ -10051,7 +10122,7 @@
       {
         "id": 8,
         "title": "Òkúta Lẹ́yìn Òkúta",
-        "videoOffset": 323.09,
+        "videoOffset": 326.09,
         "words": [
           {
             "text": "Opoló",
@@ -10628,7 +10699,7 @@
       {
         "id": 9,
         "title": "Ìrekọjá",
-        "videoOffset": 366.672,
+        "videoOffset": 369.672,
         "words": [
           {
             "text": "Theo",
@@ -11165,7 +11236,7 @@
       {
         "id": 10,
         "title": "Ìhà Kejì",
-        "videoOffset": 408.814,
+        "videoOffset": 411.814,
         "words": [
           {
             "text": "Theo",
@@ -11822,7 +11893,7 @@
       {
         "id": 11,
         "title": "Ibi Tí Wọ́n Yẹ",
-        "videoOffset": 454.16,
+        "videoOffset": 457.16,
         "words": [
           {
             "text": "Osán",
@@ -12354,7 +12425,7 @@
       {
         "id": 12,
         "title": "Àlàáfíà àti Ìdákẹ́jẹ́ẹ́",
-        "videoOffset": 496.116,
+        "videoOffset": 499.116,
         "words": [
           {
             "text": "Odò",
@@ -13008,9 +13079,52 @@
     "videoPath": "videos/story_3_english.mp4",
     "scenes": [
       {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Theo",
+            "start": 0.15,
+            "end": 0.521
+          },
+          {
+            "text": "àti",
+            "start": 0.521,
+            "end": 0.893
+          },
+          {
+            "text": "Ohun",
+            "start": 0.893,
+            "end": 1.264
+          },
+          {
+            "text": "Ìṣúra",
+            "start": 1.264,
+            "end": 1.636
+          },
+          {
+            "text": "Inú",
+            "start": 1.636,
+            "end": 2.007
+          },
+          {
+            "text": "Adágún",
+            "start": 2.007,
+            "end": 2.379
+          },
+          {
+            "text": "Omi",
+            "start": 2.379,
+            "end": 2.75
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": "Ẹ̀tí Okun Ní Ìrọ̀lẹ́",
-        "videoOffset": 0.0,
+        "videoOffset": 3.0,
         "words": [
           {
             "text": "Oòrùn",
@@ -13702,7 +13816,7 @@
       {
         "id": 2,
         "title": "Ohun Ìṣúra Tí Ó Dì Mọ́",
-        "videoOffset": 50.177,
+        "videoOffset": 53.177,
         "words": [
           {
             "text": "Àwon",
@@ -14414,7 +14528,7 @@
       {
         "id": 3,
         "title": "Ìgbìyànjú Àkọ́kọ́ Ọ̀pọ̀lọ́",
-        "videoOffset": 99.471,
+        "videoOffset": 102.471,
         "words": [
           {
             "text": "Opoló",
@@ -14941,7 +15055,7 @@
       {
         "id": 4,
         "title": "Èrò Òkéré",
-        "videoOffset": 137.202,
+        "videoOffset": 140.202,
         "words": [
           {
             "text": "Òkéré",
@@ -15458,7 +15572,7 @@
       {
         "id": 5,
         "title": "Àkókò Ìyèméjì",
-        "videoOffset": 174.05,
+        "videoOffset": 177.05,
         "words": [
           {
             "text": "Àwon",
@@ -15935,7 +16049,7 @@
       {
         "id": 6,
         "title": "Theo Ronú Dáadáa",
-        "videoOffset": 210.016,
+        "videoOffset": 213.016,
         "words": [
           {
             "text": "Theo",
@@ -16497,7 +16611,7 @@
       {
         "id": 7,
         "title": "Ìmúra Fún Ètò Náà",
-        "videoOffset": 251.462,
+        "videoOffset": 254.462,
         "words": [
           {
             "text": "Theo",
@@ -17054,7 +17168,7 @@
       {
         "id": 8,
         "title": "Gbogbo Wa Papọ̀ Nísinsìnyí",
-        "videoOffset": 290.911,
+        "videoOffset": 293.911,
         "words": [
           {
             "text": "Òkéré",
@@ -17541,7 +17655,7 @@
       {
         "id": 9,
         "title": "Ìkarawun Nínú Ìmọ́lẹ̀",
-        "videoOffset": 326.877,
+        "videoOffset": 329.877,
         "words": [
           {
             "text": "Opoló",
@@ -17998,7 +18112,7 @@
       {
         "id": 10,
         "title": "Ẹ̀bùn Fún Gbogbo Wa",
-        "videoOffset": 359.824,
+        "videoOffset": 362.824,
         "words": [
           {
             "text": "Opoló",
@@ -18680,7 +18794,7 @@
       {
         "id": 11,
         "title": "Ohun Tí Wọ́n Kọ́",
-        "videoOffset": 406.238,
+        "videoOffset": 409.238,
         "words": [
           {
             "text": "Àwon",
@@ -19142,7 +19256,7 @@
       {
         "id": 12,
         "title": "Ààbò Lórí Yanrìn",
-        "videoOffset": 444.619,
+        "videoOffset": 447.619,
         "words": [
           {
             "text": "Ìmóle",

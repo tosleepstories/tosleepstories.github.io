@@ -121,6 +121,17 @@
       color: var(--navy);
     }
 
+    @media (min-width: 641px) {
+      .nav-primary {
+        justify-content: space-between;
+        gap: 16px;
+      }
+
+      .back-link {
+        padding-left: 0;
+      }
+    }
+
     /* ── MAIN CONTENT ── */
     .page-content {
       flex: 1;
@@ -478,7 +489,23 @@
       -webkit-overflow-scrolling: touch;
     }
 
-    .scene-block { margin-bottom: 48px; }
+    .scene-block.title-block {
+      text-align: center;
+      margin-bottom: 56px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(200, 152, 51, 0.15);
+    }
+
+    .title-block .scene-title {
+      text-align: center;
+      opacity: 0.85;
+    }
+
+    .title-block .scene-text {
+      text-align: center;
+      font-size: 1.55rem;
+      line-height: 1.85;
+    }
 
     .scene-title {
       font-size: 0.7rem;
@@ -748,6 +775,7 @@
         gap: 10px;
       }
       .nav-primary {
+        justify-content: center;
         gap: 36px;
       }
       .nav-logo img { height: 42px; }
@@ -816,12 +844,11 @@
 
     <!-- Welcome banner -->
     <div class="welcome-banner">
-      <h1 id="ui-welcome-title">🌙 Record the story in your voice</h1>
+      <h1 id="ui-welcome-title">🌙 Your voice, their bedtime story</h1>
       <p id="ui-welcome-body">
-        This tool is for grandparents and parents who want to read a bedtime story in
-        their own voice. Pick a language above, choose a story, and follow the
-        highlighted words as you read along. You can save your recording and share it
-        with the children you love.
+        When you cannot be there at bedtime, recording in your own voice is the closest thing to
+        reading the story yourself. Pick a language, choose a tale, and follow the highlighted words —
+        starting with the title on screen. Save the video and share it with the children you love.
       </p>
       <p>
         <span class="privacy-note" id="ui-privacy">
@@ -899,7 +926,8 @@
 <!-- Story data loaded per language via fetch (see script below) -->
 
 <script>
-const DATA_VERSION = '20260610';
+const DATA_VERSION = '20260611';
+const TITLE_CARD_SEC = 3;
 const LEGACY_LANGS = ['english', 'yoruba', 'igbo', 'hausa', 'swahili'];
 const STORIES_CACHE = {};
 let currentStories = [];
@@ -922,12 +950,13 @@ const LANG_LABELS = {
 
 const UI_STRINGS = {
   english: {
-    welcomeTitle: '🌙 Record the story in your voice',
-    welcomeBody: 'This tool is for grandparents and parents who want to read a bedtime story in their own voice. Pick a language above, choose a story, and follow the highlighted words as you read along. You can save your recording and share it with the children you love.',
+    welcomeTitle: '🌙 Your voice, their bedtime story',
+    welcomeBody: 'When you cannot be there at bedtime, recording in your own voice is the closest thing to reading the story yourself. Pick a language, choose a tale, and follow the highlighted words — starting with the title on screen. Save the video and share it with the children you love.',
     privacy: '🔒 Your recording never leaves your device — we don\'t store any files on our servers.',
     pickStory: 'Choose a story',
     storyLabel: 'Story',
     startRecording: 'Record story',
+    titleIntro: 'Read the title aloud',
     pause: 'Pause',
     resume: 'Resume',
     ready: 'Ready',
@@ -948,12 +977,13 @@ const UI_STRINGS = {
     preparingVideo: 'Preparing your video…',
   },
   yoruba: {
-    welcomeTitle: '🌙 Ṣe igbasilẹ ìtàn ní ohùn rẹ',
-    welcomeBody: 'Irọrun yìí wà fún àwọn baba-àgbà àti àwọn obi tí wọ́n fẹ́ kà ítàn alẹ́ ní ohùn tirẹ̀. Yàn èdè lókè, yàn ìtàn kan, kí o sì tẹ̀lé àwọn ọ̀rọ̀ tí a gbé síwájú bí o ṣe ń kà. O lè fi igbasilẹ rẹ pamọ́ kí o sì pín pẹ̀lú àwọn ọmọ tí o fẹ́ràn.',
+    welcomeTitle: '🌙 Ohùn rẹ, ìtàn alẹ́ wọn',
+    welcomeBody: 'Nígbà tí o kò lè wà níbí ní àsìkò alẹ́, igbasilẹ ní ohùn tirẹ ni ohun tó súnmọ́ kíkà ítàn fun wọn. Yàn èdè, yàn ìtàn kan, kí o sì tẹ̀lé àwọn ọ̀rọ̀ tí a gbé síwájú — bẹ̀rẹ̀ pẹ̀lú àkọlé lórí iboju. Fi fáìlì náà pamọ́ kí o sì pín pẹ̀lú àwọn ọmọ tí o fẹ́ràn.',
     privacy: '🔒 Igbasilẹ rẹ kò kọja lórí ẹ̀rọ rẹ — a kò fi fáìlì pamọ́ lórí sẹ́fà wa.',
     pickStory: 'Yàn ìtàn kan',
     storyLabel: 'Ìtàn',
     startRecording: 'Ṣe igbasilẹ ìtàn',
+    titleIntro: 'Kà orúkọ ìtàn ní ohùn gíga',
     pause: 'Duro',
     resume: 'Tẹsiwaju',
     ready: 'Ṣetan',
@@ -972,12 +1002,13 @@ const UI_STRINGS = {
     micDenied: 'A kọ̀ àyè gbohùngbohùn. Jọ̀wọ́ fàyè gba gbohùngbohùn láti ṣe igbasilẹ.',
   },
   igbo: {
-    welcomeTitle: '🌙 Dee akụkọ n\'olu gị',
-    welcomeBody: 'Ngwa a bụ maka ndị dị okenye na ndị nne na nna chọrọ ịgụ akụkọ ụra n\'olu ha. Họrọ asụsụ n\'elu, họrọ akụkọ, soro mkpụrụ okwu ndị a na-egosipụta ka ị na-agụ. Ị nwere ike chekwaa ndekọ gị ma kesaa ya na ụmụ ị hụrụ n\'anya.',
+    welcomeTitle: '🌙 Olụ gị, akụkọ ụra ha',
+    welcomeBody: 'Mgbe ị nweghị ike ịnọ ebe ahụ n\'oge ụra, idekọ n\'olu gị bụ ihe kacha nso nke ịgụ akụkọ maka ha. Họrọ asụsụ, họrọ akụkọ, soro mkpụrụ okwu ndị a na-egosipụta — malite site na isiokwu na ihuenyo. Chekwaa vidiyo ahụ ma kesaa ya na ụmụ ị hụrụ n\'anya.',
     privacy: '🔒 Ndekọ gị anaghị apụ na ngwaọrụ gị — anyị anaghị echekwa faịlụ na sava anyị.',
     pickStory: 'Họrọ akụkọ',
     storyLabel: 'Akụkọ',
     startRecording: 'Dee akụkọ',
+    titleIntro: 'Gụọ isiokwu n\'olu dị elu',
     pause: 'Kwụsịtụ',
     resume: 'Gaa n\'ihu',
     ready: 'Njikere',
@@ -996,12 +1027,13 @@ const UI_STRINGS = {
     micDenied: 'Megidere igweokwu. Biko kwe ka igweokwu ka ị dee ndekọ.',
   },
   hausa: {
-    welcomeTitle: '🌙 Rikodi labarin da muryar ku',
-    welcomeBody: 'Wannan kayan aikin ne ga kakanni da iyaye da suke son karanta labarin barci da muryarsu. Zaɓi harshe a sama, zaɓi labari, kuma bi kalmomin da aka haskaka yayin da kuke karantawa. Kuna iya adana rikodin ku da raba shi da yara da kuke so.',
+    welcomeTitle: '🌙 Muryarku, labarin barcin su',
+    welcomeBody: 'A lokacin da ba za ku iya kasancewa a gefe ba a lokacin barci, rikodin da muryarku shine mafi kusa da karanta labarin da kanku. Zaɓi harshe, zaɓi labari, bi kalmomin da aka haskaka — fara da taken da ke kan allo. Ajiye bidiyo kuma raba shi da yara da kuke so.',
     privacy: '🔒 Rikodin ku ba ya barin na\'urarku — ba mu adana fayiloli a sabar mu ba.',
     pickStory: 'Zaɓi labari',
     storyLabel: 'Labari',
     startRecording: 'Rikodi labari',
+    titleIntro: 'Karanta taken da babbar murya',
     pause: 'Dakata',
     resume: 'Ci gaba',
     ready: 'A shirya',
@@ -1020,12 +1052,13 @@ const UI_STRINGS = {
     micDenied: 'An hana mikrofon. Don Allah bada izinin mikrofon don rikodi.',
   },
   swahili: {
-    welcomeTitle: '🌙 Rekodi hadithi kwa sauti yako',
-    welcomeBody: 'Zana hii ni kwa ajili ya babu na wazazi wanaotaka kusoma hadithi ya kulala kwa sauti yao. Chagua lugha hapo juu, chagua hadithi, na fuata maneno yaliyowekwa alama unaposoma. Unaweza kuhifadhi rekodi yako na kuishiriki na watoto unaowapenda.',
+    welcomeTitle: '🌙 Sauti yako, hadithi yao ya kulala',
+    welcomeBody: 'Unapoweza kuwepo wakati wa kulala, kurekodi kwa sauti yako ndiyo jambo la karibu zaidi na kusoma hadithi mwenyewe. Chagua lugha, chagua hadithi, fuata maneno yaliyowekwa alama — anza na kichwa kinachoonekana skrini. Hifadhi video na uishiriki na watoto unaowapenda.',
     privacy: '🔒 Rekodi yako haiondoki kwenye kifaa chako — hatuhifadhi faili kwenye seva zetu.',
     pickStory: 'Chagua hadithi',
     storyLabel: 'Hadithi',
     startRecording: 'Rekodi hadithi',
+    titleIntro: 'Soma kichwa cha habari kwa sauti',
     pause: 'Simamisha',
     resume: 'Endelea',
     ready: 'Tayari',
@@ -1350,12 +1383,48 @@ function backToStories() {
 }
 
 // ── Karaoke ──────────────────────────────────────────────────────────────
+function titleWordsFromTitle(title, duration = TITLE_CARD_SEC) {
+  const parts = String(title || '').trim().split(/\s+/).filter(Boolean);
+  if (!parts.length) return [];
+  const startPad = 0.15;
+  const endPad = 0.25;
+  const speakWindow = Math.max(duration - startPad - endPad, 0.5);
+  const slot = speakWindow / parts.length;
+  return parts.map((text, i) => {
+    const start = startPad + i * slot;
+    let end = startPad + (i + 1) * slot;
+    if (i === parts.length - 1) end = duration - endPad;
+    return { text, start, end };
+  });
+}
+
+function withTitleScene(variant) {
+  if (!variant || !variant.scenes || !variant.scenes.length) return variant;
+  if (variant.scenes[0].isTitle) return variant;
+  if ((variant.scenes[0].videoOffset || 0) >= TITLE_CARD_SEC - 0.05) return variant;
+
+  const titleWords = titleWordsFromTitle(variant.title);
+  if (!titleWords.length) return variant;
+
+  return {
+    ...variant,
+    scenes: [
+      { id: 0, title: '', isTitle: true, videoOffset: 0, words: titleWords },
+      ...variant.scenes.map(scene => ({
+        ...scene,
+        videoOffset: (scene.videoOffset || 0) + TITLE_CARD_SEC,
+      })),
+    ],
+  };
+}
+
 function buildKaraoke(variant) {
+  const story = withTitleScene(variant);
   const area = document.getElementById('karaoke-area');
   area.innerHTML = '';
   allWords = [];
 
-  if (!variant.scenes || variant.scenes.length === 0) {
+  if (!story.scenes || story.scenes.length === 0) {
     area.innerHTML = `<div style="text-align:center;padding:60px 20px;color:var(--text-dim);font-size:0.92rem;">
       <p style="font-size:2rem;margin-bottom:14px;opacity:0.35;">🌙</p>
       <p>${ui('comingSoon')}</p>
@@ -1363,13 +1432,17 @@ function buildKaraoke(variant) {
     return;
   }
 
-  variant.scenes.forEach(scene => {
+  story.scenes.forEach(scene => {
     const block = document.createElement('div');
-    block.className = 'scene-block';
+    block.className = scene.isTitle ? 'scene-block title-block' : 'scene-block';
 
     const titleEl = document.createElement('div');
     titleEl.className = 'scene-title';
-    titleEl.textContent = scene.title ? `Scene ${scene.id} · ${scene.title}` : `Scene ${scene.id}`;
+    if (scene.isTitle) {
+      titleEl.textContent = ui('titleIntro');
+    } else {
+      titleEl.textContent = scene.title ? `Scene ${scene.id} · ${scene.title}` : `Scene ${scene.id}`;
+    }
     block.appendChild(titleEl);
 
     const textEl = document.createElement('div');

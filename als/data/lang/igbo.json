@@ -7,9 +7,47 @@
     "videoPath": "videos/story_1_english.mp4",
     "scenes": [
       {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Luna",
+            "start": 0.15,
+            "end": 0.583
+          },
+          {
+            "text": "na",
+            "start": 0.583,
+            "end": 1.017
+          },
+          {
+            "text": "Edidi",
+            "start": 1.017,
+            "end": 1.45
+          },
+          {
+            "text": "Nke",
+            "start": 1.45,
+            "end": 1.883
+          },
+          {
+            "text": "Furu",
+            "start": 1.883,
+            "end": 2.317
+          },
+          {
+            "text": "Efu",
+            "start": 2.317,
+            "end": 2.75
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": "Ọdọ Mmiri Kpọrọ Nkụ N'isi Ụtụtụ",
-        "videoOffset": 0.0,
+        "videoOffset": 3.0,
         "words": [
           {
             "text": "Odo",
@@ -581,7 +619,7 @@
       {
         "id": 2,
         "title": "Enyi Na-Ama Jịjịjị",
-        "videoOffset": 38.939,
+        "videoOffset": 41.939,
         "words": [
           {
             "text": "N'akuku",
@@ -1188,7 +1226,7 @@
       {
         "id": 3,
         "title": "Echiche Mbụ Nke Luna",
-        "videoOffset": 91.623,
+        "videoOffset": 94.623,
         "words": [
           {
             "text": "N'odo",
@@ -1725,7 +1763,7 @@
       {
         "id": 4,
         "title": "Ịchọgharị Akụkụ Ọdọ Mmiri",
-        "videoOffset": 123.966,
+        "videoOffset": 126.966,
         "words": [
           {
             "text": "Luna",
@@ -2292,7 +2330,7 @@
       {
         "id": 5,
         "title": "Oge Obi Abụọ",
-        "videoOffset": 162.672,
+        "videoOffset": 165.672,
         "words": [
           {
             "text": "N'odo",
@@ -2789,7 +2827,7 @@
       {
         "id": 6,
         "title": "Osisi Dakwara Ada",
-        "videoOffset": 195.572,
+        "videoOffset": 198.572,
         "words": [
           {
             "text": "Luna",
@@ -3386,7 +3424,7 @@
       {
         "id": 7,
         "title": "Ísì Ọ Maara",
-        "videoOffset": 236.368,
+        "videoOffset": 239.368,
         "words": [
           {
             "text": "Luna",
@@ -3848,7 +3886,7 @@
       {
         "id": 8,
         "title": "Ihe Ebube Nwayọọ",
-        "videoOffset": 274.006,
+        "videoOffset": 277.006,
         "words": [
           {
             "text": "N'otu",
@@ -4455,7 +4493,7 @@
       {
         "id": 9,
         "title": "Ịsọ Ísì Ọkụ Ahụ",
-        "videoOffset": 315.127,
+        "videoOffset": 318.127,
         "words": [
           {
             "text": "N'akuku",
@@ -5017,7 +5055,7 @@
       {
         "id": 10,
         "title": "Ụlọ Edidi N'akụkụ Ọdọ Mmiri",
-        "videoOffset": 366.418,
+        "videoOffset": 369.418,
         "words": [
           {
             "text": "Uzo",
@@ -5584,7 +5622,7 @@
       {
         "id": 11,
         "title": "Ịdị Ọkụ Ọnụ",
-        "videoOffset": 407.027,
+        "videoOffset": 410.027,
         "words": [
           {
             "text": "N'odo",
@@ -6181,7 +6219,7 @@
       {
         "id": 12,
         "title": "N'udo na N'ahụ Ike",
-        "videoOffset": 448.473,
+        "videoOffset": 451.473,
         "words": [
           {
             "text": "Odo",
@@ -6690,9 +6728,37 @@
     "videoPath": "videos/story_2_english.mp4",
     "scenes": [
       {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Theo",
+            "start": 0.15,
+            "end": 0.8
+          },
+          {
+            "text": "na",
+            "start": 0.8,
+            "end": 1.45
+          },
+          {
+            "text": "Nkwume",
+            "start": 1.45,
+            "end": 2.1
+          },
+          {
+            "text": "Ịgafe",
+            "start": 2.1,
+            "end": 2.75
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": "Iyi Ahụ Na-Abụ Abụ",
-        "videoOffset": 0.0,
+        "videoOffset": 3.0,
         "words": [
           {
             "text": "Anyanwu",
@@ -7289,7 +7355,7 @@
       {
         "id": 2,
         "title": "Enyi N'akụkụ Achara",
-        "videoOffset": 51.105,
+        "videoOffset": 54.105,
         "words": [
           {
             "text": "Otu",
@@ -7841,7 +7907,7 @@
       {
         "id": 3,
         "title": "Ọwụ Awọ Gbara Ọsọ",
-        "videoOffset": 98.077,
+        "videoOffset": 101.077,
         "words": [
           {
             "text": "Awo",
@@ -8298,7 +8364,7 @@
       {
         "id": 4,
         "title": "Theo Nwara Onwe Ya",
-        "videoOffset": 136.179,
+        "videoOffset": 139.179,
         "words": [
           {
             "text": "Theo",
@@ -8735,7 +8801,7 @@
       {
         "id": 5,
         "title": "Ichere Na Ile Anya",
-        "videoOffset": 173.631,
+        "videoOffset": 176.631,
         "words": [
           {
             "text": "Awo",
@@ -9302,7 +9368,7 @@
       {
         "id": 6,
         "title": "Atụmatụ Na-Apụta Ìhè",
-        "videoOffset": 217.445,
+        "videoOffset": 220.445,
         "words": [
           {
             "text": "Theo",
@@ -9839,7 +9905,7 @@
       {
         "id": 7,
         "title": "Awọ Ahụ Mịbara N'ime Mmiri",
-        "videoOffset": 264.51,
+        "videoOffset": 267.51,
         "words": [
           {
             "text": "Awo",
@@ -10266,7 +10332,7 @@
       {
         "id": 8,
         "title": "Nkwume Site Na Nkwume",
-        "videoOffset": 305.027,
+        "videoOffset": 308.027,
         "words": [
           {
             "text": "Awo",
@@ -10733,7 +10799,7 @@
       {
         "id": 9,
         "title": "Ịgafe",
-        "videoOffset": 347.68,
+        "videoOffset": 350.68,
         "words": [
           {
             "text": "Theo",
@@ -11280,7 +11346,7 @@
       {
         "id": 10,
         "title": "Ofe Nke Ọzọ",
-        "videoOffset": 393.77,
+        "videoOffset": 396.77,
         "words": [
           {
             "text": "Theo",
@@ -11922,7 +11988,7 @@
       {
         "id": 11,
         "title": "Ebe Ha Bụ Nke Ha",
-        "videoOffset": 442.368,
+        "videoOffset": 445.368,
         "words": [
           {
             "text": "Ehihie",
@@ -12419,7 +12485,7 @@
       {
         "id": 12,
         "title": "Udo Na Nkwụsị",
-        "videoOffset": 482.188,
+        "videoOffset": 485.188,
         "words": [
           {
             "text": "Iyi",
@@ -13073,9 +13139,57 @@
     "videoPath": "videos/story_3_english.mp4",
     "scenes": [
       {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Theo",
+            "start": 0.15,
+            "end": 0.475
+          },
+          {
+            "text": "na",
+            "start": 0.475,
+            "end": 0.8
+          },
+          {
+            "text": "Akụ",
+            "start": 0.8,
+            "end": 1.125
+          },
+          {
+            "text": "Ọma",
+            "start": 1.125,
+            "end": 1.45
+          },
+          {
+            "text": "Nke",
+            "start": 1.45,
+            "end": 1.775
+          },
+          {
+            "text": "Ọdọ",
+            "start": 1.775,
+            "end": 2.1
+          },
+          {
+            "text": "Ebili",
+            "start": 2.1,
+            "end": 2.425
+          },
+          {
+            "text": "Mmiri",
+            "start": 2.425,
+            "end": 2.75
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": "Ehihie n'Ụsọ Mmiri",
-        "videoOffset": 0.0,
+        "videoOffset": 3.0,
         "words": [
           {
             "text": "Anyanwu",
@@ -13647,7 +13761,7 @@
       {
         "id": 2,
         "title": "Akụ Ọma Ahụ Raara Arara",
-        "videoOffset": 52.033,
+        "videoOffset": 55.033,
         "words": [
           {
             "text": "Ndi",
@@ -14404,7 +14518,7 @@
       {
         "id": 3,
         "title": "Mbọ Nke Mbụ Nke Awọ",
-        "videoOffset": 111.822,
+        "videoOffset": 114.822,
         "words": [
           {
             "text": "Awo",
@@ -14956,7 +15070,7 @@
       {
         "id": 4,
         "title": "Echiche Ọsa",
-        "videoOffset": 155.126,
+        "videoOffset": 158.126,
         "words": [
           {
             "text": "Osa",
@@ -15508,7 +15622,7 @@
       {
         "id": 5,
         "title": "Oge Obi Abụọ",
-        "videoOffset": 200.101,
+        "videoOffset": 203.101,
         "words": [
           {
             "text": "Ndi",
@@ -16025,7 +16139,7 @@
       {
         "id": 6,
         "title": "Theo Na-Eche Echiche Nke Ọma",
-        "videoOffset": 241.779,
+        "videoOffset": 244.779,
         "words": [
           {
             "text": "Theo",
@@ -16582,7 +16696,7 @@
       {
         "id": 7,
         "title": "Idozi Atụmatụ Ahụ",
-        "videoOffset": 287.591,
+        "videoOffset": 290.591,
         "words": [
           {
             "text": "Theo",
@@ -17034,7 +17148,7 @@
       {
         "id": 8,
         "title": "Ha Niile Ọnụ Ugbu A",
-        "videoOffset": 326.204,
+        "videoOffset": 329.204,
         "words": [
           {
             "text": "Osa",
@@ -17556,7 +17670,7 @@
       {
         "id": 9,
         "title": "Nkwụ Ahụ N'ìhè",
-        "videoOffset": 368.347,
+        "videoOffset": 371.347,
         "words": [
           {
             "text": "Awo",
@@ -18093,7 +18207,7 @@
       {
         "id": 10,
         "title": "Onyinye Maka Onye Ọ Bụla",
-        "videoOffset": 409.746,
+        "videoOffset": 412.746,
         "words": [
           {
             "text": "Awo",
@@ -18690,7 +18804,7 @@
       {
         "id": 11,
         "title": "Ihe Ha Mụtara",
-        "videoOffset": 455.696,
+        "videoOffset": 458.696,
         "words": [
           {
             "text": "Ndi",
@@ -19242,7 +19356,7 @@
       {
         "id": 12,
         "title": "N'Udo N'elu Aja",
-        "videoOffset": 497.931,
+        "videoOffset": 500.931,
         "words": [
           {
             "text": "Ìhè",

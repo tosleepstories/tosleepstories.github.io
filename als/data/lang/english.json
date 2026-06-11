@@ -7,9 +7,42 @@
     "videoPath": "videos/story_1_english.mp4",
     "scenes": [
       {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Luna",
+            "start": 0.15,
+            "end": 0.67
+          },
+          {
+            "text": "and",
+            "start": 0.67,
+            "end": 1.19
+          },
+          {
+            "text": "the",
+            "start": 1.19,
+            "end": 1.71
+          },
+          {
+            "text": "Lost",
+            "start": 1.71,
+            "end": 2.23
+          },
+          {
+            "text": "Hedgehog",
+            "start": 2.23,
+            "end": 2.75
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": "The Frozen Pond at Dawn",
-        "videoOffset": 0.0,
+        "videoOffset": 3.0,
         "words": [
           {
             "text": "The",
@@ -556,7 +589,7 @@
       {
         "id": 2,
         "title": "A Shivering Friend",
-        "videoOffset": 49.898,
+        "videoOffset": 52.898,
         "words": [
           {
             "text": "At",
@@ -1143,7 +1176,7 @@
       {
         "id": 3,
         "title": "Luna's First Idea",
-        "videoOffset": 96.777,
+        "videoOffset": 99.777,
         "words": [
           {
             "text": "At",
@@ -1670,7 +1703,7 @@
       {
         "id": 4,
         "title": "Searching the Pond's Edge",
-        "videoOffset": 144.446,
+        "videoOffset": 147.446,
         "words": [
           {
             "text": "Luna",
@@ -2162,7 +2195,7 @@
       {
         "id": 5,
         "title": "A Moment of Doubt",
-        "videoOffset": 191.511,
+        "videoOffset": 194.511,
         "words": [
           {
             "text": "At",
@@ -2649,7 +2682,7 @@
       {
         "id": 6,
         "title": "The Fallen Log",
-        "videoOffset": 230.31,
+        "videoOffset": 233.31,
         "words": [
           {
             "text": "Luna",
@@ -3236,7 +3269,7 @@
       {
         "id": 7,
         "title": "A Familiar Scent",
-        "videoOffset": 283.04,
+        "videoOffset": 286.04,
         "words": [
           {
             "text": "Luna",
@@ -3723,7 +3756,7 @@
       {
         "id": 8,
         "title": "The Soft Magical Twist",
-        "videoOffset": 325.786,
+        "videoOffset": 328.786,
         "words": [
           {
             "text": "Just",
@@ -4285,7 +4318,7 @@
       {
         "id": 9,
         "title": "Following the Warmth",
-        "videoOffset": 382.371,
+        "videoOffset": 385.371,
         "words": [
           {
             "text": "At",
@@ -4882,7 +4915,7 @@
       {
         "id": 10,
         "title": "The Burrow at the Bank",
-        "videoOffset": 437.517,
+        "videoOffset": 440.517,
         "words": [
           {
             "text": "The",
@@ -5499,7 +5532,7 @@
       {
         "id": 11,
         "title": "Warm Together",
-        "videoOffset": 495.356,
+        "videoOffset": 498.356,
         "words": [
           {
             "text": "At",
@@ -6061,7 +6094,7 @@
       {
         "id": 12,
         "title": "Safe and Sound",
-        "videoOffset": 547.483,
+        "videoOffset": 550.483,
         "words": [
           {
             "text": "The",
@@ -6590,9 +6623,42 @@
     "videoPath": "videos/story_2_english.mp4",
     "scenes": [
       {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Theo",
+            "start": 0.15,
+            "end": 0.67
+          },
+          {
+            "text": "and",
+            "start": 0.67,
+            "end": 1.19
+          },
+          {
+            "text": "the",
+            "start": 1.19,
+            "end": 1.71
+          },
+          {
+            "text": "Stepping",
+            "start": 1.71,
+            "end": 2.23
+          },
+          {
+            "text": "Stones",
+            "start": 2.23,
+            "end": 2.75
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": "The Stream That Sang",
-        "videoOffset": 0.0,
+        "videoOffset": 3.0,
         "words": [
           {
             "text": "The",
@@ -7209,7 +7275,7 @@
       {
         "id": 2,
         "title": "A Friend by the Reeds",
-        "videoOffset": 55.47,
+        "videoOffset": 58.47,
         "words": [
           {
             "text": "A",
@@ -7816,7 +7882,7 @@
       {
         "id": 3,
         "title": "The Frog's Quick Leap",
-        "videoOffset": 110.848,
+        "videoOffset": 113.848,
         "words": [
           {
             "text": "The",
@@ -8323,7 +8389,7 @@
       {
         "id": 4,
         "title": "Theo Tries Alone",
-        "videoOffset": 150.807,
+        "videoOffset": 153.807,
         "words": [
           {
             "text": "Theo",
@@ -8790,7 +8856,7 @@
       {
         "id": 5,
         "title": "Waiting and Watching",
-        "videoOffset": 192.021,
+        "videoOffset": 195.021,
         "words": [
           {
             "text": "The",
@@ -9347,7 +9413,7 @@
       {
         "id": 6,
         "title": "A Plan Takes Shape",
-        "videoOffset": 243.265,
+        "videoOffset": 246.265,
         "words": [
           {
             "text": "Theo",
@@ -9969,7 +10035,7 @@
       {
         "id": 7,
         "title": "The Frog Dives In",
-        "videoOffset": 294.23,
+        "videoOffset": 297.23,
         "words": [
           {
             "text": "The",
@@ -10456,7 +10522,7 @@
       {
         "id": 8,
         "title": "Stone by Stone",
-        "videoOffset": 338.23,
+        "videoOffset": 341.23,
         "words": [
           {
             "text": "The",
@@ -10953,7 +11019,7 @@
       {
         "id": 9,
         "title": "The Crossing",
-        "videoOffset": 378.236,
+        "videoOffset": 381.236,
         "words": [
           {
             "text": "Theo",
@@ -11505,7 +11571,7 @@
       {
         "id": 10,
         "title": "The Other Side",
-        "videoOffset": 429.248,
+        "videoOffset": 432.248,
         "words": [
           {
             "text": "Theo",
@@ -12162,7 +12228,7 @@
       {
         "id": 11,
         "title": "Where They Belong",
-        "videoOffset": 490.709,
+        "videoOffset": 493.709,
         "words": [
           {
             "text": "The",
@@ -12694,7 +12760,7 @@
       {
         "id": 12,
         "title": "Safe and Still",
-        "videoOffset": 535.824,
+        "videoOffset": 538.824,
         "words": [
           {
             "text": "The",
@@ -13323,9 +13389,52 @@
     "videoPath": "videos/story_3_english.mp4",
     "scenes": [
       {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Theo",
+            "start": 0.15,
+            "end": 0.521
+          },
+          {
+            "text": "and",
+            "start": 0.521,
+            "end": 0.893
+          },
+          {
+            "text": "the",
+            "start": 0.893,
+            "end": 1.264
+          },
+          {
+            "text": "Tide",
+            "start": 1.264,
+            "end": 1.636
+          },
+          {
+            "text": "Pool",
+            "start": 1.636,
+            "end": 2.007
+          },
+          {
+            "text": "Treasure",
+            "start": 2.007,
+            "end": 2.379
+          },
+          {
+            "text": "(english)",
+            "start": 2.379,
+            "end": 2.75
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": "The Afternoon Beach",
-        "videoOffset": 0.0,
+        "videoOffset": 3.0,
         "words": [
           {
             "text": "The",
@@ -13947,7 +14056,7 @@
       {
         "id": 2,
         "title": "The Stuck Treasure",
-        "videoOffset": 55.795,
+        "videoOffset": 58.795,
         "words": [
           {
             "text": "The",
@@ -14664,7 +14773,7 @@
       {
         "id": 3,
         "title": "The Frog's First Try",
-        "videoOffset": 116.885,
+        "videoOffset": 119.885,
         "words": [
           {
             "text": "The",
@@ -15186,7 +15295,7 @@
       {
         "id": 4,
         "title": "The Squirrel's Idea",
-        "videoOffset": 162.603,
+        "videoOffset": 165.603,
         "words": [
           {
             "text": "The",
@@ -15708,7 +15817,7 @@
       {
         "id": 5,
         "title": "A Moment of Doubt",
-        "videoOffset": 207.068,
+        "videoOffset": 210.068,
         "words": [
           {
             "text": "The",
@@ -16190,7 +16299,7 @@
       {
         "id": 6,
         "title": "Theo Thinks It Through",
-        "videoOffset": 246.517,
+        "videoOffset": 249.517,
         "words": [
           {
             "text": "Theo",
@@ -16722,7 +16831,7 @@
       {
         "id": 7,
         "title": "Setting Up the Plan",
-        "videoOffset": 297.343,
+        "videoOffset": 300.343,
         "words": [
           {
             "text": "Theo",
@@ -17194,7 +17303,7 @@
       {
         "id": 8,
         "title": "All Together Now",
-        "videoOffset": 339.346,
+        "videoOffset": 342.346,
         "words": [
           {
             "text": "The",
@@ -17726,7 +17835,7 @@
       {
         "id": 9,
         "title": "The Shell in the Light",
-        "videoOffset": 386.364,
+        "videoOffset": 389.364,
         "words": [
           {
             "text": "The",
@@ -18298,7 +18407,7 @@
       {
         "id": 10,
         "title": "A Gift for Everyone",
-        "videoOffset": 428.786,
+        "videoOffset": 431.786,
         "words": [
           {
             "text": "The",
@@ -18930,7 +19039,7 @@
       {
         "id": 11,
         "title": "What They Learned",
-        "videoOffset": 482.538,
+        "videoOffset": 485.538,
         "words": [
           {
             "text": "The",
@@ -19462,7 +19571,7 @@
       {
         "id": 12,
         "title": "Safe on the Sand",
-        "videoOffset": 524.773,
+        "videoOffset": 527.773,
         "words": [
           {
             "text": "The",

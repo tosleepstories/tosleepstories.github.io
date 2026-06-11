@@ -7,9 +7,37 @@
     "videoPath": "videos/story_1_english.mp4",
     "scenes": [
       {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Luna",
+            "start": 0.15,
+            "end": 0.8
+          },
+          {
+            "text": "na",
+            "start": 0.8,
+            "end": 1.45
+          },
+          {
+            "text": "Kalunguyu",
+            "start": 1.45,
+            "end": 2.1
+          },
+          {
+            "text": "Aliyepotea",
+            "start": 2.1,
+            "end": 2.75
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": "Bwawa la Barafu Alfajiri",
-        "videoOffset": 0.0,
+        "videoOffset": 3.0,
         "words": [
           {
             "text": "Bwawa",
@@ -481,7 +509,7 @@
       {
         "id": 2,
         "title": "Rafiki Anayetetemeka",
-        "videoOffset": 57.467,
+        "videoOffset": 60.467,
         "words": [
           {
             "text": "Kule",
@@ -963,7 +991,7 @@
       {
         "id": 3,
         "title": "Wazo la Kwanza la Luna",
-        "videoOffset": 117.117,
+        "videoOffset": 120.117,
         "words": [
           {
             "text": "Hapo",
@@ -1425,7 +1453,7 @@
       {
         "id": 4,
         "title": "Kutafuta Kando ya Bwawa",
-        "videoOffset": 179.461,
+        "videoOffset": 182.461,
         "words": [
           {
             "text": "Luna",
@@ -1842,7 +1870,7 @@
       {
         "id": 5,
         "title": "Wakati wa Mashaka",
-        "videoOffset": 229.916,
+        "videoOffset": 232.916,
         "words": [
           {
             "text": "Hapo",
@@ -2209,7 +2237,7 @@
       {
         "id": 6,
         "title": "Gogo Lililoanguka",
-        "videoOffset": 271.872,
+        "videoOffset": 274.872,
         "words": [
           {
             "text": "Luna",
@@ -2681,7 +2709,7 @@
       {
         "id": 7,
         "title": "Harufu Inayofahamika",
-        "videoOffset": 332.032,
+        "videoOffset": 335.032,
         "words": [
           {
             "text": "Luna",
@@ -3103,7 +3131,7 @@
       {
         "id": 8,
         "title": "Mshangao Mtamu wa Upepo",
-        "videoOffset": 385.924,
+        "videoOffset": 388.924,
         "words": [
           {
             "text": "Hapo",
@@ -3605,7 +3633,7 @@
       {
         "id": 9,
         "title": "Kufuata Joto",
-        "videoOffset": 445.667,
+        "videoOffset": 448.667,
         "words": [
           {
             "text": "Kwenye",
@@ -4137,7 +4165,7 @@
       {
         "id": 10,
         "title": "Shimo Kando ya Bwawa",
-        "videoOffset": 506.896,
+        "videoOffset": 509.896,
         "words": [
           {
             "text": "Njia",
@@ -4654,7 +4682,7 @@
       {
         "id": 11,
         "title": "Joto Pamoja",
-        "videoOffset": 566.964,
+        "videoOffset": 569.964,
         "words": [
           {
             "text": "Hapo",
@@ -5116,7 +5144,7 @@
       {
         "id": 12,
         "title": "Salama na Amani",
-        "videoOffset": 626.986,
+        "videoOffset": 629.986,
         "words": [
           {
             "text": "Bwawa",
@@ -5615,9 +5643,42 @@
     "videoPath": "videos/story_2_english.mp4",
     "scenes": [
       {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Theo",
+            "start": 0.15,
+            "end": 0.67
+          },
+          {
+            "text": "na",
+            "start": 0.67,
+            "end": 1.19
+          },
+          {
+            "text": "Mawe",
+            "start": 1.19,
+            "end": 1.71
+          },
+          {
+            "text": "ya",
+            "start": 1.71,
+            "end": 2.23
+          },
+          {
+            "text": "Kuvukia",
+            "start": 2.23,
+            "end": 2.75
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": "Mto Uliokuwa Ukiimba",
-        "videoOffset": 0.0,
+        "videoOffset": 3.0,
         "words": [
           {
             "text": "Jua",
@@ -6159,7 +6220,7 @@
       {
         "id": 2,
         "title": "Rafiki Kando ya Matete",
-        "videoOffset": 60.579,
+        "videoOffset": 63.579,
         "words": [
           {
             "text": "Chura",
@@ -6681,7 +6742,7 @@
       {
         "id": 3,
         "title": "Chura Anaruka Haraka",
-        "videoOffset": 117.21,
+        "videoOffset": 120.21,
         "words": [
           {
             "text": "Chura",
@@ -7118,7 +7179,7 @@
       {
         "id": 4,
         "title": "Theo Anajaribu Peke Yake",
-        "videoOffset": 176.813,
+        "videoOffset": 179.813,
         "words": [
           {
             "text": "Theo",
@@ -7505,7 +7566,7 @@
       {
         "id": 5,
         "title": "Kusubiri na Kutazama",
-        "videoOffset": 218.631,
+        "videoOffset": 221.631,
         "words": [
           {
             "text": "Chura",
@@ -7972,7 +8033,7 @@
       {
         "id": 6,
         "title": "Mpango Unaundwa",
-        "videoOffset": 273.823,
+        "videoOffset": 276.823,
         "words": [
           {
             "text": "Theo",
@@ -8444,7 +8505,7 @@
       {
         "id": 7,
         "title": "Chura Anazama Ndani",
-        "videoOffset": 333.891,
+        "videoOffset": 336.891,
         "words": [
           {
             "text": "Chura",
@@ -8886,7 +8947,7 @@
       {
         "id": 8,
         "title": "Jiwe kwa Jiwe",
-        "videoOffset": 382.489,
+        "videoOffset": 385.489,
         "words": [
           {
             "text": "Chura",
@@ -9313,7 +9374,7 @@
       {
         "id": 9,
         "title": "Kuvuka",
-        "videoOffset": 441.071,
+        "videoOffset": 444.071,
         "words": [
           {
             "text": "Theo",
@@ -9815,7 +9876,7 @@
       {
         "id": 10,
         "title": "Ng'ambo ile Nyingine",
-        "videoOffset": 492.548,
+        "videoOffset": 495.548,
         "words": [
           {
             "text": "Theo",
@@ -10327,7 +10388,7 @@
       {
         "id": 11,
         "title": "Mahali Wanapopaswa Kuwa",
-        "videoOffset": 552.941,
+        "videoOffset": 555.941,
         "words": [
           {
             "text": "Alasiri",
@@ -10794,7 +10855,7 @@
       {
         "id": 12,
         "title": "Salama na Kimya",
-        "videoOffset": 612.87,
+        "videoOffset": 615.87,
         "words": [
           {
             "text": "Mto",
@@ -11358,9 +11419,52 @@
     "videoPath": "videos/story_3_english.mp4",
     "scenes": [
       {
+        "id": 0,
+        "title": "",
+        "isTitle": true,
+        "videoOffset": 0.0,
+        "words": [
+          {
+            "text": "Theo",
+            "start": 0.15,
+            "end": 0.521
+          },
+          {
+            "text": "na",
+            "start": 0.521,
+            "end": 0.893
+          },
+          {
+            "text": "Hazina",
+            "start": 0.893,
+            "end": 1.264
+          },
+          {
+            "text": "ya",
+            "start": 1.264,
+            "end": 1.636
+          },
+          {
+            "text": "Dimbwi",
+            "start": 1.636,
+            "end": 2.007
+          },
+          {
+            "text": "la",
+            "start": 2.007,
+            "end": 2.379
+          },
+          {
+            "text": "Maji",
+            "start": 2.379,
+            "end": 2.75
+          }
+        ]
+      },
+      {
         "id": 1,
         "title": "Ufukwe wa Alasiri",
-        "videoOffset": 0.0,
+        "videoOffset": 3.0,
         "words": [
           {
             "text": "Jua",
@@ -11897,7 +12001,7 @@
       {
         "id": 2,
         "title": "Hazina Iliyokwama",
-        "videoOffset": 47.018,
+        "videoOffset": 50.018,
         "words": [
           {
             "text": "Marafiki",
@@ -12489,7 +12593,7 @@
       {
         "id": 3,
         "title": "Chura Anajaribu Kwanza",
-        "videoOffset": 101.699,
+        "videoOffset": 104.699,
         "words": [
           {
             "text": "Chura",
@@ -12926,7 +13030,7 @@
       {
         "id": 4,
         "title": "Wazo la Kindi",
-        "videoOffset": 140.916,
+        "videoOffset": 143.916,
         "words": [
           {
             "text": "Kindi",
@@ -13348,7 +13452,7 @@
       {
         "id": 5,
         "title": "Wakati wa Mashaka",
-        "videoOffset": 178.368,
+        "videoOffset": 181.368,
         "words": [
           {
             "text": "Marafiki",
@@ -13755,7 +13859,7 @@
       {
         "id": 6,
         "title": "Theo Anafikiri kwa Makini",
-        "videoOffset": 215.588,
+        "videoOffset": 218.588,
         "words": [
           {
             "text": "Theo",
@@ -14242,7 +14346,7 @@
       {
         "id": 7,
         "title": "Kupanga Mpango",
-        "videoOffset": 256.291,
+        "videoOffset": 259.291,
         "words": [
           {
             "text": "Theo",
@@ -14599,7 +14703,7 @@
       {
         "id": 8,
         "title": "Wote Pamoja Sasa",
-        "videoOffset": 287.891,
+        "videoOffset": 290.891,
         "words": [
           {
             "text": "Kindi",
@@ -15056,7 +15160,7 @@
       {
         "id": 9,
         "title": "Kombe Katika Mwanga",
-        "videoOffset": 327.758,
+        "videoOffset": 330.758,
         "words": [
           {
             "text": "Chura",
@@ -15533,7 +15637,7 @@
       {
         "id": 10,
         "title": "Zawadi kwa Wote",
-        "videoOffset": 368.971,
+        "videoOffset": 371.971,
         "words": [
           {
             "text": "Chura",
@@ -16030,7 +16134,7 @@
       {
         "id": 11,
         "title": "Walichojifunza",
-        "videoOffset": 413.156,
+        "videoOffset": 416.156,
         "words": [
           {
             "text": "Marafiki",
@@ -16492,7 +16596,7 @@
       {
         "id": 12,
         "title": "Salama Juu ya Mchanga",
-        "videoOffset": 453.58,
+        "videoOffset": 456.58,
         "words": [
           {
             "text": "Mwanga",
