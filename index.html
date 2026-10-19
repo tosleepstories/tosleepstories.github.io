@@ -162,35 +162,6 @@
       font-weight: 700;
     }
 
-    .btn-legacy {
-      grid-column: 3;
-      grid-row: 1;
-      justify-self: end;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 9px 18px;
-      background: linear-gradient(135deg, var(--moon) 0%, var(--moon-deep) 100%);
-      border: none;
-      border-radius: 999px;
-      color: var(--night-900);
-      text-decoration: none;
-      font-family: var(--font-body);
-      font-weight: 700;
-      font-size: 0.86rem;
-      letter-spacing: 0.01em;
-      line-height: 1.2;
-      transition: transform 0.2s, box-shadow 0.2s, filter 0.2s;
-      white-space: nowrap;
-      box-shadow: 0 6px 20px -6px rgba(244, 213, 141, 0.55);
-    }
-
-    .btn-legacy:hover {
-      transform: translateY(-1px);
-      filter: brightness(1.05);
-      box-shadow: 0 10px 26px -6px rgba(244, 213, 141, 0.7);
-    }
-
     /* ── BOOKS (hero + collections) ── */
     .books-section {
       position: relative;
@@ -708,11 +679,6 @@
       .nav-logo span { display: none; }
       .nav-links { gap: 2px; padding: 3px; }
       .lang-btn { padding: 6px 10px; font-size: 0.8rem; }
-      .btn-legacy {
-        font-size: 0.8rem;
-        padding: 8px 14px;
-        white-space: nowrap;
-      }
       .books-section { padding: 40px 16px 48px; scroll-margin-top: 122px; }
       .books-intro-text { margin-bottom: 32px; }
       .collections-grid { grid-template-columns: 1fr; gap: 22px; }
@@ -741,7 +707,6 @@
       <img src="logo.png" alt="To Sleep Stories">
       <span>To Sleep Stories</span>
     </a>
-    <a class="btn-legacy" href="legacy/">🎙 Record story in your voice</a>
   </div>
   <div class="nav-links">
     <button type="button" class="lang-btn active" onclick="setNavLang('en', this)">English</button>
